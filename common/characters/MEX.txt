@@ -1,0 +1,16 @@
+characters = {
+	MEX_miguel_aleman = {
+		name = MEX_miguel_aleman
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/miguel_aleman.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

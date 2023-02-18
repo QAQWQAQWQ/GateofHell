@@ -1,0 +1,25 @@
+scripted_gui = {
+
+	country_GDP = {
+		window_name = "country_GDP"
+		context_type = player_context
+		parent_window_token = top_bar
+
+		visible = {
+			always = yes
+		}
+		effects = {
+			GDP_button_click = {
+				if = {
+					limit = {
+						has_country_flag = GDP_open
+					}
+					clr_country_flag = GDP_open
+				}
+				else = {
+					set_country_flag = GDP_open
+				}
+			}
+		}
+	}
+}

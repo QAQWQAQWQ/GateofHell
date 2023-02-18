@@ -1,0 +1,24 @@
+
+state={
+	id=999
+	name="STATE_999"
+	history={
+		victory_points = {
+			3922 1 
+		}
+		owner = MNT
+		add_core_of = SER
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		3922
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=3.000
+}

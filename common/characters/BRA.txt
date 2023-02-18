@@ -1,0 +1,16 @@
+characters = {
+	BRA_eurico_gaspar_dutra = {
+		name = BRA_eurico_gaspar_dutra
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/eurico_gaspar_dutra.dds"
+			}
+		}
+		country_leader = {
+			ideology = provisional_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

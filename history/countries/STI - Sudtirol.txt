@@ -1,0 +1,42 @@
+﻿capital = 39
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_technology = {
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+		}
+	else = {
+		set_technology = {
+			early_fighter = 1
+		}
+	}
+}
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	basic_train = 1
+}
+
+recruit_character = STI_sepp_kerschbaumer
+
+set_politics = {
+	ruling_party = national_socialist
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	national_socialist = 100
+}
+
+set_stability = 0.50

@@ -1,0 +1,27 @@
+
+state={
+	id=1051
+	name="STATE_1051"
+	manpower = 144603
+	state_category = enclave
+
+	history={
+		owner = USA
+		add_core_of = CUB
+		victory_points = {
+			7590 1
+		}
+		buildings = {
+			infrastructure = 3
+			7590 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		7590
+	}
+
+	local_supplies=1.0 
+}

@@ -1,0 +1,23 @@
+state={
+	id=717
+	name="STATE_717"
+	
+	state_category = pastoral
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		12412 12355 7670 12482 11906 6811 10503 10376 3791 11893 6964 9766 783 944 9897 973 6806 3944 3929
+	}
+	manpower=2542256
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

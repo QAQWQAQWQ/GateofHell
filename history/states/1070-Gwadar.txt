@@ -1,0 +1,26 @@
+
+state={
+	id=1070
+	name="STATE_1070"
+	manpower = 53080
+	
+	state_category = enclave
+
+	history={
+		owner = OMA
+		victory_points = {
+			13401 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PAK
+		add_core_of = OMA
+	}
+
+	provinces={
+		13401
+	}
+
+	local_supplies=0.0 
+}

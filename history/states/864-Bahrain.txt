@@ -1,0 +1,19 @@
+state={
+	id=864
+	name="STATE_864"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BAR
+	}
+
+	provinces={
+		13267
+	}
+	manpower=22000
+	state_category=pastoral
+	local_supplies=0.000
+}

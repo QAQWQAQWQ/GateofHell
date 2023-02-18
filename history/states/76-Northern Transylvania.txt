@@ -1,0 +1,23 @@
+
+state={
+	id=76
+	name="STATE_76"
+	manpower=352700
+	
+	state_category = town
+	
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = HUN
+		add_core_of = ROM
+	}
+
+	provinces={
+		9704 746
+	}
+
+	local_supplies=9.0 
+}

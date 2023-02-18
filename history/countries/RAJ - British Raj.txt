@@ -1,0 +1,130 @@
+﻿capital = 439
+
+OOB = "RAJ"
+
+recruit_character = RAJ_chakravarti_rajagopalachari
+recruit_character = RAJ_k_m_cariappa
+recruit_character = RAJ_sam_manekshaw
+recruit_character = RAJ_k_v_krishna_rao
+recruit_character = RAJ_tapishwar_narain_raina
+recruit_character = RAJ_rajendrasinhji_jadeja
+recruit_character = RAJ_gopal_gurunath_bewoor
+
+set_stability = 0.6
+set_war_support = 0.1
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	CAS1 = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc =  "Man the Guns" }
+	}
+	set_technology = {
+		transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+set_convoys = 20
+
+	set_technology = {
+		
+		early_fighter = 1
+		fighter1 = 1
+		#doctrines
+		#Air
+		force_rotation = 1
+		fighter_baiting = 1
+		grand_battle_plan = 1
+
+		trench_warfare = 1
+		prepared_defense = 1
+		battlefleet_concentration = 1
+		subsidiary_carrier_role = 1
+		convoy_sailing = 1
+		convoy_escorts = 1
+		submarine_operations = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		decimetric_radar = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_refining2 = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+	}
+
+set_politics = {
+	ruling_party = liberal_democratic
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	liberal_democratic = 63
+	despotist = 37
+}
+
+set_autonomy = {
+	target = KSH
+	autonomy_state = autonomy_princely_state
+}

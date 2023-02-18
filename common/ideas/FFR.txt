@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		FFR_francais = {
+			picture = FFR_francais
+			modifier = {
+				army_attack_factor = 0.1
+				army_org = 0.1
+				supply_factor = 0.2
+			}
+		}
+		FFR_infertile_continent = {
+			picture = FFR_infertile_continent
+			modifier = {
+				industrial_capacity_dockyard = -0.1
+				industrial_capacity_factory = -0.1
+				production_factory_max_efficiency_factor = -0.2
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+			}
+		}
+		FFR_national_conflict = {
+			picture = FFR_national_conflict
+			modifier = {
+				stability_factor = -0.3
+			}
+		}
+	}
+}

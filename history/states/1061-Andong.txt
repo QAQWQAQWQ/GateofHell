@@ -1,0 +1,24 @@
+state={
+	id=1061
+	name="STATE_1061"
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		11850 3839 6910 3970 6981 6860 6868 945 9848 3888 9759 3949 9866 9803 6905 11781 800 9841 11823 861 927
+	}
+	manpower=3694191
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=0.0 
+}

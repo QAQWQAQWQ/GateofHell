@@ -1,0 +1,76 @@
+characters = {
+	GRE_ioannis_rallis = {
+		name = GRE_ioannis_rallis
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/ioannis_rallis.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	GRE_georgios_poulos = {
+		name = GRE_georgios_poulos
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRE/georgios_poulos.dds"
+			}
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	GRE_georgios_grivas = {
+		name = GRE_georgios_grivas
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRE/georgios_grivas.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	GRE_nikolaos_bourantas = {
+		name = GRE_nikolaos_bourantas
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRE/nikolaos_bourantas.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GRE_styliano_gonatas = {
+		name = GRE_styliano_gonatas
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRE/styliano_gonatas.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+}

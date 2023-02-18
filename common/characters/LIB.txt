@@ -1,0 +1,16 @@
+characters = {
+	LIB_william_tubman = {
+		name = LIB_william_tubman
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIB/william_tubman.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

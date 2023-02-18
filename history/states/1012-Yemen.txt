@@ -1,0 +1,19 @@
+state={
+	id=1012
+	name="STATE_1012"
+	provinces={
+        4924 13459 13366 12894
+	}
+	state_category = wasteland
+	history=
+	{
+		owner = SAU
+		add_core_of = YEM
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	impassable = yes
+	manpower=100
+}

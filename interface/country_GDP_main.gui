@@ -1,0 +1,198 @@
+guiTypes = {
+	containerWindowType = {
+		name = "country_GDP_main"
+		position = { x = 967 y = 30 }
+		size = { width = 510 height = 510 }
+		clipping = no
+		show_position = { x = 967 y = 30 }
+		hide_position = { x = 967 y = -520 }
+#		show_animation_type = decelerated
+#		hide_animation_type = accelerated
+#		animation_time = 300
+		fade_type = linear
+		fade_time = 300
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+		buttonType = {
+			name = "GDP_exit_button"
+			position = { x = 465 y = 14 }
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+		}
+		buttonType = {
+			name = "GDP_list_sort_button"
+			position = { x = 100 y = 15 }
+			spriteType = "GFX_sort_button_100x29"
+			buttonFont = "hoi_16mbs"
+		}
+		buttonType = {
+			name = "GDP_per_capita_list_sort_button"
+			position = { x = 250 y = 15 }
+			spriteType = "GFX_sort_button_100x29"
+			buttonFont = "hoi_16mbs"
+		}
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 23 y = 15 }
+			font = "hoi_24header"
+			text = "GDP 概览"
+			format = left
+			maxWidth = 100
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "title1"
+			position = { x = 190 y = 15 }
+			font = "hoi_24header"
+			text = "总 GDP"
+			format = left
+			maxWidth = 100
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "title2"
+			position = { x = 325 y = 15 }
+			font = "hoi_24header"
+			text = "人均 GDP"
+			format = left
+			maxWidth = 100
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+		containerWindowType = {
+			name = "country_GDP_main_ROOT"
+			position = { x = 10 y = 42 }
+			size = { width = 490 height = 136 }
+			background = {
+				name = "GDP_selected_country_grid_background"
+				quadTextureSprite = "GFX_tiled_bg"
+			}
+			iconType = {
+				name = "ROOT_flag"
+				position = { x = 35 y = 60 }
+				quadTextureSprite = "GFX_flag_medium"
+			}
+			iconType = {
+				name = "GDP_list_flag_frame"
+				position = { x = 15 y = 45 }
+				scale = 0.75
+				quadTextureSprite = "GFX_country_selection_minor_entry"
+				alwaystransparent = yes
+			}
+			instantTextBoxType = {
+				name = "title"
+				position = { x = 23 y = 15 }
+				font = "hoi_24header"
+				text = "本国"
+				format = left
+				maxWidth = 100
+				maxHeight = 24
+				fixedsize = yes
+				alwaystransparent = yes
+			}	
+			instantTextBoxType = {
+				name = "country_GDP"
+				position = { x = 180 y = 50 }
+				font = "hoi_24header"
+				text = [?country_GDP|2]
+				format = left
+				maxWidth = 100
+				maxHeight = 24
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			instantTextBoxType = {
+				name = "country_GDP_per_capita"
+				position = { x = 320 y = 50 }
+				font = "hoi_24header"
+				text = [?country_GDP_per_capita|2]
+				format = left
+				maxWidth = 100
+				maxHeight = 24
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "country_GDP_main_RANK"
+			position = { x = 10 y = 172 }
+			size = { width = 490 height = 327 }
+			background = {
+				name = "GDP_selected_country_grid_background"
+				quadTextureSprite = "GFX_tiled_bg"
+			}
+			instantTextBoxType = {
+				name = "RANK_title"
+				position = { x = 23 y = 15 }
+				font = "hoi_24header"
+				text = "总排行"
+				format = left
+				maxWidth = 100
+				maxHeight = 24
+			}
+			containerWindowType = {
+				name = "grid"
+				position = { x = 0 y = 53 }
+				size = { width = 490 height = 260 }
+				verticalScrollbar = "right_vertical_slider"
+				background = {
+					name = "background_grid"
+				}
+				gridboxtype = {
+					name = "GDP_list_grid"
+					position = { x = -95 y = 0 }
+					padding = { top = 0 bottom = 10 }
+					size = { width = 100%% height = 100%% }
+					slotsize = { width = 150 height = 35 }
+					max_slots_horizontal = 1
+					add_horizontal = no
+				}	
+			}
+		}
+	}
+	containerWindowType = {
+		name = "GDP_list_entry"
+		position = { x = -55 y = 45 }	
+		size = { width = 150 height = 30 }
+
+		instantTextBoxType = {
+			name ="GDP_list_text"
+			position = { x = -55 y = 8 }
+			font = "hoi_16mbs"
+			text = [?country_GDP]
+			format = centre
+			maxWidth = 400
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="GDP_per_capita_list_text"
+			position = { x = 90 y = 8 }
+			font = "hoi_16mbs"
+			text = [?country_GDP_per_capita]
+			format = centre
+			maxWidth = 400
+			maxHeight = 24
+		}
+		iconType = {
+			name = "GDP_list_flag"
+			position = { x = -20 y = 4 }
+			quadTextureSprite = "GFX_flag_small2"
+			pdx_tooltip = "country_name"
+		}
+		iconType = {
+			name = "GDP_list_flag_frame"
+			position = { x = -25 y = 0 }
+			quadTextureSprite = "GFX_diplo_countrylist_flag_frame"
+			alwaystransparent = yes
+		}
+	}	
+}

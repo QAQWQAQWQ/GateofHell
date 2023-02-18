@@ -1,0 +1,27 @@
+state={
+	id=883
+	name="STATE_883"
+
+	history={
+		victory_points = {
+			9490 5 
+		}
+		victory_points = {
+			13011 5
+		}
+		owner = BUR
+		buildings = {
+			infrastructure = 4
+			air_base = 5
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+		add_core_of = FFR
+	}
+	provinces={
+		13011 551 11732 9490 3533 6531
+	}
+	manpower=1120000
+	state_category=city
+	local_supplies=0.000
+}

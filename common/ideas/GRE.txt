@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		GRE_fragmented_country = {
+			picture = GRE_fragmented_country
+			modifier = {
+				recruitable_population_factor = -0.1
+				stability_factor = -0.15
+			}
+		}
+		GRE_kneeling_servant = {
+			picture = GRE_kneeling_servant
+			on_remove = {
+				country_lock_all_division_template = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				custom_modifier_tooltip = tt_unit_edit_disabled
+			}
+		}
+		GRE_linus_dominance = {
+			picture = GRE_linus_dominance
+			modifier = {
+				political_power_gain = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+	}
+}

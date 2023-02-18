@@ -1,0 +1,26 @@
+
+state={
+	id=1041
+	name="STATE_1041"
+	manpower = 95700
+
+	state_category = rural
+
+	history={
+		owner = KAT
+		victory_points = {
+			13363 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = YEM
+		add_core_of = KAT
+	}
+
+	provinces={
+		13462 13363 4976 13364
+	}
+
+	local_supplies=0.0 
+}

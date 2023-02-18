@@ -1,0 +1,22 @@
+state={
+	id=868
+	name="STATE_868"
+
+	history={
+		owner = MFR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = FRA
+		add_core_of = FFR
+	}
+
+	provinces={
+		11518 11491 6949
+	}
+	manpower=201270
+	state_category=city
+	local_supplies=0.000
+}

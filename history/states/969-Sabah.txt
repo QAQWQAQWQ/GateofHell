@@ -1,0 +1,29 @@
+state=
+{
+	id=969
+	name="STATE_969"
+	manpower = 389800
+	resources={
+		rubber = 32
+	}
+	
+	state_category = rural
+
+	history=
+	{
+		owner = SAR
+		victory_points = {
+			10212 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MAL
+	}
+
+	provinces={
+		12171 10212 4282 4338 12186 10143 7358 10240 10199 12228 1306
+	}
+
+	local_supplies=0.0 
+}

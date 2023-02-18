@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		INS_anti_chinese_policy = {
+			picture = INS_anti_chinese_policy
+			modifier = {
+				stability_factor = -0.2
+				monthly_population = -0.01
+				recruitable_population_factor = -0.05
+			}
+		}
+	}
+}

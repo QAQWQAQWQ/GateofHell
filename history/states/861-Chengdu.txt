@@ -1,0 +1,28 @@
+state={
+	id=861
+	name="STATE_861"
+
+	history={
+		owner = SIC
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			4925 5 
+		}
+
+		add_core_of = SIC
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+	provinces={
+		4925 1395 7240
+	}
+	manpower=20000000
+	state_category=city
+	local_supplies=2.000
+}

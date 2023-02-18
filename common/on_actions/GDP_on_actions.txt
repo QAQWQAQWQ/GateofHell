@@ -1,0 +1,22 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				if = {
+					limit = {
+						NOT = { is_in_array = { global.GDP_list_array = THIS } }
+					}
+					add_to_array = { global.GDP_list_array = THIS }
+				}
+				calculate_GDP = yes
+			}
+		}
+	}
+	#on_monthly = {
+	#	effect = {
+	#		every_country = {
+	#			calculate_GDP = yes
+	#		}
+	#	}
+	#}
+}

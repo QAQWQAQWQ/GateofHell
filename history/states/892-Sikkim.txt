@@ -1,0 +1,19 @@
+state={
+	id=892
+	name="STATE_892"
+
+	history={
+		owner = SKM
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SKM
+		add_claim_by = RAJ
+	}
+	provinces={
+		4435
+	}
+	manpower=44800
+	state_category=rural
+	local_supplies=0.000
+}

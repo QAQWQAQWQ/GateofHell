@@ -1,0 +1,28 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						tag = YEM
+					}
+					ROOT = {
+						OR = {
+							tag = FES
+							tag = QUA
+							tag = KAT
+							tag = MAH
+						}
+					}
+				}
+				FROM = {
+					white_peace = ROOT
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+		}
+	}
+}

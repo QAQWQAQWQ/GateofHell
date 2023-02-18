@@ -1,0 +1,16 @@
+characters = {
+	XSM_ma_bufang = {
+		name = XSM_ma_bufang
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/XSM/ma_bufang.dds"
+			}
+		}
+		country_leader = {
+			ideology = warlord
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

@@ -1,0 +1,39 @@
+ideas = {
+
+	party_systems = {
+		law = yes
+		use_list_view = yes
+
+		multi_party_system = {
+
+			available = {
+				always = no
+			}
+
+		}
+
+		dominant_party_system = {
+
+			available = {
+				always = no
+			}
+
+		}
+
+		one_party_system = {
+
+			available = {
+				always = no
+			}
+
+		}
+
+		absolute_one_party_system = {
+
+			available = {
+				always = no
+			}
+
+		}
+	}
+}

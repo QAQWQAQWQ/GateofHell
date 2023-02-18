@@ -1,0 +1,9 @@
+idea_categories = {
+	
+    political_systems = {
+        slot = party_systems
+    }
+}
+slot_ledgers = {
+    party_systems = civilian
+}

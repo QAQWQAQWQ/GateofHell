@@ -1,0 +1,119 @@
+characters = {
+	FFR_charles_de_gaulle = {
+		name = FFR_charles_de_gaulle
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FFR/charles_de_gaulle.dds"
+			}
+			army = {
+				large = "gfx/leaders/FFR/charles_de_gaulle.dds"
+			}
+		}
+		country_leader = {
+			ideology = provisional_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "FFR_charles_de_gaulle_desc"
+			traits = {
+				FFR_dispirited_failure
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	FFR_jean_de_lattre_de_tassigny = {
+		name = FFR_jean_de_lattre_de_tassigny
+		portraits = {
+			army = {
+				large = "gfx/leaders/FFR/jean_de_lattre_de_tassigny.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	FFR_andre_zeller = {
+		name = FFR_andre_zeller
+		portraits = {
+			army = {
+				large = "gfx/leaders/FFR/andre_zeller.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	FFR_henri_navarre = {
+		name = FFR_henri_navarre
+		portraits = {
+			army = {
+				large = "gfx/leaders/FFR/henri_navarre.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	FFR_jacques_massu = {
+		name = FFR_jacques_massu
+		portraits = {
+			army = {
+				large = "gfx/leaders/FFR/jacques_massu.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	FFR_philippe_leclerc = {
+		name = FFR_philippe_leclerc
+		portraits = {
+			army = {
+				large = "gfx/leaders/FFR/philippe_leclerc.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	FFR_raoul_salan	= {
+		name = FFR_raoul_salan
+		portraits = {
+			army = {
+				large = "gfx/leaders/FFR/raoul_salan.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+}

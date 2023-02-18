@@ -1,0 +1,32 @@
+
+state={
+	id=1022
+	name="STATE_1022"
+	manpower = 120000
+	
+	state_category = rural
+	
+	resources={
+		oil=3
+	}
+
+	history={
+		owner = OMI
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1 
+		}
+		add_core_of = OMI
+		add_core_of = OMA
+		victory_points = {
+			13337 2
+		}
+	}
+
+	provinces={
+		13337 13338 5049 13434 13430 13433 13431 13429 1947 13465 2018 13339
+	}
+
+	local_supplies=0.0 
+}

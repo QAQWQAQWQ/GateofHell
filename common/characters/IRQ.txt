@@ -1,0 +1,16 @@
+characters = {
+	IRQ_faisal_ii = {
+		name = IRQ_faisal_ii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/faisal_ii.dds"
+			}
+		}
+		country_leader = {
+			ideology = constitutional_monarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

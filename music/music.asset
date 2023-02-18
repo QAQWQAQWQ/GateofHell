@@ -1,0 +1,22 @@
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "sovietsuite_part2.ogg"
+	volume = 0.7
+}
+# SUPER EVENTS
+music = {
+	name = "china_reuni_roc"
+	file = "super_events/china_reuni_roc.ogg"
+	volume = 0.7
+}
+music = {
+	name = "china_reuni_roc_sunliren"
+	file = "super_events/china_reuni_roc_sunliren.ogg"
+	volume = 0.7
+}
+music = {
+	name = "rus_reuni_roa"
+	file = "super_events/rus_reuni_roa.ogg"
+	volume = 0.7
+}

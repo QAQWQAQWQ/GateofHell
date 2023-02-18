@@ -1,0 +1,20 @@
+state={
+	id=901
+	name="STATE_901"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		4556
+	}
+	manpower=724700
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=0.0 
+}

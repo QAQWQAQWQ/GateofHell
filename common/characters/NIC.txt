@@ -1,0 +1,16 @@
+characters = {
+	NIC_anastasio_somoza_garcia = {
+		name = NIC_anastasio_somoza_garcia
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIC/anastasio_somoza_garcia.dds"
+			}
+		}
+		country_leader = {
+			ideology = dictatorship
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

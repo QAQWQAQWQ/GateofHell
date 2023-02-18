@@ -1,0 +1,47 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_national_socialism"
+		textureFile = "gfx/interface/ideologies/national_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascism"
+		texturefile = "gfx/interface/ideologies/fascism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_despotist_group"
+		textureFile = "gfx/interface/ideologies/despotist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democratic_group"
+		textureFile = "gfx/interface/ideologies/authoritarian_democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservative_democratic_group"
+		textureFile = "gfx/interface/ideologies/conservative_democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberal_democratic_group"
+		textureFile = "gfx/interface/ideologies/liberal_democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_democratic_group"
+		textureFile = "gfx/interface/ideologies/social_democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communist_group"
+		textureFile = "gfx/interface/ideologies/communist_group.dds"
+	}
+	#subideologies
+	spriteType = {
+		name = "GFX_ideology_szeged_idea"
+		texturefile = "gfx/interface/ideologies/szeged_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_absolute_monarchy"
+		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_military_junta"
+		texturefile = "gfx/interface/ideologies/military_junta.dds"
+	}
+}

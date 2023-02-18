@@ -1,0 +1,16 @@
+add_namespace = GER
+
+country_event = {
+	id = GER.1
+	title = GER.1.title
+	desc = GER.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = GER.1.a
+		GER = {
+			add_political_power = -10
+		}
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=591
+	name="STATE_591"
+	manpower = 4350000
+	state_category = town
+
+	history={
+		owner = JAP
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		victory_points = {
+			13307 1 
+		}
+		
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			1038 = {
+				naval_base = 2
+			}
+
+		}
+	}
+
+	provinces={
+		7135 4160 994 1038 1070 11963 11990 13307 13308 13309 13310 13311 13312 13313 13314 13315 13316 13317 13318
+	}
+
+	local_supplies=1.0 
+}

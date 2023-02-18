@@ -1,0 +1,449 @@
+characters = {
+	SOV_iosif_stalin = {
+		name = SOV_iosif_stalin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/iosif_stalin.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "SOV_iosif_stalin_desc"
+		}
+	}
+	SOV_vyacheslav_molotov = {
+		name = SOV_vyacheslav_molotov
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/SOV/vyacheslav_molotov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = foreign_minister
+			ledger = civilian
+		}
+	}
+	SOV_georgy_zhukov = {
+		name = SOV_georgy_zhukov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/georgy_zhukov.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	SOV_ivan_konev = {
+		name = SOV_ivan_konev
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/ivan_konev.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 5
+		}
+	}
+	SOV_kliment_voroshilov = {
+		name = SOV_kliment_voroshilov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/kliment_voroshilov.dds"
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SOV_konstanty_rokossowski = {
+		name = SOV_konstanty_rokossowski
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/konstanty_rokossowski.dds"
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	SOV_leonid_govorov_1 = {
+		name = SOV_leonid_govorov_1
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/leonid_govorov.dds"
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	SOV_semyon_timoshenko = {
+		name = SOV_semyon_timoshenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/semyon_timoshenko.dds"
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SOV_semyon_budyonny = {
+		name = SOV_semyon_budyonny
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/semyon_budyonny.dds"
+			}
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	SOV_grigory_kulik = {
+		name = SOV_grigory_kulik
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/grigory_kulik.dds"
+			}
+		}
+		field_marshal = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SOV_aleksandr_vasilevsky = {
+		name = SOV_aleksandr_vasilevsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/aleksandr_vasilevsky.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SOV_nikolai_vatutin = {
+		name = SOV_nikolai_vatutin
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/nikolai_vatutin.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	SOV_pavel_batov = {
+		name = SOV_pavel_batov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/pavel_batov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SOV_rodion_malinovsky = {
+		name = SOV_rodion_malinovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/rodion_malinovsky.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	SOV_vasily_chuikov = {
+		name = SOV_vasily_chuikov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/vasily_chuikov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	SOV_vasily_kazakov = {
+		name = SOV_vasily_kazakov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/vasily_kazakov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	SOV_ivan_serov = {
+		name = SOV_ivan_serov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/ivan_serov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SOV_mikhail_shumilov = {
+		name = SOV_mikhail_shumilov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/mikhail_shumilov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SOV_pavel_belov = {
+		name = SOV_pavel_belov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/pavel_belov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SOV_stanislav_poplavsky = {
+		name = SOV_stanislav_poplavsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/stanislav_poplavsky.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SOV_vasily_sokolovsky = {
+		name = SOV_vasily_sokolovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/vasily_sokolovsky.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	SOV_alexander_gorbatov = {
+		name = SOV_alexander_gorbatov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/alexander_gorbatov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SOV_ivan_lyudnikov = {
+		name = SOV_ivan_lyudnikov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/ivan_lyudnikov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	SOV_ivan_petrov = {
+		name = SOV_ivan_petrov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/ivan_petrov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SOV_nikolay_berzarin = {
+		name = SOV_nikolay_berzarin
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/nikolay_berzarin.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	SOV_pavel_kurbatkin = {
+		name = SOV_pavel_kurbatkin
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/pavel_kurbatkin.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SOV_yakov_cherevichenko = {
+		name = SOV_yakov_cherevichenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/yakov_cherevichenko.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SOV_arseny_golovko = {
+		name = SOV_arseny_golovko
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/arseny_golovko.dds"
+			}
+		}
+		navy_leader = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	SOV_nikolai_kuznetsov = {
+		name = SOV_nikolai_kuznetsov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/nikolai_kuznetsov.dds"
+			}
+		}
+		navy_leader = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	SOV_ivan_isakov = {
+		name = SOV_ivan_isakov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/ivan_isakov.dds"
+			}
+		}
+		navy_leader = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+}

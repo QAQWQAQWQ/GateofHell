@@ -1,0 +1,26 @@
+
+state={
+	id=1028
+	name="STATE_1028"
+	manpower = 1000
+	
+	state_category = wasteland
+
+	impassable = yes
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = OMI
+		add_core_of = OMA
+		add_core_of = SAU
+	}
+
+	provinces={
+		2059 13371 13464 13463
+	}
+
+	local_supplies=0.0 
+}

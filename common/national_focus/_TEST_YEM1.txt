@@ -1,0 +1,146 @@
+focus_tree = {
+	id = YEM1
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = YEM
+		}
+	}
+	focus = {
+		id = YEM1_the_storm_of_constitution
+		icon = YEM1_the_storm_of_constitution
+		cost = 1
+		x = 3
+		y = 0
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = YEM1_convict_the_constitutionists
+		icon = YEM1_convict_the_constitutionists
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = YEM1_the_storm_of_constitution
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+		mutually_exclusive = {
+			focus = YEM1_forced_compromise
+		}
+	}
+	focus = {
+		id = YEM1_counter_revolution
+		icon = YEM1_counter_revolution
+		cost = 1
+		x = 1
+		y = 2
+		prerequisite = {
+			focus = YEM1_convict_the_constitutionists
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = YEM1_denounce_the_constitutionists
+		icon = YEM1_denounce_the_constitutionists
+		cost = 1
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = YEM1_counter_revolution
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = YEM1_suppress_the_sayyid_family
+		icon = YEM1_suppress_the_sayyid_family
+		cost = 1
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = YEM1_denounce_the_constitutionists
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = YEM1_forced_compromise
+		icon = YEM1_forced_compromise
+		cost = 1
+		x = 5
+		y = 1
+		prerequisite = {
+			focus = YEM1_the_storm_of_constitution
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+		mutually_exclusive = {
+			focus = YEM1_convict_the_constitutionists
+		}
+	}
+	focus = {
+		id = YEM1_edit_the_constitution_law
+		icon = YEM1_edit_the_constitution_law
+		cost = 1
+		x = 5
+		y = 2
+		prerequisite = {
+			focus = YEM1_forced_compromise
+		}
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = YEM1_send_the_invitations
+		icon = YEM1_send_the_invitations
+		cost = 1
+		x = 10
+		y = 10
+		available = {
+			OR = {
+				FES = {
+					exists = no
+				}
+				has_country_flag = YEM_lost_the_war
+			}
+		}
+		completion_reward = {
+			add_to_array = {
+				array = global.yemeni_states
+				value = QUA
+			}
+			add_to_array = {
+				array = global.yemeni_states
+				value = KAT
+			}
+			add_to_array = {
+				array = global.yemeni_states
+				value = MAH
+			}
+			for_each_scope_loop = {
+				array = global.yemeni_states
+				country_event = {
+					id = YEM.1
+				}
+			}
+		}
+	}
+}

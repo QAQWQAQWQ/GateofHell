@@ -1,0 +1,26 @@
+state=
+{
+	id=970
+	name="STATE_970"
+	manpower = 20000
+	
+	state_category = rural
+
+	history=
+	{
+		owner = LIE
+		victory_points = {
+			13272 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LIE
+	}
+
+	provinces={
+		13272
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+characters = {
+	FIN_juho_kusti_paasikivi = {
+		name = FIN_juho_kusti_paasikivi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/juho_kusti_paasikivi.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

@@ -1,0 +1,40 @@
+﻿l_english:
+#political sysstems
+political_systems:0 "政治系统"
+##party systems
+multi_party_system:0 "多党制"
+dominant_party_system:0 "一党独大制"
+one_party_system:0 "一党制"
+absolute_one_party_system:0 "绝对一党制"
+
+#national sp.
+##FFR
+FFR_francais:0 "法兰西人！"
+FFR_infertile_continent:0 "贫瘠的大陆"
+FFR_national_conflict:0 "民族矛盾"
+
+##SOV
+SOV_extra_population:0 "额外的人口"
+SOV_extra_population_desc:0 "自西部疏散而来的诸多民众如今成为了我们宝贵的人才资料，虽然，他们有效缓解了我们极有可能面对的劳动力紧缺的问题，但是随之流入的失败主义思想同样影响着我们的国家和长久以来就生活在西伯利亚的人民。"
+SOV_the_fourth_five_year_plan:0 "第四个五年计划"
+SOV_the_fourth_five_year_plan_desc:0 "在乌拉尔山以东，为了建设新的工业基地、恢复迁移过来的工业基地和农业生产体系而展开的第四个五年计划已如火如荼的进行了四个年头，我们取得了长足的进步，但这一切并非完全没有代价……"
+SOV_the_red_army:0 "红军！"
+SOV_the_red_army_desc:0 "在经历两年血战后，红军以鲜血为学费在战争中学来了许多知识。无论是军队组织还是指挥艺术，红军都已经经历了一次蜕变。但是，失败的阴影仍然笼罩在红军将士头上。\n\n§R倘若再输掉一次战争，恐怕红军的灵魂就会不复存在。§!"
+SOV_the_shadow_of_defeat:0 "战败的阴影"
+SOV_the_shadow_of_defeat_desc:0 "虽尽全力，但我们仍然在伟大的卫国战争中落败，将富饶的西部丢给了法西斯野兽。撤退到乌拉尔山以东后，人民不禁自问，我们还有机会能回到祖国和家乡吗？"
+
+#GRE
+GRE_fragmented_country:0 "分崩离析的国土"
+GRE_kneeling_servant:0 "下跪的奴仆"
+GRE_linus_dominance:0 "利纳斯之治"
+
+#INS
+INS_anti_chinese_policy:0 "排华政策"
+
+#FAL
+FAL_legacy_of_the_setif_incident:0 "塞提夫余波"
+
+#ETR
+ETR_the_houses:0 "“房子”"
+ETR_the_remaining_power_of_elihan_tore:0 "艾力汗·吐烈的残余势力"
+ETR_the_tragedy_of_turkestan:0 "突厥斯坦的悲剧"

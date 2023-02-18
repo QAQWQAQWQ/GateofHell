@@ -1,0 +1,21 @@
+state={
+	id=942
+	name="STATE_942"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		13270
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=0.0 
+}

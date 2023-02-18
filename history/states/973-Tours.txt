@@ -1,0 +1,27 @@
+state={
+	id=973
+	name="STATE_973"
+	manpower = 356300
+	
+	
+	state_category = large_town
+
+	history={
+		owner = MFR
+		victory_points = {
+			3671 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = FRA
+		add_core_of = FFR
+	}
+
+	provinces={
+		3671 11631 6688 3493 11611
+	}
+
+	local_supplies=15.0 
+}

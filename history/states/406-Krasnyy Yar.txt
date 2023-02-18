@@ -1,0 +1,27 @@
+
+state={
+	id=406
+	name="STATE_406" # Gurev
+	manpower = 116494
+	
+	state_category = wasteland
+
+	history={
+		owner = CSK
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+		add_core_of = CSK
+		victory_points = {
+			3618 1
+		}
+	}
+
+	provinces={
+		554 3618 6615 7322 9453 11442 11455 11469 11591 
+	}
+
+	local_supplies=0.0 
+}

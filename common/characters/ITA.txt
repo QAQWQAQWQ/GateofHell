@@ -1,0 +1,91 @@
+characters = {
+	ITA_benito_mussolini = {
+		name = ITA_benito_mussolini
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/benito_mussolini.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "ITA_benito_mussolini_desc"
+		}
+	}
+	ITA_rodolfo_graziani = {
+		name = ITA_rodolfo_graziani
+		portraits = {
+			army = {
+				large = "gfx/leaders/ITA/rodolfo_graziani.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ITA_giovanni_messe = {
+		name = ITA_giovanni_messe
+		portraits = {
+			army = {
+				large = "gfx/leaders/ITA/giovanni_messe.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ITA_ugo_cavallero = {
+		name = ITA_ugo_cavallero
+		portraits = {
+			army = {
+				large = "gfx/leaders/ITA/ugo_cavallero.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ITA_pietro_badoglio = {
+		name = ITA_pietro_badoglio
+		portraits = {
+			army = {
+				large = "gfx/leaders/ITA/pietro_badoglio.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ITA_ettore_bastico = {
+		name = ITA_ettore_bastico
+		portraits = {
+			army = {
+				large = "gfx/leaders/ITA/ettore_bastico.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+}

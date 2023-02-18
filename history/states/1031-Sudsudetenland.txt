@@ -1,0 +1,26 @@
+
+state={
+	id=1031
+	name="STATE_1031"
+	manpower = 75000
+	
+	state_category = rural
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			5283 =
+			{
+				bunker = 1
+			}
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		7857 5283 543 11525 557  
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+
+state = {
+	id = 980
+	name = "STATE_980" # Kotlas
+	manpower = 262721
+	
+	state_category = rural
+
+	history = {
+		owner = REM
+		victory_points = {
+			11061 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		add_core_of = SOV
+		add_core_of = REM
+	}
+
+	provinces = {
+		9113 84 3079 87 3064 3081 3166 6088 6100 6193 6199 9101 9124 9213 11042 11061 11089 11086 3164
+	}
+
+	local_supplies = 0.0 
+}

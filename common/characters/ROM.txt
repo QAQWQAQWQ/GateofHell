@@ -1,0 +1,16 @@
+characters = {
+	ROM_ion_antonescu = {
+		name = ROM_ion_antonescu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROM/ion_antonescu.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

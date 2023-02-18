@@ -1,0 +1,16 @@
+characters = {
+	PAR_felipe_molas_lopez = {
+		name = PAR_felipe_molas_lopez
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAR/felipe_molas_lopez.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

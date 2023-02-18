@@ -1,0 +1,22 @@
+state={
+	id=741
+	name="STATE_741"
+	history = {
+		owner = CAM
+		add_core_of = CAM
+		victory_points = {
+			7376 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		4359 12191 7404 10289 1324 1620 4330 4596 4639 5236 7319 7376 7645 10204 10317 12167 12260 12288 12475 
+	}
+	manpower=5000000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

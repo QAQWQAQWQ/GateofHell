@@ -1,0 +1,17 @@
+characters = {
+	STE_dmitry_karbyshev = {
+		name = STE_dmitry_karbyshev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STE/dmitry_karbyshev.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+			expire = "1991.12.25.1"
+			id = -1
+			traits = {
+			}
+		}
+	}
+}

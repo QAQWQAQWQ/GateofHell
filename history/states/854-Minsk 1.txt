@@ -1,0 +1,24 @@
+state={
+	id=854
+	name="STATE_854"
+
+	history={
+		owner = RKO
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = BLR
+		victory_points = {
+			11370 20
+		}
+	}
+
+	provinces={
+		11370 11216
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

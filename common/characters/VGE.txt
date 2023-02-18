@@ -1,0 +1,18 @@
+characters = {
+	VGE_alexsander_heckmann = {
+		name = VGE_alexsander_heckmann
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VGE/alexander_heckmann.dds"
+			}
+		}
+		country_leader = {
+			ideology = provisional_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+			traits = {
+			}
+		}
+	}
+}

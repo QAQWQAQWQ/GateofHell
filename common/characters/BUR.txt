@@ -1,0 +1,16 @@
+characters = {
+	BUR_josias = {
+		name = BUR_josias
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUR/BUR_josias.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

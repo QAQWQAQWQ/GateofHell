@@ -1,0 +1,25 @@
+
+state={
+	id=1054
+	name="STATE_1054"
+	manpower = 75000
+	state_category = rural
+
+	history={
+		owner = LOK
+		add_core_of = LOK
+		add_core_of = SOV
+		victory_points = {
+			6386 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		3306 6386 6330 6304
+	}
+
+	local_supplies=1.0 
+}

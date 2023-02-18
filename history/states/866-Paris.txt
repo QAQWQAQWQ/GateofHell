@@ -1,0 +1,27 @@
+state={
+	id=866
+	name="STATE_866"
+
+	history={
+		owner = MFR
+		victory_points = {
+			11506 50 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 3
+			anti_air_building = 5
+			air_base = 2
+		}
+		add_core_of = FRA
+		add_core_of = FFR
+	}
+
+	provinces={
+		11506
+	}
+	manpower=2006328
+	state_category=megalopolis
+	local_supplies=0.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=847
+	name="STATE_847"
+
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		13246 13247 13248 9423 9435
+	}
+	manpower=167800
+	buildings_max_level_factor=1.000
+	state_category =rural
+	local_supplies=0.000
+}

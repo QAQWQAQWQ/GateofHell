@@ -1,0 +1,816 @@
+﻿l_english:
+#germany
+GER_national_socialist:0 "大德意志国"
+GER_national_socialist_DEF:0 "大德意志国"
+
+GER_ADJ:0 "德国"
+
+#rk. Ostland
+RKO_national_socialist:0 "东方专员辖区"
+RKO_national_socialist_DEF:0 "东方专员辖区"
+
+RKO_ADJ:0 "东方专员辖区"
+
+#rk. Niederlande
+RKN_national_socialist:0 "尼德兰专员辖区"
+RKN_national_socialist_DEF:0 "尼德兰专员辖区"
+
+RKN_ADJ:0 "尼德兰专员辖区"
+
+#rk. Ukraine
+RKU_national_socialist:0 "乌克兰专员辖区"
+RKU_national_socialist_DEF:0 "乌克兰专员辖区"
+
+RKU_ADJ:0 "乌克兰专员辖区"
+#volga germany
+VGE:0 "伏尔加德意志人自治共和国"
+
+#rk. Belgien-Nordfrankreich
+RKB_national_socialist:0 "比利时及北法兰西专员辖区"
+RKB_national_socialist_DEF:0 "比利时及北法兰西专员辖区"
+
+RKB_ADJ:0 "比利时及北法兰西专员辖区"
+
+#rk. Moskowien
+RKM_national_socialist:0 "莫斯科专员辖区"
+RKM_national_socialist_DEF:0 "莫斯科专员辖区"
+
+RKM_ADJ:0 "莫斯科专员辖区"
+
+#rk. Kaukasien
+RKK_national_socialist:0 "高加索专员辖区"
+RKK_national_socialist_DEF:0 "高加索专员辖区"
+
+RKK_ADJ:0 "高加索专员辖区"
+
+#generalgouvernement
+GNG_national_socialist:0 "波兰总督府"
+GNG_national_socialist_DEF:0 "波兰总督府"
+
+GNG_ADJ:0 "波兰总督府"
+
+#rk. burgund
+BUR:0 "勃艮第专员辖区"
+
+#militärverwaltung in frankreich
+MFR_national_socialist:0 "法国军事管辖区"
+MFR_national_socialist_DEF:0 "法国军事管辖区"
+
+MFR_ADJ:0 "法国军事管辖区"
+
+#protectorate of bohemia and moravia
+PBM_national_socialist:0 "波希米亚和摩拉维亚保护国"
+PBM_national_socialist_DEF:0 "波希米亚和摩拉维亚保护国"
+
+PBM_ADJ:0 "捷克"
+
+#norway
+NOR_national_socialist:0 "国民政府"
+NOR_national_socialist_DEF:0 "国民政府"
+
+NOR_ADJ:0 "国民政府"
+
+#croatia
+CRO_fascist:0 "克罗地亚独立国"
+CRO_fascist_DEF:0 "克罗地亚独立国"
+
+CRO_ADJ:0 "克罗地亚"
+
+#serbia
+SER_national_socialist:0 "塞尔维亚救国政府"
+SER_national_socialist_DEF:0 "塞尔维亚救国政府"
+
+SER_ADJ:0 "塞尔维亚"
+
+#denmark
+DEN_liberal_democratic:0 "丹麦"
+DEN_liberal_democratic_DEF:0 "丹麦"
+
+DEN_ADJ:0 "丹麦"
+
+#hungary
+HUN_despotist:0 "匈牙利王国"
+HUN_despotist_DEF:0 "匈牙利王国"
+
+HUN_fascist:0 "匈牙利王国"
+HUN_fascist_DEF:0 "匈牙利王国"
+
+HUN_national_socialist:0 "国民团结政府"
+HUN_national_socialist_DEF:0 "国民团结政府"
+
+HUN_ADJ:0 "匈牙利"
+
+#italy
+ITA_fascist:0 "意大利王国"
+ITA_fascist_DEF:0 "意大利王国"
+
+ITA_ADJ:0 "意大利"
+
+#albania
+ALB_fascist:0 "阿尔巴尼亚王国"
+ALB_fascist_DEF:0 "阿尔巴尼亚王国"
+
+ALB_ADJ:0 "阿尔巴尼亚"
+
+#levant
+LEV:0 "黎凡特总督区"
+
+#greece
+GRE_fascist:0 "希腊国"
+GRE_fascist_DEF:0 "希腊国"
+
+GRE_ADJ:0 "希腊" 
+
+#montenegro
+MNT_fascist:0 "黑山王国"
+MNT_fascist_DEF:0 "黑山王国"
+
+MNT_ADJ:0 "黑山"
+
+#san marino
+SMA_fascist:0 "圣马力诺共和国"
+SMA_fascist_DEF:0 "圣马力诺共和国"
+
+SMA_ADJ:0 "圣马力诺"
+
+#france
+FRA_despotist:0 "法兰西国"
+FRA_despotist_DEF:0 "法兰西国"
+
+FRA_ADJ:0 "法兰西"
+
+#east turkestan
+ETR_socialist:0 "东突厥斯坦共和国"
+ETR_socialist_ADJ:0 "东突厥斯坦共和国"
+
+ETR_DEF:0 "东突厥斯坦"
+
+#spain
+SPR_despotist:0 "西班牙国"
+SPR_despotist_ADJ:0 "西班牙国"
+
+SPR_DEF:0 "西班牙"
+
+#portugal
+POR_despotist:0 "葡萄牙共和国"
+POR_despotist_ADJ:0 "葡萄牙共和国"
+
+POR_DEF:0 "葡萄牙"
+
+#sweden
+SWE_social_democratic:0 "瑞典王国"
+SWE_social_democratic_DEF:0 "瑞典王国"
+
+SWE_ADJ:0 "瑞典"
+
+#lebanon
+LEB_despotist:0 "黎巴嫩共和国"
+LEB_despotist_DEF:0 "黎巴嫩共和国"
+
+LEB_ADJ:0 "黎巴嫩"
+
+#romania
+ROM_despotist:0 "罗马尼亚王国"
+ROM_despotist_DEF:0 "罗马尼亚王国"
+
+ROM_ADJ:0 "罗马尼亚"
+
+#bulgaria
+BUL_despotist:0 "保加利亚沙皇国"
+BUL_despotist_DEF:0 "保加利亚沙皇国"
+
+BUL_ADJ:0 "保加利亚"
+
+#turkey
+TUR_social_democratic:0 "土耳其共和国"
+TUR_social_democratic_DEF:0 "土耳其共和国"
+
+TUR_ADJ:0 "土耳其"
+
+#u.k.
+ENG_social_democratic:0 "大不列颠及北爱尔兰联合王国"
+ENG_social_democratic_DEF:0 "大不列颠及北爱尔兰联合王国"
+
+ENG_ADJ:0 "英"
+
+#i.e.a.
+AOI_despotist:0 "意属东非"
+AOI_despotist_DEF:0 "意属东非"
+
+AOI_ADJ:0 "东非"
+
+#switzerland
+SWI_liberal_democratic:0 "瑞士联邦"
+SWI_liberal_democratic_DEF:0 "瑞士联邦"
+
+SWI_ADJ:0 "瑞士"
+
+#slovakia
+SLO_national_socialist:0 "斯洛伐克共和国"
+SLO_national_socialist_DEF:0 "斯洛伐克共和国"
+
+SLO_ADJ:0 "斯洛伐克"
+
+#monaco
+MNC_fascist:0 "摩纳哥公国"
+MNC_fascist_DEF:0 "摩纳哥公国"
+
+MNC_ADJ:0 "摩纳哥"
+
+#ireland
+IRE_conservative_democratic:0 "爱尔兰"
+IRE_conservative_democratic_DEF:0 "爱尔兰"
+
+IRE_ADJ:0 "爱尔兰"
+
+#ROA
+ROA_despotist:0 "俄罗斯解放军"
+ROA_despotist_DEF:0 "俄罗斯解放军"
+
+ROA_ADJ:0 "俄罗斯解放军"
+
+#egypt
+EGY_despotist:0 "埃及王国"
+EGY_despotist_DEF:0 "埃及王国"
+
+EGY_ADJ:0 "埃及"
+
+#british sudan
+BSU:0 "英属苏丹"
+#british central africa
+CAF:0 "罗德西亚和尼亚萨兰联邦"
+#british east africa
+BEA:0 "英属东非"
+#west indies federation
+WIN:0 "西印度群岛联邦"
+#ceylan
+SRL:0 "锡兰自治领"
+#maldives
+MLD:0 "马尔代夫苏丹国"
+#sarawek
+SAR:0 "砂拉越和北婆罗洲"
+#aden
+ADE:0 "亚丁殖民地"
+
+#spanish morocco
+SPM:0 "西属摩洛哥保护国"
+
+#french morocco
+MOR:0 "摩洛哥王国"
+
+#french west africa
+FWA:0 "西非共管地"
+#french togoland
+FTG:0 "法属多哥兰"
+#french algeria
+FAL:0 "法属阿尔及利亚"
+#french equastorial africa
+FEA:0 "法属赤道非洲"
+#french cameroon
+FCM:0 "法属喀麦隆"
+
+#usa
+USA_liberal_democratic:0 "美利坚合众国"
+USA_liberal_democratic_DEF:0 "美利坚合众国"
+
+USA_ADJ:0 "美国"
+#trust territory of the pacific islands
+TTP:0 "太平洋群岛托管地"
+
+#finland
+FIN_conservative_democratic:0 "芬兰共和国"
+FIN_conservative_democratic_DEF:0 "芬兰共和国"
+
+FIN_ADJ:0 "芬兰"
+
+#brasil
+BRA_authoritarian_democratic:0 "巴西合众国"
+BRA_authoritarian_democratic:0 "巴西合众国"
+
+BRA_DEF:0 "巴西"
+
+#bolivia
+BOL_despotist:0 "玻利维亚共和国"
+BOL_despotist_DEF:0 "玻利维亚共和国"
+
+BOL_ADJ:0 "玻利维亚"
+
+#colombia
+COL_conservative_democratic:0 "哥伦比亚共和国"
+COL_conservative_democratic_DEF:0 "哥伦比亚共和国"
+
+COL_ADJ:0 "哥伦比亚"
+
+#paraguay
+PAR_conservative_democratic:0 "巴拉圭共和国"
+PAR_conservative_democratic_DEF:0 "巴拉圭共和国"
+
+PAR_ADJ:0 "巴拉圭"
+
+#uraguay
+URG_liberal_democratic:0 "乌拉圭东岸共和国"
+URG_liberal_democratic_DEF:0 "乌拉圭东岸共和国"
+
+URG:0 "乌拉圭"
+
+#chile
+CHL_liberal_democratic:0 "智利共和国"
+CHL_liberal_democratic_DEF:0 "智利共和国"
+
+CHL_ADJ:0 "智利"
+
+#venezuela
+VEN_despotist:0 "委内瑞拉合众国"
+VEN_despotist_DEF:0 "委内瑞拉合众国"
+
+VEN_ADJ:0 "委内瑞拉"
+
+#argentina
+ARG_fascist:0 "阿根廷共和国"
+ARG_fascist_DEF:0 "阿根廷共和国"
+
+ARG_ADJ:0 "阿根廷"
+
+#peru
+PRU_despotist:0 "秘鲁共和国"
+PRU_despotist_DEF:0 "秘鲁共和国"
+
+PRU_ADJ:0 "秘鲁"
+
+#honduras
+HON_conservative_democratic:0 "洪都拉斯共和国"
+HON_conservative_democratic_DEF:0 "洪都拉斯共和国"
+
+HON_ADJ:0 "洪都拉斯"
+
+#guatemala
+GUA_social_democratic:0 "危地马拉共和国"
+GUA_social_democratic_DEF:0 "危地马拉共和国"
+
+GUA_ADJ:0 "危地马拉"
+
+#haiti
+HAI_liberal_democratic:0 "海地共和国"
+HAI_liberal_democratic:0 "海地共和国"
+
+HAI_ADJ:0 "海地"
+
+#dominica
+DOM:0 "多米尼加共和国"
+
+#cuba
+CUB_social_democratic:0 "古巴共和国"
+CUB_social_democratic_DEF:0 "古巴共和国"
+
+CUB_ADJ:0 "古巴"
+
+#panama
+PAN_conservative_democratic:0 "巴拿马共和国"
+PAN_conservative_democratic_DEF:0 "巴拿马共和国"
+
+PAN_ADJ:0 "巴拿马"
+
+#nicaragua
+NIC_despotist:0 "尼加拉瓜共和国"
+NIC_despotist_DEF:0 "尼加拉瓜共和国"
+
+NIC_ADJ:0 "尼加拉瓜"
+
+#el salvador
+ELS_despotist:0 "萨尔瓦多共和国"
+ELS_despotist_DEF:0 "萨尔瓦多共和国"
+
+ELS_ADJ:0 "萨尔瓦多"
+
+#costa rica
+COS_conservative_democratic:0 "哥斯达黎加共和国"
+COS_conservative_democratic_DEF:0 "哥斯达黎加共和国"
+
+COS_ADJ:0 "哥斯达黎加"
+
+#ecuador
+ECU_conservative_democratic:0 "厄瓜多尔共和国"
+ECU_conservative_democratic_DEF:0 "厄瓜多尔共和国"
+
+ECU_ADJ:0 "厄瓜多尔"
+
+#burma
+BRM:0 "缅甸国"
+
+#thai
+SIA_despotist:0 "泰王国"
+SIA_despotist_DEF:0 "泰王国"
+
+SIA_despotist_ADJ:0 "泰"
+
+#nepal
+NEP:0 "尼泊尔王国"
+
+#bhutan
+BHU:0 "不丹王国"
+
+#belgium
+BEL_conservative_democratic:0 "比利时王国"
+BEL_conservative_democratic_DEF:0 "比利时王国"
+
+BEL_ADJ:0 "比利时"
+
+#ruanda-urundi
+RUU:0 "卢安达-乌隆迪"
+
+#egypt
+EGY_despotist:0 "埃及王国"
+EGY_despotist_DEF:0 "埃及王国"
+
+EGY_ADJ:0 "埃及王国"
+
+#liberia
+LIB_conservative_democratic:0 "利比里亚共和国"
+LIB_conservative_democratic_DEF:0 "利比里亚共和国"
+
+LIB_ADJ:0 "利比里亚"
+
+#syria
+SYR_authoritarian_democratic:0 "阿拉伯叙利亚王国"
+SYR_authoritarian_democratic_DEF:0 "阿拉伯叙利亚王国"
+
+SYR_ADJ:0 "叙利亚"
+
+#iraq
+IRQ_authoritarian_democratic:0 "伊拉克哈希姆王国"
+IRQ_authoritarian_democratic_DEF:0 "伊拉克哈希姆王国"
+
+IRQ_ADJ:0 "伊拉克"
+
+#free france
+FFR_authoritarian_democratic:0 "自由法国"
+FFR_authoritarian_democratic_ADJ:0 "自由法国"
+
+FFR_authoritarian_democratic_DEF:0 "法国"
+
+#oman
+OMA_despotist:0 "马斯喀特和阿曼苏丹国"
+OMA_despotist_DEF:0 "马斯喀特和阿曼苏丹国"
+
+OMA_ADJ:0 "马斯喀特"
+#imamate of oman
+OMI_despotist:0 "阿曼伊玛目国"
+OMI_despotist_DEF:0 "阿曼伊玛目国"
+
+OMI_ADJ:0 "阿曼"
+
+#yemen
+YEM_despotist:0 "也门穆塔瓦基利亚王国"
+YEM_despotist_DEF:0 "也门穆塔瓦基利亚王国"
+
+YEM_ADJ:0 "也门"
+
+#iran
+PER_despotist:0 "伊朗王国"
+PER_despotist_DEF:0 "伊朗王国"
+
+PER_ADJ:0 "伊朗"
+
+#afghanistan
+AFG_despotist:0 "阿富汗王国"
+AFG_despotist_DEF:0 "阿富汗王国"
+
+AFG_ADJ:0 "阿富汗"
+
+#saudi arabia
+SAU_despotist:0 "沙特阿拉伯王国"
+SAU_despotist_DEF:0 "沙特阿拉伯王国"
+
+SAU_ADJ:0 "沙特阿拉伯"
+
+#trucial states (later u.a.e.)
+UAE:0 "停战诸国"
+
+#kuwait
+KUW:0 "科威特酋长国"
+
+#qatar
+QAT:0 "卡塔尔国"
+
+#bahrain
+BAR:0 "巴林王国"
+
+#japan
+JAP_liberal_democratic:0 "日本国"
+JAP_liberal_democratic_DEF:0 "日本国"
+
+JAP_fascist:0 "大日本帝国"
+JAP_fascist_DEF:0 "大日本帝国"
+
+JAP_ADJ:0 "日本"
+
+#korea
+KOR:0 "朝鲜"
+
+#roc
+CHI_authoritarian_democratic:0 "中华民国"
+CHI_authoritarian_democratic_DEF:0 "中华民国"
+
+CHI_ADJ:0 "中华民国"
+
+#communist china
+PRC_communist:0 "陕甘宁边区"
+PRC_communist_DEF:0 "陕甘宁边区"
+
+PRC_ADJ:0 "中共"
+
+#jin xi
+SHX_despotist:0 "晋系"
+SHX_despotist_DEF:0 "晋系"
+
+SHX_despotist_ADJ:0 "晋系"
+
+#ma jia jun
+XSM:0 "马家军"
+XSM_DEF:0 "马家军"
+
+XSM_ADJ:0 "马家军"
+
+#xinjiang
+SIK_despotist:0 "新疆省"
+SIK_despotist_DEF:0 "新疆省"
+
+SIK_ADJ:0 "新疆"
+
+#dian xi
+YUN_despotist:0 "滇系"
+YUN_despotist_DEF:0 "滇系"
+
+YUN_ADJ:0 "滇系"
+
+#gui xi
+GXC_despotist:0 "桂系"
+GXC_despotist_DEF:0 "桂系"
+
+GXC_ADJ:0 "桂系"
+
+#tibet
+TIB_despotist:0 "西藏"
+TIB_despotist_DEF:0 "西藏"
+
+TIB_ADJ:0 "西藏"
+
+#mexico
+MEX_authoritarian_democratic:0 "墨西哥合众国"
+MEX_authoritarian_democratic_DEF:0 "墨西哥合众国"
+
+MEX_ADJ:0 "墨西哥"
+
+#australia
+AST_social_democratic:0 "澳大利亚联邦"
+AST_social_democratic_DEF:0 "澳大利亚联邦"
+
+AST_ADJ:0 "澳大利亚"
+
+#new zealand
+NZL_social_democratic:0 "新西兰自治领"
+NZL_social_democratic_DEF:0 "新西兰自治领"
+
+NZL_ADJ:0 "新西兰"
+
+#malaya
+MAL_protectorate_despotist:0 "马来亚联合邦"
+MAL_protectorate_despotist_DEF:0 "马来亚联合邦"
+
+MAL_ADJ:0 "马来亚"
+
+#brunei
+BRU:0 "文莱达鲁萨兰国"
+
+#india
+RAJ:0 "印度联邦"
+RAJ_DEF:0 "印度联邦"
+
+RAJ_ADJ:0 "印度"
+#travancore
+TRV:0 "特拉凡哥尔王国"
+
+#pakistan
+PAK:0 "巴基斯坦联邦"
+PAK_DEF:0 "巴基斯坦联邦"
+
+PAK_ADJ:0 "巴基斯坦"
+#kharan
+KHR:0 "卡兰土邦"
+#kalat
+KLA:0 "喀拉特汗国"
+#las bela
+LSB:0 "拉斯贝拉"
+#makran
+MAK:0 "莫克拉"
+#bahawalpur
+BHW:0 "巴哈瓦尔布尔土邦"
+#khairpur
+KHP:0 "海尔布尔土邦"
+#chitral
+CHT:0 "吉德拉尔土邦"
+#dir
+DIR:0 "迪尔"
+#swat
+SWA:0 "斯瓦特土邦"
+#nagar
+NAG:0 "纳格尔"
+#hunza
+HUZ:0 "罕萨"
+
+#jammu and kashimir (independent and indo)
+KSH:0 "克什米尔和查谟土邦"
+#jammu and kashmir (pakistani)
+AJK:0 "自由查谟和克什米尔"
+
+#bangladesh
+BAN:0 "孟加拉人民共和国"
+
+#sikkim
+SKM:0 "锡金王国"
+
+#philippines
+PHI_liberal_democratic:0 "菲律宾共和国"
+PHI_liberal_democratic_DEF:0 "菲律宾共和国"
+
+PHI_ADJ:0 "菲律宾"
+
+#cccp
+SOV_communist:0 "苏维埃社会主义共和国联盟"
+SOV_communist_DEF:0 "苏维埃社会主义共和国联盟"
+
+SOV_ADJ:0 "苏维埃社会主义共和国联盟"
+
+#russia
+RUS_authoritarian_democratic:0 "俄罗斯共和国"
+RUS_authoritarian_democratic_DEF:0 "俄罗斯共和国"
+
+RUS_ADJ:0 "俄罗斯"
+
+#(later russian empire)
+REM_despotist:0 "俄罗斯帝国"
+REM_despotist_DEF:0 "俄罗斯帝国"
+
+REM_ADJ:0 "俄罗斯"
+
+#cossackia
+CSK:0 "哥萨克国"
+
+#kazan
+KZN:0 "喀山共和国"
+
+#ural
+URA_despotist:0 "乌拉尔军团"
+URA_despotist_DEF:0 "乌拉尔军团"
+
+#sterlitamak
+STE_communist:0 "斯捷尔利塔马克苏维埃"
+STE_communist_DEF:0 "斯捷尔利塔马克苏维埃"
+
+#tatarstan
+TAT_authoritarian_democratic:0 "鞑靼斯坦共和国"
+TAT_authoritarian_democratic_DEF:0 "鞑靼斯坦共和国"
+
+TAT_ADJ:0 "鞑靼斯坦"
+
+#vietnam
+VIN_communist:0 "越南民主共和国"
+VIN_communist_DEF:0 "越南民主共和国"
+
+VIN_ADJ:0 "越南"
+#state of vietnam
+VIE_despotist:0 "越南帝国"
+VIE_despotist_DEF:0 "越南帝国"
+
+VIE_ADJ:0 "越南"
+
+#cambodia
+CAM:0 "柬埔寨王国"
+
+#laos
+LAO:0 "琅勃拉邦王国"
+
+#canada
+CAN_liberal_democratic:0 "加拿大自治领"
+CAN_liberal_democratic_DEF:0 "加拿大自治领"
+
+CAN_ADJ:0 "加拿大"
+
+#jordan
+JOR_despotist:0 "外约旦酋长国"
+JOR_despotist_DEF:0 "外约旦酋长国"
+
+JOR_ADJ:0 "约旦"
+
+#indonesia
+INS_socialist:0 "印度尼西亚共和国"
+INS_socialist_DEF:0 "印度尼西亚共和国"
+
+INS_ADJ:0 "印度尼西亚"
+#east indonesia
+EIN:0 "东印度尼西亚邦"
+
+#iceland
+ICE:0 "冰岛"
+
+#south afrika
+SAF:0 "南非联邦"
+
+#mongolia
+MON_communist:0 "蒙古人民共和国"
+MON_communist_DEF:0 "蒙古人民共和国"
+
+MON_ADJ:0 "蒙古人民共和国"
+
+#holland
+HOL:0 "荷兰王国"
+
+#pindus
+PIN_despotist:0 "班都斯亲王国"
+PIN_despotist_DEF:0 "班都斯亲王国"
+
+PIN:0 "罗马军团"
+
+#liechtenstein
+LIE:0 "列支敦士登公国"
+
+#vatican city
+VAT:0 "梵蒂冈城国"
+
+#andora
+ADR:0 "安道尔公国"
+
+#sudtirol
+STI:0 "南蒂罗尔自由邦"
+
+#federation of the emirates of the south
+FES:0 "南阿拉伯酋长国联邦"
+
+#upper yafa
+UYA:0 "上雅法苏丹国"
+
+#qu'aiti
+QUA:0 "卡伊提苏丹国"
+
+#kathiri
+KAT:0 "卡西里苏丹国"
+
+#mahra
+MAH:0 "迈赫拉苏丹国"
+
+#ETH
+ETH_despotist:0 "埃塞俄比亚帝国"
+ETH_despotist_DEF:0 "埃塞俄比亚帝国"
+
+ETH_ADJ:0 "埃塞俄比亚"
+
+#AFA
+AFA_despotist:0 "奥萨苏丹国"
+AFA_despotist_DEF:0 "奥萨苏丹国"
+
+AFA_ADJ:0 "奥萨苏丹国"
+
+#TIG
+TIG_despotist:0 "大提格雷"
+TIG_despotist_DEF:0 "大提格雷"
+
+TIG_ADJ:0 "提格雷"
+
+#somalia
+SOM:0 "大索马里亚"
+
+#pasundan
+PAS:0 "巴巽丹邦"
+#east sumatra
+ESM:0 "东苏门答腊邦"
+#south sumatra
+SSM:0 "南苏门答腊邦"
+#east java
+EJA:0 "东爪哇邦"
+
+#new hebrides
+NHE:0 "新赫布里底共管领"
+
+#lokot
+LOK:0 "洛科特共和国"
+
+#madagascar
+MAD:0 "马达加斯加共和国"
+
+#bosnia
+BOS:0 "波斯尼亚崇高国"
+
+#huabei
+HBE:0 "华北政务委员会"
+
+#sichuan
+SIC:0 "川系"
+
+#guizhou
+GZH:0 "黔系"
+
+#manchukuo
+MAN:0 "满洲帝国"
+
+#mengkukuo
+MEN:0 "蒙古自治邦"

@@ -1,0 +1,29 @@
+
+state = {
+	id = 1015
+	name = "STATE_1015"
+	manpower = 200000
+
+	state_category = town 
+
+
+	history = {
+		owner = SIK
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			12601 3
+		}
+	}
+
+	provinces = {
+		1708 1844 12601 7866 1783 12526 7850 13367
+	}
+
+	local_supplies = 0.0 
+}

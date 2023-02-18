@@ -1,0 +1,101 @@
+characters = {
+	ROA_andrey_vlasov = {
+		name = ROA_andrey_vlasov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROA/andrey_vlasov.dds"
+			}
+			army = {
+				large = "gfx/leaders/ROA/andrey_vlasov.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ROA_vladimir_arcezo = {
+		name = ROA_vladimir_arcezo
+		portraits = {
+			army = {
+				large = "gfx/leaders/ROA/vladimir_arcezo.dds"
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ROA_georgy_zhilenkov = {
+		name = ROA_georgy_zhilenkov
+		portraits = {
+			army = {
+				large = "gfx/leaders/ROA/georgy_zhilenkov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ROA_georgy_zhilenkov = {
+		name = ROA_georgy_zhilenkov
+		portraits = {
+			army = {
+				large = "gfx/leaders/ROA/georgy_zhilenkov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ROA_mikhail_meandrov = {
+		name = ROA_mikhail_meandrov
+		portraits = {
+			army = {
+				large = "gfx/leaders/ROA/mikhail_meandrov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ROA_vasily_malyshkin = {
+		name = ROA_vasily_malyshkin
+		portraits = {
+			army = {
+				large = "gfx/leaders/ROA/vasily_malyshkin.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+}

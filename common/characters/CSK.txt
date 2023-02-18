@@ -1,0 +1,16 @@
+characters = {
+	CSK_helmuth_von_pannwitz = {
+		name = CSK_helmuth_von_pannwitz
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSK/helmuth_von_pannwitz.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=879
+	name="STATE_879"
+
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = INS
+	}
+
+	provinces={
+		12113
+	}
+	manpower=61090
+	state_category=rural
+	local_supplies=0.000
+}

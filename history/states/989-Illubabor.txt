@@ -1,0 +1,33 @@
+state = {
+	id = 989 # Illubabor-Kaffa
+	name = "STATE_989"
+	manpower = 600000
+	resources = {
+		rubber = 2
+	}
+	
+	state_category = pastoral
+
+	history = {
+		buildings = {
+			infrastructure = 1
+		}
+		# Gambeila
+		victory_points = { 
+			13283 2 
+		}
+		# Jiren (add VPs to this if creating the Jimma Sultanate)
+		victory_points = { 
+			7912 1  
+		}
+		
+		owner = AOI
+		add_core_of = AOI
+	}
+
+	provinces = {
+ 		7912 13283 13284
+ 	}
+
+	local_supplies = 0.0 
+}

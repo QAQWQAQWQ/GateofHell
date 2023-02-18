@@ -1,0 +1,22 @@
+state={
+	id=891
+	name="STATE_891"
+
+	history={
+		owner = KSH
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SIK
+		add_core_of = KSH
+		add_claim_by = RAJ
+	}
+	provinces={
+		5042
+	}
+	manpower=19943
+	state_category=wasteland
+	local_supplies=0.000
+}

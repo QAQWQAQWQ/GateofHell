@@ -1,0 +1,36 @@
+
+state={
+	id=825
+	name="STATE_825"
+	resources={
+		oil=7.000
+	}
+
+	history={
+		victory_points = {
+			105 1 
+		}
+		victory_points = {
+			6040 1
+		}
+		owner = REM
+		buildings = {
+			infrastructure = 1
+			12530 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SOV
+		add_core_of = REM
+	}
+
+	provinces={
+		105 180 198 3075 3147 6040 6105 6192 9041 9205 10207 11047 11119 12530 3338
+	}
+	manpower=21795
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

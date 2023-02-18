@@ -1,0 +1,21 @@
+state={
+	id=1011
+	name="STATE_1011"
+	provinces={
+        4379
+	}
+	state_category = large_town
+	history=
+	{
+		victory_points = {
+			4379 10
+		}
+		owner = VIE
+		add_core_of = VIE
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=300000
+	local_supplies=0.000
+}

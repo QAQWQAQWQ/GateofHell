@@ -1,0 +1,26 @@
+
+state={
+	id=1066
+	name="STATE_1066" # Baluchistan
+	manpower = 319543
+	
+	state_category = rural
+
+	history={
+		owner = PAK
+		victory_points = {
+			4382 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = KHP
+		add_core_of = PAK
+	}
+
+	provinces={
+		4382 13394
+	}
+
+	local_supplies=0.0 
+}

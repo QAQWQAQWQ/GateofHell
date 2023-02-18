@@ -1,0 +1,29 @@
+
+state={
+	id=598
+	name="STATE_598"
+	
+	state_category = town
+
+	history={
+		set_demilitarized_zone = yes
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			11928 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		9995 1089 4091 11928 1029 1076 1121 4001 4005 4031 4082 4123 7142 7181 9953 10095 11973 12055 12067 13144 
+	}
+	manpower=23669300
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

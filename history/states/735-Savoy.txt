@@ -1,0 +1,29 @@
+state={
+	id=735
+	name="STATE_735"
+
+	state_category = town
+
+	history={
+		owner = ITA
+		add_core_of = FRA
+		add_core_of = FFR
+		victory_points = {
+			9909 5 
+		}
+		buildings = {
+			infrastructure = 2
+			9909 = {
+				naval_base = 2
+			}		
+		}
+	}
+
+	provinces={
+		3959 9909
+	}
+	manpower=517500
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

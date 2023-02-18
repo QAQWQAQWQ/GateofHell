@@ -1,0 +1,31 @@
+
+state={
+	id=1046
+	name="STATE_1046"
+	manpower = 768848
+
+	state_category = rural
+
+	history={
+		owner = SSM
+		victory_points = {
+			12268 1 
+		}
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12268 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SSM
+		add_core_of = INS
+	}
+
+	provinces={
+		1274 10322 12268 1313 4276 12296 1401 1246
+	}
+
+	local_supplies=0.0 
+}

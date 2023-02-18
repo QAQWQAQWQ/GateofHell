@@ -1,0 +1,23 @@
+state={
+	id=1059
+	name="STATE_1059"
+	
+	state_category = pastoral
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		13405 1732 1545 10368 4551 10521 10463 9623 12342 10215 7569 1571 10519 12443 12500 6863 9798 10379 3815 
+	}
+	manpower=5224174
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+characters = {
+	INS_sukarno = {
+		name = INS_sukarno
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/INS/sukarno.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

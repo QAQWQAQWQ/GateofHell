@@ -1,0 +1,27 @@
+
+state={
+	id=976
+	name="STATE_976"
+	manpower = 95500
+
+	state_category = city
+
+	history={
+		owner = BUR
+		victory_points = {
+			11516 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+		add_core_of = FFR
+	}
+
+	provinces={
+		11516 521
+	}
+
+	local_supplies=7.0 
+}

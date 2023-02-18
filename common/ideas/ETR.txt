@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+		ETR_the_houses = {
+			picture = ETR_the_houses
+			modifier = {
+
+			}
+		}
+		ETR_the_remaining_power_of_elihan_tore = {
+			picture = ETR_the_remaining_power_of_elihan_tore
+			modifier = {
+				
+			}
+		}
+		ETR_the_tragedy_of_turkestan = {
+			picture = ETR_the_tragedy_of_turkestan
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+			}
+		}
+	}
+}

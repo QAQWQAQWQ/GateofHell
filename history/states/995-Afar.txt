@@ -1,0 +1,25 @@
+state = {
+	id = 995
+	name = "STATE_995"
+
+	history = {
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			13279 2 
+		}
+		owner = AOI
+		add_core_of = AOI
+		add_core_of = AFA
+	}
+
+	provinces = {
+		5041 13275 13279
+	}
+	manpower = 560000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

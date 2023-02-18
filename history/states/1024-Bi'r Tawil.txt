@@ -1,0 +1,24 @@
+
+state={
+	id=1024
+	name="STATE_1024"
+	manpower = 0
+	
+	state_category = wasteland
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 0
+		}
+		add_claim_by = EGY
+		add_core_of = SUD
+		cancel_resistance = yes
+	}
+
+	provinces={
+		13340
+	}
+
+	local_supplies=4.0 
+}

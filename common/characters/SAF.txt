@@ -1,0 +1,16 @@
+characters = {
+	SAF_d_f_malan = {
+		name = SAF_d_f_malan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/d_f_malan.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

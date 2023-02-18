@@ -1,0 +1,23 @@
+state={
+	id=869
+	name="STATE_869"
+
+	history={
+		owner = XSM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			8127 3
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+	provinces={
+		7727 4783 10899 7803 5031 12750 8055 12776 8127 10724 10770 7511
+	}
+	manpower=601270
+	state_category=pastoral
+	local_supplies=0.000
+}

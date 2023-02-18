@@ -1,0 +1,18 @@
+technologies = {
+
+	attack_heli_1 = {
+		enable_equipments = {
+			attack_heli_1
+		}
+		enable_subunits = {
+			attack_heli
+		}
+		research_cost = 1
+		start_year = 1949
+		folder =  {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+	}
+
+}

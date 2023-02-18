@@ -1,0 +1,22 @@
+state={
+	id=867
+	name="STATE_867"
+
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 2
+			6361 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = DEN
+	}
+
+	provinces={
+		6361
+	}
+	manpower=30812
+	state_category=small_island
+	local_supplies=0.000
+}

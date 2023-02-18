@@ -1,0 +1,20 @@
+state={
+	id=836
+	name="STATE_836"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		6079 6107 9191 3040 128 11169 22 11077 76 9128 3016 2995 9089 11104 6015 9064 9042 11063 11034 64 6092 9116
+	}
+	manpower=100000
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

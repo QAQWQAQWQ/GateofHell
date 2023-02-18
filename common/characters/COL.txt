@@ -1,0 +1,16 @@
+characters = {
+	COL_mariano_ospina_perez = {
+		name = COL_mariano_ospina_perez
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/mariano_ospina_perez.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

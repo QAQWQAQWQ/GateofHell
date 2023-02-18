@@ -1,0 +1,33 @@
+state={
+	id=672
+	name="STATE_672"
+	manpower = 7054900
+	
+	state_category = town
+	
+	resources={
+		rubber=150 # was: 268
+		oil=12 # was: 24
+		aluminium=28 # was: 50
+	}
+
+
+	history=
+	{
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			1648 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		1277 1332 1342 1345 1373 1428 1460 1533 1648 4211 4320 4361 4364 4381 4446 7308 7327 7368 7384 7396 7440 7463 7658 7673 8360 10150 10194 10209 10225 10294 10354 10382 10509 10522 12126 12138 12165 12168 12181 12184 12209 12212 12302 12343 12415 12488 
+	}
+
+	local_supplies=0.0 
+}

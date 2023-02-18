@@ -1,0 +1,27 @@
+state={
+	id=845
+	name="STATE_845"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+			13245 = {
+				naval_base = 3
+
+			}
+		}
+		add_core_of = CRO
+		victory_points = {
+			13245 3 
+		}
+	}
+
+	provinces={
+		13244 13245 13243
+	}
+	manpower=135579
+	buildings_max_level_factor=1.000
+	state_category = large_town
+	local_supplies=0.000
+}

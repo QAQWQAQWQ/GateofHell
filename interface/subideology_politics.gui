@@ -1,0 +1,17 @@
+guiTypes = {
+	containerWindowType = {
+		name = "subideology_politics_window"
+		position = { x = 97 y = 315 }
+		size = { width = 255 height = 60 }
+		clipping = no
+
+		instantTextBoxType = {
+			name = "subideology"
+			position = { x = 0 y = 0 }
+			font = "vic_22"
+			text = [GetSubideologyType]
+			maxWidth = 245
+			maxHeight = 32
+		}
+	}
+}

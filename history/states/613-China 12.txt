@@ -1,0 +1,29 @@
+
+state={
+	id=613
+	name="STATE_613" # Nanjing
+	manpower = 10305100
+	
+	state_category = large_city
+	
+	history={
+		set_demilitarized_zone = yes
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 3
+			air_base = 6
+		}
+		victory_points = {
+			11913 20 
+		}
+	}
+
+	provinces={
+		11913
+	}
+
+	local_supplies=0.0 
+}

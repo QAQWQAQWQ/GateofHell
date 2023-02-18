@@ -1,0 +1,28 @@
+
+state={
+	id=1055
+	name="STATE_1055"
+	manpower = 10000000
+	state_category = large_city
+
+	history={
+		set_demilitarized_zone = yes
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			10076 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 1
+		}
+	}
+
+	provinces={
+		11982 996 13142 10076 12052 7120 10034 12076
+	}
+
+	local_supplies=1.0 
+}

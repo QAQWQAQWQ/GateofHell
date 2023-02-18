@@ -1,0 +1,16 @@
+characters = {
+	IRE_eamon_de_valera = {
+		name = IRE_eamon_de_valera
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/eamon_de_valera.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=21
+	name="STATE_21" # Bouches-du-Rhône (Formerly Provence before Var split off)
+	manpower = 1670310 # 1224802 (Bouches-du-Rhône) + 245508 (Vaucluse) # was 2060400 before the Var split
+	resources={
+		aluminium=60 # was: 120
+	}
+
+	state_category = city
+
+	history={
+		owner = FRA
+		set_demilitarized_zone = yes
+		victory_points = {
+			11834 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+			arms_factory = 1
+			fuel_silo = 1
+			air_base = 10
+			11834 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = FRA
+		add_core_of = FFR
+	}
+
+	provinces={
+		11849 11834
+	}
+
+	local_supplies=0.0 
+}

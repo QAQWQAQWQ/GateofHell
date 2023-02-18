@@ -1,0 +1,16 @@
+characters = {
+	ALT_osman_batur = {
+		name = ALT_osman_batur
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ALT/osman_batur.dds"
+			}
+		}
+		country_leader = {
+			ideology = reactionary_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

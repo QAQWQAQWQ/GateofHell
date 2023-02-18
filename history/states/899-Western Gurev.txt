@@ -1,0 +1,23 @@
+state={
+	id=899
+	name="STATE_899"
+
+	history={
+		owner = CSK
+		add_core_of = SOV
+		add_core_of = KAZ
+		add_core_of = CSK
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		477 3459 3622 6514 11578 6498 615 6523 9469 464
+	}
+	manpower=42100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=0.0 
+}

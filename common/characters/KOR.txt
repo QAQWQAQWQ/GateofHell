@@ -1,0 +1,16 @@
+characters = {
+	KOR_rhee_syngman = {
+		name = KOR_rhee_syngman
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/rhee_syngman.dds"
+			}
+		}
+		country_leader = {
+			ideology = dictatorship
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

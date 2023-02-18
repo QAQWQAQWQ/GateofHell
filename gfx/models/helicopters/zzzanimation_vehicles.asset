@@ -1,0 +1,30 @@
+animation = {
+	name = "HELI_GER_INFHELI_1_Drache_idle_animation"
+	file = "HELI_GER_INFHELI_1_Drache_idle.anim"
+}
+
+animation = {
+	name = "HELI_GER_INFHELI_1_Drache_moving_animation"
+	file = "HELI_GER_INFHELI_1_Drache_moving.anim"
+}
+
+animation = {
+	name = "HELI_GER_INFHELI_1_Drache_attack_animation"
+	file = "HELI_GER_INFHELI_1_Drache_attack.anim"
+}
+
+animation = {
+	name = "HELI_GER_INFHELI_1_Drache_stand_animation"
+	file = "HELI_GER_INFHELI_1_Drache_stand.anim"
+}
+
+animation = {
+	name = "HELI_INF_frame_attack_animation"
+	file = "HELI_INF_frame_attack.anim"
+}
+animation = {
+	name = "HELI_INF_frame_move_animation"
+	file = "HELI_INF_frame_move.anim"
+
+}
+

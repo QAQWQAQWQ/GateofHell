@@ -1,0 +1,38 @@
+scripted_gui = {
+
+	country_GDP_main = {
+		window_name = "country_GDP_main"
+		context_type = player_context
+		parent_window_token = top_bar
+
+		visible = {
+			has_country_flag = GDP_open
+		}
+		dynamic_lists = {
+			GDP_list_grid = {
+				array = global.GDP_list_array
+				change_scope = yes
+				entry_container = GDP_list_entry
+			}
+		}
+		properties = {
+			ROOT_flag = {
+				image = "[THIS.GetFlag]"
+			}
+			GDP_list_flag = {
+				image = "[THIS.GetFlag]"
+			}
+		}
+		effects = {
+			GDP_exit_button_click = {
+				clr_country_flag = GDP_open
+			}
+			GDP_list_sort_button_click = {
+				create_GDP_sorted_array = yes
+			}
+			GDP_per_capita_list_sort_button_click = {
+				create_GDP_per_capita_sorted_array = yes
+			}
+		}
+	}
+}

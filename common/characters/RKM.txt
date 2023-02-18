@@ -1,0 +1,16 @@
+characters = {
+	RKM_siegfried_kasche = {
+		name = RKM_siegfried_kasche
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RKM/siegfried_kasche.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

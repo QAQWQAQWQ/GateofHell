@@ -1,0 +1,20 @@
+state={
+	id=850
+	name="STATE_850"
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GRE
+	}
+
+	provinces={
+		11905 13249
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category =town
+	local_supplies=0.000
+}

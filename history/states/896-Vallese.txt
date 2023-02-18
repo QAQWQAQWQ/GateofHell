@@ -1,0 +1,25 @@
+state={
+	id=896
+	name="STATE_896"
+
+	history={
+		owner = SWI
+		add_core_of = SWI
+		add_claim_by = ITA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			3612 1
+		}
+	}
+
+	provinces={
+		3612 9587
+	}
+	manpower=196700
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

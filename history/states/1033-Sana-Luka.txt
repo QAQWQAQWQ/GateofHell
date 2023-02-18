@@ -1,0 +1,27 @@
+
+state={
+	id=1033
+	name="STATE_1033" # Croatia
+	manpower = 205542
+	
+	state_category = large_town
+
+	history={
+		owner = CRO
+		victory_points = {
+			13349 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+		}
+		add_core_of = CRO
+	}
+
+	provinces={
+		13349 13351 13352 11572 9588
+	}
+
+	local_supplies=0.0 
+}

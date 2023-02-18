@@ -1,0 +1,91 @@
+characters = {
+	PAK_khawaja_nazimuddin = {
+		name = PAK_khawaja_nazimuddin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAK/khawaja_nazimuddin.dds"
+			}
+		}
+		country_leader = {
+			ideology = colony_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	PAK_frank_messervy = {
+		name = PAK_frank_messervy
+		portraits = {
+			army = {
+				large = "gfx/leaders/PAK/frank_messervy.dds"
+			}
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	PAK_akbar_khan = {
+		name = PAK_akbar_khan
+		portraits = {
+			army = {
+				large = "gfx/leaders/PAK/akbar_khan.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	PAK_douglas_gracey = {
+		name = PAK_douglas_gracey
+		portraits = {
+			army = {
+				large = "gfx/leaders/PAK/douglas_gracey.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	PAK_mohammed_anwar_khan = {
+		name = PAK_mohammed_anwar_khan
+		portraits = {
+			army = {
+				large = "gfx/leaders/PAK/mohammed_anwar_khan.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	PAK_mohammed_zaman_kiani = {
+		name = PAK_mohammed_zaman_kiani
+		portraits = {
+			army = {
+				large = "gfx/leaders/PAK/mohammed_zaman_kiani.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

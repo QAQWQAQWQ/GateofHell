@@ -1,0 +1,27 @@
+
+state={
+	id=18
+	name="STATE_18"
+	manpower = 770800
+	
+	state_category = large_town
+
+	history={
+		owner = BUR
+		victory_points = {
+			3560 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 5
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		3560 5291 9472 9505 3546 6545
+	}
+
+	local_supplies=0.0 
+}

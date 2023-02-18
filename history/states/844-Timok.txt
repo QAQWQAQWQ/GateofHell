@@ -1,0 +1,20 @@
+state={
+	id=844
+	name="STATE_844"
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SER
+	}
+
+	provinces={
+		13241 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}

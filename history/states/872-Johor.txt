@@ -1,0 +1,28 @@
+state={
+	id=872
+	name="STATE_872"
+	resources = {
+		rubber = 110
+		steel = 34
+		tungsten = 45
+		aluminium = 60
+	}
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = MAL
+		victory_points = {
+			10313 2
+		}
+	}
+
+	provinces={
+		7427 4424 10313 4367
+	}
+	manpower=2070153
+	state_category=rural
+	local_supplies=0.000
+}

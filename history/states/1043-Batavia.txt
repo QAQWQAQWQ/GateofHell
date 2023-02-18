@@ -1,0 +1,30 @@
+
+state={
+	id=1043
+	name="STATE_1043"
+	manpower = 2000000
+
+	state_category = city
+
+	history={
+		owner = INS
+		victory_points = {
+			7381 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			7381 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = INS
+	}
+
+	provinces={
+		10279 7381 1398
+	}
+
+	local_supplies=0.0 
+}

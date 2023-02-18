@@ -1,0 +1,27 @@
+
+state={
+	id=1016
+	name="STATE_1016"
+	manpower = 1823125 
+	
+	state_category = rural
+
+	history={
+		owner = PAK
+		victory_points = {
+			10898 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = BHW
+		add_core_of = PAK
+	}
+
+	provinces={
+		10898 12792 10843
+	}
+
+	local_supplies=7.0 
+}

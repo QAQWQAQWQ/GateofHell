@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "super_event_background"
+		texturefile = "gfx/interface/super_events/super_event_background.dds"
+	}
+	spriteType = {
+		name = "superevent_button"
+		texturefile = "gfx/interface/super_events/superevent_button.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_china_reuni_roc"
+		texturefile = "gfx/interface/super_events/SE_china_reuni_roc.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_china_reuni_roc_sunliren"
+		texturefile = "gfx/interface/super_events/SE_china_reuni_roc_sunliren.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_china_reuni_cpc"
+		texturefile = "gfx/interface/super_events/SE_china_reuni_prc.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_rus_reuni_roa"
+		texturefile = "gfx/interface/super_events/SE_rus_reuni_roa.dds"
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=1042
+	name="STATE_1042"
+	manpower = 36140
+
+	state_category = rural
+
+	history={
+		owner = MAH
+		victory_points = {
+			13079 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = YEM
+		add_core_of = MAH
+	}
+
+	provinces={
+		13365 13079 13450 13451 13455 13457
+	}
+
+	local_supplies=0.0 
+}

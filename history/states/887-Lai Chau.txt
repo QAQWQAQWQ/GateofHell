@@ -1,0 +1,22 @@
+state={
+	id=887
+	name="STATE_887"
+
+	history={
+		owner = VIE
+		buildings = {
+			infrastructure = 2
+		}
+		
+		add_core_of = VIE
+		victory_points = {
+			10075 1
+		}
+	}
+	provinces={
+		12319 10075 4529
+	}
+	manpower=416700
+	state_category=town
+	local_supplies=0.000
+}

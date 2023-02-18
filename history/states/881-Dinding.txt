@@ -1,0 +1,18 @@
+state={
+	id=881
+	name="STATE_881"
+
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MAL
+	}
+	provinces={
+		13263
+	}
+	manpower=180912
+	state_category=rural
+	local_supplies=0.000
+}

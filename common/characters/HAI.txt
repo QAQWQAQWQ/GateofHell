@@ -1,0 +1,16 @@
+characters = {
+	HAI_dumarsais_estime = {
+		name = HAI_dumarsais_estime
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAI/dumarsais_estime.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservative_liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

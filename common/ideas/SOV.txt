@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		SOV_extra_population = {
+			picture = SOV_extra_population
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = -0.2
+			}
+		}
+		SOV_the_fourth_five_year_plan = {
+			picture = SOV_the_fourth_five_year_plan
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.15
+			}
+		}
+		SOV_the_red_army = {
+			picture = SOV_the_red_army
+			modifier = {
+				conscription_factor = 0.05
+				army_org_factor = 0.2
+				army_attack_factor = 0.05
+				land_reinforce_rate = 0.1
+				supply_factor = 0.1
+			}
+		}
+		SOV_the_shadow_of_defeat = {
+			picture = SOV_the_red_army
+			modifier = {
+				army_org_factor = -0.1
+				stability_factor = -0.1
+				political_power_gain = 0.1
+			}
+		}
+	}
+}

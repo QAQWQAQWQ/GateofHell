@@ -1,0 +1,15 @@
+characters = {
+	PER_mohammed_shah_pahlavi = {
+		name = PER_mohammed_shah_pahlavi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PER/mohammed_shah_pahlavi.dds"
+			}
+		}
+		country_leader={
+			ideology = absolute_monarchy
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

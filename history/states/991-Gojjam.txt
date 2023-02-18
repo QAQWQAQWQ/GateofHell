@@ -1,0 +1,28 @@
+state = {
+	id = 991 # Gojjam (including Gammu Gofa)
+	name = "STATE_991"
+	manpower = 900000
+	resources = {
+	}
+	
+	state_category = pastoral
+
+	history = {
+		buildings = {
+			infrastructure = 1
+		}
+		
+		victory_points = { 
+			13281 2 
+		}
+		
+		owner = AOI
+		add_core_of = AOI
+	}
+
+	provinces = {
+ 		4954 13281
+ 	}
+
+	local_supplies = 0.0 
+}

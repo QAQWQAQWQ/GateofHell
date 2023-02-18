@@ -1,0 +1,16 @@
+characters = {
+	ALB_maliq_bushati = {
+		name = ALB_maliq_bushati
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ALB/maliq_bushati.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

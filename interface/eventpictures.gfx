@@ -1,0 +1,49 @@
+spriteTypes = {
+	spriteType = {
+		name = "event_picture_overlay"
+		textureFile = "gfx/interface/event_picture_overlay.dds"
+	}
+	#reports
+	spriteType = {
+		name = "SOV_report_the_dusk"
+		textureFile = "gfx/event_pictures/SOV_report_the_dusk.dds"
+	}
+	spriteType = {
+		name = "SOV_report_the_alarm"
+		textureFile = "gfx/event_pictures/SOV_report_the_alarm.dds"
+	}
+	spriteType = {
+		name = "SOV_report_the_memory"
+		textureFile = "gfx/event_pictures/SOV_report_the_memory.dds"
+	}
+	spriteType = {
+		name = "SOV_report_the_present"
+		textureFile = "gfx/event_pictures/SOV_report_the_present.dds"
+	}
+	spriteType = {
+		name = "SOV_report_the_perfect_ending"
+		textureFile = "gfx/event_pictures/SOV_report_the_perfect_ending.dds"
+	}
+	spriteType = {
+		name = "SOV_report_an_afternoon"
+		textureFile = "gfx/event_pictures/SOV_report_an_afternoon.dds"
+	}
+	
+	#news
+	spriteType = {
+		name = "JAP_ogata_taketora"
+		textureFile = "gfx/event_pictures/JAP_ogata_taketora.dds"
+	}
+	spriteType = {
+		name = "JAP_ichiro_hatoyama"
+		textureFile = "gfx/event_pictures/JAP_ichiro_hatoyama.dds"
+	}
+	spriteType = {
+		name = "PAK_indo_pakistani_war"
+		textureFile = "gfx/event_pictures/PAK_indo_pakistani_war.dds"
+	}
+	spriteType = {
+		name = "OMA_jebel_akhdar_war"
+		textureFile = "gfx/event_pictures/OMA_jebel_akhdar_war.dds"
+	}
+}

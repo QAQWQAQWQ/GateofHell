@@ -1,0 +1,20 @@
+fire_super_event_sound = {
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { SE_var = 1 } }
+			play_song = "china_reuni_roc"
+			else_if = {
+				limit = { check_variable = { SE_var = 2 } }
+				play_song = "china_reuni_cpc"
+			}
+			else_if = {
+				limit = { check_variable = { SE_var = 4 } }
+				play_song = "china_reuni_roc_sunliren"
+			}
+			else_if = {
+				limit = { check_variable = { SE_var = 3 } }
+				play_song = "rus_reuni_roa"
+			}
+		}
+	}
+}

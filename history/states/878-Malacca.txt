@@ -1,0 +1,25 @@
+state={
+	id=878
+	name="STATE_878"
+	resources = {
+		rubber = 8
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MAL
+		victory_points = {
+			4412 1
+		}
+	}
+
+	provinces={
+		4412
+	}
+	manpower=779100
+	state_category=rural
+	local_supplies=0.000
+}

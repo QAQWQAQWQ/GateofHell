@@ -1,0 +1,16 @@
+characters = {
+	REM_vladmir_iii = {
+		name = REM_vladmir_iii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/REM/vladmir_iii.dds"
+			}
+		}
+		country_leader = {
+			ideology = reactionary_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "REM_vladmir_iii_desc"
+		}
+	}
+}

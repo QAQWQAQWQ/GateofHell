@@ -1,0 +1,24 @@
+
+state={
+	id=1021
+	name="STATE_1021"
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 1
+		}
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		591 6611 11901 984
+	}
+	manpower=45200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=4.000
+}

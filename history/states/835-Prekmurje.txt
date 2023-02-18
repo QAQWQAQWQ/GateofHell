@@ -1,0 +1,22 @@
+state={
+	id=835
+	name="STATE_835"
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = HUN
+		add_core_of = SLV
+		add_core_of = YUG
+	}
+
+	provinces={
+		6672 
+	}
+	manpower=95000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

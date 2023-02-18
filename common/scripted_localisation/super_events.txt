@@ -1,0 +1,140 @@
+defined_text = {
+	name = GetSuperEventTitle
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 1
+			}
+		}
+		localization_key = SE_title_china_reuni_roc
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 4
+			}
+		}
+		localization_key = SE_title_china_reuni_roc_sunliren
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 2
+			}
+		}
+		localization_key = SE_title_china_reuni_cpc
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 3
+			}
+		}
+		localization_key = SE_title_rus_reuni_roa
+	}
+}
+defined_text = {
+	name = GetSuperEventImage
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 1
+			}
+		}
+		localization_key = GFX_SE_china_reuni_roc
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 4
+			}
+		}
+		localization_key = GFX_SE_china_reuni_roc_sunliren
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 2
+			}
+		}
+		localization_key = GFX_SE_china_reuni_cpc
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 3
+			}
+		}
+		localization_key = GFX_SE_rus_reuni_roa
+	}
+}
+defined_text = {
+	name = GetSuperEventOption
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 1
+			}
+		}
+		localization_key = SE_option_china_reuni_roc
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 4
+			}
+		}
+		localization_key = SE_option_china_reuni_roc_sunliren
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 2
+			}
+		}
+		localization_key = SE_option_china_reuni_cpc
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 3
+			}
+		}
+		localization_key = SE_option_rus_reuni_roa
+	}
+}
+defined_text = {
+	name = GetSuperEventDesc
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 1
+			}
+		}
+		localization_key = SE_desc_china_reuni_roc
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 4
+			}
+		}
+		localization_key = SE_desc_china_reuni_roc_sunliren
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 2
+			}
+		}
+		localization_key = SE_desc_china_reuni_cpc
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				SE_var = 3
+			}
+		}
+		localization_key = SE_desc_rus_reuni_roa
+	}
+}

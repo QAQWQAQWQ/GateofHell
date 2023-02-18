@@ -1,0 +1,27 @@
+
+state={
+	id=1035
+	name="STATE_1035"
+	manpower = 500000
+	
+	state_category = rural
+
+	history={
+		owner = HBE
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			1139 1
+		}
+		add_core_of = HBE
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+	provinces={
+		4606 1139 7074
+	}
+
+	local_supplies=0.0 
+}

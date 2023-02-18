@@ -1,0 +1,26 @@
+
+state={
+	id=256
+	name="STATE_256"
+
+	history={
+		victory_points = {
+			9259 1 
+		}
+		owner = REM
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SOV
+		add_core_of = REM
+	}
+
+	provinces={
+		11243 11292 9354 3224 3282 3285 3352 3383 6253 6312 6327 6357 6374 9244 9259 9307 9325 9373 11356 
+	}
+	manpower=786030
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

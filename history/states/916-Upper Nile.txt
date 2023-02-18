@@ -1,0 +1,24 @@
+state = {
+	id=916
+	name = "STATE_916"  # Upper Nile 
+	manpower = 1040121
+	state_category = pastoral
+
+	history = {
+		owner = BSU
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2096 1 
+		}
+	}
+
+	provinces = {
+		2096 10859 10877 12800 
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

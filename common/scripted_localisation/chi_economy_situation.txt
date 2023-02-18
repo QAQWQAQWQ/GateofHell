@@ -1,0 +1,54 @@
+defined_text = {
+	name = GetEconomySituation
+	text = {
+		trigger = {
+			check_variable = { current_economy_situation_icon_frame < 0.10 }
+		}
+		localization_key = chi_economy_collapsed
+	}
+	text = {
+		trigger = {
+			check_variable = { current_economy_situation_icon_frame < 0.30 }
+		}
+		localization_key = chi_economy_scarce
+	}
+	text = {
+		trigger = {
+			check_variable = { current_economy_situation_icon_frame < 0.40 }
+		}
+		localization_key = chi_economy_poor
+	}
+	text = {
+		trigger = {
+			check_variable = { current_economy_situation_icon_frame < 0.5 }
+		}
+		localization_key = chi_economy_mediocre
+	}
+	text = {
+		trigger = {
+			check_variable = { current_economy_situation_icon_frame < 0.6 }
+		}
+		localization_key = chi_economy_fine
+	}
+	text = {
+		trigger = {
+			check_variable = { current_economy_situation_icon_frame < 0.7 }
+		}
+		localization_key = chi_economy_improved
+	}
+	text = {
+		trigger = {
+			check_variable = { current_economy_situation_icon_frame < 0.8 }
+		}
+		localization_key = chi_economy_rich
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { current_economy_situation_icon_frame < 1 }
+				check_variable = { current_economy_situation_icon_frame = 1 }
+			}
+		}
+		localization_key = chi_economy_affluent
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=440
+	name="STATE_440"
+	manpower = 7665000
+	
+	state_category = town
+
+	history={
+		owner = PAK
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+		}
+		add_core_of = PAK
+	}
+
+	provinces={
+		13334 13333 13332 1910 8007 8022 8106 9084 10066 10139 10173 13395
+	}
+
+	local_supplies=0.0 
+}

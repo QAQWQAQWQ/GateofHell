@@ -1,0 +1,26 @@
+state={
+	id=877
+	name="STATE_877"
+	resources = {
+		rubber = 10
+		steel = 10
+	}
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MAL
+		victory_points = {
+			12144 1
+		}
+	}
+
+	provinces={
+		12144
+	}
+	manpower=200411
+	state_category=rural
+	local_supplies=0.000
+}

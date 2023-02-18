@@ -1,0 +1,16 @@
+characters = {
+	LOK_bronislav_kaminski = {
+		name = LOK_bronislav_kaminski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LOK/bronislav_kaminski.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

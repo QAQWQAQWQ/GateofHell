@@ -1,0 +1,30 @@
+
+state = {
+	id = 214
+	name = "STATE_214"
+	manpower = 577985
+	
+	state_category = town
+
+	history = {
+		owner = RKM
+		victory_points = {
+			312 5 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			air_base = 3
+			312 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = SOV
+	}
+
+	provinces = {
+		140 312 3080 3092 3130 3168 6102 9248 11038 11171  
+	}
+
+	local_supplies = 0.0 
+}

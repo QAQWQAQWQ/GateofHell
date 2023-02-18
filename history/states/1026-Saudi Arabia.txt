@@ -1,0 +1,22 @@
+
+state={
+	id=1026
+	name="STATE_1026"
+	manpower = 10000
+	
+	state_category = wasteland
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		5081 4932 13468
+	}
+
+	local_supplies=0.0
+}

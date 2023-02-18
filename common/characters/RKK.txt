@@ -1,0 +1,16 @@
+characters = {
+	RKK_arno_schickedanz = {
+		name = RKK_arno_schickedanz
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RKK/arno_schickedanz.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

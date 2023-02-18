@@ -1,0 +1,16 @@
+characters = {
+	ARG_juan_peron = {
+		name = ARG_juan_peron
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARG/juan_peron.dds"
+			}
+		}
+		country_leader = {
+			ideology = peronism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

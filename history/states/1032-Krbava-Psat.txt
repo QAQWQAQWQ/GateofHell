@@ -1,0 +1,22 @@
+
+state={
+	id=1032
+	name="STATE_1032" # Croatia
+	manpower = 52000
+	
+	state_category = rural
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CRO
+	}
+
+	provinces={
+		6614 9586 6983 13346 6619
+	}
+
+	local_supplies=0.0 
+}

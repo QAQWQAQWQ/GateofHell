@@ -1,0 +1,77 @@
+bookmarks = {
+	bookmark = {
+		name = "GOHSTART_NAME"
+		desc = "GOHSTART_DESC"
+		date = "1949.6.1.12"
+		picture = "the_cold_war"
+		default_country = "GER"
+		default = yes
+		"GER" = {
+			history = ""
+			ideology = national_socialist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ITA" = {
+			history = ""
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FRA" = {
+			history = ""
+			ideology = despotist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SOV" = {
+			history = ""
+			ideology = communist
+			ideas = {	
+			}
+			focuses = {
+				SOV1_end_the_fourth_five_year_plan
+				SOV1_a_temporary_friend
+				SOV1_an_army_prepared
+			}
+		}
+		"PRC" = {
+			history = ""
+			ideology = communist
+			ideas = {	
+			}
+			focuses = {
+			}
+		}
+		"CHI" = {
+			history = ""
+			ideology = authoritarian_democratic
+			ideas = {	
+			}
+			focuses = {
+			}
+		}
+		"ENG" = {
+			history = ""
+			ideology = social_democratic
+			ideas = {	
+			}
+			focuses = {
+			}
+		}
+		"USA" = {
+			history = ""
+			ideology = liberal_democratic
+			ideas = {	
+			}
+			focuses = {
+			}
+		}
+	}
+}

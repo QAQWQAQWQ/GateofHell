@@ -1,0 +1,22 @@
+
+state={
+	id=1048
+	name="STATE_1048"
+	manpower = 831061 
+
+	state_category = rural
+
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = INS
+	}
+
+	provinces={
+		4306
+	}
+
+	local_supplies=0.0 
+}

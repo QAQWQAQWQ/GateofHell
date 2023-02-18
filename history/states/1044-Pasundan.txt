@@ -1,0 +1,27 @@
+
+state={
+	id=1044
+	name="STATE_1044"
+	manpower = 1550000
+
+	state_category = rural
+
+	history={
+		owner = PAS
+		victory_points = {
+			7421 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = PAS
+		add_core_of = INS
+	}
+
+	provinces={
+		12249 1386 4406 7421 10307 1425 4621
+	}
+
+	local_supplies=0.0 
+}

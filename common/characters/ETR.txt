@@ -1,0 +1,16 @@
+characters = {
+	ETR_ehmetjan_qasim = {
+		name = ETR_ehmetjan_qasim
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETR/ehmetjan_qasim.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

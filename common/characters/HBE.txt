@@ -1,0 +1,16 @@
+characters = {
+	HBE_wang_yintai = { 
+		name = HBE_wang_yintai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HBE/wang_yintai.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

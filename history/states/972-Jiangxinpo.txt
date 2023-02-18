@@ -1,0 +1,25 @@
+state=
+{
+	id=972
+	name="STATE_972"
+	manpower = 500000
+	
+	state_category = city
+
+	history=
+	{
+		owner = BRM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BRM
+		add_core_of = CHI
+		add_core_of = YUN
+	}
+
+	provinces={
+		4087 1197 4318 4588 8063 1934 4996
+	}
+
+	local_supplies=0.0 
+}

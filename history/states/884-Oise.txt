@@ -1,0 +1,19 @@
+state={
+	id=884
+	name="STATE_884"
+
+	history={
+		owner = MFR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = FRA
+		add_core_of = FFR
+	}
+	provinces={
+		6585 9561
+	}
+	manpower=441500
+	state_category=town
+	local_supplies=0.000
+}

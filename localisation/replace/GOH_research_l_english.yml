@@ -1,0 +1,30 @@
+﻿l_english:
+#infantry
+##infantry ATs
+infantry_at3:0 "反坦克发射器"
+infantry_at4:0 "反坦克发射器（改良）"
+infantry_at5:0 "火箭推进反坦克榴弹发射器"
+##modifications
+optical_sights:0 "早期光学瞄准器"
+optical_sights2:0 "改良光学瞄准器"
+modular_concept:0 "模块化概念"
+##infantry weapons
+infantry_weapons0:0 "优化步兵武器设计 I"
+advanced_infantry_weapons1:0 "优化步兵火力配置 I"
+##support weapons 
+support_weapons2_1:0 "优化支援武器设计 I"
+support_weapons3_1:0 "优化支援武器设计 II"
+##uniforms
+uniform:0 "基本作战服"
+uniform2:0 "优化作战服设计 I"
+uniform3:0 "伪装色迷彩"
+uniform4:0 "多色图案迷彩"
+uniform5:0 "优化作战服设计 II"
+uniform6:0 "优化作战服材料 I"
+##infantry armors
+infantry_armor:0 "早期步兵装具"
+infantry_armor2:0 "胸甲"
+infantry_armor3:0 "基本步兵装具"
+infantry_armor4:0 "改良步兵装具"
+infantry_armor5:0 "基本步兵护具"
+infantry_armor6:0 "战术背心"

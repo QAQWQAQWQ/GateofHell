@@ -1,0 +1,301 @@
+characters = {
+	GER_adolf_hitler = {
+		name = GER_adolf_hitler
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/adolf_hitler.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "GER_adolf_hitler_desc"
+		}
+	}
+	GER_heinz_guderian = {
+		name = GER_heinz_guderian
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/heinz_guderian.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_walther_wenck = {
+		name = GER_walther_wenck
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/walther_wenck.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_erich_von_manstein = {
+		name = GER_erich_von_manstein
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/erich_von_manstein.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_erwin_rommel = {
+		name = GER_erwin_rommel
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/erwin_rommel.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_ferdinand_schorner = {
+		name = GER_ferdinand_schorner
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/ferdinand_schorner.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_alfred_jodl = {
+		name = GER_alfred_jodl
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/alfred_jodl.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_hasso_von_boehmer = {
+		name = GER_hasso_von_boehmer
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/hasso_von_boehmer.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_heinz_gunther_guderian = {
+		name = GER_heinz_gunther_guderian
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/heinz_gunther_guderian.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_otto_gunscher = {
+		name = GER_otto_gunscher
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/otto_gunscher.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_paul_klatt = {
+		name = GER_paul_klatt
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/paul_klatt.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_hermann_hoth = {
+		name = GER_hermann_hoth
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/hermann_hoth.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_josef_gangl = {
+		name = GER_josef_gangl
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/josef_gangl.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_adolf_heusinger = {
+		name = GER_adolf_heusinger
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/adolf_heusinger.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_fritz_bayerlein = {
+		name = GER_fritz_bayerlein
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/fritz_bayerlein.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_hans_speidel = {
+		name = GER_hans_speidel
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/hans_speidel.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_wessel_freytag_von_loringhoven = {
+		name = GER_wessel_freytag_von_loringhoven
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/wessel_freytag_von_loringhoven.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_wessel_freytag_von_loringhoven = {
+		name = GER_wessel_freytag_von_loringhoven
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/wessel_freytag_von_loringhoven.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_hubert_lanz = {
+		name = GER_hubert_lanz
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/hubert_lanz.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	GER_walther_nehring = {
+		name = GER_walther_nehring
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/walther_nehring.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+}

@@ -1,0 +1,381 @@
+focus_tree = {
+	id = SOV1
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = SOV
+		}
+	}
+	focus = {
+		id = SOV1_the_memory_of_1943
+		icon = SOV1_the_memory_of_1943
+		cost = 5
+		x = 7
+		y = 0
+		completion_reward = { 
+			SOV = {
+				country_event = {
+					id = SOV.2
+					hours = 3
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV1_end_the_fourth_five_year_plan
+		icon = SOV1_end_the_fourth_five_year_plan
+		cost = 5
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = SOV1_the_memory_of_1943
+		}
+		available = {
+		}
+		completion_reward = { 
+			570 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			SOV = {
+				country_event = {
+					id = SOV.6
+					hours = 3
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV1_industry_development_report
+		icon = SOV1_industry_development_report
+		cost = 5
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = SOV1_end_the_fourth_five_year_plan
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_grain_and_food
+		icon = SOV1_grain_and_food
+		cost = 5
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = SOV1_end_the_fourth_five_year_plan
+		}
+		available = {
+		}
+		completion_reward = { 
+			SOV = {
+				country_event = {
+					id = SOV.7
+					hours = 3
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV1_a_new_index
+		icon = SOV1_a_new_index
+		cost = 5
+		x = 4
+		y = 2
+		prerequisite = {
+			focus = SOV1_end_the_fourth_five_year_plan
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_start_the_fifth_five_year_plan
+		icon = SOV1_start_the_fifth_five_year_plan
+		cost = 5
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = SOV1_industry_development_report
+		}
+		prerequisite = {
+			focus = SOV1_grain_and_food
+		}
+		prerequisite = {
+			focus = SOV1_a_new_index
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_issues_at_present
+		icon = SOV1_issues_at_present
+		cost = 5
+		x = 2
+		y = 4
+		prerequisite = {
+			focus = SOV1_start_the_fifth_five_year_plan
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_a_temporary_friend
+		icon = SOV1_a_temporary_friend
+		cost = 5
+		x = 7
+		y = 1
+		prerequisite = {
+			focus = SOV1_the_memory_of_1943
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_a_meeting
+		icon = SOV1_a_meeting
+		cost = 5
+		x = 7
+		y = 2
+		prerequisite = {
+			focus = SOV1_a_temporary_friend
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_a_visit_for_friendship
+		icon = SOV1_a_visit_for_friendship
+		cost = 5
+		x = 6
+		y = 3
+		prerequisite = {
+			focus = SOV1_a_meeting
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_contact_in_need
+		icon = SOV1_contact_in_need
+		cost = 5
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = SOV1_a_meeting
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_together_until
+		icon = SOV1_together_until
+		cost = 5
+		x = 7
+		y = 4
+		prerequisite = {
+			focus = SOV1_a_visit_for_friendship
+		}
+		prerequisite = {
+			focus = SOV1_contact_in_need
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_an_army_prepared
+		icon = SOV1_an_army_prepared
+		cost = 5
+		x = 11
+		y = 1
+		prerequisite = {
+			focus = SOV1_the_memory_of_1943
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_the_great_manoeuvres_in_siberia
+		icon = SOV1_the_great_manoeuvres_in_siberia
+		cost = 5
+		x = 11
+		y = 2
+		prerequisite = {
+			focus = SOV1_an_army_prepared
+		}
+		available = {
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_zhukovs_plan
+		icon = SOV1_zhukovs_plan
+		cost = 5
+		x = 10
+		y = 3
+		prerequisite = {
+			focus = SOV1_the_great_manoeuvres_in_siberia
+		}
+		mutually_exclusive = {
+			focus = SOV1_konevs_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_konevs_plan
+		icon = SOV1_konevs_plan
+		cost = 5
+		x = 12
+		y = 3
+		prerequisite = {
+			focus = SOV1_the_great_manoeuvres_in_siberia
+		}
+		mutually_exclusive = {
+			focus = SOV1_zhukovs_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_peoples_army
+		icon = SOV1_peoples_army
+		cost = 5
+		x = 11
+		y = 4
+		prerequisite = {
+			focus = SOV1_zhukovs_plan
+			focus = SOV1_konevs_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_betrayers_and_enemies
+		icon = SOV1_betrayers_and_enemies
+		cost = 5
+		x = 15
+		y = 0
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_the_deadly_foe
+		icon = SOV1_the_deadly_foe
+		cost = 5
+		x = 14
+		y = 1
+		prerequisite = {
+			focus = SOV1_betrayers_and_enemies
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_aim_at_ural
+		icon = SOV1_aim_at_ural
+		cost = 5
+		x = 16
+		y = 1
+		prerequisite = {
+			focus = SOV1_betrayers_and_enemies
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_we_will_get_even_for_this
+		icon = SOV1_we_will_get_even_for_this
+		cost = 5
+		x = 15
+		y = 2
+		prerequisite = {
+			focus = SOV1_the_deadly_foe
+		}
+		prerequisite = {
+			focus = SOV1_aim_at_ural
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_our_old_friend
+		icon = SOV1_our_old_friend
+		cost = 5
+		x = 14
+		y = 3
+		prerequisite = {
+			focus = SOV1_we_will_get_even_for_this
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_the_kazakh_problem
+		icon = SOV1_the_kazakh_problem
+		cost = 5
+		x = 16
+		y = 3
+		prerequisite = {
+			focus = SOV1_we_will_get_even_for_this
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_necessary_means
+		icon = SOV1_necessary_means
+		cost = 5
+		x = 14
+		y = 4
+		prerequisite = {
+			focus = SOV1_our_old_friend
+		}
+		prerequisite = {
+			focus = SOV1_the_kazakh_problem
+		}
+		mutually_exclusive = {
+			focus = SOV1_act_tough_talk_soft
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_act_tough_talk_soft
+		icon = SOV1_act_tough_talk_soft
+		cost = 5
+		x = 16
+		y = 4
+		prerequisite = {
+			focus = SOV1_our_old_friend
+		}
+		prerequisite = {
+			focus = SOV1_the_kazakh_problem
+		}
+		mutually_exclusive = {
+			focus = SOV1_necessary_means
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SOV1_a_newborn_soviet
+		icon = SOV1_a_newborn_soviet
+		cost = 5
+		x = 15
+		y = 5
+		prerequisite = {
+			focus = SOV1_necessary_means
+			focus = SOV1_act_tough_talk_soft
+		}
+		completion_reward = { }
+	}
+}

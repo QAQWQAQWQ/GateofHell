@@ -1,0 +1,4 @@
+﻿l_english:
+GDP_desc:0 "§HGDP§!\n\n本国GDP：[?country_GDP|Y2]"
+GDP_desc_delayed:0 "GDP，即国内生产总值。"
+country_name:0 "[?THIS.GetName]"

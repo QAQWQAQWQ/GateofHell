@@ -1,0 +1,21 @@
+state={
+	id=849
+	name="STATE_849"
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SIA
+		add_core_of = CAM
+	}
+
+	provinces={
+		1353 10177 10134 4251 10467 4302 12460 12447 1592
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category =rural
+	local_supplies=0.000
+}

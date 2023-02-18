@@ -1,0 +1,22 @@
+
+state={
+	id=1073
+	name="STATE_1073"
+	manpower = 71916
+	
+	state_category = enclave
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		13406
+	}
+
+	local_supplies=0.0 
+}

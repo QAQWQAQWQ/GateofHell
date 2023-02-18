@@ -1,0 +1,23 @@
+state={
+	id=856
+	name="STATE_856"
+
+	history={
+		owner = MNC
+		victory_points = {
+			13261 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		13261
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

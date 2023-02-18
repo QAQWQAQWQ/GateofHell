@@ -1,0 +1,10 @@
+CHI_economy_category = {
+    picture = GFX_decision_category_picture
+	allowed = {
+		tag = CHI
+	}
+
+	scripted_gui = chi_economy_situation_ui
+
+    priority = 10
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=977
+	name="STATE_977"
+	manpower = 55749
+
+	state_category = rural
+
+	history={
+		owner = ROA
+		victory_points = {
+			3316 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		add_core_of = ROA
+	}
+
+	provinces={
+		353 3343 6366 3477 326 3316
+	}
+
+	local_supplies=7.0 
+}

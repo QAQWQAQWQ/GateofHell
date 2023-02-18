@@ -1,0 +1,22 @@
+
+state={
+	id=1050
+	name="STATE_1050"
+	manpower = 1550000
+	state_category = rural
+
+	history={
+		owner = JAP
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		10004 1018 11926 4023
+	}
+
+	local_supplies=1.0 
+}

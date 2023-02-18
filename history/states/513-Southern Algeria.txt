@@ -1,0 +1,25 @@
+
+state={
+	id=513
+	name="STATE_513"
+	manpower = 143270
+	
+	state_category = wasteland
+
+	history={
+		owner = FAL
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4970 1
+		}
+	}
+
+	provinces={
+		5053 12888 4970 13408 13413 8077 8061
+	}
+
+	local_supplies=0.0 
+}

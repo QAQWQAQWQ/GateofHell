@@ -1,0 +1,167 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 18
+	}
+
+	### CONSCRIPTION LAWS
+	spriteType = {
+		name = "GFX_idea_disarmed_nation"
+		texturefile = "gfx/interface/ideas/idea_disarmed_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_volunteer_only"
+		texturefile = "gfx/interface/ideas/idea_volunteer_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_limited_conscription"
+		texturefile = "gfx/interface/ideas/idea_limited_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_extensive_conscription"
+		texturefile = "gfx/interface/ideas/idea_extensive_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_service_by_requirement"
+		texturefile = "gfx/interface/ideas/idea_service_by_requirement.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_all_adults_serve"
+		texturefile = "gfx/interface/ideas/idea_all_adults_serve.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_scraping_the_barrel"
+		texturefile = "gfx/interface/ideas/idea_scraping_the_barrel.dds"
+	}
+
+	### ECONOMY LAWS
+	spriteType = {
+		name = "GFX_idea_undisturbed_isolation"
+		texturefile = "gfx/interface/ideas/idea_undisturbed_isolation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_isolation"
+		texturefile = "gfx/interface/ideas/idea_isolation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_civilian_economy"
+		texturefile = "gfx/interface/ideas/idea_civilian_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/idea_low_economic_mobilisation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_partial_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/idea_partial_economic_mobilisation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_war_economy"
+		texturefile = "gfx/interface/ideas/idea_war_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tot_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/idea_tot_economic_mobilisation.dds"
+	}
+
+	### GENERIC economic ideas
+	spriteType = {
+		name = "GFX_idea_closed_economy"
+		texturefile = "gfx/interface/ideas/idea_generic_closed_economy.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_limited_exports"
+		texturefile = "gfx/interface/ideas/idea_generic_limited_exports.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_free_trade"
+		texturefile = "gfx/interface/ideas/idea_generic_free_trade.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_export_focus"
+		texturefile = "gfx/interface/ideas/idea_generic_export_focus.dds"
+	}	
+
+	#political systems
+	##party systems
+
+	#national sp.
+	##GFX_idea_FFR
+	spriteType = {
+		name = "GFX_idea_FFR_francais"
+		texturefile = "gfx/interface/ideas/FFR/francais.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FFR_infertile_continent"
+		texturefile = "gfx/interface/ideas/FFR/infertile_continent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FFR_national_conflict"
+		texturefile = "gfx/interface/ideas/FFR/national_conflict.dds"
+	}
+	##GFX_idea_GER
+	spriteType = {
+		name = "GFX_idea_GER_GWN"
+		textureFile = "gfx/interface/ideas/GER/GWN.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_overlooking_the_world"
+		textureFile = "gfx/interface/ideas/GER/overlooking_the_world.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_serious_corruption"
+		textureFile = "gfx/interface/ideas/GER/serious_corruption.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_seven_year_legacy"
+		textureFile = "gfx/interface/ideas/GER/seven_year_legacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_thousand_years_reich"
+		textureFile = "gfx/interface/ideas/GER/thousand_years_reich.dds"
+	}
+	##GFX_idea_SOV
+	spriteType = {
+		name = "GFX_idea_SOV_extra_population"
+		textureFile = "gfx/interface/ideas/SOV/extra_population.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_the_fourth_five_year_plan"
+		textureFile = "gfx/interface/ideas/SOV/the_fourth_five_year_plan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_the_red_army"
+		textureFile = "gfx/interface/ideas/SOV/the_red_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_the_shadow_of_defeat"
+		textureFile = "gfx/interface/ideas/SOV/the_shadow_of_defeat.dds"
+	}
+	##GFX_idea_GRE
+	spriteType = {
+		name = "GFX_idea_GRE_fragmented_country"
+		textureFile = "gfx/interface/ideas/GRE/fragmented_country.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_kneeling_servant"
+		textureFile = "gfx/interface/ideas/GRE/kneeling_servant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_linus_dominance"
+		textureFile = "gfx/interface/ideas/GRE/linus_dominance.dds"
+	}
+	##GFX_idea_INS
+	spriteType = {
+		name = "GFX_idea_INS_anti_chinese_policy"
+		textureFile = "gfx/interface/ideas/INS/anti_chinese_policy.dds"
+	}
+	##GFX_idea_FAL
+	spriteType = {
+		name = "GFX_idea_FAL_legacy_of_the_setif_incident"
+		textureFile = "gfx/interface/ideas/FAL/legacy_of_the_setif_incident.dds"
+	}
+}

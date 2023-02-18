@@ -1,0 +1,15 @@
+characters = {
+	PRC_mao_ze_dong = {
+		name = PRC_mao_ze_dong
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/mao_ze_dong.dds"
+			}
+		}
+		country_leader = {
+			ideology = mao_zedong_thought
+			expire = "1991.12.25.1"
+			id = -1
+		}
+	}
+}

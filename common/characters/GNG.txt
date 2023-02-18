@@ -1,0 +1,16 @@
+characters = {
+	GNG_hans_frank = {
+		name = GNG_hans_frank
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GNG/hans_frank.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

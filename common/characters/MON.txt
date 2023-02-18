@@ -1,0 +1,16 @@
+characters = {
+	MON_khorloogiin_choibalsan = {
+		name = MON_khorloogiin_choibalsan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/khorloogiin_choibalsan.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

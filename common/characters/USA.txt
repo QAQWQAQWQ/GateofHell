@@ -1,0 +1,16 @@
+characters = {
+	USA_thomas_dewey = {
+		name = USA_thomas_dewey
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/thomas_dewey.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 992 # Begemder
+	name = "STATE_992"
+	manpower = 1100000
+	resources = {
+	}
+	
+	state_category = pastoral
+
+	history = {
+		buildings = {
+			infrastructure = 1
+		}
+		
+		victory_points = { 
+			1984 2
+		}
+		
+		owner = AOI
+		add_core_of = AOI
+	}
+
+	provinces = {
+ 		1984 2040 13137 13280
+ 	}
+
+	local_supplies = 0.0 
+}

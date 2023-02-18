@@ -1,0 +1,20 @@
+
+state={
+	id=984
+	name="STATE_984"
+	manpower = 20000
+	state_category = wasteland
+	resources={
+	}
+	history={
+		owner = FAL
+		buildings = {
+			infrastructure = 1 
+		}
+		add_core_of = ALG
+	}
+	provinces={
+		12849 5095 10749
+	}
+	local_supplies=0.0 
+}

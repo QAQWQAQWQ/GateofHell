@@ -1,0 +1,24 @@
+
+state={
+	id=1052
+	name="STATE_1052"
+	manpower = 114603
+	state_category = rural
+
+	history={
+		owner = RKM
+		add_core_of = SOV
+		victory_points = {
+			6095 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		70 6095 11174 71 6035 3110
+	}
+
+	local_supplies=1.0 
+}

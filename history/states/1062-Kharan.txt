@@ -1,0 +1,26 @@
+
+state={
+	id=1062
+	name="STATE_1062" # Baluchistan
+	manpower = 54573
+	
+	state_category = wasteland
+
+	history={
+		owner = PAK
+		victory_points = {
+			8013 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = KHR
+		add_core_of = PAK
+	}
+
+	provinces={
+		12761 8013 5043
+	}
+
+	local_supplies=0.0 
+}

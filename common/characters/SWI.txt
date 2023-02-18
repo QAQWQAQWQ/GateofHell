@@ -1,0 +1,16 @@
+characters = {
+	SWI_federal_council = {
+		name = SWI_federal_council
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/federal_council.dds"
+			}
+		}
+		country_leader = {
+			ideology = direct_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

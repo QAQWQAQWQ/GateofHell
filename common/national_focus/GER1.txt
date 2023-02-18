@@ -1,0 +1,381 @@
+focus_tree = {
+	id = GER1
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = GER
+		}
+	}
+	focus = {
+		id = GER1_second_quarter_report
+		icon = GER1_second_quarter_report
+		cost = 5
+		x = 9
+		y = 0
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_reform
+		icon = GER1_reform
+		cost = 5
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = GER1_second_quarter_report
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_alberts_plan
+		icon = GER1_alberts_plan
+		cost = 5
+		x = 1
+		y = 2
+		prerequisite = {
+			focus = GER1_reform
+		}
+		mutually_exclusive = {
+			focus = GER1_funks_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_slavery_factories
+		icon = GER1_alberts_plan
+		cost = 5
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = GER1_alberts_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_some_tricks
+		icon = GER1_some_tricks
+		cost = 5
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = GER1_alberts_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_reform_end1
+		icon = GER1_alberts_plan
+		cost = 5
+		x = 1
+		y = 4
+		prerequisite = {
+			focus = GER1_slavery_factories
+		}
+		prerequisite = {
+			focus = GER1_some_tricks
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_bind_them_with_reichsmark
+		icon = GER1_bind_them_with_reichsmark
+		cost = 5
+		x = 0
+		y = 5
+		prerequisite = {
+			focus = GER1_reform_end1
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_german_capital_in_hungary
+		icon = GER1_german_capital_in_hungary
+		cost = 5
+		x = 2
+		y = 5
+		prerequisite = {
+			focus = GER1_reform_end1
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_reform_end2
+		icon = GER1_reform_end2
+		cost = 5
+		x = 1
+		y = 6
+		prerequisite = {
+			focus = GER1_bind_them_with_reichsmark
+		}
+		prerequisite = {
+			focus = GER1_german_capital_in_hungary
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_funks_plan
+		icon = GER1_funks_plan
+		cost = 5
+		x = 5
+		y = 2
+		prerequisite = {
+			focus = GER1_reform
+		}
+		mutually_exclusive = {
+			focus = GER1_alberts_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_internal_and_external_contact
+		icon = GER1_internal_and_external_contact
+		cost = 5
+		x = 4
+		y = 3
+		prerequisite = {
+			focus = GER1_funks_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_consolidation_and_stablization
+		icon = GER1_consolidation_and_stablization
+		cost = 5
+		x = 6
+		y = 3
+		prerequisite = {
+			focus = GER1_funks_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_a_larger_step
+		icon = GER1_a_larger_step
+		cost = 5
+		x = 5
+		y = 4
+		prerequisite = {
+			focus = GER1_internal_and_external_contact
+		}
+		prerequisite = {
+			focus = GER1_consolidation_and_stablization
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_our_spanish_friend
+		icon = GER1_our_spanish_friend
+		cost = 5
+		x = 4
+		y = 5
+		prerequisite = {
+			focus = GER1_a_larger_step
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_change_our_economical_policy_to_france
+		icon = GER1_change_our_economical_policy_to_france
+		cost = 5
+		x = 6
+		y = 5
+		prerequisite = {
+			focus = GER1_a_larger_step
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_from_east_to_west
+		icon = GER1_from_east_to_west
+		cost = 5
+		x = 5
+		y = 6
+		prerequisite = {
+			focus = GER1_our_spanish_friend
+		}
+		prerequisite = {
+			focus = GER1_change_our_economical_policy_to_france
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_london_meeting
+		icon = GER1_london_meeting
+		cost = 5
+		x = 3
+		y = 7
+		prerequisite = {
+			focus = GER1_reform_end2
+			focus = GER1_from_east_to_west
+		}
+		completion_reward = { }
+	}
+
+	#second line
+	
+	focus = {
+		id = GER1_stepping_in_the_50s
+		icon = GER1_stepping_in_the_50s
+		cost = 5
+		x = 9
+		y = 1
+		prerequisite = {
+			focus = GER1_second_quarter_report
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_germania_project
+		icon = GER1_germania_project
+		cost = 5
+		x = 9
+		y = 2
+		prerequisite = {
+			focus = GER1_stepping_in_the_50s
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_lower_danube_infrastructure_construction
+		icon = GER1_lower_danube_infrastructure_construction
+		cost = 5
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = GER1_germania_project
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_construction_in_the_east
+		icon = GER1_construction_in_the_east
+		cost = 5
+		x = 10
+		y = 3
+		prerequisite = {
+			focus = GER1_germania_project
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_develop_the_three_rules
+		icon = GER1_develop_the_three_rules
+		cost = 5
+		x = 9
+		y = 4
+		prerequisite = {
+			focus = GER1_lower_danube_infrastructure_construction
+		}
+		prerequisite = {
+			focus = GER1_construction_in_the_east
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_road_to_the_north_sea
+		icon = GER1_road_to_the_north_sea
+		cost = 5
+		x = 8
+		y = 5
+		prerequisite = {
+			focus = GER1_develop_the_three_rules
+		}
+		mutually_exclusive = {
+			focus = GER1_sight_to_the_nordic
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_sight_to_the_nordic
+		icon = GER1_sight_to_the_nordic
+		cost = 5
+		x = 10
+		y = 5
+		prerequisite = {
+			focus = GER1_develop_the_three_rules
+		}
+		mutually_exclusive = {
+			focus = GER1_road_to_the_north_sea
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_german_road
+		icon = GER1_german_road
+		cost = 5
+		x = 9
+		y = 6
+		prerequisite = {
+			focus = GER1_road_to_the_north_sea
+		}
+		prerequisite = {
+			focus = GER1_sight_to_the_nordic
+		}
+		completion_reward = { }
+	}
+
+	#third line
+
+	focus = {
+		id = GER1_unternehmen_tannenbaum
+		icon = GER1_unternehmen_tannenbaum
+		cost = 5
+		x = 13
+		y = 1
+		prerequisite = {
+			focus = GER1_second_quarter_report
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_swiss_system
+		icon = GER1_swiss_system
+		cost = 5
+		x = 12
+		y = 2
+		prerequisite = {
+			focus = GER1_unternehmen_tannenbaum
+		}
+		mutually_exclusive = {
+			focus = GER1_himmlers_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_himmlers_plan
+		icon = GER1_himmlers_plan
+		cost = 5
+		x = 14
+		y = 2
+		prerequisite = {
+			focus = GER1_unternehmen_tannenbaum
+		}
+		mutually_exclusive = {
+			focus = GER1_swiss_system
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_bolshevik_enemies
+		icon = GER1_bolshevik_enemies
+		cost = 5
+		x = 13
+		y = 3
+		prerequisite = {
+			focus = GER1_swiss_system
+			focus = GER1_himmlers_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_across_the_strait
+		icon = GER1_across_the_strait
+		cost = 5
+		x = 13
+		y = 4
+		prerequisite = {
+			focus = GER1_bolshevik_enemies
+		}
+		completion_reward = { }
+	}
+}

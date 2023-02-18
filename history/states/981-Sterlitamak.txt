@@ -1,0 +1,28 @@
+
+state = {
+	id = 981
+	name = "STATE_981"
+	manpower = 305275
+	
+	state_category = town
+
+	history = {
+		owner = STE
+		victory_points = {
+			4354 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_core_of = URA
+		add_core_of = STE
+	}
+
+	provinces = {
+		7237 9349 273 12172 3289 1305 4283 4354
+	}
+
+	local_supplies = 0.0 
+}

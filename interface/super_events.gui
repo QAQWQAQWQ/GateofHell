@@ -1,0 +1,97 @@
+guiTypes = {
+	containerWindowType = {
+		name = "super_event_window"
+		size = {
+			width = 713
+			height = 620
+		}
+		position = { x = -20 y = 9999 }
+		show_position = { x = -20 y = 20 }
+		hide_position = { x = -20 y = 9999 }
+		animation_time = 1
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		orientation = CENTER
+		origo = center
+		moveable = yes
+		clipping = no
+
+		background = {
+			name = "placeholder"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+		iconType = {
+			name = "SE_image"
+			orientation = CENTER
+			alwaystransparent = yes
+			position = {
+				x = -245
+				y = -230
+			}
+		}
+		containerWindowType = {
+			name = "super_event_window"
+			size = {
+				width = 713
+				height = 620
+			}
+			position = {
+				x = 0
+				y = 0
+			}
+			orientation = CENTER
+			origo = center
+			clipping = no
+			background = {
+				name = "super_event_background"
+				quadTextureSprite = "super_event_background"
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name = "option"
+				text = "[GetSuperEventOption]"
+				position = {
+					x = -112
+					y = 300
+				}
+				quadTextureSprite = "superevent_button"
+				buttonFont = "hoi_18"
+				orientation = CENTER
+			}
+			instantTextBoxType = {
+				name = "desc"
+				position = {
+					x = -585
+					y = 525
+				}
+				font = "hoi_18"
+				borderSize = {
+					x = 0
+					y = 0
+				}
+				text = "[GetSuperEventDesc]"
+				maxWidth = 465
+				maxHeight = 155
+				fixedsize = yes
+				format = right
+				orientation = UPPER_RIGHT
+			}
+			instantTextBoxType = {
+				name = "title"
+				position = {
+					x = 255
+					y = 478
+				}
+				font = "hoi_24header"
+				borderSize = {
+					x = 0
+					y = 0
+				}
+				text = "[GetSuperEventTitle]"
+				maxWidth = 200
+				maxHeight = 20
+				format = center
+			}
+		}
+	}
+}

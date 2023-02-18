@@ -1,0 +1,28 @@
+state = {
+	id = 987 # Bale
+	name = "STATE_987"
+	manpower = 800000
+	resources = {
+	}
+	
+	state_category = pastoral
+
+	history = {
+		buildings = {
+			infrastructure = 1
+		}
+		# Gaba
+		victory_points = { 
+			10775 1
+		}
+		
+		owner = AOI
+		add_core_of = AOI
+	}
+
+	provinces = {
+ 		10775 13287 4995 
+ 	}
+
+	local_supplies = 0.0 
+}

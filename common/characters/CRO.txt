@@ -1,0 +1,16 @@
+characters = {
+	CRO_ante_pavelic = {
+		name = CRO_ante_pavelic
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRO/ante_pavelic.dds"
+			}
+		}
+		country_leader = {
+			ideology = ustasism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

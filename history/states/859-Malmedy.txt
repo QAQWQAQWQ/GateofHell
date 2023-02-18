@@ -1,0 +1,20 @@
+state={
+	id=859
+	name="STATE_859"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GER
+		add_core_of = BEL
+	}
+
+	provinces={
+		3488
+	}
+	manpower=36150
+	state_category=rural
+	local_supplies=0.000
+}

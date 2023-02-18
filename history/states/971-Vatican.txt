@@ -1,0 +1,26 @@
+state=
+{
+	id=971
+	name="STATE_971"
+	manpower = 500
+	
+	state_category = city
+
+	history=
+	{
+		owner = VAT
+		victory_points = {
+			13273 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = VAT
+	}
+
+	provinces={
+		13273
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,23 @@
+state={
+	id=880
+	name="STATE_880"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = MAL
+		victory_points = {
+			13262 2
+		}
+	}
+
+	provinces={
+		13262
+	}
+	manpower=779100
+	state_category=rural
+	local_supplies=0.000
+}

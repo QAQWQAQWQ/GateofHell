@@ -1,0 +1,29 @@
+
+state={
+	id=103
+	name="STATE_103"
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 1
+			6889 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CRO
+		victory_points = {
+			6889 3
+		}
+	}
+
+	provinces={
+		3924 3974 11816 6889
+	}
+	manpower=1431700
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=4.000
+}

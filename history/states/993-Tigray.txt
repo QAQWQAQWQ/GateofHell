@@ -1,0 +1,30 @@
+
+state={
+	id=993
+	name="STATE_993"
+
+	history={
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			2072 2 
+		}
+		victory_points = {
+			13276 1 
+		}
+		victory_points = {
+			13277 1 
+		}
+		owner = AOI
+		add_core_of = AOI
+	}
+
+	provinces={
+		13276 2072 13277 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

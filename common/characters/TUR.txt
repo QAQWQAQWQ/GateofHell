@@ -1,0 +1,16 @@
+characters = {
+	TUR_ismet_inonu = {
+		name = TUR_ismet_inonu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TUR/ismet_inonu.dds"
+			}
+		}
+		country_leader = {
+			ideology = kemalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

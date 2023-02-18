@@ -1,0 +1,10 @@
+ideas = {
+	country = {
+		FAL_legacy_of_the_setif_incident = {
+			picture = FAL_legacy_of_the_setif_incident
+			modifier = {
+				stability_weekly = -0.01
+			}
+		}
+	}
+}

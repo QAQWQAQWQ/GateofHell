@@ -1,0 +1,25 @@
+state = {
+	id = 996
+	name = "STATE_996"
+
+	history = {
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4973 1
+		}
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+	provinces = {
+		4973 10911 
+	}
+	manpower = 500000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

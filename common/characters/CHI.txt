@@ -1,0 +1,60 @@
+characters = {
+	CHI_li_zongren = {
+		name = CHI_li_zongren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/li_zongren.dds"
+			}
+		}
+		country_leader = {
+			ideology = xun_zheng
+			expire = "1991.12.25.1"
+			id = -1
+		}
+	}
+	CHI_du_yuming = {
+		name = CHI_du_yuming
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/du_yuming.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	CHI_bai_chongxi = {
+		name = CHI_bai_chongxi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/bai_chongxi.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	CHI_sun_liren = {
+		name = CHI_sun_liren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/sun_liren.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+}

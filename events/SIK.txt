@@ -1,0 +1,24 @@
+add_namespace = SIK
+
+country_event = {
+	id = SIK.1
+	title = SIK.1.title
+	desc = SIK.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SIK.1.a
+		PRC = {
+			country_event = PRC.2
+		}
+	}
+	option = {
+		name = SIK.1.b
+		SIK = {
+			add_war_support = 0.2
+			add_political_power = 100
+		}
+	}
+}

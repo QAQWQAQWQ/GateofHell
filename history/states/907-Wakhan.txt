@@ -1,0 +1,22 @@
+
+state={
+	id=907
+	name="STATE_907"
+	manpower=32100
+	
+	state_category = wasteland
+	
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AFG
+	}
+
+	provinces={
+		7519 12653
+	}
+
+	local_supplies=0.0 
+}

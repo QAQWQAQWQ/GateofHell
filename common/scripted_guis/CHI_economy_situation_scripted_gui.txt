@@ -1,0 +1,13 @@
+scripted_gui = {
+
+	chi_economy_situation_ui = {
+		context_type = decision_category
+		window_name = "chi_economy_situation_ui_window"
+
+		properties = {
+			economy_situation_icon = {
+				frame = current_economy_situation_icon_frame_ui
+			}
+		}
+	}
+}

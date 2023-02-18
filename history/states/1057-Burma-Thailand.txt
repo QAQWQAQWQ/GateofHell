@@ -1,0 +1,21 @@
+state={
+	id=1057
+	name="STATE_1057"
+	manpower = 200000
+	
+	state_category = rural
+	
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SIA
+	}
+	
+	provinces={
+		7647 7400 7909 4175 7974 12317
+	}
+
+	local_supplies=0.0 
+}
