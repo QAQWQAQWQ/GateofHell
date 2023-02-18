@@ -1,0 +1,30 @@
+add_namespace = JAP
+
+news_event = {
+	id = JAP.1
+	title = JAP.1.title
+	desc = JAP.1.desc
+	picture = JAP_ogata_taketora
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = JAP.1.a
+	}
+}
+news_event = {
+	id = JAP.2
+	title = JAP.2.title
+	desc = JAP.2.desc
+	picture = JAP_ichiro_hatoyama
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = JAP.2.a
+	}
+}

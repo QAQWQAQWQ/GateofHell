@@ -1,0 +1,17 @@
+add_namespace = ROA
+
+news_event = {
+	id = ROA.1
+	title = ROA.1.title
+	desc = ROA.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = ROA.1.a
+		hidden_effect = {
+			set_variable = { SE_var = 3 }#SE
+			fire_super_event_sound = yes
+		}
+	}
+}

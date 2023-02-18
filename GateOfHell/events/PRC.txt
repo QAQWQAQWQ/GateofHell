@@ -1,0 +1,39 @@
+add_namespace = PRC
+
+news_event = {
+	id = PRC.1
+	title = PRC.1.title
+	desc = PRC.1.desc
+	picture = PRC_northwestern_war_end
+
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = PRC.1.a
+	}
+}
+country_event = {
+	id = PRC.2
+	title = PRC.2.title
+	desc = PRC.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = PRC.2.a
+		PRC = {
+			annex_country = {
+				target = SIK
+				transfer_troops = yes
+			}
+		}
+		news_event = {
+			id = PRC.1
+			hours = 12
+		}
+	}
+}

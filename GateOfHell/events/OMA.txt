@@ -1,0 +1,41 @@
+add_namespace = OMA
+
+news_event = {
+	id = OMA.1
+	title = OMA.1.title
+	desc = OMA.1.desc
+	picture = OMA_jebel_akhdar_war
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = OMA.1.a
+	}
+}
+country_event = {
+	id = OMA.2
+	title = OMA.2.title
+
+	is_triggered_only = yes
+
+	option = {
+		name = OMA.2.a
+		OMA = {
+			set_autonomy = {
+				target = OMI
+				autonomy_state = autonomy_free
+			}
+		}
+		OMI = {
+			declare_war_on = {
+				target = OMA
+				type = independence_wargoal
+			}
+		}
+		news_event = {
+			id = OMA.1
+			hours = 12
+		}
+	}
+}
