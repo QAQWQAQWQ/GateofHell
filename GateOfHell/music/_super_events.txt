@@ -1,0 +1,14 @@
+music_station = "gate_of_hell_super_events"
+
+music = {
+	song = "china_reuni_roc"
+	factor = 0
+}
+music = {
+	song = "china_reuni_roc_sunliren"
+	factor = 0
+}
+music = {
+	song = "rus_reuni_roa"
+	factor = 0
+}
