@@ -5,6 +5,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 #####
+#SOV1
 	SpriteType = {
 		name = SOV1_the_memory_of_1943
 		texturefile = "gfx/interface/goals/SOV1_the_memory_of_1943.dds"
@@ -80,5 +81,26 @@ spriteTypes = {
 	SpriteType = {
 		name = SOV1_the_deadly_foe
 		texturefile = "gfx/interface/goals/SOV1_the_deadly_foe.dds"
+	}
+#SAF2
+	SpriteType = {
+		name = SAF2_2
+		texturefile = "gfx/interface/goals/SAF2_2.dds"
+	}
+	SpriteType = {
+		name = SAF2_3
+		texturefile = "gfx/interface/goals/SAF2_3.dds"
+	}
+	SpriteType = {
+		name = SAF2_4
+		texturefile = "gfx/interface/goals/SAF2_4.dds"
+	}
+	SpriteType = {
+		name = SAF2_5
+		texturefile = "gfx/interface/goals/SAF2_6.dds"
+	}
+	SpriteType = {
+		name = SAF2_6
+		texturefile = "gfx/interface/goals/SAF2_6.dds"
 	}
 }
