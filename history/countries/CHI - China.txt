@@ -1,4 +1,4 @@
-﻿capital = 613 # Nanjing
+capital = 613 # Nanjing
 
 set_variable = { current_economy_situation_icon_frame = 0.27 }
 recalc_current_economy_situation_icon_frame = yes
@@ -12,6 +12,10 @@ set_stability = 0.3
 set_war_support = 0.8
 set_convoys = 40
 # Starting tech
+add_ideas = {
+	CHI_defeat
+	CHI_ind_dec
+}
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
