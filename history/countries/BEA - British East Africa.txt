@@ -1,7 +1,11 @@
-﻿capital = 547
+capital = 547
 
 recruit_character = BEA_rowland_baring
-
+add_ideas = {
+	BEA_mil_con
+	BEA_ind_rio
+	BEA_bor_con
+}
 set_technology = {
 	infantry_weapons = 1
 	gwtank = 1
