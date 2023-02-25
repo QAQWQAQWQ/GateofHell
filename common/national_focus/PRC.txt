@@ -1,0 +1,530 @@
+focus_tree = {
+	id = PRC
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = PRC
+		}
+	}
+	focus = {
+		id = PRC_1
+		icon = GFX_unkown
+		cost = 5.00
+		x = 3
+		y = 0
+		mutually_exclusive = {
+		}
+		prerequisite = {
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_2
+		icon = GFX_unkown
+		cost = 5.00
+		x = 3
+		y = 1
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_1
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_3
+		icon = GFX_unkown
+		cost = 5.00
+		x = 2
+		y = 2
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_2
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_4
+		icon = GFX_unkown
+		cost = 5.00
+		x = 4
+		y = 2
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_2
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_5
+		icon = GFX_unkown
+		cost = 5.00
+		x = 3
+		y = 3
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_3
+		}
+		prerequisite = {
+			focus = PRC_4
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_6
+		icon = GFX_unkown
+		cost = 5.00
+		x = 5
+		y = 3
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_3
+		}
+		prerequisite = {
+			focus = PRC_4
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_7
+		icon = GFX_unkown
+		cost = 5.00
+		x = 1
+		y = 3
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_3
+		}
+		prerequisite = {
+			focus = PRC_4
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_8
+		icon = GFX_unkown
+		cost = 5.00
+		x = 3
+		y = 4
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_5
+		}
+		prerequisite = {
+			focus = PRC_6
+		}
+		prerequisite = {
+			focus = PRC_7
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_9
+		icon = GFX_unkown
+		cost = 5.00
+		x = 8
+		y = 0
+		mutually_exclusive = {
+		}
+		prerequisite = {
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_10
+		icon = GFX_unkown
+		cost = 5.00
+		x = 7
+		y = 1
+		mutually_exclusive = {
+			focus = PRC_11
+		}
+		prerequisite = {
+			focus = PRC_9
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_11
+		icon = GFX_unkown
+		cost = 5.00
+		x = 9
+		y = 1
+		mutually_exclusive = {
+			focus = PRC_10
+		}
+		prerequisite = {
+			focus = PRC_9
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_12
+		icon = GFX_unkown
+		cost = 5.00
+		x = 8
+		y = 2
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_10
+		}
+		prerequisite = {
+			focus = PRC_11
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_13
+		icon = GFX_unkown
+		cost = 5.00
+		x = 7
+		y = 3
+		mutually_exclusive = {
+			focus = PRC_14
+		}
+		prerequisite = {
+			focus = PRC_12
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_14
+		icon = GFX_unkown
+		cost = 5.00
+		x = 9
+		y = 3
+		mutually_exclusive = {
+			focus = PRC_13
+		}
+		prerequisite = {
+			focus = PRC_12
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_15
+		icon = GFX_unkown
+		cost = 5.00
+		x = 8
+		y = 4
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_13
+		}
+		prerequisite = {
+			focus = PRC_14
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_16
+		icon = GFX_unkown
+		cost = 5.00
+		x = 12
+		y = 0
+		mutually_exclusive = {
+		}
+		prerequisite = {
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_17
+		icon = GFX_unkown
+		cost = 5.00
+		x = 12
+		y = 1
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_16
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_18
+		icon = GFX_unkown
+		cost = 5.00
+		x = 11
+		y = 2
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_17
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_19
+		icon = GFX_unkown
+		cost = 5.00
+		x = 13
+		y = 2
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_17
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_20
+		icon = GFX_unkown
+		cost = 5.00
+		x = 12
+		y = 4
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_18
+		}
+		prerequisite = {
+			focus = PRC_19
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_21
+		icon = GFX_unkown
+		cost = 5.00
+		x = 11
+		y = 5
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_20
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_22
+		icon = GFX_unkown
+		cost = 5.00
+		x = 13
+		y = 5
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_20
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_23
+		icon = GFX_unkown
+		cost = 5.00
+		x = 9
+		y = 6
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_21
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_24
+		icon = GFX_unkown
+		cost = 5.00
+		x = 11
+		y = 6
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_21
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_25
+		icon = GFX_unkown
+		cost = 5.00
+		x = 13
+		y = 6
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_22
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_26
+		icon = GFX_unkown
+		cost = 5.00
+		x = 15
+		y = 6
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_22
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = PRC_27
+		icon = GFX_unkown
+		cost = 5.00
+		x = 12
+		y = 7
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = PRC_23
+		}
+		prerequisite = {
+			focus = PRC_24
+		}
+		prerequisite = {
+			focus = PRC_25
+		}
+		prerequisite = {
+			focus = PRC_26
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+}
