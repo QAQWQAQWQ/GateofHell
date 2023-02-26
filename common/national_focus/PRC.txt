@@ -10,14 +10,20 @@ focus_tree = {
 	focus = {
 		id = PRC_1
 		icon = GFX_unkown
-		cost = 5.00
+		cost = 6.00
 		x = 3
 		y = 0
 		mutually_exclusive = {
 		}
 		prerequisite = {
 		}
+		select_effect = { 
+			PRC = { country_event = CPC.5 days = 4 } 
+		}
 		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.05
+			PRC = { country_event = CPC.1 } 
 		}
 		available = {
 		}
