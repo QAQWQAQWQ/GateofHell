@@ -1,0 +1,78 @@
+add_namespace = CPC
+country_event = {
+	id = CPC.1
+	title = CPC.1.t
+	desc = CPC.1.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = CPC.1.a
+		army_experience = 10
+		PRC = { country_event = CPC.2 } 
+	}
+	option = {
+		name = CPC.1.b
+		add_political_power = 20
+		PRC = { country_event = CPC.3 } 
+	}
+}
+country_event = {
+	id = CPC.2
+	title = CPC.2.t
+	desc = CPC.2.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = CPC.2.a
+		add_stability = -0.05
+		add_manpower = 500
+		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 200 producer = PRC }
+	}
+}
+country_event = {
+	id = CPC.3
+	title = CPC.3.t
+	desc = CPC.3.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = CPC.3.a
+		add_stability = 0.05
+		add_tech_bonus = {
+			bonus = 0.1
+			uses = 1
+			category = industry
+		}
+	}
+}
+country_event = {
+	id = CPC.4
+	title = CPC.4.t
+	desc = CPC.4.d
+	trigger = {
+		tag = PRC
+		date > 1949.6.30
+	}
+	fire_only_once = yes
+	
+	option = {
+		name = CPC.4.a
+	}
+}
+country_event = {
+	id = CPC.5
+	title = CPC.5.t
+	desc = CPC.5.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = CPC.4.a
+	}
+}
