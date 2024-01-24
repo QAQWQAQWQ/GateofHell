@@ -1,0 +1,5 @@
+music_station = "gate_of_hell_soundtrack"
+
+music = {
+	song = "maintheme"
+}

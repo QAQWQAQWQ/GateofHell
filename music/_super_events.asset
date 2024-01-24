@@ -1,0 +1,6 @@
+# MAIN THEME
+music = {
+	name = "la_violencia"
+	file = "super_events/la_violencia.ogg"
+	volume = 0.7
+}

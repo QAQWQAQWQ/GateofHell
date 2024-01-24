@@ -1,0 +1,6 @@
+music_station = "gate_of_hell_super_events"
+
+music = {
+	song = "la_violencia"
+	factor = 0
+}
