@@ -1,0 +1,16 @@
+characters = {
+	KRN_saw_ba_u_gyi = {
+		name = KRN_saw_ba_u_gyi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KRN/saw_ba_u_gyi.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

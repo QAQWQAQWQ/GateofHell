@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+pp_title: "国家已停止抵抗"
+pp_desc: "[get_pp_desc]"
+pp_flavor: "[get_pp_flavor]"
+pp_close: "好的"
+
+#desc
+pp_desc_BURMA: "在缅甸旷日持久的局部冲突中，§Y[RECIPIENT_COUNTRY.GetNameWithFlag]§!政府已经重新控制了§Y[ACTOR_COUNTRY.GetNameWithFlag]§!的叛乱地区。"
+pp_desc_KOREAN_WAR: "朝鲜再次陷入黑暗。§Y[RECIPIENT_COUNTRY.GetNameWithFlag]§!在自相残杀中消灭了§Y[ACTOR_COUNTRY.GetNameWithFlag]§!。"
+pp_desc_d: "§Y[RECIPIENT_COUNTRY.GetNameWithFlag]§!在一场战争中击败了§Y[ACTOR_COUNTRY.GetNameWithFlag]§!。"
+
+#flavor
+pp_flavor_KRN: "尽管有种种困难和磨难，但一切正义革命，只要有毅力和勇气，最终都会取得胜利，无一例外。我坚信，尽管有再多的的艰辛和困难，克伦人民的正义革命一定会取得胜利。"
+pp_flavor_ROK: "血浓于水。"

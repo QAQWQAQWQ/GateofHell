@@ -1,0 +1,16 @@
+characters = {
+	DOM_rafael_trujillo = {
+		name = DOM_rafael_trujillo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DOM/rafael_trujillo.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_populism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

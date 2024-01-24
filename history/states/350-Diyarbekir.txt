@@ -1,0 +1,25 @@
+
+state={
+	id=350
+	name="STATE_350"
+
+	history={
+		owner = TUR
+		victory_points = {
+			4512 5 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+		add_core_of = TUR
+		add_core_of = KUR
+	}
+
+	provinces={
+		4512 11759 
+	}
+	manpower=571935
+	state_category=town
+}

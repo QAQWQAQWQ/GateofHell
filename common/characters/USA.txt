@@ -1,0 +1,286 @@
+characters = {
+	USA_thomas_dewey = {
+		name = USA_thomas_dewey
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/thomas_dewey.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "USA_thomas_dewey_desc"
+		}
+	}
+	USA_douglas_macarthur = {
+		name = USA_douglas_macarthur
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/douglas_macarthur.dds"
+			}
+		}
+		field_marshal = {
+			skill = 7
+			attack_skill = 7
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
+		}
+	}
+	USA_dwight_d_eisenhower = {
+		name = USA_dwight_d_eisenhower
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/dwight_d_eisenhower.dds"
+			}
+		}
+		field_marshal = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	USA_omar_bradley = {
+		name = USA_omar_bradley
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/omar_bradley.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 4
+		}
+	}
+	USA_george_s_patton = {
+		name = USA_george_s_patton
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/george_s_patton.dds"
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	USA_mark_w_clark = {
+		name = USA_mark_w_clark
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/mark_w_clark.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	USA_matthew_ridgway = {
+		name = USA_matthew_ridgway
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/matthew_ridgway.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	USA_james_van_fleet = {
+		name = USA_james_van_fleet
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/james_van_fleet.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	USA_j_lawton_collins = {
+		name = USA_j_lawton_collins
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/j_lawton_collins.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	USA_maurice_rose = {
+		name = USA_maurice_rose
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/maurice_rose.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	USA_joseph_t_mcnarney = {
+		name = USA_joseph_t_mcnarney
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/joseph_t_mcnarney.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	USA_jacob_l_devers = {
+		name = USA_jacob_l_devers
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/jacob_l_devers.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	USA_edward_h_brooks = {
+		name = USA_edward_h_brooks
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/edward_h_brooks.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	USA_clarence_r_huebner	= {
+		name = USA_clarence_r_huebner
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/clarence_r_huebner.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	USA_leonard_t_gerow = {
+		name = USA_leonard_t_gerow
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/leonard_t_gerow.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	USA_isaac_d_white = {
+		name = USA_isaac_d_white
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/isaac_d_white.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	USA_lewis_burwell_puller = {
+		name = USA_lewis_burwell_puller
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/lewis_burwell_puller.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	USA_evans_carlson = {
+		name = USA_evans_carlson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/evans_carlson.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	USA_george_c_marshall = {
+		name = USA_george_c_marshall
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/george_c_marshall.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+}

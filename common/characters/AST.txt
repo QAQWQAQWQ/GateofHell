@@ -1,0 +1,30 @@
+characters = {
+	AST_ben_chifley = {
+		name = AST_ben_chifley
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/ben_chifley.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democratic_social_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	AST_robert_menzeis = {
+		name = AST_robert_menzeis
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/robert_menzeis.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

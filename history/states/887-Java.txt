@@ -1,0 +1,30 @@
+
+state={
+	id=887
+	name="STATE_887" # Java
+	manpower = 20718200
+	
+	state_category = rural
+	
+	resources={
+		rubber=140 # was: 242
+		oil=10 # was: 16
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			air_base = 3
+		}
+	}
+
+	provinces={
+		1209 1413 4390 4434 7223 7642 10135 10491 12277 12293 
+	}
+
+	local_supplies=5.0 
+}

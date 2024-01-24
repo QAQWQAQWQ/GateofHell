@@ -1,0 +1,16 @@
+characters = {
+	UDM_dmitry_fedichkin = {
+		name = UDM_dmitry_fedichkin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UDM/Portrait_UDM_dmitry_fedichkin.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

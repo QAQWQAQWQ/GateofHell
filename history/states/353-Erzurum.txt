@@ -1,0 +1,26 @@
+
+state={
+	id=353
+	name="STATE_353"
+
+	history={
+		owner = ARM
+		victory_points = {
+			11853 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TUR
+		add_core_of = KUR
+		add_core_of = ARM
+	}
+
+	provinces={
+		9858 9868 9954 11853 
+	}
+	manpower=523537
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

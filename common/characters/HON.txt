@@ -1,0 +1,16 @@
+characters = {
+	HON_juan_manuel_galvez = {
+		name = HON_juan_manuel_galvez
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HON/juan_manuel_galvez.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

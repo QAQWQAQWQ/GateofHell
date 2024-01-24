@@ -1,0 +1,192 @@
+guiTypes = {
+	containerWindowType = {
+		name = "BEA_congress_labor_seats_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 100% }
+		
+		iconType = {
+			name = "BEA_congress_labor_seat"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_BEA_congress_seat"
+			orientation = UPPER_LEFT
+			pdx_tooltip = loc_labor_desc
+		}
+	}
+	containerWindowType = {
+		name = "BEA_congress_conservative_seats_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 100% }
+		
+		iconType = {
+			name = "BEA_congress_conservative_seat"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_BEA_congress_seat"
+			orientation = UPPER_LEFT
+			pdx_tooltip = loc_conservative_desc
+		}
+	}
+	containerWindowType = {
+		name = "BEA_congress_other_seats_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 100% }
+		
+		iconType = {
+			name = "BEA_congress_other_seat"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_BEA_congress_seat"
+			orientation = UPPER_LEFT
+			pdx_tooltip = loc_other_desc
+		}
+	}
+	containerWindowType = {
+		name = "BEA_congress_main_seat_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 100% }
+		
+		iconType = {
+			name = "BEA_congress_the_main_seat"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_BEA_congress_seat"
+			orientation = UPPER_LEFT
+		}
+	}
+	containerWindowType = {
+		name = "BEA_congress_seats"
+		position = { x = 0 y = 0 }
+		size = { width = 510 height = 653 }
+		iconType = {
+			name = "BEA_icon"
+			position = { x = 170 y = 140 }
+			spriteType = "GFX_BEA_icon"
+		}
+		instantTextBoxType = {
+			name = "total"
+			position = { x = 12 y = 400 }
+			font = "hoi_36header"
+			text = loc_total_seats
+		}
+		instantTextBoxType = {
+			name = "speaker"
+			position = { x = 15 y = 215 }
+			font = "hoi_16mbs"
+			text = loc_speaker
+		}
+		instantTextBoxType = {
+			name = "labor"
+			position = { x = 24 y = 135 }
+			font = "hoi_16mbs"
+			text = loc_labor
+		}
+		instantTextBoxType = {
+			name = "conservative"
+			position = { x = 5 y = 285 }
+			font = "hoi_16mbs"
+			text = loc_conservative
+		}
+		instantTextBoxType = {
+			name = "other"
+			position = { x = 475 y = 0 }
+			font = "hoi_16mbs"
+			text = loc_other
+			maxWidth = 1
+			maxHeight = 100
+		}
+		instantTextBoxType = {
+			name = "legend"
+			position = { x = 0 y = 450 }
+			font = "hoi_16mbs"
+			text = loc_legend
+			maxWidth = 200
+			maxHeight = 100
+		}
+
+		containerWindowType = {
+			name = "BEA_congress_labor_seats"
+			position = { x = 24 y = 0 }
+			size = { width = 500 height = 500 }
+
+			gridBoxType = {
+				name = "labor_seats"
+				position = { x = 0 y = 0 }
+				slotsize = { width = 12 height = 12 }
+
+				max_slots_horizontal = 28
+				max_slots_vertical = 11
+			}
+		}
+
+		containerWindowType = {
+			name = "BEA_congress_conservative_seats"
+			position = { x = 5 y = 300 }
+			size = { width = 500 height = 500 }
+
+			gridBoxType = {
+				name = "conservative_seats"
+				position = { x = 0 y = 0 }
+				slotsize = { width = 12 height = 12 }
+
+				max_slots_horizontal = 41
+				max_slots_vertical = 7
+			}
+		}
+
+		containerWindowType = {
+			name = "BEA_congress_other_seats"
+			position = { x = 380 y = 0 }
+			size = { width = 500 height = 500 }
+
+			gridBoxType = {
+				name = "other_seats"
+				position = { x = 0 y = 0 }
+				slotsize = { width = 12 height = 12 }
+
+				max_slots_horizontal = 8
+				max_slots_vertical = 23
+			}
+		}
+		
+		containerWindowType = {
+			name = "BEA_congress_main_seat"
+			position = { x = 24 y = 200 }
+			size = { width = 500 height = 500 }
+
+			gridBoxType = {
+				name = "main_seat"
+				position = { x = 0 y = 0 }
+				slotsize = { width = 12 height = 12 }
+
+				max_slots_horizontal = 1
+				max_slots_vertical = 1
+			}
+		}
+		containerWindowType = {
+			name = "BEA_congress_canvass"
+			position = { x = -10 y = 500 }
+			size = { width = 510 height = 160 }
+			background = {
+				name = "background"	
+				spriteType ="GFX_tiled_decisions_bg_small"
+			}
+			instantTextBoxType = {
+				name = "labor_circm"
+				position = { x = 30 y = 30 }
+				font = "hoi_24header"
+				text = loc_labor_circm
+				maxWidth = 200
+			}
+			instantTextBoxType = {
+				name = "conservative_circm"
+				position = { x = 270 y = 30 }
+				font = "hoi_24header"
+				text = loc_conservative_circm
+				maxWidth = 200
+			}
+			instantTextBoxType = {
+				name = "canvass_point_total"
+				position = { x = 30 y = 100 }
+				font = "hoi_16mbs"
+				text = loc_canvass_point
+			}
+		}
+	}
+}

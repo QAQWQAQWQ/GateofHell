@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+
+tt_GetFactionIcon_Name: "[GetFactionIcon_Name]"
+tt_GetFactionIcon_Desc: "[GetFactionIcon_Desc]"
+
+FACTION_BERLIN_1: "[GER.GetName]"
+FACTION_BERLIN_2: "帝国领土"
+FACTION_BERLIN_3: "附属地"
+FACTION_BERLIN_4: "专员辖区"
+FACTION_BERLIN_5: "合作专员辖区"
+FACTION_BERLIN_6: "军事管辖区"
+FACTION_BERLIN_7: "保护国"
+FACTION_BERLIN_8: "柏林轴心成员国"
+
+FACTION_FORMER_AXIS_DISPUTED: "前轴心国共同保护国"
+FACTION_FORMER_AXIS_MEMBER: "前轴心国成员国"

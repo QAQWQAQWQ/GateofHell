@@ -1,0 +1,36 @@
+defined_text = {
+	name = GetNewsHeadline
+
+	text = {
+		trigger = {
+			tag = GER
+			has_government = national_socialist
+		}
+		localization_key = news_ger_nazi
+	}
+	text = {
+		trigger = {
+			tag = ITA
+		}
+		localization_key = news_ita
+	}
+	text = {
+		trigger = {
+			tag = SOV
+		}
+		localization_key = news_sov
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = RAJ
+				tag = AZH
+			}
+		}
+		localization_key = news_raj
+	}
+	#generic
+	text = {
+		localization_key = news_generic
+	}
+}

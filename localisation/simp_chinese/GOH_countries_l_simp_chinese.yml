@@ -1,0 +1,69 @@
+﻿l_simp_chinese:
+#country_tags list
+
+#
+
+#R RUSSIA
+  #R01 VACUUM ZONE
+
+	#R02 URAL
+
+	#R03 TURKESTAN
+
+	#R04 SIBERIAN
+	KIR: "基廉斯克"
+	KIR_DEF: "基廉斯克"
+
+	#R05 FAR EASTERN
+
+#NA NORTH AMERICA
+
+#SA SOUTH AMERICA
+	#
+
+	#SA02 COLOMBIA
+	LCL: "自由党哥伦比亚"
+	LCL_DEF: "哥伦比亚共和国"
+
+	GLB: "东部平原游击队"
+	GLB_DEF: "东部平原游击队"
+
+	CLC: "哥伦比亚社会主义共和国"
+	CLC_DEF: "哥伦比亚社会主义共和国"
+
+	#
+	CAY: "法属圭亚那"
+
+#ME MIDDLE EAST
+	#ME01 TURKEY
+	ANA: "安纳托利亚总督领"
+	ANA_DEF: "安纳托利亚总督领"
+
+	#ME02 LEVANT
+
+#AS ASIA
+	#AS04 SOUTHEAST ASIA
+		#AS04A INDONESIA
+		DEI: "荷属东印度"
+		DEI_DEF: "荷属东印度"
+
+		ARA: "正义领袖军团"
+		ARA_DEF: "正义领袖军团"
+
+		PON: "坤甸苏丹国"
+
+#A AFRICA
+	#A01 EASTERN AFRICA
+
+	#A02 MIDDLE AFRICA
+
+	#A03 NORTHERN AFRICA
+		#A03A ALGERIA
+		CLD: "解放战士"
+		CLD_DEF: "解放战士"
+
+	#A04 SOUTHERN AFRICA
+
+	#A05 WESTERN AFRICA
+	ASA: "阿散蒂"
+	ASA_DEF: "阿散蒂"

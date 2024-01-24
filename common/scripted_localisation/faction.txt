@@ -1,0 +1,102 @@
+defined_text = {
+	name = GetFactionIcon
+
+	#FACTION_BERLIN_1 = berlin axis - germany
+	#FACTION_BERLIN_2 = berlin axis - reichsgebiet
+	#FACTION_BERLIN_3 = berlin axis - nebenland
+	#FACTION_BERLIN_4 = berlin axis - reichskommissariats
+	#FACTION_BERLIN_5 = berlin axis - collaborating reichskommissariats
+	#FACTION_BERLIN_6 = berlin axis - militärverwaltung
+	#FACTION_BERLIN_7 = berlin axis - protectorates
+	#FACTION_BERLIN_8 = berlin axis - members
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_1 }
+		localization_key = "GFX_FACTION_BERLIN_1"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_2 }
+		localization_key = "GFX_FACTION_BERLIN_2"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_3 }
+		localization_key = "GFX_FACTION_BERLIN_3"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_4 }
+		localization_key = "GFX_FACTION_BERLIN_4"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_5 }
+		localization_key = "GFX_FACTION_BERLIN_5"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_6 }
+		localization_key = "GFX_FACTION_BERLIN_6"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_7 }
+		localization_key = "GFX_FACTION_BERLIN_7"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_8 }
+		localization_key = "GFX_FACTION_BERLIN_8"
+	}
+
+	#FACTION_FORMER_AXIS_DISPUTED
+	text = {
+		trigger = { has_idea = FACTION_FORMER_AXIS_DISPUTED }
+		localization_key = "GFX_FACTION_FORMER_AXIS_DISPUTED"
+	}
+	
+	#FACTION_FORMER_AXIS_MEMBER
+	text = {
+		trigger = { has_idea = FACTION_FORMER_AXIS_MEMBER }
+		localization_key = "GFX_FACTION_FORMER_AXIS_MEMBER"
+	}
+}
+defined_text = {
+	name = GetFactionIcon_Name
+	
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_1 }
+		localization_key = "FACTION_BERLIN_1"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_2 }
+		localization_key = "FACTION_BERLIN_2"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_3 }
+		localization_key = "FACTION_BERLIN_3"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_4 }
+		localization_key = "FACTION_BERLIN_4"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_5 }
+		localization_key = "FACTION_BERLIN_5"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_6 }
+		localization_key = "FACTION_BERLIN_6"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_7 }
+		localization_key = "FACTION_BERLIN_7"
+	}
+	text = {
+		trigger = { has_idea = FACTION_BERLIN_8 }
+		localization_key = "FACTION_BERLIN_8"
+	}
+
+	text = {
+		trigger = { has_idea = FACTION_FORMER_AXIS_DISPUTED }
+		localization_key = "FACTION_FORMER_AXIS_DISPUTED"
+	}
+	
+	text = {
+		trigger = { has_idea = FACTION_FORMER_AXIS_MEMBER }
+		localization_key = "FACTION_FORMER_AXIS_MEMBER"
+	}
+}

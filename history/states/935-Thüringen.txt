@@ -1,0 +1,24 @@
+
+state={
+	id=935
+	name="STATE_935"
+	manpower = 100000
+	
+	state_category = rural
+
+	history={
+		victory_points = { 425 3 }
+		victory_points = { 6524 3 }
+		owner = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		425 482 3500 6421 6501 6524 9497 13116 14385 14386 14388 14389 14392 14394
+	}
+
+	local_supplies=4.0 
+}

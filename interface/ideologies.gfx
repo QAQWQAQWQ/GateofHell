@@ -1,0 +1,257 @@
+spriteTypes = {
+	#other
+	spriteType = {
+		name = "GFX_ideology_other_ideology_group"
+		texturefile = "gfx/interface/ideologies/other_ideology_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_anarchy_subtype"
+		texturefile = "gfx/interface/ideologies/anarchy_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_power_vacuum_subtype"
+		texturefile = "gfx/interface/ideologies/power_vacuum_subtype.dds"
+	}
+	#ultranationalist
+	spriteType = {
+		name = "GFX_ideology_ultranationalist_group"
+		texturefile = "gfx/interface/ideologies/ultranationalist_group.dds"
+	}
+	#national socialist
+	spriteType = {
+		name = "GFX_ideology_national_socialist_group"
+		textureFile = "gfx/interface/ideologies/national_socialist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_ustasism"
+		textureFile = "gfx/interface/ideologies/ustasism.dds"
+	}
+	#fascist
+	spriteType = {
+		name = "GFX_ideology_fascist_group"
+		texturefile = "gfx/interface/ideologies/fascist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascist_populism"
+		texturefile = "gfx/interface/ideologies/fascist_populism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_falangism"
+		texturefile = "gfx/interface/ideologies/falangism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_revolutionary_nationalism"
+		texturefile = "gfx/interface/ideologies/revolutionary_nationalism.dds"
+	}
+	#third positionist
+	spriteType = {
+		name = "GFX_ideology_paternal_peronism"
+		texturefile = "gfx/interface/ideologies/paternal_peronism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascist_ilyin_thought"
+		texturefile = "gfx/interface/ideologies/fascist_ilyin_thought.dds"
+	}
+	#reactionary nationalist
+	spriteType = {
+		name = "GFX_ideology_reactionary_nationalist_group"
+		texturefile = "gfx/interface/ideologies/reactionary_nationalist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_reactionary_conservatism"
+		texturefile = "gfx/interface/ideologies/reactionary_conservatism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_national_revolutionism"
+		texturefile = "gfx/interface/ideologies/national_revolutionism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_ultranationalist_turanism"
+		texturefile = "gfx/interface/ideologies/ultranationalist_turanism.dds"
+	}
+	#despotist
+	spriteType = {
+		name = "GFX_ideology_despotist_group"
+		textureFile = "gfx/interface/ideologies/despotist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_dictatorship"
+		texturefile = "gfx/interface/ideologies/dictatorship.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_colonial_government"
+		texturefile = "gfx/interface/ideologies/colonial_government.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_military_occupation"
+		texturefile = "gfx/interface/ideologies/military_occupation.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_military_occupation_nato"
+		texturefile = "gfx/interface/ideologies/military_occupation_nato.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_military_junta"
+		texturefile = "gfx/interface/ideologies/military_junta.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_mandate_government"
+		texturefile = "gfx/interface/ideologies/mandate_government.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_warlord"
+		texturefile = "gfx/interface/ideologies/warlord.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_absolute_monarchy"
+		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_theocracy"
+		texturefile = "gfx/interface/ideologies/theocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_civilian_dictatorship"
+		texturefile = "gfx/interface/ideologies/civilian_dictatorship.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_aristocratic_conservatism"
+		texturefile = "gfx/interface/ideologies/aristocratic_conservatism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_partisan_movement"
+		texturefile = "gfx/interface/ideologies/partisan_movement.dds"
+	}
+	#paternal
+	spriteType = {
+		name = "GFX_ideology_paternal_group"
+		textureFile = "gfx/interface/ideologies/paternal_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_provisional_government"
+		texturefile = "gfx/interface/ideologies/provisional_government.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_xun_zheng"
+		texturefile = "gfx/interface/ideologies/xun_zheng.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_constitutional_monarchy"
+		texturefile = "gfx/interface/ideologies/constitutional_monarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_kemalism"
+		texturefile = "gfx/interface/ideologies/kemalism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_national_conservatism"
+		texturefile = "gfx/interface/ideologies/national_conservatism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_oligarchy"
+		texturefile = "gfx/interface/ideologies/oligarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_nationalism"
+		texturefile = "gfx/interface/ideologies/social_nationalism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_right_wing_populism"
+		texturefile = "gfx/interface/ideologies/right_wing_populism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_guided_democracy"
+		texturefile = "gfx/interface/ideologies/guided_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_democratic_transition"
+		texturefile = "gfx/interface/ideologies/democratic_transition.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_dominant_party_democracy"
+		texturefile = "gfx/interface/ideologies/dominant_party_democracy.dds"
+	}
+	#conservative
+	spriteType = {
+		name = "GFX_ideology_conservative_group"
+		textureFile = "gfx/interface/ideologies/conservative_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_christian_democracy"
+		texturefile = "gfx/interface/ideologies/christian_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_christian_conservatism"
+		texturefile = "gfx/interface/ideologies/christian_conservatism.dds"
+	}
+	#liberal conservative
+	spriteType = {
+		name = "GFX_ideology_liberal_conservative_group"
+		textureFile = "gfx/interface/ideologies/liberal_conservative_group.dds"
+	}
+	#liberal
+	spriteType = {
+		name = "GFX_ideology_liberal_group"
+		textureFile = "gfx/interface/ideologies/liberal_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_national_liberalism"
+		textureFile = "gfx/interface/ideologies/national_liberalism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_classical_liberalism"
+		textureFile = "gfx/interface/ideologies/classical_liberalism.dds"
+	}
+	#progressive
+	spriteType = {
+		name = "GFX_ideology_progressive_group"
+		textureFile = "gfx/interface/ideologies/progressive_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_democratic_group"
+		textureFile = "gfx/interface/ideologies/social_democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_democratic_socialism"
+		texturefile = "gfx/interface/ideologies/democratic_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_labor_zionism"
+		texturefile = "gfx/interface/ideologies/labor_zionism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_left_wing_populism"
+		texturefile = "gfx/interface/ideologies/left_wing_populism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberal_socialism"
+		texturefile = "gfx/interface/ideologies/liberal_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_progressive_avant-garde"
+		texturefile = "gfx/interface/ideologies/progressive_avant-garde.dds"
+	}
+	#socialist
+	spriteType = {
+		name = "GFX_ideology_socialist_group"
+		textureFile = "gfx/interface/ideologies/socialist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_pan_africanism"
+		texturefile = "gfx/interface/ideologies/pan_africanism.dds"
+	}
+	#communist
+	spriteType = {
+		name = "GFX_ideology_communist_group"
+		textureFile = "gfx/interface/ideologies/communist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_stalinism"
+		texturefile = "gfx/interface/ideologies/stalinism.dds"
+	}
+	#stratocratic socialist
+	spriteType = {
+		name = "GFX_ideology_stratocratic_socialist_group"
+		textureFile = "gfx/interface/ideologies/stratocratic_socialist_group.dds"
+	}
+}

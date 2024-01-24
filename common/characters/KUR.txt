@@ -1,0 +1,30 @@
+characters = {
+	KUR_ramzi_nafi = {
+		name = KUR_ramzi_nafi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KUR/ramzi_nafi.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	KUR_Cherif_Pacha = {
+		name = KUR_Cherif_Pacha
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KUR/Portrait_KUR_Cherif_Pacha.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

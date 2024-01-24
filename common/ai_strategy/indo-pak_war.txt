@@ -1,0 +1,62 @@
+indo_pak_send_volunteers_india = {
+	allowed = {
+		original_tag = RAJ
+	}
+	enable = {
+		KSH = {has_war_with = AJK} #vice versa
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = KSH
+		value = 999
+	}
+}
+indo_pak_send_volunteers_pakistan = {
+	allowed = {
+		original_tag = PAK
+	}
+	enable = {
+		KSH = {has_war_with = AJK} #vice versa
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = AJK
+		value = 999
+	}
+}
+indo_pak_offense_india = {
+	allowed = {
+		original_tag = KSH
+	}
+	enable = {
+		KSH = {has_offensive_war_with = AJK}
+	}
+	
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			is_owned_by = AJK
+		}
+		ordertype = front
+		execution_type = rush
+	}
+}
+indo_pak_offense_pakistan = {
+	allowed = {
+		original_tag = AJK
+	}
+	enable = {
+		AJK = {has_offensive_war_with = KSH}
+	}
+	
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			is_owned_by = KSH
+		}
+		ordertype = front
+		execution_type = rush
+	}
+}

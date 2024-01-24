@@ -1,0 +1,71 @@
+add_namespace = TUR
+
+news_event = {
+	id = TUR.1
+	title = TUR.1.title
+	desc = TUR.1.desc
+	picture = TUR_celal_bayar
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = TUR.1.a
+	}
+}
+news_event = {
+	id = TUR.2
+	title = TUR.2.title
+	desc = TUR.2.desc
+	picture = TUR_ismet_inonu
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = TUR.2.a
+	}
+}
+country_event = {
+	id = TUR.3
+	title = TUR.3.title
+	desc = TUR.3.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = TUR.3.a
+		hidden_effect = {
+			TUR = {
+				set_politics = {
+					ruling_party = liberal_conservative
+				}
+			}
+
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = TUR.1
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = TUR.3.b
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = TUR.2
+					days = 1
+				}
+			}
+		}
+	}
+}

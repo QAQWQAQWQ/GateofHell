@@ -1,0 +1,114 @@
+capital = 398
+
+oob = "RUS"
+
+recruit_character = RUS_ivan_ilyin
+recruit_character = RUS_konstantin_rodzaevsky
+recruit_character = RUS_vladimir_marushevsky #field marshal
+recruit_character = RUS_apollinary_ryabinsky
+recruit_character = RUS_mikhail_nikolaevich_levitov
+recruit_character = RUS_marija_zacharczenko-szulc
+recruit_character = RUS_nikolai_fyodorov
+recruit_character = RUS_karp_gordeenko
+recruit_character = RUS_pavel_bermondt-avalov
+recruit_character = RUS_pavel_chatilov
+recruit_character = RUS_sergey_voytsekhovsky
+recruit_character = RUS_spiridon_dionisevich_merkulov
+recruit_character = RUS_viktor_aleksandrovich_larionov
+recruit_character = RUS_vladimir_butkov
+recruit_character = RUS_vladimir_granitov
+recruit_character = RUS_vladimir_sergeevich_tolstov
+recruit_character = RUS_vladimir_vitkovsky
+recruit_character = RUS_vyacheslav_naumenko
+recruit_character = RUS_lev_mikhailovich_erogin
+recruit_character = RUS_anton_denikin
+
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.3
+
+add_ideas = {
+	RUS_in_disarray
+	RUS_militia_recruitment
+	RUS_dismal_victor
+
+	idea_RUS_nikolai_fyodorov
+	idea_RUS_lev_mikhailovich_erogin
+	idea_RUS_anton_denikin
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+set_technology = {
+	CAS1 = 1
+	
+	tactical_bomber1 = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	paratroopers = 1
+
+	#doctrines
+	pocket_defence = 1
+	defence_in_depth = 1
+	battlefleet_concentration = 1
+	submarine_operations = 1
+
+	#Air
+	formation_flying = 1		
+	dive_bombing = 1
+	direct_ground_support = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining2 = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	concentrated_industry = 1
+	concentrated_industry2 = 1
+	concentrated_industry3 = 1
+}
+
+set_politics = {
+	ruling_party = fascist
+}
+set_popularities = {
+	fascist = 100
+}

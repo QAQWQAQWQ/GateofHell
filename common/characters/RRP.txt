@@ -1,0 +1,16 @@
+characters = {
+	RRP_alexander_kerensky = {
+		name = RRP_alexander_kerensky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RRP/alexander_kerensky.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democratic_social_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

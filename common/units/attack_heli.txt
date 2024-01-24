@@ -1,0 +1,76 @@
+sub_units = {
+
+	attack_heli = {
+		abbreviation = "ATH"
+		sprite = helicopter_infantry
+		map_icon_category = infantry
+		priority = 599
+		ai_priority = 0
+		active = yes
+		transport = attack_heli
+		
+		type = {
+			motorized
+		}
+
+		group = mobile
+
+		combat_width = 2
+
+		need = {
+			infantry_equipment = 120
+			attack_heli = 24
+		}
+		manpower = 600
+		training_time = 150
+		suppression = 2.5
+		max_strength = 15
+		max_organisation = 50
+		default_morale = 0.2
+		max_strength = 15
+		weight = 0.35
+		
+		supply_consumption = 0.32
+		can_be_parachuted = yes
+
+		hills = {
+			attack = 0.1
+			movement = 0.3
+		}
+		plains	= {
+			attack = 0.2
+			movement = 0.3
+		}
+		desert = {
+			attack = 0.2
+			movement = 0.3
+		}
+		forest = {
+			attack = -0.2
+			movement = -0.3
+		}	
+		mountain = {
+			attack = 0.2
+			movement = 0.2
+		}
+		jungle = {
+			attack = -0.2
+		}
+		marsh = {
+			attack = 0.2
+			movement = 0.3
+		}
+		urban = {
+			attack = 0.2
+			movement = 0.3
+		}
+		river = {
+			attack = 0.2
+			movement = 0.3
+		}
+		amphibious = {
+			attack = 0.2
+			movement = 0.3
+		}
+	}
+}

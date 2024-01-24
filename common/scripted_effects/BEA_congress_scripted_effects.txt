@@ -1,0 +1,131 @@
+BEA_congress_recalc_seats = {
+	clear_array = BEA_congress_labor_seats_array
+	set_variable = { labor_seats_against_size = labor_seats_against }
+	add_to_variable = { labor_seats_against_size = labor_seats }
+	resize_array = {
+		array = BEA_congress_labor_seats_array
+		value = 2
+		size = labor_seats
+	}
+	resize_array = {
+		array = BEA_congress_labor_seats_array
+		value = 5
+		size = labor_seats_against_size
+	}
+	resize_array = {
+		array = BEA_congress_labor_seats_array
+		value = 1
+		size = 308
+	}
+	clear_array = BEA_congress_conservative_seats_array
+	set_variable = { conservative_seats_against_size = conservative_seats_against }
+	add_to_variable = { conservative_seats_against_size = conservative_seats }
+	resize_array = {
+		array = BEA_congress_conservative_seats_array
+		value = 3
+		size = conservative_seats
+	}
+	resize_array = {
+		array = BEA_congress_conservative_seats_array
+		value = 6
+		size = conservative_seats_against_size
+	}
+	resize_array = {
+		array = BEA_congress_conservative_seats_array
+		value = 1
+		size = 287
+	}
+	clear_array = BEA_congress_other_seats_array
+	set_variable = { other_seats_against_size = other_seats_against }
+	add_to_variable = { other_seats_against_size = other_seats }
+	resize_array = {
+		array = BEA_congress_other_seats_array
+		value = 4
+		size = other_seats
+	}
+	resize_array = {
+		array = BEA_congress_other_seats_array
+		value = 7
+		size = other_seats_against_size
+	}
+	resize_array = {
+		array = BEA_congress_other_seats_array
+		value = 1
+		size = 184
+	}
+	clear_array = BEA_congress_main_seat_array
+	resize_array = {
+		array = BEA_congress_main_seat_array
+		value = 1
+		size = 1
+	}
+}
+BEA_congress_labor_seats_change = {
+	random_list = {
+		8 = {
+			country_event = BEAcongresslabor.1
+			modifier = {
+				factor = 0.6
+				check_variable = { labor_seats > 30 }
+			}
+		}
+		5 = {
+			country_event = BEAcongresslabor.2
+			modifier = {
+				factor = 0.3
+				check_variable = { labor_seats > 30 }
+			}
+		}
+		3 = {
+			country_event = BEAcongresslabor.3
+		}
+		2 = {
+			country_event = BEAcongresslabor.4
+		}
+	}
+}
+BEA_congress_conservative_seats_change = {
+	random_list = {
+		8 = {
+			country_event = BEAcongressconservative.1
+			modifier = {
+				factor = 0.6
+				check_variable = { conservative_seats > 30 }
+			}
+		}
+		5 = {
+			country_event = BEAcongressconservative.2
+			modifier = {
+				factor = 0.3
+				check_variable = { conservative_seats > 30 }
+			}
+		}
+		3 = {
+			country_event = BEAcongressconservative.3
+		}
+		2 = {
+			country_event = BEAcongressconservative.4
+		}
+	}
+}
+BEA_congress_recalc_ratio = {
+	set_variable = { philip_mitchells_popularity = party_popularity@paternal}
+
+	set_variable = { labor_seats_ratio = labor_seats }
+	divide_variable = { labor_seats_ratio = 308 }
+	add_to_variable = { labor_seats_ratio = philip_mitchells_popularity }
+	multiply_variable = { labor_seats_ratio = 2 }
+	round_variable = labor_seats_ratio
+
+	set_variable = { conservative_seats_ratio = conservative_seats }
+	divide_variable = { conservative_seats_ratio = 287 }
+	add_to_variable = { conservative_seats_ratio = philip_mitchells_popularity }
+	multiply_variable = { conservative_seats_ratio = 2 }
+	round_variable = conservative_seats_ratio
+
+	set_variable = { other_seats_ratio = other_seats }
+	divide_variable = { other_seats_ratio = 184 }
+	add_to_variable = { other_seats_ratio = philip_mitchells_popularity }
+	multiply_variable = { other_seats_ratio = 2 }
+	round_variable = other_seats_ratio
+}

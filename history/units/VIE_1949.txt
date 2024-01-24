@@ -1,0 +1,63 @@
+division_template = {
+	name = "Infantry Division" #150000
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 2 y = 4 }
+	}
+}
+
+units = {
+	division = {
+		location = 4379
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4379
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4379
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4379
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4379
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4379
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4379
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4379
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4379
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4379
+		division_template = "Infantry Division"
+	}
+}

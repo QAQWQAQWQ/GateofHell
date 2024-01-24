@@ -1,0 +1,111 @@
+add_namespace = BEAcongresslabor
+
+country_event = {
+	id = BEAcongresslabor.1#支持
+	title = BEAcongresslabor.1.title
+	desc = BEAcongresslabor.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = BEAcongresslabor.1.a
+		add_to_variable = {	labor_seats = 10 }
+		BEA_congress_recalc_seats = yes
+	}
+}
+country_event = {
+	id = BEAcongresslabor.2#很支持
+	title = BEAcongresslabor.2.title
+	desc = BEAcongresslabor.2.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = BEAcongresslabor.2.a
+		add_to_variable = {	labor_seats = 15 }
+		BEA_congress_recalc_seats = yes
+	}
+}
+country_event = {
+	id = BEAcongresslabor.3#反对
+	title = BEAcongresslabor.3.title
+	desc = BEAcongresslabor.3.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = BEAcongresslabor.3.a
+		add_to_variable = {	labor_seats = 3 }
+		add_to_variable = {	labor_seats_against = 7 }
+		BEA_congress_recalc_seats = yes
+	}
+}
+country_event = {
+	id = BEAcongresslabor.4#反对
+	title = BEAcongresslabor.4.title
+	desc = BEAcongresslabor.4.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = BEAcongresslabor.4.a
+		add_to_variable = {	labor_seats_against = 10 }
+		BEA_congress_recalc_seats = yes
+	}
+}
+
+add_namespace = BEAcongressconservative
+
+country_event = {
+	id = BEAcongressconservative.1#支持
+	title = BEAcongressconservative.1.title
+	desc = BEAcongressconservative.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = BEAcongressconservative.1.a
+		add_to_variable = {	conservative_seats = 10 }
+		BEA_congress_recalc_seats = yes
+	}
+}
+country_event = {
+	id = BEAcongressconservative.2#很支持
+	title = BEAcongressconservative.2.title
+	desc = BEAcongressconservative.2.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = BEAcongressconservative.2.a
+		add_to_variable = {	conservative_seats = 15 }
+		BEA_congress_recalc_seats = yes
+	}
+}
+country_event = {
+	id = BEAcongressconservative.3#反对
+	title = BEAcongressconservative.3.title
+	desc = BEAcongressconservative.3.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = BEAcongressconservative.3.a
+		add_to_variable = {	conservative_seats = 3 }
+		add_to_variable = {	conservative_seats_against = 7 }
+		BEA_congress_recalc_seats = yes
+	}
+}
+country_event = {
+	id = BEAcongressconservative.4#反对
+	title = BEAcongressconservative.4.title
+	desc = BEAcongressconservative.4.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = BEAcongressconservative.4.a
+		add_to_variable = {	conservative_seats_against = 10 }
+		BEA_congress_recalc_seats = yes
+	}
+}

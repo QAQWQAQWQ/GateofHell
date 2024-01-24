@@ -1,0 +1,90 @@
+add_namespace = MON
+
+news_event = {
+	id = MON.1
+	title = MON.1.title
+	desc = MON.1.desc
+	picture = MON_occupation_of_tuva
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = MON.1.a
+	}
+}
+country_event = {
+	id = MON.2
+	title = MON.2.title
+	desc = MON.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = MON.2.a
+
+		MON = {
+			transfer_state = 329
+			add_war_support = 0.2
+		}
+
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = MON.1
+					days = 1
+				}
+			}
+		}
+	}
+}
+news_event = {
+	id = MON.3
+	title = MON.3.title
+	desc = MON.3.desc
+	picture = MON_death_of_choibalsan
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = MON.3.a
+	}
+}
+country_event = {
+	id = MON.4
+	title = MON.4.title
+	desc = MON.4.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			MON = {
+				retire_character = MON_khorloogiin_choibalsan
+				promote_character = MON_yumjaagiin_tsedenbal
+			}
+		}
+	}
+
+	option = {
+		name = MON.4.a
+
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = MON.3
+					days = 1
+				}
+			}
+		}
+	}
+}

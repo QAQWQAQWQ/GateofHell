@@ -1,0 +1,23 @@
+add_namespace = indochina
+
+country_event = {
+	id = indochina.1
+	title = indochina.1.title
+	desc = indochina.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = indochina.1.a
+		
+		hidden_effect = {
+			VIN = {
+				declare_war_on = {
+					target = LAO
+					type = topple_government
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,370 @@
+add_namespace = RUS
+
+country_event = {
+	id = RUS.1
+	title = RUS.1.title
+	desc = RUS.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.1.a
+	}
+}
+country_event = {
+	id = RUS.2
+	title = RUS.2.title
+	desc = RUS.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.2.a
+		custom_effect_tooltip = tt_event_RUS2
+
+		hidden_effect = {
+			RUS = {
+				add_popularity = {
+					ideology = national_socialist
+					popularity = 0.2
+				}
+			}
+		}
+	}
+}
+news_event = {
+	id = RUS.3 #best ending
+	title = RUS.3.title
+	desc = RUS.3.desc
+	picture = RUS_russia_reuni_ilyin1
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.3.a
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_variable = {
+					var = genericvar_1
+					value = 2
+				}
+				fire_super_event_sound = yes
+			}
+		}
+	}
+}
+country_event = {
+	id = RUS.4
+	title = RUS.4.title
+	desc = RUS.4.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.4.a
+
+		hidden_effect = {
+			RUS = {
+				set_portraits = {
+					character = RUS_ivan_ilyin
+					civilian = {large = GFX_Portrait_RUS_ivan_ilyin1}
+				}
+			}
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = RUS.3
+					days = 1
+				}
+			}
+		}
+	}
+}
+news_event = {
+	id = RUS.5 #best ending
+	title = RUS.5.title
+	desc = RUS.5.desc
+	picture = RUS_russia_reuni_ilyin2
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.5.a
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_variable = {
+					var = genericvar_1
+					value = 3
+				}
+				fire_super_event_sound = yes
+			}
+		}
+	}
+}
+country_event = {
+	id = RUS.6
+	title = RUS.6.title
+	desc = RUS.6.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.6.a
+
+		hidden_effect = {
+			RUS = {
+				set_portraits = {
+					character = RUS_ivan_ilyin
+					civilian = {large = GFX_Portrait_RUS_ivan_ilyin2}
+				}
+			}
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = RUS.5
+					days = 1
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = RUS.7
+	title = RUS.7.title
+	desc = RUS.7.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.7.a
+
+		country_event = {
+			id = RUS.8
+			days = 2
+		}
+	}
+}
+country_event = {
+	id = RUS.8
+	title = RUS.8.title
+	desc = RUS.8.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.8.a
+
+		country_event = {
+			id = RUS.9
+			days = 1
+		}
+	}
+}
+country_event = {
+	id = RUS.9
+	title = RUS.9.title
+	desc = RUS.9.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.9.a
+	}
+}
+country_event = {
+	id = RUS.10
+	title = RUS.10.title
+	desc = RUS.10.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.10.a
+		country_event = {
+			id = RUS.11
+			hours = 3
+		}
+	}
+	option = {
+		name = RUS.10.a
+		country_event = {
+			id = RUS.12
+			hours = 3
+		}
+	}
+}
+country_event = {
+	id = RUS.11
+	title = RUS.11.title
+	desc = RUS.11.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.11.a
+
+		#stuff here
+	}
+}
+country_event = {
+	id = RUS.12
+	title = RUS.12.title
+	desc = RUS.12.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.12.a
+		
+		#stuff here
+	}
+	option = {
+		name = RUS.12.b
+		
+		#stuff here
+	}
+}
+country_event = {
+	id = RUS.13
+	title = RUS.13.title
+	desc = RUS.13.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.13.a
+		
+		#stuff here
+	}
+	option = {
+		name = RUS.13.b
+		
+		#stuff here
+	}
+}
+country_event = {
+	id = RUS.14
+	title = RUS.14.title
+	desc = RUS.14.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.14.a
+		
+		#stuff here
+	}
+	option = {
+		name = RUS.14.b
+		
+		#stuff here
+	}
+}
+country_event = {
+	id = RUS.15
+	title = RUS.15.title
+	desc = RUS.15.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.15.a
+
+		country_event = {
+			id = RUS.16
+			days = 2
+		}
+	}
+}
+country_event = {
+	id = RUS.16
+	title = RUS.16.title
+	desc = RUS.16.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.16.a
+	}
+}
+country_event = {
+	id = RUS.17
+	title = RUS.17.title
+	desc = RUS.17.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.17.a
+		add_manpower = -387
+	}
+}
+country_event = {
+	id = RUS.18
+	title = RUS.18.title
+	desc = RUS.18.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.18.a
+		country_event = {
+			id = RUS.19
+			days = 1
+		}
+	}
+}
+country_event = {
+	id = RUS.19
+	title = RUS.19.title
+	desc = RUS.19.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.19.a
+		
+	}
+}
+country_event = {
+	id = RUS.20
+	title = RUS.20.title
+	desc = RUS.20.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUS.20.a
+		
+	}
+}

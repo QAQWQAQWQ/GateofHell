@@ -1,0 +1,29 @@
+add_namespace = HAI
+
+news_event = {
+	id = HAI.1
+	title = HAI.1.title
+	desc = HAI.1.desc
+	picture = HAI_exposition
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = HAI.1.a
+		trigger = {
+			NOT = {
+				tag = HAI
+			}
+		}
+	}
+	option = {
+		name = HAI.1.b
+		trigger = {
+			tag = HAI
+		}
+		add_political_power = 20
+	}
+}

@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_BEA_congress_seat"
+		texturefile = "gfx/interface/featured/BEA_congress_seat.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_BEA_icon"
+		texturefile = "gfx/interface/featured/BEA_icon.dds"
+	}
+}

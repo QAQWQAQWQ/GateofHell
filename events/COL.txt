@@ -1,0 +1,76 @@
+add_namespace = COL
+
+news_event = {
+	id = COL.1
+	title = COL.1.title
+	desc = COL.1.desc
+	picture = COL_gaitan_killed
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = COL.1.a
+	}
+}
+news_event = {
+	id = COL.2
+	title = COL.2.title
+	desc = COL.2.desc
+	picture = COL_bogotazo
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = COL.2.a
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_variable = {
+					var = genericvar_1
+					value = 1
+				}
+				fire_super_event_sound = yes
+			}
+		}
+	}
+}
+country_event = {
+	id = COL.3
+	title = COL.3.title
+	desc = COL.3.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			COL = {
+				retire_character = COL_jorge_eliecer_gaitan
+				set_politics = {
+					ruling_party = liberal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = COL.3.a
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = COL.1
+					days = 1
+				}
+			}
+		}
+	}
+}

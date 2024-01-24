@@ -1,0 +1,22 @@
+characters = {
+	COS_jose_figueres_ferrer = {
+		name = COS_jose_figueres_ferrer
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COS/jose_figueres_ferrer.dds"
+			}
+		}
+		country_leader = {
+			ideology = provisional_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+		country_leader = {
+			ideology = progressivism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

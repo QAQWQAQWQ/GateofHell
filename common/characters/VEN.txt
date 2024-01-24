@@ -1,0 +1,44 @@
+characters = {
+	VEN_carlos_delgado_chalbaud = {
+		name = VEN_carlos_delgado_chalbaud
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VEN/carlos_delgado_chalbaud.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	VEN_german_suarez_flamerich = {
+		name = VEN_german_suarez_flamerich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VEN/german_suarez_flamerich.dds"
+			}
+		}
+		country_leader = {
+			ideology = civilian_dictatorship
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	VEN_marcos_perez_jimenez = {
+		name = VEN_marcos_perez_jimenez
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VEN/marcos_perez_jimenez.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

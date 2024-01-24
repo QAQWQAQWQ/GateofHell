@@ -1,0 +1,55 @@
+scripted_map_modes = {
+	sphere_of_influence_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = country
+			thickness = yes
+			color = {
+				set_temp_variable = { alpha = 1.0 }
+				if = {
+					limit = {FROM = {
+						is_in_faction_with = GER
+					}}
+					set_temp_variable = { red = 0 }
+					set_temp_variable = { green = 0 }
+					set_temp_variable = { blue = 0 }
+				}
+				else_if = {
+					limit = {FROM = {
+						is_in_faction_with = ITA
+						NOT = {has_idea = FACTION_FORMER_AXIS_DISPUTED}
+					}}
+					set_temp_variable = { red = 0.086 }
+					set_temp_variable = { green = 0.392 }
+					set_temp_variable = { blue = 0.086 }
+				}
+				else_if = {
+					limit = {FROM = {
+						has_idea = FACTION_FORMER_AXIS_DISPUTED
+					}}
+					set_temp_variable = { red = 0.086 }
+					set_temp_variable = { green = 0.392 }
+					set_temp_variable = { blue = 0.086 }
+					set_temp_variable = { highlighted = 1.0 }
+				}
+				else_if = {
+					limit = {FROM = {
+						has_idea = FACTION_FORMER_AXIS_MEMBER
+					}}
+					set_temp_variable = { red = 0.3 }
+					set_temp_variable = { green = 0.3 }
+					set_temp_variable = { blue = 0.3 }
+				}
+				else = {
+					set_temp_variable = { red = 0.9 }
+					set_temp_variable = { green = 0.9 }
+					set_temp_variable = { blue = 0.9 }
+					set_temp_variable = { alpha = 0.3 }
+				}
+			}
+		}
+		far_text = faction
+		near_text = none
+		update_daily = no
+	}
+}

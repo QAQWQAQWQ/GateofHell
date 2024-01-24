@@ -1,0 +1,24 @@
+add_namespace = ELS
+
+country_event = {
+	id = ELS.1
+	title = ELS.1.title
+	desc = ELS.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ELS.1.a
+
+		hidden_effect = {
+			retire_character = ELS_consejo_de_gobierno_revolucionario
+			set_politics = {
+				ruling_party = paternal
+			}
+			set_popularities = {
+				paternal = 100
+			}
+		}
+	}
+}

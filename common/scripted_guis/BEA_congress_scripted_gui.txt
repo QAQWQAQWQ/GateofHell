@@ -1,0 +1,49 @@
+scripted_gui = {
+
+	BEA_congress_scripted_gui = {
+		context_type = decision_category
+		window_name = "BEA_congress_seats"
+		
+		dynamic_lists = {
+			labor_seats = {
+				array = BEA_congress_labor_seats_array
+				index = i
+				value = v
+				entry_container = BEA_congress_labor_seats_entry
+			}
+			conservative_seats = {
+				array = BEA_congress_conservative_seats_array
+				index = i
+				value = v
+				entry_container = BEA_congress_conservative_seats_entry
+			}
+			other_seats = {
+				array = BEA_congress_other_seats_array
+				index = i
+				value = v
+				entry_container = BEA_congress_other_seats_entry
+			}
+			main_seat = {
+				array = BEA_congress_main_seat_array
+				index = i
+				value = v
+				entry_container = BEA_congress_main_seat_entry
+			}
+		}
+
+		properties = {
+			BEA_congress_labor_seat = {
+				frame = BEA_congress_labor_seats_array^i
+			}
+			BEA_congress_conservative_seat = {
+				frame = BEA_congress_conservative_seats_array^i
+			}
+			BEA_congress_other_seat = {
+				frame = BEA_congress_other_seats_array^i
+			}
+			BEA_congress_the_main_seat = {
+				frame = BEA_congress_main_seat_array^i
+			}
+		}
+	}
+}

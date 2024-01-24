@@ -1,0 +1,136 @@
+characters = {
+	ENG_clement_attley = {
+		name = ENG_clement_attley
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/clement_attley.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democratic_social_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	ENG_archibald_wavell = {
+		name = ENG_archibald_wavell
+		portraits = {
+			army = {
+				large = "gfx/leaders/ENG/archibald_wavell.dds"
+			}
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_bernard_montgomery = {
+		name = ENG_bernard_montgomery
+		portraits = {
+			army = {
+				large = "gfx/leaders/ENG/bernard_montgomery.dds"
+			}
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_claude_auchinleck = {
+		name = ENG_claude_auchinleck
+		portraits = {
+			army = {
+				large = "gfx/leaders/ENG/claude_auchinleck.dds"
+			}
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_john_harding = {
+		name = ENG_john_harding
+		portraits = {
+			army = {
+				large = "gfx/leaders/ENG/john_harding.dds"
+			}
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_alan_cunningham = {
+		name = ENG_alan_cunningham
+		portraits = {
+			army = {
+				large = "gfx/leaders/ENG/alan_cunningham.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_gerald_lathbury = {
+		name = ENG_gerald_lathbury
+		portraits = {
+			army = {
+				large = "gfx/leaders/ENG/gerald_lathbury.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_montagu_stopford = {
+		name = ENG_montagu_stopford
+		portraits = {
+			army = {
+				large = "gfx/leaders/ENG/montagu_stopford.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_robert_bray = {
+		name = ENG_robert_bray
+		portraits = {
+			army = {
+				large = "gfx/leaders/ENG/robert_bray.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

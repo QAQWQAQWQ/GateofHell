@@ -1,0 +1,16 @@
+characters = {
+	MAD_joseph_raseta = {
+		name = MAD_joseph_raseta
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAD/joseph_raseta.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

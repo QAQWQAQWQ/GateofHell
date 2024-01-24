@@ -1,0 +1,16 @@
+characters = {
+	ALG_Front_de_liberation_nationale = {
+		name = ALG_Front_de_liberation_nationale
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ALG/Portrait_ALG_Front_de_liberation_nationale.dds"
+			}
+		}
+		country_leader = {
+			ideology = big_tent
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

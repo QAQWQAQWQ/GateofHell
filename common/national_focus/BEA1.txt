@@ -1,0 +1,166 @@
+focus_tree = {
+	id = BEA1
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = BEA
+		}
+	}
+	focus = {
+		id = BEA1_report
+		icon = BEA1_report
+		cost = 5
+		x = 3
+		y = 0
+		completion_reward = { }
+	}
+	focus = {
+		id = BEA1_situation
+		icon = BEA1_situation
+		cost = 5
+		x = 3
+		y = 1
+		completion_reward = { }
+		prerequisite = {
+			focus = BEA1_report
+		}
+	}
+	focus = {
+		id = BEA1_encourage_immigration
+		icon = BEA1_encourage_immigration
+		cost = 5
+		x = 1
+		y = 2
+		completion_reward = { }
+		prerequisite = {
+			focus = BEA1_situation
+		}
+	}
+	focus = {
+		id = BEA1_modernisation
+		icon = BEA1_modernisation
+		cost = 5
+		x = 0
+		y = 3
+		completion_reward = { }
+		prerequisite = {
+			focus = BEA1_encourage_immigration
+		}
+	}
+	focus = {
+		id = BEA1_reduce_the_reservation
+		icon = BEA1_reduce_the_reservation
+		cost = 5
+		x = 2
+		y = 3
+		completion_reward = { }
+		prerequisite = {
+			focus = BEA1_encourage_immigration
+		}
+		mutually_exclusive = {
+			focus = BEA1_new_ways
+		}
+	}
+	
+	focus = {
+		id = BEA1_consult_with_the_natives
+		icon = BEA1_consult_with_the_natives
+		cost = 5
+		x = 5
+		y = 2
+		completion_reward = { }
+		prerequisite = {
+			focus = BEA1_situation
+		}
+	}
+	focus = {
+		id = BEA1_new_ways
+		icon = BEA1_new_ways
+		cost = 5
+		x = 4
+		y = 3
+		completion_reward = { }
+		prerequisite = {
+			focus = BEA1_consult_with_the_natives
+		}
+		mutually_exclusive = {
+			focus = BEA1_reduce_the_reservation
+		}
+	}
+	focus = {
+		id = BEA1_honour_the_collaborators
+		icon = BEA1_honour_the_collaborators
+		cost = 5
+		x = 6
+		y = 3
+		completion_reward = { }
+		prerequisite = {
+			focus = BEA1_consult_with_the_natives
+		}
+	}
+	focus = {
+		id = BEA1_federation_dreaming
+		icon = BEA1_federation_dreaming
+		cost = 5
+		x = 3
+		y = 4
+		completion_reward = {set_country_flag = BEA_voting}
+		prerequisite = {
+			focus = BEA1_modernisation
+		}
+		prerequisite = {
+			focus = BEA1_honour_the_collaborators
+		}
+		prerequisite = {
+			focus = BEA1_reduce_the_reservation
+			focus = BEA1_new_ways
+		}
+	}
+	focus = {
+		id = BEA1_the_federation_conference
+		icon = BEA1_the_federation_conference
+		cost = 5
+		x = 1
+		y = 5
+		completion_reward = { }
+		prerequisite = {
+			focus = BEA1_federation_dreaming
+		}
+		mutually_exclusive = {
+			focus = BEA1_broken_dream_once_more
+		}
+		available = {
+			has_country_flag = BEA_federation_success
+		}
+	}
+	focus = {
+		id = BEA1_broken_dream_once_more
+		icon = BEA1_broken_dream_once_more
+		cost = 5
+		x = 5
+		y = 5
+		completion_reward = { }
+		prerequisite = {
+			focus = BEA1_federation_dreaming
+		}
+		mutually_exclusive = {
+			focus = BEA1_the_federation_conference
+		}
+		available = {
+			has_country_flag = BEA_federation_failure
+		}
+	}
+	focus = {
+		id = BEA1_east_africa_shall_remain_forever
+		icon = BEA1_east_africa_shall_remain_forever
+		cost = 5
+		x = 3
+		y = 6
+		completion_reward = { }
+		prerequisite = {
+			focus = BEA1_the_federation_conference
+			focus = BEA1_broken_dream_once_more
+		}
+	}
+}

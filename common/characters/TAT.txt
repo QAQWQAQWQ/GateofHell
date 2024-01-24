@@ -1,0 +1,107 @@
+characters = {
+	TAT_sadri_maksudi_arsal = {
+		name = TAT_sadri_maksudi_arsal
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAT/sadri_maksudi_arsal.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	TAT_subich_grigoriyevich = {
+		name = TAT_subich_grigoriyevich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAT/subich_grigoriyevich.dds"
+			}
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	TAT_abdraim_reshidov = {
+		name = TAT_abdraim_reshidov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAT/abdraim_reshidov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	TAT_bobrovskaja_nadezhda_ivanovna = {
+		name = TAT_bobrovskaja_nadezhda_ivanovna
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAT/bobrovskaja_nadezhda_ivanovna.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	TAT_sergey_danovsky = {
+		name = TAT_sergey_danovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAT/sergey_danovsky.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	TAT_teyfuq_abdul = {
+		name = TAT_teyfuq_abdul
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAT/teyfuq_abdul.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	TAT_veniamin_valeevich_albetkov = {
+		name = TAT_veniamin_valeevich_albetkov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAT/veniamin_valeevich_albetkov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}
+	

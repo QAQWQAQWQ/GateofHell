@@ -1,0 +1,184 @@
+division_template = {
+	name = "Infantry Division" #125000+75000
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	#TODO: 250000 irregulars
+}
+division_template = {
+	name = "Militia" #250000
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+		militia = { x = 2 y = 3 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Infantry Division"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+	division = {
+		location = 4075
+		division_template = "Militia"
+	}
+}

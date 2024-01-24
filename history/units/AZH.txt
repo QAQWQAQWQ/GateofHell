@@ -1,0 +1,38 @@
+﻿division_template = {
+	name = "Azad Hind Fauj"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+
+### OOB ###
+units = {
+	division = {
+		name = "Azad Brigade"
+		location = 1581
+		division_template = "Azad Hind Fauj"
+	}
+	division = {
+		name = "Gandhi Brigade"
+		location = 1581
+		division_template = "Azad Hind Fauj"
+	}
+	division = {
+		name = "Nehru Brigade"
+		location = 1581
+		division_template = "Azad Hind Fauj"
+	}
+	division = {
+		name = "Rani of Jhansi Regiment"
+		location = 1581
+		division_template = "Azad Hind Fauj"
+	}
+	division = {
+		name = "Subhas Brigade"
+		location = 1581
+		division_template = "Azad Hind Fauj"
+	}
+}

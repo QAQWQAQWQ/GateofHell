@@ -1,0 +1,78 @@
+add_namespace = CUB
+
+news_event = {
+	id = CUB.1
+	title = CUB.1.title
+	desc = CUB.1.desc
+	picture = CUB_nato_withdraw_from_cuba
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CUB.1.a
+	}
+}
+country_event = {
+	id = CUB.2
+	title = CUB.2.title
+	desc = CUB.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CUB.2.a
+		CUB = { transfer_state = 962 }
+		every_country = {
+			limit = { is_ai = no }
+			news_event = CUB.1
+		}
+		every_country = {
+			limit = {OR = {
+				tag = USA
+				tag = ENG
+			}}
+			country_event = {
+				id = CUB.3
+				days = 7
+			}
+		}
+	}
+}
+country_event = {
+	id = CUB.3
+	title = CUB.3.title
+	desc = CUB.3.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		trigger = {
+			tag = USA
+		}
+		name = CUB.3.a
+
+		add_manpower = 3248
+	}
+	option = {
+		trigger = {
+			tag = ENG
+		}
+		name = CUB.3.b
+		
+		add_manpower = 273
+	}
+	option = {
+		trigger = {
+			NOT = {OR ={
+				tag = USA
+				tag = ENG
+			}}
+		}
+		name = CUB.3.c
+	}
+}

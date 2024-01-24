@@ -1,0 +1,42 @@
+division_template = {
+	name = "Liberation Army of Chechnya"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+}
+units = {
+	division = {
+		location = 3672
+		division_template = "Liberation Army of Chechnya"
+	}
+	division = {
+		location = 11632
+		division_template = "Liberation Army of Chechnya"
+	}
+	division = {
+		location = 683
+		division_template = "Liberation Army of Chechnya"
+	}
+	division = {
+		location = 3682
+		division_template = "Liberation Army of Chechnya"
+	}
+	division = {
+		location = 6689
+		division_template = "Liberation Army of Chechnya"
+	}
+	division = {
+		location = 666
+		division_template = "Liberation Army of Chechnya"
+	}
+	division = {
+		location = 3667
+		division_template = "Liberation Army of Chechnya"
+	}
+	division = {
+		location = 670
+		division_template = "Liberation Army of Chechnya"
+	}
+}

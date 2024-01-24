@@ -1,0 +1,16 @@
+characters = {
+	KAZ_zhumabay_shayakhmetov = {
+		name = KAZ_zhumabay_shayakhmetov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KAZ/zhumabay_shayakhmetov.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

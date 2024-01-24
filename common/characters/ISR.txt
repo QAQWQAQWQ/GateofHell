@@ -1,0 +1,16 @@
+characters = {
+	ISR_david_ben_gurion = {
+		name = ISR_david_ben_gurion
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ISR/david_ben_gurion.dds"
+			}
+		}
+		country_leader = {
+			ideology = labor_zionism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

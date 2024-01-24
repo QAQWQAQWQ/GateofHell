@@ -1,0 +1,316 @@
+ideologies = {
+	other_ideology = {
+		dynamic_faction_names = {
+		}
+		color = { 35 35 35 }
+		types = {
+			other_ideology_subtype = {}
+			anarchy_subtype = { can_be_randomly_selected = no }
+			power_vacuum_subtype = { can_be_randomly_selected = no }
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	national_socialist_1 = {
+		dynamic_faction_names = {
+		}
+		color = { 40 23 20 }
+		types = {
+
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	national_socialist = {
+		dynamic_faction_names = {
+		}
+		color = { 50 33 30 }
+		types = {
+			national_socialism = {}
+			clerical_fascism = { can_be_randomly_selected = no }
+			ustasism = { can_be_randomly_selected = no }
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	fascist = {
+		dynamic_faction_names = {
+		}
+		color = { 110 45 35 }
+		types = {
+			fascism = {}
+			fascist_populism = { can_be_randomly_selected = no }
+			falangism = { can_be_randomly_selected = no }
+			revolutionary_nationalism = { can_be_randomly_selected = no }
+			fascist_ilyin_thought = { can_be_randomly_selected = no }
+			fascist_corporatism = { can_be_randomly_selected = no }
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	ultranationalist = {
+		dynamic_faction_names = {
+		}
+		color = { 25 25 25 }
+		types = {
+			ultranationalism = {}
+			fundamentalism = { can_be_randomly_selected = no }
+			ultranationalist_turanism = { can_be_randomly_selected = no }
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	reactionary_nationalist = {
+		dynamic_faction_names = {
+		}
+		color = { 35 35 35 }
+		types = {
+			reactionary_nationalism = {}
+			reactionary_conservatism = { can_be_randomly_selected = no }
+			national_revolutionism = { can_be_randomly_selected = no }
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	despotist = {
+		dynamic_faction_names = {
+		}
+		color = { 65 65 65 }
+		types = {
+			despotism = {}
+			dictatorship = {can_be_randomly_selected = no}
+			colonial_government = {can_be_randomly_selected = no}
+			military_occupation = {can_be_randomly_selected = no}
+			military_occupation_nato = {can_be_randomly_selected = no}
+			military_junta = {can_be_randomly_selected = no}
+			mandate_government = {can_be_randomly_selected = no}
+			warlord = {can_be_randomly_selected = no}
+			absolute_monarchy = {can_be_randomly_selected = no}
+			theocracy = {can_be_randomly_selected = no}
+			civilian_dictatorship = {can_be_randomly_selected = no}
+			aristocratic_conservatism = {can_be_randomly_selected = no}
+			partisan_movement = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	paternal = {
+		dynamic_faction_names = {
+		}
+		color = { 111 111 111 }
+		types = {
+			paternalism = {}
+			provisional_government = { can_be_randomly_selected = no }
+			xun_zheng = { can_be_randomly_selected = no }
+			constitutional_monarchy = { can_be_randomly_selected = no }
+			kemalism = {can_be_randomly_selected = no}
+			right_wing_radicalism = {can_be_randomly_selected = no}
+			oligarchy = {can_be_randomly_selected = no}
+			social_nationalism = {can_be_randomly_selected = no}
+			right_wing_populism = {can_be_randomly_selected = no}
+			guided_democracy = {can_be_randomly_selected = no}
+			democratic_transition = {can_be_randomly_selected = no}
+			dominant_party_democracy = {can_be_randomly_selected = no}
+			paternal_peronism = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	conservative_1 = {
+		dynamic_faction_names = {
+		}
+		color = { 16 16 91 }
+		types = {
+			conservative_1_conservatism = {}
+			paternalistic_conservatism = {can_be_randomly_selected = no}
+			christian_conservatism = {can_be_randomly_selected = no}
+			islamic_conservatism = {can_be_randomly_selected = no}
+			national_conservatism = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	conservative = {
+		dynamic_faction_names = {
+		}
+		color = { 26 26 101 }
+		types = {
+			conservatism = {}
+			christian_democracy = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	liberal_conservative = {
+		dynamic_faction_names = {
+		}
+		color = { 47 54 127 }
+		types = {
+			liberal_conservatism = {}
+			big_tent = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	liberal = {
+		dynamic_faction_names = {
+		}
+		color = { 78 91 137 }
+		types = {
+			liberalism = {}
+			conservative_liberalism = {can_be_randomly_selected = no}
+			national_liberalism = {can_be_randomly_selected = no}
+			classical_liberalism = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	progressive = {
+		dynamic_faction_names = {
+		}
+		color = { 164 53 87 }
+		types = {
+			progressivism = {}
+			social_liberalism = {can_be_randomly_selected = no}
+			progressive_avant-garde = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	social_democratic = {
+		dynamic_faction_names = {
+		}
+		color = { 154 43 77 }
+		types = {
+			social_democratic_social_democracy = {can_be_randomly_selected = no}
+			democratic_socialism = {can_be_randomly_selected = no}
+			labor_zionism = {can_be_randomly_selected = no}
+			left_wing_populism = {can_be_randomly_selected = no}
+			liberal_socialism = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	socialist = {
+		dynamic_faction_names = {
+		}
+		color = { 133 33 33 }
+		types = {
+			socialism = {}
+			islamic_socialism = {can_be_randomly_selected = no}
+			pan_africanism = {can_be_randomly_selected = no}
+			african_socialism = {can_be_randomly_selected = no}
+			left_wing_nationalism = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	communist = {
+		dynamic_faction_names = {
+		}
+		color = { 97 23 23 }
+		types = {
+			communism = {}
+			stalinism = {can_be_randomly_selected = no}
+			stratocratic_communism = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+	stratocratic_socialist = {
+		dynamic_faction_names = {
+		}
+		color = { 77 15 15 }
+		types = {
+			stratocratic_socialism = {}
+			military_district = {can_be_randomly_selected = no}
+		}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+	}
+}

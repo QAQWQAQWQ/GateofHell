@@ -1,0 +1,16 @@
+characters = {
+	SPR_francisco_franco = {
+		name = SPR_francisco_franco
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/francisco_franco.dds"
+			}
+		}
+		country_leader = {
+			ideology = civilian_dictatorship
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "SPR_francisco_franco_desc"
+		}
+	}
+}

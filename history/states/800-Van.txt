@@ -1,0 +1,23 @@
+state={
+	id=800
+	name="STATE_800" #Van
+
+	history={
+		owner = ARM
+		victory_points = {
+			6935 5 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUR
+		add_core_of = KUR
+		add_core_of = ARM
+	}
+
+	provinces={
+		652 864 4583 6935 7470 11880 12318 12376 13121 
+	}
+	manpower = 365490
+	state_category = rural
+}

@@ -1,0 +1,15 @@
+characters = {
+	AZR_abdurrahman_fatalibeyli = {
+		name = AZR_abdurrahman_fatalibeyli
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AZR/abdurrahman_fatalibeyli.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism
+			expire = "1991.12.25.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	UZB_amin_niyazov = {
+		name = UZB_amin_niyazov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UZB/amin_niyazov.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

@@ -1,0 +1,142 @@
+characters = {
+	KOR_lyuh_woon-hyung = {
+		name = KOR_lyuh_woon-hyung
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/lyuh_woon-hyung.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democratic_social_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	KOR_kim_il_sung = {
+		name = KOR_kim_il_sung
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/kim_il_sung.dds"
+			}
+		}
+		country_leader = {
+			ideology = stratocratic_communism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	KOR_kim_won-bong = {
+		name = KOR_kim_won-bong
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/kim_won-bong.dds"
+			}
+		}
+		country_leader = {
+			ideology = stratocratic_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	KOR_pak_hon-yong = {
+		name = KOR_pak_hon-yong
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/pak_hon-yong.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	KOR_jo_so-ang = {
+		name = KOR_jo_so-ang
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/jo_so-ang.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	KOR_cho_byung-ok = {
+		name = KOR_cho_byung-ok
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/cho_byung-ok.dds"
+			}
+		}
+		country_leader = {
+			ideology = big_tent
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	KOR_kim_ku = {
+		name = KOR_kim_ku
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/kim_ku.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternalistic_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	KOR_syngman_rhee = {
+		name = KOR_syngman_rhee
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/syngman_rhee.dds"
+			}
+		}
+		country_leader = {
+			ideology = guided_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	KOR_general_staff_office = {
+		name = KOR_general_staff_office
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/general_staff_office.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	KOR_power_vacuum = {
+		name = KOR_power_vacuum
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/power_vacuum.dds"
+			}
+		}
+		country_leader = {
+			ideology = power_vacuum_subtype
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

@@ -1,0 +1,205 @@
+spriteTypes = {
+	spriteType = {
+		name = "event_picture_overlay"
+		textureFile = "gfx/interface/event_picture_overlay.dds"
+	}
+	#reports
+	spriteType = {
+		name = "SOV_report_the_dusk"
+		textureFile = "gfx/event_pictures/SOV_report_the_dusk.dds"
+	}
+	spriteType = {
+		name = "SOV_report_the_alarm"
+		textureFile = "gfx/event_pictures/SOV_report_the_alarm.dds"
+	}
+	spriteType = {
+		name = "SOV_report_the_memory"
+		textureFile = "gfx/event_pictures/SOV_report_the_memory.dds"
+	}
+	spriteType = {
+		name = "SOV_report_the_present"
+		textureFile = "gfx/event_pictures/SOV_report_the_present.dds"
+	}
+	spriteType = {
+		name = "SOV_report_the_perfect_ending"
+		textureFile = "gfx/event_pictures/SOV_report_the_perfect_ending.dds"
+	}
+	spriteType = {
+		name = "SOV_report_an_afternoon"
+		textureFile = "gfx/event_pictures/SOV_report_an_afternoon.dds"
+	}
+	
+	#news
+	spriteType = {
+		name = "GER_hitler_sick"
+		textureFile = "gfx/event_pictures/GER_hitler_sick.dds"
+	}
+	spriteType = {
+		name = "SOV_death_of_stalin"
+		textureFile = "gfx/event_pictures/SOV_death_of_stalin.dds"
+	}
+	spriteType = {
+		name = "SOV_collapse"
+		textureFile = "gfx/event_pictures/SOV_collapse.dds"
+	}
+	spriteType = {
+		name = "SOV_gulag_riot"
+		textureFile = "gfx/event_pictures/SOV_gulag_riot.dds"
+	}
+	spriteType = {
+		name = "MON_occupation_of_tuva"
+		textureFile = "gfx/event_pictures/MON_occupation_of_tuva.dds"
+	}
+	spriteType = {
+		name = "TRK_collapse"
+		textureFile = "gfx/event_pictures/TRK_collapse.dds"
+	}
+	spriteType = {
+		name = "JAP_ogata_taketora"
+		textureFile = "gfx/event_pictures/JAP_ogata_taketora.dds"
+	}
+	spriteType = {
+		name = "JAP_ichiro_hatoyama"
+		textureFile = "gfx/event_pictures/JAP_ichiro_hatoyama.dds"
+	}
+	spriteType = {
+		name = "PAK_indo_pakistani_war"
+		textureFile = "gfx/event_pictures/PAK_indo_pakistani_war.dds"
+	}
+	spriteType = {
+		name = "OMA_jebel_akhdar_war"
+		textureFile = "gfx/event_pictures/OMA_jebel_akhdar_war.dds"
+	}
+	spriteType = {
+		name = "COL_gaitan_killed"
+		textureFile = "gfx/event_pictures/COL_gaitan_killed.dds"
+	}
+	spriteType = {
+		name = "COL_bogotazo"
+		textureFile = "gfx/event_pictures/COL_bogotazo.dds"
+	}
+	spriteType = {
+		name = "CUB_nato_withdraw_from_cuba"
+		textureFile = "gfx/event_pictures/CUB_nato_withdraw_from_cuba.dds"
+	}
+	spriteType = {
+		name = "ENG_de_havilland_comet"
+		textureFile = "gfx/event_pictures/ENG_de_havilland_comet.dds"
+	}
+	spriteType = {
+		name = "ENG_1984"
+		textureFile = "gfx/event_pictures/ENG_1984.dds"
+	}
+	spriteType = {
+		name = "ENG_1950_general_election"
+		textureFile = "gfx/event_pictures/ENG_1950_general_election.dds"
+	}
+	spriteType = {
+		name = "MAL_emergency1"
+		textureFile = "gfx/event_pictures/MAL_emergency1.dds"
+	}
+	spriteType = {
+		name = "HYD_the_annexation_of_hyderabad"
+		textureFile = "gfx/event_pictures/HYD_the_annexation_of_hyderabad.dds"
+	}
+	spriteType = {
+		name = "HYD_operation_polo"
+		textureFile = "gfx/event_pictures/HYD_operation_polo.dds"
+	}
+	spriteType = {
+		name = "FWA_dissolution"
+		textureFile = "gfx/event_pictures/FWA_dissolution.dds"
+	}
+	spriteType = {
+		name = "HAI_exposition"
+		textureFile = "gfx/event_pictures/HAI_exposition.dds"
+	}
+	spriteType = {
+		name = "RAJ_republic"
+		textureFile = "gfx/event_pictures/RAJ_republic.dds"
+	}
+	spriteType = {
+		name = "RAJ_1950_earthquake"
+		textureFile = "gfx/event_pictures/RAJ_1950_earthquake.dds"
+	}
+	spriteType = {
+		name = "BRA_world_cup"
+		textureFile = "gfx/event_pictures/BRA_world_cup.dds"
+	}
+	spriteType = {
+		name = "BRA_return_of_vargas"
+		textureFile = "gfx/event_pictures/BRA_return_of_vargas.dds"
+	}
+	spriteType = {
+		name = "BHU_treaty_of_friendship"
+		textureFile = "gfx/event_pictures/BHU_treaty_of_friendship.dds"
+	}
+	spriteType = {
+		name = "SWE_death_of_gustaf_v"
+		textureFile = "gfx/event_pictures/SWE_death_of_gustaf_v.dds"
+	}
+	spriteType = {
+		name = "ROM_death_of_antonescu"
+		textureFile = "gfx/event_pictures/ROM_death_of_antonescu.dds"
+	}
+	spriteType = {
+		name = "BUL_death_of_boris_iii"
+		textureFile = "gfx/event_pictures/BUL_death_of_boris_iii.dds"
+	}
+	spriteType = {
+		name = "GYA_1953_general_election"
+		textureFile = "gfx/event_pictures/GYA_1953_general_election.dds"
+	}
+	spriteType = {
+		name = "JAM_alexander_bustamante"
+		textureFile = "gfx/event_pictures/JAM_alexander_bustamante.dds"
+	}
+	spriteType = {
+		name = "INS_independence"
+		textureFile = "gfx/event_pictures/INS_independence.dds"
+	}
+	spriteType = {
+		name = "BOL_FSB_coup_detat"
+		textureFile = "gfx/event_pictures/BOL_FSB_coup_detat.dds"
+	}
+	spriteType = {
+		name = "VEN_chalbaud_kidnapped"
+		textureFile = "gfx/event_pictures/VEN_chalbaud_kidnapped.dds"
+	}
+	spriteType = {
+		name = "VEN_jimenez_coming_to_power"
+		textureFile = "gfx/event_pictures/VEN_jimenez_coming_to_power.dds"
+	}
+	spriteType = {
+		name = "FRA_death_of_petain"
+		textureFile = "gfx/event_pictures/FRA_death_of_petain.dds"
+	}
+	spriteType = {
+		name = "KOR_2"
+		textureFile = "gfx/event_pictures/KOR_2.dds"
+	}
+	spriteType = {
+		name = "KOR_4"
+		textureFile = "gfx/event_pictures/KOR_4.dds"
+	}
+	spriteType = {
+		name = "KOR_7"
+		textureFile = "gfx/event_pictures/KOR_7.dds"
+	}
+	spriteType = {
+		name = "KOR_8"
+		textureFile = "gfx/event_pictures/KOR_8.dds"
+	}
+	spriteType = {
+		name = "MLD_abolition_of_monarchy"
+		textureFile = "gfx/event_pictures/MLD_abolition_of_monarchy.dds"
+	}
+	spriteType = {
+		name = "FER_kerensky"
+		textureFile = "gfx/event_pictures/FER_kerensky.dds"
+	}
+	spriteType = {
+		name = "GRE_1"
+		textureFile = "gfx/event_pictures/GRE_1.dds"
+	}
+}

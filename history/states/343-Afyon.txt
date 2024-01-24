@@ -1,0 +1,34 @@
+
+state={
+	id=343
+	name="STATE_343" # Afyon
+	manpower = 1298543
+	resources={
+		chromium=25 # was: 32
+	}
+	
+	state_category = rural
+
+	history={
+		owner = ANA
+		victory_points = {
+			10041 1 
+		}
+		victory_points = {
+			9878 5
+		}
+		victory_points = {
+			3856 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = TUR
+		add_core_of = ANA
+	}
+
+	provinces={
+		785 856 981 3856 3927 6945 9799 9878 9921 9929 10038 10041 11778 11796 11867 11898 11907
+	}
+}

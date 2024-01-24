@@ -1,0 +1,34 @@
+﻿l_simp_chinese:
+#at
+infantry_at_atgrenade:0 "早期反坦克武器"
+infantry_at0:0 "反坦克步枪"
+infantry_at:0 "二战反坦克发射器"
+infantry_at2:0 "反坦克火箭筒"
+#night vision
+early_thermography:0 "早期热成像技术"
+#sights, rangefinders and modifications
+firearm_sights:0 "机械瞄具改良措施"
+portable_rangefinders:0 "改良型便携式测距仪"
+optic_sights:0 "早期改良型光学瞄具"
+optic_sights2:0 "二战光学瞄具"
+modular_weapon_system:0 "模块化概念"
+#infantry_weapons
+infantry_weapons_a:0 "优化步兵武器设计"
+improved_infantry_weapons_a:0 "改良型二战步兵武器"
+infantry_weapons_1950:0 "1950年步兵武器"
+#support weapons
+support_weapons_redesign:0 "优化支援武器设计 I"
+#infantry combat uniform
+infantry_combat_uniform:0 "标准作战服"
+infantry_combat_uniform2:0 "优化制服设计 I"
+infantry_combat_uniform3:0 "伪装色迷彩"
+infantry_combat_uniform4:0 "多色图案迷彩"
+infantry_combat_uniform5:0 "优化迷彩 I"
+infantry_combat_uniform6:0 "优化制服设计 II"
+#infantry protection
+infantry_protection:0 "早期步兵装具"
+infantry_protection2:0 "防弹胸甲"
+infantry_protection3:0 "基础步兵装具"
+infantry_protection4:0 "改良型步兵装具"
+infantry_protection5:0 "基础步兵护具"
+infantry_protection6:0 "防弹背心"

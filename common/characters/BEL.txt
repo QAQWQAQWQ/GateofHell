@@ -1,0 +1,16 @@
+characters = {
+	BEL_hubert_pierlot = {
+		name = BEL_hubert_pierlot
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEL/hubert_pierlot.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

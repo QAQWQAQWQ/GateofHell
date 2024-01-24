@@ -1,0 +1,61 @@
+#country_tags list
+
+#E EUROPE
+	#E
+		#
+		HOL	= "countries/Holland.txt"
+		
+	#E BALKAN
+		#ELLAS
+		CRE = "countries/Greece.txt" #Crete
+		ELA = "countries/Greece.txt"
+		EDE = "countries/Greece.txt"
+		PIN = "countries/Greece.txt" #Pindus
+
+#R RUSSIA
+	#R01 VACUUM ZONE
+
+	#R02 URAL
+
+	#R03 TURKESTAN
+
+	#R04 SIBERIAN
+	KIR = "countries/Russia.txt"
+
+	#R05 FAR EASTERN
+
+#NA NORTH AMERICA
+
+#SA SOUTH AMERICA
+	#
+
+	#SA02 COLOMBIA
+	LCL = "countries/South America.txt"
+	CCL = "countries/South America.txt"
+
+#ME MIDDLE EAST
+	#ME01 TURKEY
+	ANA = "countries/Midddle East.txt"
+
+	#ME02 LEVANT
+
+#AS ASIA
+	#AS04 SOUTHEAST ASIA
+		#AS04A INDONESIA
+		DEI = "countries/Asia.txt"
+		ARA = "countries/Asia.txt"
+		PON = "countries/Asia.txt"
+
+#A AFRICA
+	#A01 EASTERN AFRICA
+
+	#A02 MIDDLE AFRICA
+
+	#A03 NORTHERN AFRICA
+		#A03A ALGERIA
+		CLD = "countries/Africa.txt"
+
+	#A04 SOUTHERN AFRICA
+
+	#A05 WESTERN AFRICA
+	ASA = "countries/Africa.txt"

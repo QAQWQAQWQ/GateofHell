@@ -1,0 +1,31 @@
+ideas = {
+	country = {
+		CUB_unpopular_caudillo = {
+			modifier = {
+                stability_factor = -0.3
+                recruitable_population_factor = 0.005
+			}
+		}
+        CUB_american_support = {
+            modifier = {
+                production_factory_efficiency_gain_factor = 0.1
+                production_speed_industrial_complex_factor = 0.1
+            }
+        }
+        CUB_mired = {
+            modifier = {
+                army_speed_factor = -0.1
+                army_attack_factor = -0.1
+                breakthrough_factor = -0.1
+                army_org_regain = -0.1
+            }
+        }
+        CUB_threat_of_democrats = {
+            modifier = {
+                stability_factor = -0.1
+                attrition = 0.05
+                training_time_army_factor = 0.3
+            }
+        }
+	}
+}

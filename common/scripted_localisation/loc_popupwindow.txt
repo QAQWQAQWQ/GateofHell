@@ -1,0 +1,79 @@
+defined_text = {
+	name = get_pp_desc
+	text = {
+		trigger = {
+			event_target:RECIPIENT_COUNTRY = {
+				OR = {
+					tag = BRM
+				}
+			}
+			event_target:ACTOR_COUNTRY = {
+				OR = {
+					tag = KRN
+				}
+			}
+		}
+		localization_key = pp_desc_BURMA
+	}
+	text = {
+		trigger = {
+			event_target:RECIPIENT_COUNTRY = {
+				OR = {
+					tag = ROK
+					tag = DPK
+					tag = KOR
+				}
+			}
+			event_target:ACTOR_COUNTRY = {
+				OR = {
+					tag = ROK
+					tag = DPK
+					tag = KOR
+				}
+			}
+		}
+		localization_key = pp_desc_KOREAN_WAR
+	}
+	text = {
+		localization_key = pp_desc_d
+	}
+}
+
+defined_text = {
+	name = get_pp_flavor
+	text = {
+		trigger = {
+			event_target:ACTOR_COUNTRY = {
+				tag = KRN
+			}
+		}
+		localization_key = pp_flavor_KRN
+	}
+	text = {
+		trigger = {
+			event_target:ACTOR_COUNTRY = {
+				tag = ROK
+			}
+		}
+		localization_key = pp_flavor_ROK
+	}
+	text = {
+		trigger = {
+			event_target:ACTOR_COUNTRY = {
+				tag = DPK
+			}
+		}
+		localization_key = pp_flavor_DPK
+	}
+	text = {
+		trigger = {
+			event_target:ACTOR_COUNTRY = {
+				tag = KOR
+			}
+		}
+		localization_key = pp_flavor_KOR
+	}
+	text = {
+		localization_key = pp_flavor_d
+	}
+}

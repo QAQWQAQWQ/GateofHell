@@ -1,0 +1,451 @@
+add_namespace = SOV
+
+news_event = {
+	id = SOV.1
+	title = SOV.1.title
+	desc = SOV.1.desc
+	picture = SOV_death_of_stalin
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		trigger = {
+			tag = SOV
+		}
+		name = SOV.1.a
+	}
+	option = {
+		trigger = {
+			tag = GER
+		}
+		name = SOV.1.b
+	}
+	option = {
+		trigger = {
+			tag = ITA
+		}
+		name = SOV.1.c
+	}
+	option = {
+		trigger = {
+			tag = PRC
+		}
+		name = SOV.1.d
+	}
+	option = {
+		trigger = {
+			tag = CHI
+		}
+		name = SOV.1.e
+	}
+	option = {
+		trigger = {
+			OR = {
+				tag = USA
+				tag = ENG
+			}
+		}
+		name = SOV.1.f
+	}
+	option = {
+		trigger = {
+			NOT = {
+				tag = SOV
+				tag = GER
+				tag = ITA
+				tag = PRC
+				tag = CHI
+				tag = USA
+				tag = ENG
+			}
+		}
+		name = SOV.1.g
+	}
+}
+country_event = {
+	id = SOV.2
+	title = SOV.2.title
+	desc = SOV.2.desc
+	picture = SOV_report_the_memory
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.2.a
+		country_event = {
+			id = SOV.3
+			hours = 3
+		}
+	}
+}
+country_event = {
+	id = SOV.3
+	title = SOV.3.title
+	desc = SOV.3.desc
+	picture = SOV_report_the_present
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.3.a
+		add_political_power = 10
+	}
+}
+country_event = {
+	id = SOV.4
+	title = SOV.4.title
+	desc = SOV.4.desc
+	picture = SOV_report_the_dusk
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.4.a
+		add_political_power = 10
+	}
+}
+country_event = {
+	id = SOV.5
+	title = SOV.5.title
+	desc = SOV.5.desc
+	picture = SOV_report_the_alarm
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.5.a
+		add_political_power = -3
+	}
+	option = {
+		name = SOV.5.b
+		add_manpower = -9
+		add_stability = 0.01
+	}
+}
+country_event = {
+	id = SOV.6
+	title = SOV.6.title
+	desc = SOV.6.desc
+	picture = SOV_report_the_perfect_ending
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.6.a
+		add_political_power = -3
+	}
+}
+country_event = {
+	id = SOV.7
+	title = SOV.7.title
+	desc = SOV.7.desc
+	picture = SOV_report_an_afternoon
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.7.a
+		add_political_power = -3
+	}
+}
+news_event = {
+	id = SOV.8
+	title = SOV.8.title
+	desc = SOV.8.desc
+	picture = SOV_collapse
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.8.a
+	}
+}
+country_event = {
+	id = SOV.9
+	title = SOV.9.title
+	desc = SOV.9.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.9.a
+
+		hidden_effect = {
+			SovietUnion_collapse_effect = yes
+		}
+	}
+	option = {
+		name = SOV.9.b
+
+		trigger = {
+			is_ai = no
+		}
+		hidden_effect = {
+			SovietUnion_collapse_effect = yes
+			URS = {change_tag_from = ROOT}
+		}
+	}
+	option = {
+		name = SOV.9.c
+
+		trigger = {
+			is_ai = no
+		}
+		hidden_effect = {
+			SovietUnion_collapse_effect = yes
+			TRK = {change_tag_from = ROOT}
+		}
+	}
+	option = {
+		name = SOV.9.d
+
+		trigger = {
+			is_ai = no
+		}
+		hidden_effect = {
+			SovietUnion_collapse_effect = yes
+			FER = {change_tag_from = ROOT}
+		}
+	}
+}
+country_event = {
+	id = SOV.10
+	title = SOV.10.title
+	desc = SOV.10.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			SOV = {retire_character = SOV_iosif_stalin promote_character = SOV_georgy_malenkov}
+		}
+	}
+
+	option = {
+		name = SOV.10.a
+
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = SOV.1
+					days = 1
+				}
+			}
+			SOV = {
+				country_event = {
+					id = SOV.9
+					days = 39
+				}
+			}
+		}
+	}
+}
+news_event = {
+	id = SOV.11
+	title = SOV.11.title
+	desc = SOV.11.desc
+	picture = SOV_gulag_riot
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.11.a
+	}
+}
+country_event = {
+	id = SOV.12
+	title = SOV.12.title
+	desc = SOV.12.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			516 = {set_demilitarized_zone = yes}	
+		}
+	}
+
+	option = {
+		name = SOV.12.a
+
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = SOV.11
+					days = 1
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = SOV.13 #in purpose of triggering the fucking news event to the military districts
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	hidden = yes
+
+	immediate = {
+		every_country = {
+			limit = { is_ai = no }
+			news_event = SOV.8
+		}
+	}
+}
+country_event = {
+	id = SOV.14 #united states
+	title = SOV.14.title
+	desc = SOV.14.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.14.a
+		SOV = {
+			country_event = {
+				id = SOV.15
+				days = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = SOV.15
+	title = SOV.15.title
+	desc = SOV.15.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.15.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 5000
+			producer = USA
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1
+			amount = 300
+			producer = USA
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_3
+			amount = 200
+			producer = USA
+			variant_name = "M24 Chaffee"
+		}
+	}
+}
+country_event = { #trigger
+	id = SOV.16
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	hidden = yes
+
+	immediate = {
+		TRK = {
+			country_event = TRK.2
+		}
+	}
+}
+country_event = { #trigger
+	id = SOV.17
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	hidden = yes
+
+	immediate = {
+		FER = {
+			country_event = FER.2
+		}
+	}
+}
+news_event = {
+	id = SOV.18
+	title = SOV.18.title
+	desc = SOV.18.desc
+	picture = SOV_gulag_riot
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV.18.a
+	}
+}
+country_event = {
+	id = SOV.19
+	title = SOV.19.title
+	desc = SOV.19.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			release_Yakut = yes
+		}
+	}
+
+	option = {
+		name = SOV.19.a
+
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = SOV.18
+					days = 1
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = SOV.20
+	title = SOV.20.title
+	desc = SOV.20.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			release_Buryat = yes
+			release_Transbaikal = yes
+		}
+	}
+
+	option = {
+		name = SOV.20.a
+	}
+}

@@ -1,0 +1,31 @@
+﻿division_template = {
+	name = "Chosŏn Inmin'gun"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	division = {
+		location = 898
+		division_template = "Chosŏn Inmin'gun"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 898
+		division_template = "Chosŏn Inmin'gun"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 6944
+		division_template = "Chosŏn Inmin'gun"
+		start_experience_factor = 0.5
+	}
+}

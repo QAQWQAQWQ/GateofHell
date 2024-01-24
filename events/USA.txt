@@ -1,0 +1,80 @@
+add_namescape = USAcrisis
+
+country_event = {
+	id = USAcrisis.1
+	title = USAcrisis.1.title
+	desc = USAcrisis.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = USAcrisis.1.a
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = USAcrisis.2
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = USAcrisis.2
+	title = USAcrisis.2.title
+	desc = USAcrisis.2.desc
+	picture = USAcrisis
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = USAcrisis.2.a
+		trigger = {
+			ROOT = {
+				NOT = {
+					is_in_faction_with = GER
+				}
+				NOT = {
+					tag = SOV
+				}
+			}
+		}
+	}
+	option = {
+		name = USAcrisis.2.b
+		trigger = {
+			ROOT = {
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = USAcrisis.2.c
+		trigger = {
+			ROOT = {
+				tag = SOV
+			}
+		}
+	}
+}
+
+add_namescape = USA
+
+country_event = {
+	id = USA.1
+	title = USA.1.title
+	desc = USA.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = USA.1.a
+	}
+}

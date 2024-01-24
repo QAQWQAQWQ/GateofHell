@@ -1,0 +1,68 @@
+characters = {
+	BOL_enrique_hertzog = {
+		name = BOL_enrique_hertzog
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BOL/enrique_hertzog.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	BOL_mamerto_urriolagoitia = {
+		name = BOL_mamerto_urriolagoitia
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BOL/mamerto_urriolagoitia.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	BOL_oscar_unzaga = {
+		name = BOL_oscar_unzaga
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BOL/oscar_unzaga.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	BOL_bernardino_bilbao_rioja = {
+		name = BOL_bernardino_bilbao_rioja
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BOL/bernardino_bilbao_rioja.dds"
+			}
+			army = {
+				large = "gfx/leaders/BOL/bernardino_bilbao_rioja.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

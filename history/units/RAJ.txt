@@ -1,0 +1,403 @@
+division_template = {
+	name = "Paidal Sena Rejiment"
+	regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+    }
+
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Aarmard Rejiment"
+	regiments = {
+        light_armor = { x = 0 y = 0 }
+        light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+    }
+}
+division_template = {
+	name = "Gorkha Rifles"
+	regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+    }
+	priority = 2
+}
+
+units = {
+	division = {
+		location = 1129
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 7106
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2076
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12708
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10729
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 1129
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 7106
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2076
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12708
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10729
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2002
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12041
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12876
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12718
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10866
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10847
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12886
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 4064
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 1061
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 7020
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 4984
+		division_template = "Aarmard Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12844
+		division_template = "Aarmard Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 7998
+		division_template = "Aarmard Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12868
+		division_template = "Aarmard Rejiment"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Gorkha Rifles"
+		start_equipment_factor = 0.8
+		start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1898
+		division_template = "Gorkha Rifles"
+		start_equipment_factor = 0.8
+		start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 10021
+		division_template = "Gorkha Rifles"
+		start_equipment_factor = 0.8
+		start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1129
+		division_template = "Gorkha Rifles"
+		start_equipment_factor = 0.8
+		start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7106
+		division_template = "Gorkha Rifles"
+		start_equipment_factor = 0.8
+		start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2076
+		division_template = "Gorkha Rifles"
+		start_equipment_factor = 0.8
+		start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Paidal Sena Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Aarmard Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Aarmard Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Aarmard Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Aarmard Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 2086
+		division_template = "Aarmard Rejiment"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+	}
+}

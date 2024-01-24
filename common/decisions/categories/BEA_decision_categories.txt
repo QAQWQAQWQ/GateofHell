@@ -1,0 +1,13 @@
+BEA_congress_and_decisions_category = {
+    picture = GFX_decision_category_picture
+	allowed = {
+		tag = BEA
+	}
+	visible = {
+        has_country_flag = BEA_voting
+    }
+	
+	scripted_gui = BEA_congress_scripted_gui
+
+    priority = 10
+}

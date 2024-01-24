@@ -1,0 +1,16 @@
+characters = {
+	AOI_prince_amedeo = { 
+		name = AOI_prince_amedeo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AOI/prince_amedeo.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

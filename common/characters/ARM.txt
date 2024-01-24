@@ -1,0 +1,15 @@
+characters = {
+	ARM_drastamat_kanayan = {
+		name = ARM_drastamat_kanayan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARM/drastamat_kanayan.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "1991.12.25.1"
+			id = -1
+		}
+	}
+}

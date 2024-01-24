@@ -1,0 +1,53 @@
+focus_tree = {
+	id = USA1
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = USA
+		}
+	}
+	focus = {
+		id = USA1_a_call
+		icon = USA1_a_call
+		cost = 2
+		x = 4
+		y = 0
+		completion_reward = {
+			add_political_power = -10
+			add_command_power = 5
+			hidden_effect = {
+				country_event = USA.1
+			}
+		}
+	}
+	focus = {
+		id = USA1_farewell_havana
+		icon = USA1_farewell_havana
+		cost = 2
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = USA1_a_call
+		}
+		completion_reward = {
+			country_event = {
+				id = CUB.2
+				days = 1
+			}
+		}
+	}
+	focus = {
+		id = USA1_goddamn_advice
+		icon = USA1_goddamn_advice
+		cost = 1
+		x = 4
+		y = 2
+		prerequisite = {
+			focus = USA1_farewell_havana
+		}
+		completion_reward = { 
+			army_experience = 1
+		}
+	}
+}

@@ -1,0 +1,23 @@
+state={
+	id=941
+	name="STATE_941"
+
+	history={
+		owner = MNC
+		victory_points = {
+			13907 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MNC
+	}
+
+	provinces={
+		13907
+	}
+	manpower=18125
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

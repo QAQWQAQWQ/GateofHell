@@ -1,0 +1,27 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_news_generic"
+		textureFile = "gfx/interface/headlines/news_generic.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_ger_nazi"
+		textureFile = "gfx/interface/headlines/news_ger_nazi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_ita"
+		textureFile = "gfx/interface/headlines/news_ita.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_sov"
+		textureFile = "gfx/interface/headlines/news_sov.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_raj"
+		textureFile = "gfx/interface/headlines/news_raj.dds"
+		legacy_lazy_load = no
+	}
+}

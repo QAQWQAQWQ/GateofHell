@@ -1,0 +1,54 @@
+spriteTypes = {
+	spriteType = {
+		name = "BEA_canvass_the_labours"
+		texturefile = "gfx/interface/decisions/BEA_canvass_the_labours.dds"
+	}
+	spriteType = {
+		name = "BEA_canvass_the_conservatives"
+		texturefile = "gfx/interface/decisions/BEA_canvass_the_conservatives.dds"
+	}
+	spriteType = {
+		name = "BEA_telephone_attlee"
+		texturefile = "gfx/interface/decisions/BEA_telephone_attlee.dds"
+	}
+	spriteType = {
+		name = "BEA_write_to_the_royals"
+		texturefile = "gfx/interface/decisions/BEA_write_to_the_royals.dds"
+	}
+	spriteType = {
+		name = "BEA_talk_with_the_the_opposition"
+		texturefile = "gfx/interface/decisions/BEA_talk_with_the_the_opposition.dds"
+	}
+	spriteType = {
+		name = "BEA_meet_the_seniors_of_the_labour"
+		texturefile = "gfx/interface/decisions/BEA_meet_the_seniors_of_the_labour.dds"
+	}
+	spriteType = {
+		name = "BEA_meet_the_seniors_of_the_conservative_party"
+		texturefile = "gfx/interface/decisions/BEA_meet_the_seniors_of_the_conservative_party.dds"
+	}
+	spriteType = {
+		name = "BEA_more_praise"
+		texturefile = "gfx/interface/decisions/BEA_more_praise.dds"
+	}
+	spriteType = {
+		name = "BEA_counterattack_the_opposition"
+		texturefile = "gfx/interface/decisions/BEA_counterattack_the_opposition.dds"
+	}
+	spriteType = {
+		name = "BEA_propagate_to_london"
+		texturefile = "gfx/interface/decisions/BEA_propagate_to_london.dds"
+	}
+	spriteType = {
+		name = "BEA_exhibit_farther_development_of_the_federalisation"
+		texturefile = "gfx/interface/decisions/BEA_exhibit_farther_development_of_the_federalisation.dds"
+	}
+	spriteType = {
+		name = "BEA_lobbyist_from_london"
+		texturefile = "gfx/interface/decisions/BEA_lobbyist_from_london.dds"
+	}
+	spriteType = {
+		name = "BEA_the_voting_ends"
+		texturefile = "gfx/interface/decisions/BEA_the_voting_ends.dds"
+	}
+}

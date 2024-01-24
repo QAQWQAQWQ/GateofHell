@@ -1,0 +1,47 @@
+add_namespace = ROM
+
+news_event = {
+	id = ROM.1
+	title = ROM.1.title
+	desc = ROM.1.desc
+	picture = ROM_death_of_antonescu
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ROM.1.a
+	}
+}
+country_event = {
+	id = ROM.2
+	title = ROM.2.title
+	desc = ROM.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			ROM = {
+				retire_character = ROM_ion_antonescu
+				set_politics = {
+					ruling_party = paternal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ROM.2.a
+		every_country = {
+			limit = { is_ai = no }
+			news_event = {
+				id = ROM.1
+				days = 1
+			}
+		}
+	}
+}

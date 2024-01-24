@@ -1,0 +1,16 @@
+characters = {
+	CHL_gabriel_gonzalez_videla = {
+		name = CHL_gabriel_gonzalez_videla
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHL/gabriel_gonzalez_videla.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_wing_radicalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

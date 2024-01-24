@@ -1,0 +1,37 @@
+add_namespace = tannenbaum
+
+country_event = {
+	id = tannenbaum.1
+	title = tannenbaum.1.title
+	desc = tannenbaum.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = tannenbaum.1.a
+
+		hidden_effect = {
+			GER = {
+				declare_war_on = {
+					target = SWI
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = LIE
+					type = annex_everything
+				}
+			}
+			ITA = {
+				declare_war_on = {
+					target = SWI
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = LIE
+					type = annex_everything
+				}
+			}
+		}
+	}
+}

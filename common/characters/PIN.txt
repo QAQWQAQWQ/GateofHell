@@ -1,0 +1,16 @@
+characters = {
+	PIN_Alcibiades_I = {
+		name = PIN_Alcibiades_I
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PIN/Portrait_PIN_Alcibiades_I.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_corporatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

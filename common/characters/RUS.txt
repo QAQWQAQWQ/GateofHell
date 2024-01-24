@@ -1,0 +1,304 @@
+characters = {
+	RUS_ivan_ilyin = {
+		name = RUS_ivan_ilyin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/ivan_ilyin.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_ilyin_thought
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	RUS_konstantin_rodzaevsky = {
+		name = RUS_konstantin_rodzaevsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/konstantin_rodzaevsky.dds"
+			}
+		}
+		country_leader = {
+			ideology = clerical_fascism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	RUS_vladimir_marushevsky = {
+		name = RUS_vladimir_marushevsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/vladimir_marushevsky.dds"
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_apollinary_ryabinsky = {
+		name = RUS_apollinary_ryabinsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/apollinary_ryabinsky.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_mikhail_nikolaevich_levitov = {
+		name = RUS_mikhail_nikolaevich_levitov
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/mikhail_nikolaevich_levitov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_marija_zacharczenko-szulc = {
+		name = RUS_marija_zacharczenko-szulc
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/marija_zacharczenko-szulc.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_nikolai_fyodorov = {
+		name = RUS_nikolai_fyodorov
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/nikolai_fyodorov.dds"
+			}
+			civilian = {
+				small = "gfx/interface/ideas/RUS/idea_nikolai_fyodorov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_RUS_nikolai_fyodorov
+			ledger = civilian
+		}
+	}
+	RUS_karp_gordeenko = {
+		name = RUS_karp_gordeenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/karp_gordeenko.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_pavel_bermondt-avalov = {
+		name = RUS_pavel_bermondt-avalov
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/pavel_bermondt-avalov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_pavel_chatilov = {
+		name = RUS_pavel_chatilov
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/pavel_chatilov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_sergey_voytsekhovsky = {
+		name = RUS_sergey_voytsekhovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/sergey_voytsekhovsky.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_spiridon_dionisevich_merkulov = {
+		name = RUS_spiridon_dionisevich_merkulov
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/spiridon_dionisevich_merkulov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_viktor_aleksandrovich_larionov = {
+		name = RUS_viktor_aleksandrovich_larionov
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/viktor_aleksandrovich_larionov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_vladimir_butkov = {
+		name = RUS_vladimir_butkov
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/vladimir_butkov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_vladimir_granitov = {
+		name = RUS_vladimir_granitov
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/vladimir_granitov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_vladimir_sergeevich_tolstov = {
+		name = RUS_vladimir_sergeevich_tolstov
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/vladimir_sergeevich_tolstov.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_vladimir_vitkovsky = {
+		name = RUS_vladimir_vitkovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/vladimir_vitkovsky.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_vyacheslav_naumenko = {
+		name = RUS_vyacheslav_naumenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/vyacheslav_naumenko.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RUS_lev_mikhailovich_erogin = {
+		name = RUS_lev_mikhailovich_erogin
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/RUS/idea_lev_mikhailovich_erogin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_RUS_lev_mikhailovich_erogin
+			ledger = civilian
+		}
+	}
+	RUS_anton_denikin = {
+		name = RUS_anton_denikin
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/RUS/idea_anton_denikin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_RUS_anton_denikin
+			ledger = civilian
+		}
+	}
+}

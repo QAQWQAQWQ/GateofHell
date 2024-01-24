@@ -1,0 +1,25 @@
+scripted_gui = {
+
+	faction_icon_diplomacy = {
+		window_name = "faction_icon_diplomacy_window"
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy 
+
+		triggers = {
+			faction_icon_visible = {
+				OR = {
+					is_in_faction = yes
+	
+					has_idea = FACTION_FORMER_AXIS_DISPUTED
+					has_idea = FACTION_FORMER_AXIS_MEMBER
+				}
+			}
+		}
+		properties = {
+			faction_icon = {
+				image = "[THIS.GetFactionIcon]"
+			}
+		}
+	}
+
+}

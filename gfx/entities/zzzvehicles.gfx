@@ -1,0 +1,21 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "HELI_GER_INFHELI_1_Drache_mesh"
+		file = "gfx/models/helicopters/HELI_GER_INFHELI_1_Drache.mesh"
+		
+		animation = { id = "idle"			type = "HELI_GER_INFHELI_1_Drache_idle_animation" }
+		animation = { id = "move"			type = "HELI_GER_INFHELI_1_Drache_moving_animation" }
+		animation = { id = "attack"			type = "HELI_GER_INFHELI_1_Drache_attack_animation" }
+		animation = { id = "stand"			type = "HELI_GER_INFHELI_1_Drache_stand_animation" }
+	}
+
+	pdxmesh = {
+		name = "HELI_INF_frame_mesh"
+		file = "gfx/models/units/vehicles/motorized_frame.mesh"
+		
+		animation = { id = "idle"			type = "motorized_frame_idle_animation" }
+		animation = { id = "move"			type = "HELI_INF_frame_move_animation" }
+		animation = { id = "attack"			type = "HELI_INF_frame_attack_animation" }
+	}	
+}

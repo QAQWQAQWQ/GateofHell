@@ -1,0 +1,30 @@
+characters = {
+	GYA_charles_woolley = {
+		name = GYA_charles_woolley
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GYA/charles_woolley.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	GYA_cheddi_jagan = {
+		name = GYA_cheddi_jagan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GYA/cheddi_jagan.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

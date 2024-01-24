@@ -1,0 +1,35 @@
+ideas = {
+	hidden_ideas = {
+        FACTION_BERLIN_1 = {
+            allowed = { always = no }
+        }
+        FACTION_BERLIN_2 = {
+            allowed = { always = no }
+        }
+        FACTION_BERLIN_3 = {
+            allowed = { always = no }
+        }
+        FACTION_BERLIN_4 = {
+            allowed = { always = no }
+        }
+        FACTION_BERLIN_5 = {
+            allowed = { always = no }
+        }
+        FACTION_BERLIN_6 = {
+            allowed = { always = no }
+        }
+        FACTION_BERLIN_7 = {
+            allowed = { always = no }
+        }
+        FACTION_BERLIN_8 = {
+            allowed = { always = no }
+        }
+
+        FACTION_FORMER_AXIS_DISPUTED = {
+            allowed = { always = no }
+        }
+        FACTION_FORMER_AXIS_MEMBER = {
+            allowed = { always = no }
+        }
+	}
+}

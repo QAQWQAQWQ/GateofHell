@@ -1,0 +1,15 @@
+state={
+	id=850
+	name="STATE_850"
+	manpower=1
+
+	state_category = wasteland 
+
+	history={
+		owner = GER
+	}
+	
+	provinces={
+		14247
+	}
+}

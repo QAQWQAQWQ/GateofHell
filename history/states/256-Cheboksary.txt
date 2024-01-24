@@ -1,0 +1,21 @@
+
+state={
+	id=256
+	name="STATE_256"
+	manpower = 786030
+	
+	state_category = town
+
+	history={
+		owner = RKM
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SOV
+		add_core_of = RKM
+	}
+
+	provinces={
+		3282 6253 6312 6357 9259 9307 9373 11356 
+	}
+}

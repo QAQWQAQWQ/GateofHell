@@ -1,0 +1,16 @@
+characters = {
+	RHO_godfrey_huggins = {
+		name = RHO_godfrey_huggins
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHO/godfrey_huggins.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservative_liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

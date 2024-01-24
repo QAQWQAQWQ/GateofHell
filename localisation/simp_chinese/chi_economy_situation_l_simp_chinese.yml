@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+chi_economy_collapsed:0 "财政状况：§R濒临崩溃§!\n改善进度：[?current_economy_situation_icon_frame|%R]"
+chi_economy_scarce:0 "财政状况：§R极其匮乏§!\n改善进度：[?current_economy_situation_icon_frame|%R]"
+chi_economy_poor:0 "财政状况：§R较为匮乏§!\n改善进度：[?current_economy_situation_icon_frame|%R]"
+chi_economy_mediocre:0 "财政状况：§O不多不少§!\n改善进度：[?current_economy_situation_icon_frame|%O]"
+chi_economy_fine:0 "财政状况：§O稍显良色§!\n改善进度：[?current_economy_situation_icon_frame|%O]"
+chi_economy_improved:0 "财政状况：§G大有改善§!\n改善进度：[?current_economy_situation_icon_frame|%G]"
+chi_economy_rich:0 "财政状况：§G较为健康§!\n改善进度：[?current_economy_situation_icon_frame|%G]"
+chi_economy_affluent:0 "财政状况：§G财政富裕§!\n改善进度：[?current_economy_situation_icon_frame|%G]"
+chi_economy_desc:0 "0%-10%：§R濒临崩溃§!\n10%-30%：§R极其匮乏§!\n30%-40%：§R较为匮乏§!\n40%-50%：§O不多不少§!\n50%-60%：§O稍显良色§!\n60%-70%：§G大有改善§!\n70%-80%：§G较为健康§!\n80%-100%：§G财政富裕§!"
+tt_economy_situation_decrease_2pc:0 "我们的经济改善状况将会§R减少§!2%以响应该决议。"
+tt_economy_situation_decrease_4pc:0 "我们的经济改善状况将会§R减少§!4%以响应该决议。"

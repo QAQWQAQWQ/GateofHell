@@ -1,0 +1,25 @@
+state={
+	id=472
+	name="STATE_472"
+	
+	state_category = wasteland
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		1671 2407 2976 3800 4695 6779 7348 7830 7858 12534 12682 13167 13168 13183 13185 13187 13192 7766 10585 5239 7782 7185 12508 917 4678 1872 6728 10605 13182
+	}
+	manpower=27681
+	resources={
+		aluminium=2 # was: 4.000
+	}
+	buildings_max_level_factor=1.000
+}

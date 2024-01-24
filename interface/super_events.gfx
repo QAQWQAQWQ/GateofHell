@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "super_event_background"
+		texturefile = "gfx/interface/super_events/super_event_background.dds"
+	}
+	spriteType = {
+		name = "superevent_button"
+		texturefile = "gfx/interface/super_events/superevent_button.dds"
+	}
+	spriteType = {
+		name = "GFX_la_violencia"
+		texturefile = "gfx/interface/super_events/la_violencia.dds"
+	}
+	spriteType = {
+		name = "GFX_russia_reuni_ilyin1"
+		texturefile = "gfx/interface/super_events/russia_reuni_ilyin1.dds"
+	}
+}

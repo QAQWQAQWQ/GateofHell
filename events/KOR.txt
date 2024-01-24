@@ -1,0 +1,354 @@
+add_namespace = KOR
+
+country_event = {
+	id = KOR.1
+	title = KOR.1.title
+	desc = KOR.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = KOR.1.a
+		hidden_effect = {
+			KOR = {
+				set_politics = {
+					ruling_party = socialist
+				}
+				country_event = {
+					id = KOR.9
+					days = 30
+				}
+			}
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = KOR.2
+					days = 1
+				}
+			}
+		}
+		ai_chance = {
+			base = 4
+		}
+	}
+	option = {
+		name = KOR.1.b
+		hidden_effect = {
+			KOR = {
+				retire_character = KOR_lyuh_woon-hyung
+				set_politics = {
+					ruling_party = other_ideology
+				}
+				country_event = {
+					id = KOR.10
+					days = 30
+				}
+			}
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = KOR.3
+					days = 1
+				}
+			}
+		}
+		ai_chance = {
+			base = 4
+		}
+	}
+	option = {
+		name = KOR.1.c
+		hidden_effect = {
+			KOR = {
+				retire_character = KOR_lyuh_woon-hyung
+				set_politics = {
+					ruling_party = despotist
+				}
+			}
+			525 = {set_demilitarized_zone = yes}
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = KOR.4
+					days = 1
+				}
+			}
+		}
+		ai_chance = {
+			base = 2
+		}
+	}
+}
+news_event = {
+	id = KOR.2
+	title = KOR.2.title
+	desc = KOR.2.desc
+	picture = KOR_2
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KOR.2.a
+	}
+}
+news_event = {
+	id = KOR.3
+	title = KOR.3.title
+	desc = KOR.3.desc
+	picture = KOR_2
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KOR.3.a
+	}
+}
+news_event = {
+	id = KOR.4
+	title = KOR.4.title
+	desc = KOR.4.desc
+	picture = KOR_4
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KOR.4.a
+	}
+}
+country_event = {
+	id = KOR.5 #右派发动内战——金九
+	title = KOR.5.title
+	desc = KOR.5.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KOR.5.a
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = KOR.7
+					days = 1
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = KOR.6 #左派发动内战——朴宪永
+	title = KOR.6.title
+	desc = KOR.6.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KOR.6.a
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = KOR.8
+					days = 1
+				}
+			}
+		}
+	}
+}
+news_event = {
+	id = KOR.7
+	title = KOR.7.title
+	desc = KOR.7.desc
+	picture = KOR_7
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KOR.7.a
+	}
+}
+news_event = {
+	id = KOR.8
+	title = KOR.8.title
+	desc = KOR.8.desc
+	picture = KOR_8
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KOR.8.a
+	}
+}
+country_event = {
+	id = KOR.9
+	title = KOR.9.title
+	desc = KOR.9.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KOR.9.a
+		hidden_effect = {
+			KOR = {
+				set_politics = {
+					ruling_party = communist
+				}
+			}
+		}
+		ai_chance = {
+			base = 0.9
+		}
+	}
+	option = {
+		name = KOR.9.b
+		hidden_effect = {
+			KOR = {
+				set_politics = {
+					ruling_party = stratocratic_socialist
+				}
+			}
+		}
+		ai_chance = {
+			base = 3.5
+		}
+	}
+	option = {
+		name = KOR.9.c
+		hidden_effect = {
+			KOR = {
+				set_politics = {
+					ruling_party = socialist
+				}
+			}	
+		}
+		ai_chance = {
+			base = 5.5
+		}
+	}
+	option = {
+		name = KOR.9.d
+		hidden_effect = {
+			KOR = {
+				set_politics = {
+					ruling_party = social_democratic
+				}
+			}	
+		}
+		ai_chance = {
+			base = 0.1
+		}
+	}
+}
+country_event = {
+	id = KOR.10
+	title = KOR.10.title
+	desc = KOR.10.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KOR.10.a
+		hidden_effect = {
+			KOR = {
+				set_politics = {
+					ruling_party = socialist
+				}
+			}
+		}
+		ai_chance = {
+			base = 2
+		}
+	}
+	option = {
+		name = KOR.10.b
+		hidden_effect = {
+			KOR = {
+				set_politics = {
+					ruling_party = liberal
+				}
+			}
+		}
+		ai_chance = {
+			base = 2
+		}
+	}
+	option = {
+		name = KOR.10.c
+		hidden_effect = {
+			KOR = {
+				set_politics = {
+					ruling_party = liberal_conservative
+				}
+			}
+		}
+		ai_chance = {
+			base = 2
+		}
+	}
+	option = {
+		name = KOR.10.d
+		hidden_effect = {
+			KOR = {
+				set_politics = {
+					ruling_party = conservative
+				}
+			}
+		}
+		ai_chance = {
+			base = 2
+		}
+	}
+	option = {
+		name = KOR.10.e
+		hidden_effect = {
+			KOR = {
+				set_politics = {
+					ruling_party = paternal
+				}
+			}
+		}
+		ai_chance = {
+			base = 2
+		}
+	}
+}
+country_event = {
+	id = KOR.11 #右派发动内战——李承晚
+	title = KOR.11.title
+	desc = KOR.11.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KOR.11.a
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = KOR.7
+					days = 1
+				}
+			}
+		}
+	}
+}

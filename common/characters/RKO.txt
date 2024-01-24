@@ -1,0 +1,16 @@
+characters = {
+	RKO_hinrich_lohse = {
+		name = RKO_hinrich_lohse
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RKO/hinrich_lohse.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

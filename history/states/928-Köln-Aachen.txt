@@ -1,0 +1,26 @@
+state={
+	id=928
+	name="STATE_928"
+
+	history={
+		owner = GER
+		victory_points = {
+			587 5 
+		}
+		victory_points = {
+			3547 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		587 3488 3547 6570 9482 9522
+	}
+	manpower=2300000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

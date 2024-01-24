@@ -1,0 +1,31 @@
+state=
+{
+	id=188
+	name="STATE_188"
+	manpower = 150000
+	
+	
+	state_category = rural
+	
+	history = {
+		victory_points = {
+			3254 1
+		}
+		victory_points = {
+			3288 1
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			3288 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = GER
+
+	}
+	provinces={
+		281 3254 3288 3384 9327 14427 14428
+	}
+}

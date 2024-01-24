@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+		GER_GWN = {
+			picture = GER_GWN
+			modifier = {
+			}
+		}
+		GER_overlooking_the_world = {
+			picture = GER_overlooking_the_world
+			modifier = {
+			}
+		}
+		GER_serious_corruption = {
+			picture = GER_serious_corruption
+			modifier = {
+			}
+		}		
+		GER_seven_year_legacy = {
+			picture = GER_seven_year_legacy
+			modifier = {
+			}
+		}
+		GER_thousand_years_reich = {
+			picture = GER_thousand_years_reich
+			modifier = {
+			}
+		}
+	}
+}

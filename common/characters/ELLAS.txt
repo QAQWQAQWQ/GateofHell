@@ -1,0 +1,149 @@
+characters = {
+	GRE_ioannis_rallis = { #deceased
+		name = GRE_ioannis_rallis
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/ioannis_rallis.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	GRE_konstantinos_logothetopoulos = {
+		name = GRE_konstantinos_logothetopoulos
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/konstantinos_logothetopoulos.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	GRE_Ektor_Tsironikos = {
+		name = GRE_Ektor_Tsironikos
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/Portrait_GRE_Ektor_Tsironikos.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	GRE_georgios_poulos = {
+		name = GRE_georgios_poulos
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRE/georgios_poulos.dds"
+			}
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	GRE_georgios_grivas = {
+		name = GRE_georgios_grivas
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRE/georgios_grivas.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	GRE_nikolaos_bourantas = {
+		name = GRE_nikolaos_bourantas
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRE/nikolaos_bourantas.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GRE_styliano_gonatas = {
+		name = GRE_styliano_gonatas
+		portraits = {
+			army = {
+				large = "gfx/leaders/GRE/styliano_gonatas.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	#Crete
+	CRE_Emmanuel_Basias = {
+		name = CRE_Emmanuel_Basias
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRE/Portrait_CRE_Emmanuel_Basias.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	#Ethnikós Dimokratikós Ellinikós Sýndesmos
+	EDE_Napoleon_Zervas = {
+		name = EDE_Napoleon_Zervas
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EDE/Portrait_EDE_Napoleon_Zervas.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternalistic_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	#Ellinikós Laïkós Apeleftherotikós Stratós
+	ELA_Markos_Vafeiadis = {
+		name = ELA_Markos_Vafeiadis
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELA/Portrait_ELA_Markos_Vafeiadis.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

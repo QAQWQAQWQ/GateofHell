@@ -1,0 +1,8 @@
+fire_super_event_sound = {
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { genericvar_1 = 1 } }
+			play_song = "la_violencia"
+		}
+	}
+}

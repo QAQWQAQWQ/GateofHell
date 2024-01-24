@@ -1,0 +1,16 @@
+characters = {
+	VIN_ho_chi_minh = {
+		name = VIN_ho_chi_minh
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/ho_chi_minh.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

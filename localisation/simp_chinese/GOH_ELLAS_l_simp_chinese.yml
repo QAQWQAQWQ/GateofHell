@@ -1,0 +1,46 @@
+﻿l_simp_chinese:
+#COUNTRIES
+GRE_fascist: "希腊国"
+GRE_fascist_DEF: "希腊国"
+
+GRE_ADJ: "希腊"
+
+ELA: "希腊人民解放军"
+ELA_DEF: "希腊人民解放军"
+
+ELA_ADJ: "希腊"
+
+EDE: "希腊全国共和联盟"
+EEA_DEF: "希腊全国共和联盟"
+
+EEA_ADJ: "希腊"
+
+PIN: "品都斯亲王国"
+PIN_DEF: "品都斯亲王国"
+
+PIN_ADJ: "品都斯"
+
+CRE: "克里特岛"
+CRE_DEF: "克里特岛"
+
+CRE_ADJ: "克里特"
+
+#PARTIES
+CRE_liberal_party: "EOK"
+
+#CHARACTERS
+GRE_ioannis_rallis: "扬尼斯·拉利斯" #REMOVED
+GRE_konstantinos_logothetopoulos: "康斯坦丁·罗哥索托伯罗斯" #REMOVED
+GRE_Ektor_Tsironikos: "埃克托·齐罗尼科斯"
+GRE_georgios_poulos: "乔治奥斯·普洛斯"
+GRE_georgios_grivas: "乔治奥斯·格里瓦斯"
+GRE_nikolaos_bourantas: "尼古拉斯·布兰塔斯"
+GRE_styliano_gonatas: "斯蒂利亚诺·戈纳塔斯"
+
+PIN_Alcibiades_I: "阿尔西比亚德斯一世"
+PIN_Nicolaos_I: "尼古拉斯一世"
+
+CRE_Emmanuel_Basias: "埃马努埃莱·巴西亚斯"
+
+#EVENTS
+GRE.1.title: "[GetNewsHeadline]雅典遭恐怖袭击！"

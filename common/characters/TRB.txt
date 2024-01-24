@@ -1,0 +1,16 @@
+characters = {
+	TRB_grigory_semyonov = {
+		name = TRB_grigory_semyonov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TRB/grigory_semyonov.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

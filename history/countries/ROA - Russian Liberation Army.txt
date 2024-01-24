@@ -1,0 +1,34 @@
+capital = 224
+
+recruit_character = ROA_andrey_vlasov
+recruit_character = ROA_vladimir_arcezo
+recruit_character = ROA_georgy_zhilenkov
+recruit_character = ROA_igor_sakharov
+recruit_character = ROA_mikhail_meandrov
+recruit_character = ROA_vasily_malyshkin
+
+set_stability = 0.45
+set_war_support = 0.8
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+
+	early_fighter = 1
+	CAS1 = 1
+	fuel_silos = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1935.3.31"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	despotist = 100
+}

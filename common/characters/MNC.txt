@@ -1,0 +1,16 @@
+characters = {
+	MNC_rainier_iii = {
+		name = MNC_rainier_iii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MNC/rainier_iii.dds"
+			}
+		}
+		country_leader = {
+			ideology = constitutional_monarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	FAL_marcel_peyrouton = {
+		name = FAL_marcel_peyrouton
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/marcel_peyrouton.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

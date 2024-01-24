@@ -1,0 +1,286 @@
+division_template = {
+	name = "Divizia Infanterie"
+	regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+    }
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Întărit Divizia Infanterie"
+	regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		anti_tank_brigade = { x = 3 y = 0 }
+    }
+
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Brigada Infanterie"
+	regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+    }
+
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Divizia Cavalerie" 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Divizia Blindată" 
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		light_tank_destroyer_brigade = { x = 1 y = 0 }
+		bicycle_battalion = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Divizia Blindată" 
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		light_tank_destroyer_brigade = { x = 1 y = 0 }
+		mot_artillery_brigade = { x = 2 y = 0 }
+		bicycle_battalion = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Divizia Mecanizata" 
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		medium_armor = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Regimentul Blindată" 
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Întărit Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Întărit Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Întărit Divizia Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Cavalerie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Cavalerie"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Blindată"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Divizia Mecanizata"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 9617
+		division_template = "Regimentul Blindată"
+		start_experience_factor = 0.5
+	}
+}

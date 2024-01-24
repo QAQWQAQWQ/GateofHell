@@ -1,0 +1,25 @@
+
+state={
+	id=944
+	name="STATE_944"
+	manpower = 305275
+	
+	state_category = town
+
+	history = {
+		owner = BSK
+		buildings = {
+			infrastructure = 5
+
+		}
+		victory_points = {
+			4354 1 
+		}
+		add_core_of = SOV
+		add_core_of = BSK
+	}
+
+	provinces = {
+		1258 1305 1378 1406 4265 4311 4354 4383 7300 7373 10185 10226 12200 14432
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=943
+	name="STATE_943"
+
+	history={
+		owner = CSK
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SOV
+		add_core_of = CSK
+	}
+
+	provinces={
+		4215 4261 7281 10196 10224
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

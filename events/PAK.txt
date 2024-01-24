@@ -1,0 +1,42 @@
+add_namespace = PAK
+
+news_event = {
+	id = PAK.1
+	title = PAK.1.title
+	desc = PAK.1.desc
+	picture = PAK_assasination
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = PAK.1.a
+	}
+}
+country_event = {
+	id = PAK.2
+	title = PAK.2.title
+	desc = PAK.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = PAK.2.a
+		hidden_effect = {
+			PAK = {
+				retire_character = PAK_liaquat_ali_khan
+				promote_character = PAK_khawaja_nazimuddin
+			}
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = PAK.1
+					days = 1
+				}
+			}
+		}
+	}
+}

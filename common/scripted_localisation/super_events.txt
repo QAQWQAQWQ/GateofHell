@@ -1,0 +1,76 @@
+defined_text = {
+	name = GetSuperEventTitle
+	text = {
+		trigger = {
+			check_variable = {
+				genericvar_1 = 1
+			}
+		}
+		localization_key = la_violencia.t
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				genericvar_1 = 2
+			}
+		}
+		localization_key = russia_reuni_ilyin1.t
+	}
+}
+defined_text = {
+	name = GetSuperEventImage
+	text = {
+		trigger = {
+			check_variable = {
+				genericvar_1 = 1
+			}
+		}
+		localization_key = GFX_la_violencia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				genericvar_1 = 2
+			}
+		}
+		localization_key = GFX_russia_reuni_ilyin1
+	}
+}
+defined_text = {
+	name = GetSuperEventOption
+	text = {
+		trigger = {
+			check_variable = {
+				genericvar_1 = 1
+			}
+		}
+		localization_key = la_violencia.a
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				genericvar_1 = 2
+			}
+		}
+		localization_key = russia_reuni_ilyin1.a
+	}
+}
+defined_text = {
+	name = GetSuperEventDesc
+	text = {
+		trigger = {
+			check_variable = {
+				genericvar_1 = 1
+			}
+		}
+		localization_key = la_violencia.desc
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				genericvar_1 = 2
+			}
+		}
+		localization_key = russia_reuni_ilyin1.desc
+	}
+}

@@ -1,0 +1,30 @@
+characters = {
+	BUL_boris_iii = {
+		name = BUL_boris_iii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUL/boris_iii.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	BUL_simeon_ii = {
+		name = BUL_simeon_ii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUL/simeon_ii.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

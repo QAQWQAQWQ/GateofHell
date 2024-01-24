@@ -1,0 +1,39 @@
+division_template = {
+	name = "Militia"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		location = 1316
+		division_template = "Militia"
+		start_experience_factor = 1.0
+	}
+	division = {
+		location = 1316
+		division_template = "Militia"
+		start_experience_factor = 1.0
+	}
+	division = {
+		location = 1316
+		division_template = "Militia"
+		start_experience_factor = 1.0
+	}
+	division = {
+		location = 1316
+		division_template = "Militia"
+		start_experience_factor = 1.0
+	}
+	division = {
+		location = 1316
+		division_template = "Militia"
+		start_experience_factor = 1.0
+	}
+}

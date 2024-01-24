@@ -1,0 +1,16 @@
+characters = {
+	BTA_edward_twining = {
+		name = BTA_edward_twining
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BTA/edward_twining.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

@@ -1,0 +1,72 @@
+characters = {
+	TUR_huseyin_husnu_emir_erkilet = {
+		name = TUR_huseyin_husnu_emir_erkilet
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TUR/hüseyin_hüsnü_emir_erkilet.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalist_turanism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	TUR_ismet_inonu = {
+		name = TUR_ismet_inonu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TUR/ismet_inonu.dds"
+			}
+		}
+		country_leader = {
+			ideology = kemalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	TUR_celal_bayar = {
+		name = TUR_celal_bayar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TUR/celal_bayar.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	TUR_Recep_Peker = {
+		name = TUR_Recep_Peker
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ministers/TUR/Minister_TUR_Recep_Peker.dds"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = TUR_Recep_Peker_hog
+			ledger = civilian
+			can_be_fired = no
+		}
+	}
+	TUR_Nuri_Killigil = {
+		name = TUR_Nuri_Killigil
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ministers/TUR/Minister_TUR_Nuri_Killigil.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = TUR_Nuri_Killigil_sec
+			ledger = civilian
+			can_be_fired = no
+		}
+	}
+}

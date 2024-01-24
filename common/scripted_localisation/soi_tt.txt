@@ -1,0 +1,22 @@
+defined_text = {
+	name = GetSOItt
+
+	text = {
+		trigger = {CONTROLLER = {is_in_faction = yes}}
+		localization_key = "SOItt_FACTION_MEMBER"
+	}
+	text = {
+		localization_key = "SOItt_NOFACTION"
+	}
+}
+defined_text = {
+	name = GetSOItt_delayed
+
+	text = {
+		trigger = {CONTROLLER = {is_in_faction = yes}}
+		localization_key = "SOItt_FACTION_MEMBER_delayed"
+	}
+	text = {
+		localization_key = "SOItt_NOFACTION_delayed"
+	}
+}

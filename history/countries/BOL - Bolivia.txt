@@ -1,0 +1,75 @@
+﻿capital = 302
+
+recruit_character = BOL_enrique_hertzog
+recruit_character = BOL_mamerto_urriolagoitia
+recruit_character = BOL_oscar_unzaga
+recruit_character = BOL_bernardino_bilbao_rioja
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fuel_silos = 1
+}
+
+	set_technology = {
+		interwar_artillery = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_refining = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+
+set_politics = {
+	ruling_party = paternal
+	last_election = "1934.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democratic = 43
+	conservative = 17
+	paternal = 10
+	despotist = 10
+	fascist = 11
+	liberal = 5
+	communist = 4
+}
+
+country_event = {
+	id = BOL.3
+	days = 143
+}
+country_event = {
+	id = BOL.2
+	days = 714
+}

@@ -1,0 +1,16 @@
+characters = {
+	DEN_erik_scavenius = {
+		name = DEN_erik_scavenius
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/erik_scavenius.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

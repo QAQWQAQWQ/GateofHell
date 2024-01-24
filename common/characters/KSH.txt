@@ -1,0 +1,16 @@
+characters = {
+	KSH_hari_singh = {
+		name = KSH_hari_singh
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KSH/hari_singh.dds"
+			}
+		}
+		country_leader = {
+			ideology = aristocratic_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

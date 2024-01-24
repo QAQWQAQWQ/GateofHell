@@ -1,0 +1,24 @@
+
+state={
+	id=956
+	name="STATE_956"
+	manpower = 447707 #1947
+	
+	state_category = rural
+	
+	resources={
+		#
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MAL
+	}
+
+	provinces={
+		14433
+	}
+}

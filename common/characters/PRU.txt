@@ -1,0 +1,15 @@
+characters = {
+	PRU_manuel_odria = {
+		name = PRU_manuel_odria
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRU/manuel_odria.dds"
+			}
+		}
+		country_leader={
+			ideology = right_wing_populism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

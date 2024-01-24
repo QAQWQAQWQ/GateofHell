@@ -1,0 +1,36 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			BEA = {
+				clear_array = BEA_congress_labor_seats_array
+				clear_array = BEA_congress_conservative_seats_array
+				clear_array = BEA_congress_other_seats_array
+				clear_array = BEA_congress_main_seat_array
+				set_variable = { canvass_point = 0 }
+				set_variable = { labor_seats = 6 }
+				set_variable = { labor_seats_against = 0 }
+				set_variable = { conservative_seats = 3 }
+				set_variable = { conservative_seats_against = 0 }
+				set_variable = { other_seats = 12 }
+				set_variable = { other_seats_against = 0 }
+				set_variable = { main_seat = 0 }
+				BEA_congress_recalc_seats = yes
+				BEA_congress_recalc_ratio = yes
+			}
+		}
+	}
+	on_weekly_BEA = {
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = BEA_voting
+				}
+				BEA_congress_recalc_ratio = yes
+				add_to_variable = { labor_seats = labor_seats_ratio }
+				add_to_variable = { conservative_seats = conservative_seats_ratio }
+				add_to_variable = { other_seats = other_seats_ratio }
+				BEA_congress_recalc_seats = yes
+			}
+		}
+	}
+}

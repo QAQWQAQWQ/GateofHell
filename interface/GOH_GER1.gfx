@@ -1,0 +1,82 @@
+spriteTypes = {
+	SpriteType = {
+		name = GER1_endsieg
+		texturefile = "gfx/interface/goals/GER1_endsieg.dds"
+	}
+	SpriteType = {
+		name = GER1_victors_confusion
+		texturefile = "gfx/interface/goals/GER1_victors_confusion.dds"
+	}
+	SpriteType = {
+		name = GER1_the_troubles_ahead
+		texturefile = "gfx/interface/goals/GER1_the_troubles_ahead.dds"
+	}
+	SpriteType = {
+		name = GER1_settle_the_weimer_legacies
+		texturefile = "gfx/interface/goals/GER1_settle_the_weimer_legacies.dds"
+	}
+	SpriteType = {
+		name = GER1_fricks_proposal
+		texturefile = "gfx/interface/goals/GER1_fricks_proposal.dds"
+	}
+	SpriteType = {
+		name = GER1_Verfassungsgesetze_Grossdeutschlands
+		texturefile = "gfx/interface/goals/GER1_Verfassungsgesetze_Grossdeutschlands.dds"
+	}
+	SpriteType = {
+		name = GER1_Reichsgesetz
+		texturefile = "gfx/interface/goals/GER1_Reichsgesetz.dds"
+	}
+	SpriteType = {
+		name = GER1_demolish_democracy
+		texturefile = "gfx/interface/goals/GER1_demolish_democracy.dds"
+	}
+	SpriteType = {
+		name = GER1_more_rubber_stamps
+		texturefile = "gfx/interface/goals/GER1_more_rubber_stamps.dds"
+	}
+	SpriteType = {
+		name = GER1_fuhrers_supreme_authority
+		texturefile = "gfx/interface/goals/GER1_fuhrers_supreme_authority.dds"
+	}
+	SpriteType = {
+		name = GER1_patching_Ermachtigungsgesetz_for_good_is_impossible
+		texturefile = "gfx/interface/goals/GER1_patching_Ermachtigungsgesetz_for_good_is_impossible.dds"
+	}
+	SpriteType = {
+		name = GER1_ribbentrops_plan
+		texturefile = "gfx/interface/goals/GER1_ribbentrops_plan.dds"
+	}
+	SpriteType = {
+		name = GER1_act_tough_talk_soft
+		texturefile = "gfx/interface/goals/GER1_act_tough_talk_soft.dds"
+	}
+	SpriteType = {
+		name = GER1_threatening_the_weak
+		texturefile = "gfx/interface/goals/GER1_threatening_the_weak.dds"
+	}
+	SpriteType = {
+		name = GER1_need_of_germania
+		texturefile = "gfx/interface/goals/GER1_need_of_germania.dds"
+	}
+	SpriteType = {
+		name = GER1_ploiesti_black_gold
+		texturefile = "gfx/interface/goals/GER1_ploiesti_black_gold.dds"
+	}
+	SpriteType = {
+		name = GER1_need_of_europa
+		texturefile = "gfx/interface/goals/GER1_need_of_europa.dds"
+	}
+	SpriteType = {
+		name = GER1_budapest_comrades
+		texturefile = "gfx/interface/goals/GER1_budapest_comrades.dds"
+	}
+	SpriteType = {
+		name = GER1_Neuropa
+		texturefile = "gfx/interface/goals/GER1_Neuropa.dds"
+	}
+	SpriteType = {
+		name = GER1_associating_the_reich
+		texturefile = "gfx/interface/goals/GER1_associating_the_reich.dds"
+	}
+}

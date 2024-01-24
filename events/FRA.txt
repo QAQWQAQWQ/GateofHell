@@ -1,0 +1,40 @@
+add_namespace = FRA
+
+news_event = {
+	id = FRA.1
+	title = FRA.1.title
+	desc = FRA.1.desc
+	picture = FRA_death_of_petain
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = FRA.1.a
+	}
+}
+country_event = {
+	id = FRA.2
+	title = FRA.2.title
+	desc = FRA.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = FRA.2.a
+
+		hidden_effect = {
+			FRA = {retire_character = FRA_philippe_petain}
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = FRA.1
+					days = 1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	TAJ_bobojon_ghafurov = {
+		name = TAJ_bobojon_ghafurov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAJ/bobojon_ghafurov.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

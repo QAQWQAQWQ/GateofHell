@@ -1,0 +1,30 @@
+characters = {
+	ICE_sveinn_bjornsson = { #president
+		name = ICE_sveinn_bjornsson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ICE/sveinn_bjornsson.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternalistic_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	ICE_stefan_johann_stefansson = { #prime minister
+		name = ICE_stefan_johann_stefansson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ICE/stefan_johann_stefansson.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democratic_social_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

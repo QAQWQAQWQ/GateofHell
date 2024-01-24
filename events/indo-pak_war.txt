@@ -1,0 +1,110 @@
+add_namespace = indo_pak
+
+country_event = {
+	id = indo_pak.1 #pak
+	title = indo_pak.1.title
+	desc = indo_pak.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = indo_pak.1.a
+		RAJ = {
+			country_event = {
+				id = indo_pak.2
+				days = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = indo_pak.2
+	title = indo_pak.2.title
+	desc = indo_pak.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = indo_pak.2.a
+		hidden_effect = {
+			indo_pak_pakistani_offense = yes
+		}
+		every_country = {
+			limit = { is_ai = no }
+			news_event = {
+				id = indo_pak.3
+				days = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = indo_pak.4 #india
+	title = indo_pak.4.title
+	desc = indo_pak.4.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = indo_pak.4.a
+		PAK = {
+			country_event = {
+				id = indo_pak.5
+				days = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = indo_pak.5
+	title = indo_pak.5.title
+	desc = indo_pak.5.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = indo_pak.5.a
+		hidden_effect = {
+			indo_pak_indian_offense = yes
+		}
+		every_country = {
+			limit = { is_ai = no }
+			news_event = {
+				id = indo_pak.3
+				days = 1
+			}
+		}
+	}
+}
+news_event = {
+	id = indo_pak.3
+	title = indo_pak.3.title
+	desc = indo_pak.3.desc
+	picture = PAK_indo_pakistani_war
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = indo_pak.3.a
+	}
+}
+country_event = {
+	id = indo_pak.6
+	title = indo_pak.6.title
+	desc = indo_pak.6.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = indo_pak.6.a
+		indo_pak_haji_pir_pass_conflict = yes
+	}
+}

@@ -1,0 +1,29 @@
+characters = {
+	SYR_zeid_bin_hussein = { 
+		name = SYR_zeid_bin_hussein
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYR/zeid_bin_hussein.dds"
+			}
+		}
+		country_leader = {
+			ideology = constitutional_monarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	SYR_Housni_al-Zaim = {
+		name = SYR_Housni_al-Zaim
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ministers/SYR/Minister_SYR_Housni_al-Zaim.dds"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = SYR_Housni_al-Zaim_hog
+			ledger = civilian
+		}
+	}
+}

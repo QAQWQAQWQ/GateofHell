@@ -1,0 +1,16 @@
+characters = {
+	CAN_louis_st_laurent = {
+		name = CAN_louis_st_laurent
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/louis_st_laurent.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

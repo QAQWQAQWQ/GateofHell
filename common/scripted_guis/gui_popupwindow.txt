@@ -1,0 +1,31 @@
+scripted_gui = {
+
+	peace_popup_window = {
+		window_name = "peace_popup_window"
+		context_type = player_context
+		#parent_window_token = top_bar
+		dirty = global.pp_dirty # Please trigger the dirty var when manually triggering the popup.
+	
+		properties = {
+			flag_1 = {
+				image = "[RECIPIENT_COUNTRY.GetFlag]"
+			}
+			flag_2 = {
+				image = "[ACTOR_COUNTRY.GetFlag]"
+			}
+		}
+		visible = {
+			is_ai = no
+			has_global_flag = pp
+		}
+		effects = {
+			close_button_click = {
+				clr_global_flag = pp
+				clear_global_event_target = RECIPIENT_COUNTRY
+				clear_global_event_target = ACTOR_COUNTRY
+				add_to_variable = { global.pp_dirty = 1 }
+			}
+		}
+	}
+
+}

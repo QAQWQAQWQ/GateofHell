@@ -1,0 +1,30 @@
+characters = {
+	IRE_sean_o'kelly = {
+		name = IRE_sean_o'kelly
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/sean_o'kelly.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	IRE_john_costello = {
+		name = IRE_john_costello
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/john_costello.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	DEI_Tony_Lovink = {
+		name = DEI_Tony_Lovink
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEI/Portrait_DEI_Tony_Lovink.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

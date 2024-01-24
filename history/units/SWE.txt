@@ -1,0 +1,130 @@
+division_template = {
+	name = "Arméfördelning"
+	regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery = { x = 3 y = 0 }
+    }
+
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Arméfördelning (7 bataljon)"
+	regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+    }
+
+	support = {
+		artillery = { x = 0 y = 0 }
+		anti_tank = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Bergsinfanteridivision"
+	regiments = {
+        mountaineers = { x = 0 y = 0 }
+        mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+    }
+}
+division_template = {
+	name = "Pansardivision" 
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+	}
+
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+	}	
+}
+division_template = {
+	name = "Kavalleridivision" 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		location = 6050
+		division_template = "Arméfördelning"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 6050
+		division_template = "Arméfördelning"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 6050
+		division_template = "Arméfördelning"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 6050
+		division_template = "Arméfördelning"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 6050
+		division_template = "Arméfördelning"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 6050
+		division_template = "Arméfördelning (7 bataljon)"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 6050
+		division_template = "Bergsinfanteridivision"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 6050
+		division_template = "Pansardivision"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 6050
+		division_template = "Kavalleridivision"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 6050
+		division_template = "Kavalleridivision"
+		start_experience_factor = 0.5
+	}
+}

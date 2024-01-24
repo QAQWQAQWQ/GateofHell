@@ -1,0 +1,118 @@
+RUS_decisions_category = {
+	RUS_1_a = {
+		icon = RUS_1_a
+		cost = 20
+		days_remove = 3
+		
+		available = {
+			NOT = {has_country_flag = RUS_is_in_riot}
+		}
+		complete_effect = {
+			
+		}
+		remove_effect = {
+			every_owned_state = {
+				set_demilitarized_zone = no
+			}
+			clr_country_flag = RUS_is_in_riot
+		}
+	}
+	RUS_1_b = {
+		icon = RUS_1_a
+		cost = 20
+		days_remove = 3
+		
+		available = {
+			NOT = {has_country_flag = RUS_is_in_riot}
+		}
+		complete_effect = {
+			
+		}
+	}
+	RUS_1_c = {
+		icon = RUS_1_a
+		cost = 20
+		days_remove = 3
+
+		available = {
+			NOT = {has_country_flag = RUS_is_in_riot}
+		}
+		complete_effect = {
+			
+		}
+	}
+	RUS_1_d1 = {
+		icon = RUS_1_a
+		cost = 20
+		days_remove = 3
+
+		available = {
+			NOT = {has_country_flag = RUS_is_in_riot}
+		}
+		complete_effect = {
+			
+		}
+	}
+	RUS_1_d2 = {
+		icon = RUS_1_a
+		cost = 20
+		days_remove = 3
+
+		available = {
+			NOT = {has_country_flag = RUS_is_in_riot}
+		}
+		complete_effect = {
+			
+		}
+	}
+	RUS_1_e = {
+		icon = RUS_1_a
+		cost = 20
+		days_remove = 3
+
+		available = {
+			NOT = {has_country_flag = RUS_is_in_riot}
+		}
+		complete_effect = {
+			
+		}
+	}
+	RUS_2 = {
+		icon = RUS_1_a
+		cost = 20
+		days_remove = 3
+
+		available = {
+			NOT = {has_country_flag = RUS_is_in_riot}
+		}
+		complete_effect = {
+			
+		}
+	}
+	RUS_3 = {
+		icon = RUS_1_a
+		days_remove = 21
+		days_re_enable = 60
+
+		complete_effect = {
+			hidden_effect = {
+				random_owned_state = {
+					set_demilitarized_zone = yes
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}
+				set_country_flag = RUS_is_in_riot	
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				every_owned_state = {
+					set_demilitarized_zone = no
+				}
+				clr_country_flag = RUS_is_in_riot	
+			}
+		}
+	}
+}

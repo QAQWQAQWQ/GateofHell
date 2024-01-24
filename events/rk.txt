@@ -1,0 +1,19 @@
+add_namespace = rk
+
+country_event = {
+	id = rk.1 #future content, triggered by Speer or Goering
+	title = rk.1.title
+	desc = rk.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = rk.1.a
+		
+		rkOstland_dissolution = yes
+		rkUkraine_dissolution = yes
+		rkMoskauwien_dissolution = yes
+		rkKaukasien_dissolution = yes
+	}
+}

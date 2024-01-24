@@ -1,0 +1,16 @@
+characters = {
+	FRA_philippe_petain = {
+		name = FRA_philippe_petain
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/philippe_petain.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_revolutionism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "FRA_philippe_petain_desc"
+		}
+	}
+}

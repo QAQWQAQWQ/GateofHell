@@ -1,0 +1,16 @@
+characters = {
+	KZN_pyotr_savitsky = {
+		name = KZN_pyotr_savitsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KZN/pyotr_savitsky.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

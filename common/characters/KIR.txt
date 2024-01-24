@@ -1,0 +1,16 @@
+characters = {
+	KIR_sergei_eisenstein = {
+		name = KIR_sergei_eisenstein
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KIR/Portrait_KIR_Sergei_Eisenstein.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_avant-garde
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

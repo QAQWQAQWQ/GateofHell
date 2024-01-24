@@ -1,0 +1,44 @@
+﻿capital = 525 #South Korea - Seoul or Busan
+
+oob = "KOR"
+
+recruit_character = KOR_lyuh_woon-hyung
+recruit_character = KOR_kim_il_sung
+recruit_character = KOR_kim_won-bong
+recruit_character = KOR_pak_hon-yong
+recruit_character = KOR_jo_so-ang
+recruit_character = KOR_cho_byung-ok
+recruit_character = KOR_kim_ku
+recruit_character = KOR_syngman_rhee
+recruit_character = KOR_general_staff_office
+recruit_character = KOR_power_vacuum
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = social_democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	paternal = 5
+	conservative = 10
+	liberal_conservative = 10
+	liberal = 10
+	social_democratic = 40
+	socialist = 10
+	communist = 10
+	stratocratic_socialist = 5
+}
+
+country_event = {
+	id = KOR.1
+	days = 121
+}

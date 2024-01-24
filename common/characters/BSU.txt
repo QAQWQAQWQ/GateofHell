@@ -1,0 +1,16 @@
+characters = {
+	BSU_robert_george_howe = {
+		name = BSU_robert_george_howe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BSU/robert_george_howe.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

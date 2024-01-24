@@ -1,0 +1,280 @@
+division_template = {
+	name = "Infantry Regiment"
+	regiments = { 
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Armored Regiment"
+	regiments = {
+        light_armor = { x = 0 y = 0 }
+        light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+    }
+}
+
+units = {
+	division = {
+		location = 12822
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10772
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10843
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12792
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 1971
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 4382
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 1980
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 1147
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 4003
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10887
+		division_template = "Armored Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12005
+		division_template = "Armored Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10887
+		division_template = "Armored Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 4979
+		division_template = "Armored Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 13324
+		division_template = "Armored Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 13326
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 13328
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 13403
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 13404
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10887
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 3456
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 3456
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 3456
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12717
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12717
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 13394
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12822
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10772
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10843
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 12792
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 10898
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 13326
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {
+		location = 13328
+		division_template = "Infantry Regiment"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.5
+	}
+}

@@ -1,0 +1,30 @@
+characters = {
+	HOL_willem_drees = {
+		name = HOL_willem_drees
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/willem_drees.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democratic_social_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	NGN_Stephan_Lucien_Joseph_van_Waardenburg = {
+		name = NGN_Stephan_Lucien_Joseph_van_Waardenburg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NGN/Portrait_NGN_Stephan_Lucien_Joseph_van_Waardenburg.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

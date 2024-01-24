@@ -1,0 +1,26 @@
+
+state={
+	id=72
+	name="STATE_72"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			3381 = {
+				bunker = 1
+
+			}
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		243 548 3381 6401 11515 14413
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

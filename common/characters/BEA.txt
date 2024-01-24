@@ -1,0 +1,75 @@
+characters = {
+	BEA_rowland_baring = {
+		name = BEA_rowland_baring
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEA/rowland_baring.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	BEA_philip_mitchell = {
+		name = BEA_philip_mitchell
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEA/philip_mitchell.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "BEA_philip_mitchell_desc"
+		}
+	}
+	BEA_harry_edward_de_robillard_wetherall = {
+		name = BEA_harry_edward_de_robillard_wetherall
+		portraits = {
+			army = {
+				large = "gfx/leaders/BEA/harry_edward_de_robillard_wetherall.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	BEA_rea_leaky = {
+		name = BEA_rea_leaky
+		portraits = {
+			army = {
+				large = "gfx/leaders/BEA/rea_leaky.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	BEA_robert_mansergh = {
+		name = BEA_robert_mansergh
+		portraits = {
+			army = {
+				large = "gfx/leaders/BEA/robert_mansergh.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

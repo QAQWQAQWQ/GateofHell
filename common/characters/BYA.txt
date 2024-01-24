@@ -1,0 +1,16 @@
+characters = {
+	BYA_tsyben_zhamtsarano = {
+		name = BYA_tsyben_zhamtsarano
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BYA/tsyben_zhamtsarano.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

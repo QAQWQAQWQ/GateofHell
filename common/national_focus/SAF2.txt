@@ -1,0 +1,813 @@
+focus_tree = {
+	id = SAF2
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = SAF
+		}
+	}
+	focus = {
+		id = SAF2_1
+		icon = SAF2_1
+		cost = 5.00
+		x = 17
+		y = 0
+		mutually_exclusive = {
+		}
+		prerequisite = {
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_2
+		icon = SAF2_2
+		cost = 5.00
+		x = 17
+		y = 1
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_1
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_3
+		icon = SAF2_3
+		cost = 5.00
+		x = 17
+		y = 2
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_2
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_4
+		icon = SAF2_4
+		cost = 5.00
+		x = 17
+		y = 3
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_3
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_24
+		icon = SAF2_24
+		cost = 5.00
+		x = 16
+		y = 4
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_4
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_26
+		icon = SAF2_26
+		cost = 5.00
+		x = 16
+		y = 5
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_24
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_27
+		icon = SAF2_27
+		cost = 5.00
+		x = 16
+		y = 6
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_26
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_28
+		icon = SAF2_28
+		cost = 5.00
+		x = 16
+		y = 7
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_27
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_29
+		icon = SAF2_29
+		cost = 5.00
+		x = 16
+		y = 8
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_28
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_25
+		icon = SAF2_25
+		cost = 5.00
+		x = 18
+		y = 4
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_4
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_30
+		icon = SAF2_30
+		cost = 5.00
+		x = 18
+		y = 5
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_25
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_31
+		icon = SAF2_31
+		cost = 5.00
+		x = 18
+		y = 6
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_30
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_32
+		icon = SAF2_32
+		cost = 5.00
+		x = 18
+		y = 7
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_31
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_33
+		icon = SAF2_33
+		cost = 5.00
+		x = 18
+		y = 8
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_32
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_34
+		icon = SAF2_34
+		cost = 5.00
+		x = 17
+		y = 9
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_29
+		}
+		prerequisite = {
+			focus = SAF2_33
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_35
+		icon = SAF2_35
+		cost = 5.00
+		x = 17
+		y = 10
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_34
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_5
+		icon = SAF2_5
+		cost = 5.00
+		x = 11
+		y = 3
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_3
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_6
+		icon = SAF2_6
+		cost = 5.00
+		x = 21
+		y = 3
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_3
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_36
+		icon = SAF2_36
+		cost = 5.00
+		x = 20
+		y = 4
+		mutually_exclusive = {
+			focus = SAF2_38
+		}
+		prerequisite = {
+			focus = SAF2_6
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_37
+		icon = SAF2_37
+		cost = 5.00
+		x = 20
+		y = 5
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_36
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_38
+		icon = SAF2_38
+		cost = 5.00
+		x = 22
+		y = 4
+		mutually_exclusive = {
+			focus = SAF2_36
+		}
+		prerequisite = {
+			focus = SAF2_6
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_39
+		icon = SAF2_39
+		cost = 5.00
+		x = 22
+		y = 5
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_38
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_40
+		icon = SAF2_40
+		cost = 5.00
+		x = 21
+		y = 6
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_39
+			focus = SAF2_37
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_41
+		icon = SAF2_41
+		cost = 5.00
+		x = 20
+		y = 7
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_37
+		}
+		prerequisite = {
+			focus = SAF2_40
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_42
+		icon = SAF2_42
+		cost = 5.00
+		x = 22
+		y = 7
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_39
+		}
+		prerequisite = {
+			focus = SAF2_40
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_43
+		icon = SAF2_43
+		cost = 5.00
+		x = 21
+		y = 8
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_42
+			focus = SAF2_41
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_7
+		icon = SAF2_7
+		cost = 5.00
+		x = 9
+		y = 4
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_5
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_8
+		icon = SAF2_8
+		cost = 5.00
+		x = 13
+		y = 4
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_5
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_9
+		icon = SAF2_9
+		cost = 5.00
+		x = 9
+		y = 5
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_7
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_11
+		icon = SAF2_11
+		cost = 5.00
+		x = 8
+		y = 6
+		mutually_exclusive = {
+			focus = SAF2_12
+		}
+		prerequisite = {
+			focus = SAF2_9
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_13
+		icon = SAF2_13
+		cost = 5.00
+		x = 8
+		y = 7
+		mutually_exclusive = {
+			focus = SAF2_15
+		}
+		prerequisite = {
+			focus = SAF2_11
+			focus = SAF2_12
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_14
+		icon = SAF2_14
+		cost = 5.00
+		x = 8
+		y = 8
+		mutually_exclusive = {
+			focus = SAF2_16
+		}
+		prerequisite = {
+			focus = SAF2_13
+			focus = SAF2_15
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_12
+		icon = SAF2_12
+		cost = 5.00
+		x = 10
+		y = 6
+		mutually_exclusive = {
+			focus = SAF2_11
+		}
+		prerequisite = {
+			focus = SAF2_9
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_15
+		icon = SAF2_15
+		cost = 5.00
+		x = 10
+		y = 7
+		mutually_exclusive = {
+			focus = SAF2_13
+		}
+		prerequisite = {
+			focus = SAF2_12
+			focus = SAF2_11
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_16
+		icon = SAF2_16
+		cost = 5.00
+		x = 10
+		y = 8
+		mutually_exclusive = {
+			focus = SAF2_14
+		}
+		prerequisite = {
+			focus = SAF2_15
+			focus = SAF2_13
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_10
+		icon = SAF2_10
+		cost = 5.00
+		x = 13
+		y = 5
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_8
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_17
+		icon = SAF2_17
+		cost = 5.00
+		x = 12
+		y = 6
+		mutually_exclusive = {
+			focus = SAF2_18
+		}
+		prerequisite = {
+			focus = SAF2_10
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_19
+		icon = SAF2_19
+		cost = 5.00
+		x = 12
+		y = 7
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_17
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_20
+		icon = SAF2_20
+		cost = 5.00
+		x = 12
+		y = 8
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_19
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_18
+		icon = SAF2_18
+		cost = 5.00
+		x = 14
+		y = 6
+		mutually_exclusive = {
+			focus = SAF2_17
+		}
+		prerequisite = {
+			focus = SAF2_10
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_21
+		icon = SAF2_21
+		cost = 5.00
+		x = 14
+		y = 7
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_18
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_22
+		icon = SAF2_22
+		cost = 5.00
+		x = 14
+		y = 8
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_21
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = SAF2_23
+		icon = SAF2_23
+		cost = 5.00
+		x = 11
+		y = 9
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = SAF2_20
+			focus = SAF2_22
+		}
+		prerequisite = {
+			focus = SAF2_14
+			focus = SAF2_16
+		}
+		completion_reward = {
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+}

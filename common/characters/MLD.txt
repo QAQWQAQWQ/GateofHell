@@ -1,0 +1,30 @@
+characters = {
+	MLD_abdul_majeed_didi = {
+		name = MLD_abdul_majeed_didi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLD/abdul_majeed_didi.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	MLD_mohamed_amin_didi = {
+		name = MLD_mohamed_amin_didi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLD/mohamed_amin_didi.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

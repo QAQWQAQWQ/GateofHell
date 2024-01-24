@@ -1,0 +1,16 @@
+characters = {
+	PAL_amin_al_husseini = {
+		name = PAL_amin_al_husseini
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/amin_al_husseini.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

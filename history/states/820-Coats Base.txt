@@ -1,0 +1,21 @@
+state={
+	id=820
+	name="STATE_820"
+	manpower=200
+	
+	state_category = wasteland 
+
+	history={
+		owner = GER	
+		buildings = {
+			infrastructure = 0
+			13345 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={
+		13345 
+	}
+}

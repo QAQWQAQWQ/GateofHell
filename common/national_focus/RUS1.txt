@@ -1,0 +1,305 @@
+focus_tree = {
+	id = RUS1
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = RUS
+		}
+	}
+	focus = {
+		id = RUS1_the_eagle_may_soar_again
+		icon = RUS1_the_eagle_may_soar_again
+		cost = 5
+		x = 4
+		y = 0
+		completion_reward = { 
+			add_stability = 0.05
+			add_political_power = 5
+
+			hidden_effect = {
+				country_event = {
+					id = RUS.1
+					hours = 12
+				}	
+			}
+		}
+	}
+	focus = {
+		id = RUS1_guest_from_the_fareast
+		icon = RUS1_guest_from_the_fareast
+		cost = 5
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = RUS1_the_eagle_may_soar_again
+		}
+		completion_reward = {
+			add_political_power = 2
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 400
+			}
+			add_manpower = 200
+
+			country_event = {
+				id = RUS.2
+				days = 1
+			}
+		}
+	}
+	focus = {
+		id = RUS1_past_soldiers
+		icon = RUS1_past_soldiers
+		cost = 5
+		x = 4
+		y = 2
+		prerequisite = {
+			focus = RUS1_guest_from_the_fareast
+		}
+		completion_reward = { 
+			add_stability = 0.03
+			add_manpower = 600
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 50
+			}
+			country_event = RUS.7
+		}
+	}
+	focus = {
+		id = RUS1_organization_in_disarray
+		icon = RUS1_organization_in_disarray
+		cost = 5
+		x = 4
+		y = 3
+		prerequisite = {
+			focus = RUS1_past_soldiers
+		}
+		completion_reward = {
+			add_ideas = RUS_organization_in_disarray
+			country_event = RUS.10
+		}
+	}
+	focus = {
+		id = RUS1_theorist_fuhrer
+		icon = RUS1_theorist_fuhrer
+		cost = 5
+		x = 4
+		y = 4
+		prerequisite = {
+			focus = RUS1_organization_in_disarray
+		}
+		completion_reward = { 
+		}
+	}
+	focus = {
+		id = RUS1_nations_situation
+		icon = RUS1_nations_situation
+		cost = 5
+		x = 2
+		y = 5
+		prerequisite = {
+			focus = RUS1_theorist_fuhrer
+		}
+		completion_reward = { 
+			add_ideas = RUS_nations_situation
+			country_event = RUS.13
+		}
+	}
+	focus = {
+		id = RUS1_in_our_homeland
+		icon = RUS1_in_our_homeland
+		cost = 5
+		x = 1
+		y = 6
+		prerequisite = {
+			focus = RUS1_nations_situation
+		}
+		completion_reward = { 
+			add_opinion_modifier = {
+				target = GER
+				modifier = RUS_germany
+			}
+			country_event = RUS.14
+		}
+	}
+	focus = {
+		id = RUS1_beyond_the_mountains
+		icon = RUS1_beyond_the_mountains
+		cost = 5
+		x = 3
+		y = 6
+		prerequisite = {
+			focus = RUS1_nations_situation
+		}
+		completion_reward = { 
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = mountaineers_tech
+			}
+			add_manpower = 1200
+			country_event = RUS.15
+		}
+	}
+	focus = {
+		id = RUS1_a_letter
+		icon = RUS1_a_letter
+		cost = 5
+		x = 2
+		y = 7
+		prerequisite = {
+			focus = RUS1_in_our_homeland
+		}
+		prerequisite = {
+			focus = RUS1_beyond_the_mountains
+		}
+		completion_reward = { 
+		}
+	}
+	focus = {
+		id = RUS1_fuhrers_philosophy
+		icon = RUS1_fuhrers_philosophy
+		cost = 5
+		x = 5
+		y = 5
+		prerequisite = {
+			focus = RUS1_theorist_fuhrer
+		}
+		completion_reward = { 
+		}
+	}
+	focus = {
+		id = RUS1_peoples_might
+		icon = RUS1_peoples_might
+		cost = 5
+		x = 5
+		y = 6
+		prerequisite = {
+			focus = RUS1_fuhrers_philosophy
+		}
+		completion_reward = { 
+			add_stability = 0.03
+			add_political_power = -5
+			add_ideas = RUS_peoples_might
+			country_event = RUS.17
+		}
+	}
+	focus = {
+		id = RUS1_nations_structure
+		icon = RUS1_nations_structure
+		cost = 5
+		x = 5
+		y = 7
+		prerequisite = {
+			focus = RUS1_peoples_might
+		}
+		completion_reward = { 
+			add_political_power = 3
+			country_event = RUS.18
+		}
+	}
+	focus = {
+		id = RUS1_to_ROVS
+		icon = RUS1_to_ROVS
+		cost = 5
+		x = 4
+		y = 8
+		prerequisite = {
+			focus = RUS1_a_letter
+		}
+		prerequisite = {
+			focus = RUS1_nations_structure
+		}
+		completion_reward = { 
+		}
+	}
+	focus = {
+		id = RUS1_shadow_of_the_past
+		icon = RUS1_shadow_of_the_past
+		cost = 5
+		x = 4
+		y = 9
+		prerequisite = {
+			focus = RUS1_to_ROVS
+		}
+		completion_reward = { 
+		}
+	}
+	focus = {
+		id = RUS1_the_koschei
+		icon = RUS1_the_koschei
+		cost = 5
+		x = 0
+		y = 10
+		prerequisite = {
+			focus = RUS1_shadow_of_the_past
+		}
+		completion_reward = {
+			country_event = {
+				id = RUSp.1
+				days = 1
+			}
+		}
+
+		mutually_exclusive = {
+			focus = RUS1_the_fuhrer
+		}
+		mutually_exclusive = {
+			focus = RUS1_the_svetovid
+		}
+	}
+	focus = {
+		id = RUS1_the_fuhrer
+		icon = RUS1_the_koschei
+		cost = 5
+		x = 4
+		y = 10
+		prerequisite = {
+			focus = RUS1_shadow_of_the_past
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = tt_trigger_RUS
+				always = no
+			}
+		}
+
+		completion_reward = { 
+		}
+		
+		mutually_exclusive = {
+			focus = RUS1_the_koschei
+		}
+		mutually_exclusive = {
+			focus = RUS1_the_svetovid
+		}
+	}
+	focus = {
+		id = RUS1_the_svetovid
+		icon = RUS1_the_svetovid
+		cost = 5
+		x = 8
+		y = 10
+		prerequisite = {
+			focus = RUS1_shadow_of_the_past
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = tt_trigger_RUS
+				always = no
+			}
+		}
+		
+		completion_reward = { 
+		}
+		
+		mutually_exclusive = {
+			focus = RUS1_the_koschei
+		}
+		mutually_exclusive = {
+			focus = RUS1_the_fuhrer
+		}
+	}
+}

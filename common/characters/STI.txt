@@ -1,0 +1,58 @@
+characters = {
+	STI_hans_egarter = {
+		name = STI_hans_egarter
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STI/hans_egarter.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	STI_karl_tinzl = {
+		name = STI_karl_tinzl
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STI/karl_tinzl.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	STI_sepp_kerschbaumer = {
+		name = STI_sepp_kerschbaumer
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STI/sepp_kerschbaumer.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	STI_silvius_magnago = {
+		name = STI_silvius_magnago
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STI/silvius_magnago.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

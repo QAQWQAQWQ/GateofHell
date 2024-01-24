@@ -1,0 +1,30 @@
+characters = {
+	CUB_Fulgencio_Batista = {
+		name = CUB_Fulgencio_Batista
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CUB/Portrait_CUB_Fulgencio_Batista.dds"
+			}
+		}
+		country_leader = {
+			ideology = dictatorship
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	CUB_carlos_prio_socarras = {
+		name = CUB_carlos_prio_socarras
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CUB/carlos_prio_socarras.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_wing_populism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

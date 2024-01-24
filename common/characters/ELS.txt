@@ -1,0 +1,30 @@
+characters = {
+	ELS_oscar_osorio = {
+		name = ELS_oscar_osorio
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELS/oscar_osorio.dds"
+			}
+		}
+		country_leader = {
+			ideology = guided_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	ELS_consejo_de_gobierno_revolucionario = {
+		name = ELS_consejo_de_gobierno_revolucionario
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELS/consejo_de_gobierno_revolucionario.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

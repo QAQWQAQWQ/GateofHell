@@ -1,0 +1,16 @@
+characters = {
+	BRM_aung_san = {
+		name = BRM_aung_san
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRM/aung_san.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

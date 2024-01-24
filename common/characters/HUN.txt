@@ -1,0 +1,119 @@
+characters = {
+	HUN_horthy_miklos = {
+		name = HUN_horthy_miklos
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/horthy_miklos.dds"
+			}
+		}
+		country_leader = {
+			ideology = reactionary_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "HUN_horthy_miklos_desc"
+		}
+	}
+	HUN_horthy_istvan = {
+		name = HUN_horthy_istvan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/horthy_istvan.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1991.12.25.1"
+			id = -1
+		}
+	}
+	HUN_ferenc_feketehalmyczeydner = {
+		name = HUN_ferenc_feketehalmyczeydner
+		portraits = {
+			army = {
+				large = "gfx/leaders/HUN/ferenc_feketehalmyczeydner.dds"
+			}
+		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	HUN_geza_lakatos = {
+		name = HUN_geza_lakatos
+		portraits = {
+			army = {
+				large = "gfx/leaders/HUN/geza_lakatos.dds"
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	HUN_ivan_hindy={
+		name = HUN_ivan_hindy
+		portraits = {
+			army = {
+				large = "gfx/leaders/HUN/ivan_hindy.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	HUN_jany_gusztav = {
+		name = HUN_jany_gusztav
+		portraits = {
+			army = {
+				large = "gfx/leaders/HUN/jany_gusztav.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	HUN_karoly_beregfy = {
+		name = HUN_karoly_beregfy
+		portraits = {
+			army = {
+				large = "gfx/leaders/HUN/karoly_beregfy.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	HUN_lajos_veress = {
+		name = HUN_lajos_veress
+		portraits = {
+			army = {
+				large = "gfx/leaders/HUN/lajos_veress.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

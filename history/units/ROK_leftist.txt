@@ -1,0 +1,46 @@
+﻿division_template = {
+	name = "Daehanminguk Yuk-gun"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	division = {
+		location = 13708
+		division_template = "Daehanminguk Yuk-gun"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 13707
+		division_template = "Daehanminguk Yuk-gun"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 12085
+		division_template = "Daehanminguk Yuk-gun"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 10110
+		division_template = "Daehanminguk Yuk-gun"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 10110
+		division_template = "Daehanminguk Yuk-gun"
+		start_experience_factor = 0.5
+	}
+	division = {
+		location = 1177
+		division_template = "Daehanminguk Yuk-gun"
+		start_experience_factor = 0.5
+	}
+}

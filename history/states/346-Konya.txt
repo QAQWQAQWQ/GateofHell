@@ -1,0 +1,32 @@
+
+state={
+	id=346
+	name="STATE_346"
+	manpower = 849453
+	
+	state_category = rural
+
+	history={
+		owner = ANA
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+		}
+		
+		victory_points = {
+			3870 5 
+		}
+		victory_points = {
+			6807 3
+		}
+		victory_points = {
+			784 1
+		}
+		add_core_of = TUR
+		add_core_of = ANA
+	}
+
+	provinces={
+		784 869 940 1122 3788 3870 3876 4008 4124 4127 6807 6894 7026 7143 9755 9763 9830 11860 
+	}
+}

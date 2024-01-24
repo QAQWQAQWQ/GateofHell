@@ -1,0 +1,10 @@
+ideas = {
+	country = {
+		KRN_four_principles = {
+			picture = KRN_four_principles
+			modifier = {
+				surrender_limit = 1.0
+			}
+		}
+	}
+}

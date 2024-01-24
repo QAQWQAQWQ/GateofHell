@@ -1,0 +1,16 @@
+characters = {
+	MEL_valerian_vasilyev = {
+		name = MEL_valerian_vasilyev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEL/Portrait_MEL_valerian_vasilyev.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

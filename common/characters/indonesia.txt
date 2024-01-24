@@ -1,0 +1,58 @@
+characters = {
+	INS_sukarno = {
+		name = INS_sukarno
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/INS/sukarno.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	ISI_sekarmadji_maridjan_kartosoewirjo = {
+		name = ISI_sekarmadji_maridjan_kartosoewirjo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ISI/sekarmadji_maridjan_kartosoewirjo.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	ARA_Raymond_Westerling = {
+		name = ARA_Raymond_Westerling
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARA/Portrait_ARA_Raymond_Westerling.dds"
+			}
+		}
+		country_leader = {
+			ideology = warlord
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	PON_Syarif_Hamid_II_Alkadrie = {
+		name = PON_Syarif_Hamid_II_Alkadrie
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PON/Portrait_PON_Syarif_Hamid_II_Alkadrie.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

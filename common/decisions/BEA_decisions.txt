@@ -1,0 +1,118 @@
+BEA_congress_and_decisions_category = {
+	BEA_canvass_the_labours = {
+		icon = BEA_canvass_the_labours
+		custom_cost_trigger = {
+			check_variable = { var_canvass_point > 4 }
+		}
+		custom_cost_text = BEA_decision_cost_canvass_point_5
+		days_remove = 3
+		days_re_enable = 21
+
+		complete_effect = {
+			add_to_variable = {
+				var = var_canvass_point
+				value = -5
+			}
+		}
+		remove_effect = {
+			BEA_congress_labor_seats_change = yes
+		}
+	}
+	BEA_canvass_the_conservatives = {
+		icon = BEA_canvass_the_conservatives
+		custom_cost_trigger = {
+			check_variable = { var_canvass_point > 4 }
+		}
+		custom_cost_text = BEA_decision_cost_canvass_point_5
+		complete_effect = {
+			add_to_variable = {
+				var = var_canvass_point
+				value = -5
+			}
+		}
+		remove_effect = {
+			BEA_congress_conservative_seats_change = yes
+		}
+	}
+	BEA_telephone_attlee = {
+		icon = BEA_telephone_attlee
+		cost = 15
+		complete_effect = {
+			add_to_variable = {
+				var = var_canvass_point
+				value = 5
+			}
+		}
+	}
+	BEA_write_to_the_royals = {
+		icon = BEA_write_to_the_royals
+		cost = 20
+		complete_effect = {
+			add_to_variable = {
+				var = var_canvass_point
+				value = 5
+			}
+		}
+	}
+	BEA_talk_with_the_the_opposition = {
+		icon = BEA_talk_with_the_the_opposition
+		cost = 10
+		complete_effect = {
+			add_to_variable = {
+				var = var_canvass_point
+				value = 5
+			}
+		}
+	}
+	BEA_meet_the_seniors_of_the_labour = {
+		icon = BEA_meet_the_seniors_of_the_labour
+		custom_cost_trigger = {
+			check_variable = { var_canvass_point > 9 }
+		}
+		custom_cost_text = BEA_decision_cost_canvass_point_10
+	}
+	BEA_meet_the_seniors_of_the_conservative_party = {
+		icon = BEA_meet_the_seniors_of_the_conservative_party
+		custom_cost_trigger = {
+			check_variable = { var_canvass_point > 9 }
+		}
+		custom_cost_text = BEA_decision_cost_canvass_point_10
+	}
+	BEA_more_praise = {
+		icon = BEA_more_praise
+		cost = 20
+	}
+	BEA_counterattack_the_opposition = {
+		icon = BEA_counterattack_the_opposition
+		cost = 20
+	}
+	BEA_propagate_to_london = {
+		icon = BEA_propagate_to_london
+		custom_cost_trigger = {
+			check_variable = { var_canvass_point > 14 }
+		}
+		custom_cost_text = BEA_decision_cost_canvass_point_15
+	}
+	BEA_exhibit_farther_development_of_the_federalisation = {
+		icon = BEA_exhibit_farther_development_of_the_federalisation
+		cost = 50
+	}
+	BEA_lobbyist_from_london = {
+		icon = BEA_lobbyist_from_london
+		cost = 25
+	}
+	BEA_the_voting_ends = {
+		icon = BEA_the_voting_ends
+		days_mission_timeout = 90
+		activation = {
+			has_country_flag = BEA_voting
+		}
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			clr_country_flag = BEA_voting
+			ENG = {country_event = BEA.1}
+		}
+	}
+}

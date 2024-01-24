@@ -1,0 +1,68 @@
+﻿l_simp_chinese:
+#national sp.
+#FFR
+FFR_francais:0 "法兰西人！"
+FFR_infertile_continent:0 "贫瘠的大陆"
+FFR_national_conflict:0 "民族矛盾"
+
+#SOV
+SOV_extra_population:0 "额外的人口"
+SOV_extra_population_desc:0 "自西部疏散而来的诸多民众如今成为了我们宝贵的人才资料，虽然，他们有效缓解了我们极有可能面对的劳动力紧缺的问题，但是随之流入的失败主义思想同样影响着我们的国家和长久以来就生活在西伯利亚的人民。"
+SOV_the_fourth_five_year_plan:0 "第四个五年计划"
+SOV_the_fourth_five_year_plan_desc:0 "在乌拉尔山以东，为了建设新的工业基地、恢复迁移过来的工业基地和农业生产体系而展开的第四个五年计划已如火如荼的进行了四个年头，我们取得了长足的进步，但这一切并非完全没有代价……"
+SOV_the_red_army:0 "红军！"
+SOV_the_red_army_desc:0 "在经历两年血战后，红军以鲜血为学费在战争中学来了许多知识。无论是军队组织还是指挥艺术，红军都已经经历了一次蜕变。但是，失败的阴影仍然笼罩在红军将士头上。\n\n§R倘若再输掉一次战争，恐怕红军的灵魂就会不复存在。§!"
+SOV_the_shadow_of_defeat:0 "战败的阴影"
+SOV_the_shadow_of_defeat_desc:0 "虽尽全力，但我们仍然在伟大的卫国战争中落败，将富饶的西部丢给了法西斯野兽。撤退到乌拉尔山以东后，人民不禁自问，我们还有机会能回到祖国和家乡吗？"
+SOV_a_new_index:0 "新指标"
+SOV_the_fifth_five_year_plan:0 "第五个五年计划"
+
+#GRE
+GRE_fragmented_country:0 "分崩离析的国土"
+GRE_kneeling_servant:0 "下跪的奴仆"
+GRE_linus_dominance:0 "利纳斯之治"
+
+#BEA
+BEA_mil_con:0 "军事管制"
+BEA_ind_rio:0 "土著骚乱"
+BEA_bor_con:0 "边境冲突"
+
+#BEL
+BEL_gang_of_four:0 "四人政府"
+BEL_government_in_exile:0 "流亡的政府"
+
+#CUB
+CUB_unpopular_caudillo:0 "不受欢迎的考迪罗"
+CUB_american_support:0 "美国的援助"
+CUB_mired:0 "深陷泥潭"
+CUB_threat_of_democrats:0 "民主派的威胁"
+
+#RAJ
+RAJ_alone:0 "踽踽独行"
+RAJ_alone_desc:0 "印度虽然获得了自由，但是代价是什么呢？国内尚未完全统一，可恶的叛徒盘踞在孟加拉，对我们新生的祖国图谋不轨；割裂出的巴基斯坦对克什米尔虎视眈眈。我们唯一可以依靠的，就只有我们自己了。"
+
+#AZH
+AZH_confused:0 "前路迷茫"
+AZH_confused_desc:0 "在世界大战中，我们依靠德国和日本的帮助把英国人赶了出去，但是我们的国家却因此分裂成了好几块。这并不是我们愿意看到的，既然印度已经获得了自由，那我们是该放下武器回归祖国的怀抱，亦或者继续斗争到底，打造一个更加自由更加民主的印度？"
+
+#RUS
+RUS_in_disarray:0 "混乱的新生政权"
+RUS_in_disarray_desc:0 "我们成功将邪恶的布尔什维克驱逐出了这片土地，并建立了属于我们自己的政权。但欣欣向荣的表面下暗流涌动，不仅残余的匪徒在抵抗我们，就连政府内部都有不少异议分子。我们必须尽快处理这些烂摊子，否则我们的政权不会有好下场。"
+RUS_collapsed:0 "政权崩溃"
+RUS_collapsed_desc:0 "我们彻底失败了……政府的选举中，各派吵的不可开交，没有人赢得选举。布尔什维克的抵抗愈演愈烈，我们已经没有能力抵挡他们了。我们只能祈求德国人帮助我们……"
+RUS_stabilized:0 "政权稳固"
+RUS_stabilized_desc:0 "我们的选举十分顺利，各派代表达成共识。布尔什维克的抵抗在我们的打击下被完全摧毁，掀不起什么风浪。我们已经可以摆脱对德国人的依赖了。"
+RUS_militia_recruitment:0 "征召民兵"
+RUS_militia_recruitment_desc:0 "我们在对布尔什维克的进攻与围剿中，因为兵力不足征召了大量民兵。这些民兵的战斗力参差不齐，和正规的军人差远了，我们必须对军队进行改革。"
+RUS_dismal_victor:0 "惨淡的胜利者"
+RUS_organization_in_disarray: "混乱的组织"
+RUS_nations_situation: "民族的处境"
+RUS_peoples_might: "人民的信念"
+
+#FRA
+FRA_salut_au_marechal:0 "向元帅致敬！"
+FRA_salut_au_marechal_desc:0 "老元帅又一次将法兰西从水深火热中解救了出来，法兰西依然屹立在人间！总有一天我们会将失去的东西全部夺回来，让敌人付出百倍的代价！大元帅万岁！法兰西万岁！"
+FRA_travail_famille_patrie:0 "劳动，家庭，祖国"
+FRA_travail_famille_patrie_desc:0 "曾经的自由，平等，博爱在铁蹄下被证明已经过时，现在唯有辛勤劳动才能拯救法兰西祖国。国民们，拿起手中的工具，打造全新的法兰西。\n\n我们究竟是在为谁劳动？是祖国还是那群德国佬呢？"
+FRA_petains_dictatorship:0 "贝当独揽大权"
+FRA_petains_dictatorship_desc:0 "现在法兰西的所有权力都在大元帅的手中，虽然这是大元帅应得的，但是他已经垂垂老矣，疾病缠身，他又没有指定接班人。到时候，新领导人会因为没有威望而不能很好地统治法兰西，这会造成不可估量的后果。"

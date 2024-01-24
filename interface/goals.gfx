@@ -1,0 +1,168 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no
+	}
+#####
+#SOV1
+	SpriteType = {
+		name = SOV1_the_memory_of_1943
+		texturefile = "gfx/interface/goals/SOV1_the_memory_of_1943.dds"
+	}
+	SpriteType = {
+		name = SOV1_end_the_fourth_five_year_plan
+		texturefile = "gfx/interface/goals/SOV1_end_the_fourth_five_year_plan.dds"
+	}
+	SpriteType = {
+		name = SOV1_industry_development_report
+		texturefile = "gfx/interface/goals/SOV1_industry_development_report.dds"
+	}
+	SpriteType = {
+		name = SOV1_grain_and_food
+		texturefile = "gfx/interface/goals/SOV1_grain_and_food.dds"
+	}
+	SpriteType = {
+		name = SOV1_a_new_index
+		texturefile = "gfx/interface/goals/SOV1_a_new_index.dds"
+	}
+	SpriteType = {
+		name = SOV1_start_the_fifth_five_year_plan
+		texturefile = "gfx/interface/goals/SOV1_start_the_fifth_five_year_plan.dds"
+	}
+	SpriteType = {
+		name = SOV1_issues_at_present
+		texturefile = "gfx/interface/goals/SOV1_issues_at_present.dds"
+	}
+	SpriteType = {
+		name = SOV1_a_temporary_friend
+		texturefile = "gfx/interface/goals/SOV1_a_temporary_friend.dds"
+	}
+	SpriteType = {
+		name = SOV1_a_meeting
+		texturefile = "gfx/interface/goals/SOV1_a_meeting.dds"
+	}
+	SpriteType = {
+		name = SOV1_a_visit_for_friendship
+		texturefile = "gfx/interface/goals/SOV1_a_visit_for_friendship.dds"
+	}
+	SpriteType = {
+		name = SOV1_contact_in_need
+		texturefile = "gfx/interface/goals/SOV1_contact_in_need.dds"
+	}
+	SpriteType = {
+		name = SOV1_together_until
+		texturefile = "gfx/interface/goals/SOV1_together_until.dds"
+	}
+	SpriteType = {
+		name = SOV1_the_great_manoeuvres_in_siberia
+		texturefile = "gfx/interface/goals/SOV1_the_great_manoeuvres_in_siberia.dds"
+	}
+	SpriteType = {
+		name = SOV1_an_army_prepared
+		texturefile = "gfx/interface/goals/SOV1_an_army_prepared.dds"
+	}
+	SpriteType = {
+		name = SOV1_zhukovs_plan
+		texturefile = "gfx/interface/goals/SOV1_zhukovs_plan.dds"
+	}
+	SpriteType = {
+		name = SOV1_konevs_plan
+		texturefile = "gfx/interface/goals/SOV1_konevs_plan.dds"
+	}
+	SpriteType = {
+		name = SOV1_peoples_army
+		texturefile = "gfx/interface/goals/SOV1_peoples_army.dds"
+	}
+	SpriteType = {
+		name = SOV1_betrayers_and_enemies
+		texturefile = "gfx/interface/goals/SOV1_betrayers_and_enemies.dds"
+	}
+	SpriteType = {
+		name = SOV1_the_deadly_foe
+		texturefile = "gfx/interface/goals/SOV1_the_deadly_foe.dds"
+	}
+#RUS1
+	SpriteType = {
+		name = RUS1_the_eagle_may_soar_again
+		texturefile = "gfx/interface/goals/RUS1_the_eagle_may_soar_again.dds"
+	}
+	SpriteType = {
+		name = RUS1_guest_from_the_fareast
+		texturefile = "gfx/interface/goals/RUS1_guest_from_the_fareast.dds"
+	}
+	SpriteType = {
+		name = RUS1_a_letter
+		texturefile = "gfx/interface/goals/RUS1_a_letter.dds"
+	}
+#SAF2
+	SpriteType = {
+		name = SAF2_2
+		texturefile = "gfx/interface/goals/SAF2_2.dds"
+	}
+	SpriteType = {
+		name = SAF2_3
+		texturefile = "gfx/interface/goals/SAF2_3.dds"
+	}
+	SpriteType = {
+		name = SAF2_4
+		texturefile = "gfx/interface/goals/SAF2_4.dds"
+	}
+	SpriteType = {
+		name = SAF2_5
+		texturefile = "gfx/interface/goals/SAF2_5.dds"
+	}
+	SpriteType = {
+		name = SAF2_6
+		texturefile = "gfx/interface/goals/SAF2_6.dds"
+	}
+#BEA1
+	SpriteType = {
+		name = BEA1_report
+		texturefile = "gfx/interface/goals/BEA1_report.dds"
+	}
+	SpriteType = {
+		name = BEA1_situation
+		texturefile = "gfx/interface/goals/BEA1_situation.dds"
+	}
+	SpriteType = {
+		name = BEA1_encourage_immigration
+		texturefile = "gfx/interface/goals/BEA1_encourage_immigration.dds"
+	}
+	SpriteType = {
+		name = BEA1_modernisation
+		texturefile = "gfx/interface/goals/BEA1_modernisation.dds"
+	}
+	SpriteType = {
+		name = BEA1_reduce_the_reservation
+		texturefile = "gfx/interface/goals/BEA1_reduce_the_reservation.dds"
+	}
+	SpriteType = {
+		name = BEA1_consult_with_the_natives
+		texturefile = "gfx/interface/goals/BEA1_consult_with_the_natives.dds"
+	}
+	SpriteType = {
+		name = BEA1_new_ways
+		texturefile = "gfx/interface/goals/BEA1_new_ways.dds"
+	}
+	SpriteType = {
+		name = BEA1_honour_the_collaborators
+		texturefile = "gfx/interface/goals/BEA1_honour_the_collaborators.dds"
+	}
+	SpriteType = {
+		name = BEA1_federation_dreaming
+		texturefile = "gfx/interface/goals/BEA1_federation_dreaming.dds"
+	}
+	SpriteType = {
+		name = BEA1_the_federation_conference
+		texturefile = "gfx/interface/goals/BEA1_the_federation_conference.dds"
+	}
+	SpriteType = {
+		name = BEA1_broken_dream_once_more
+		texturefile = "gfx/interface/goals/BEA1_broken_dream_once_more.dds"
+	}
+	SpriteType = {
+		name = BEA1_east_africa_shall_remain_forever
+		texturefile = "gfx/interface/goals/BEA1_east_africa_shall_remain_forever.dds"
+	}
+}

@@ -1,0 +1,16 @@
+guiTypes = {
+	containerWindowType = {
+		name = "faction_icon_diplomacy_window"
+		position = { x = 490 y = 155 }
+
+		iconType = {
+			name = "faction_icon"
+			spriteType = "GFX_idea_unknown"
+			position = { x = 0 y = 0 }
+			centerposition = yes
+			alwaystransparent = no
+			pdx_tooltip = "tt_GetFactionIcon_Name"
+			pdx_tooltip_delayed = "tt_GetFactionIcon_Desc"
+		}
+	}
+}

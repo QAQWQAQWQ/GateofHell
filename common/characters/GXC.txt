@@ -1,0 +1,16 @@
+characters = {
+	GXC_li_zongren = {
+		name = GXC_li_zongren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GXC/li_zongren.dds"
+			}
+		}
+		country_leader = {
+			ideology = warlord
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

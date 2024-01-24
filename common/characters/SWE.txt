@@ -1,0 +1,16 @@
+characters = {
+	SWE_tage_erlander = {
+		name = SWE_tage_erlander
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/tage_erlander.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democratic_social_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

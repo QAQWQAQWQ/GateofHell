@@ -1,0 +1,16 @@
+characters = {
+	CBA_supreme_command = {
+		name = CBA_supreme_command
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CBA/supreme_command.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_occupation_nato
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

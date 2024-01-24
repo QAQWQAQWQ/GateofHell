@@ -1,0 +1,251 @@
+focus_tree = {
+	id = GER1
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = GER
+		}
+	}
+	focus = {
+		id = GER1_endsieg
+		icon = GER1_endsieg
+		cost = 5
+		x = 11
+		y = 0
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_victors_confusion
+		icon = GER1_victors_confusion
+		cost = 5
+		x = 11
+		y = 1
+		prerequisite = {
+			focus = GER1_endsieg
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_the_troubles_ahead
+		icon = GER1_the_troubles_ahead
+		cost = 5
+		x = 11
+		y = 2
+		prerequisite = {
+			focus = GER1_victors_confusion
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_settle_the_weimer_legacies
+		icon = GER1_settle_the_weimer_legacies
+		cost = 5
+		x = 11
+		y = 3
+		prerequisite = {
+			focus = GER1_the_troubles_ahead
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_fricks_proposal
+		icon = GER1_fricks_proposal
+		cost = 5
+		x = 9
+		y = 4
+		prerequisite = {
+			focus = GER1_settle_the_weimer_legacies
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_Verfassungsgesetze_Grossdeutschlands
+		icon = GER1_Verfassungsgesetze_Grossdeutschlands
+		cost = 5
+		x = 8
+		y = 5
+		mutually_exclusive = {
+			focus = GER1_Reichsgesetz
+		}
+		prerequisite = {
+			focus = GER1_fricks_proposal
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_Reichsgesetz
+		icon = GER1_Reichsgesetz
+		cost = 5
+		x = 10
+		y = 5
+		mutually_exclusive = {
+			focus = GER1_Verfassungsgesetze_Grossdeutschlands
+		}
+		prerequisite = {
+			focus = GER1_fricks_proposal
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_demolish_democracy
+		icon = GER1_demolish_democracy
+		cost = 5
+		x = 9
+		y = 6
+		prerequisite = {
+			focus = GER1_fricks_proposal
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_more_rubber_stamps
+		icon = GER1_more_rubber_stamps
+		cost = 5
+		x = 8
+		y = 7
+		prerequisite = {
+			focus = GER1_Verfassungsgesetze_Grossdeutschlands
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_fuhrers_supreme_authority
+		icon = GER1_fuhrers_supreme_authority
+		cost = 5
+		x = 10
+		y = 7
+		prerequisite = {
+			focus = GER1_Reichsgesetz
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_patching_Ermachtigungsgesetz_for_good_is_impossible
+		icon = GER1_patching_Ermachtigungsgesetz_for_good_is_impossible
+		cost = 5
+		x = 9
+		y = 8
+		prerequisite = {
+			focus = GER1_more_rubber_stamps
+			focus = GER1_fuhrers_supreme_authority
+		}
+		prerequisite = {
+			focus = GER1_demolish_democracy
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_ribbentrops_plan
+		icon = GER1_ribbentrops_plan
+		cost = 5
+		x = 13
+		y = 4
+		prerequisite = {
+			focus = GER1_settle_the_weimer_legacies
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_act_tough_talk_soft
+		icon = GER1_act_tough_talk_soft
+		cost = 5
+		x = 12
+		y = 5
+		mutually_exclusive = {
+			focus = GER1_threatening_the_weak
+		}
+		prerequisite = {
+			focus = GER1_ribbentrops_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_threatening_the_weak
+		icon = GER1_threatening_the_weak
+		cost = 5
+		x = 14
+		y = 5
+		mutually_exclusive = {
+			focus = GER1_act_tough_talk_soft
+		}
+		prerequisite = {
+			focus = GER1_ribbentrops_plan
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_need_of_germania
+		icon = GER1_need_of_germania
+		cost = 5
+		x = 11
+		y = 6
+		prerequisite = {
+			focus = GER1_act_tough_talk_soft
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_ploiesti_black_gold
+		icon = GER1_ploiesti_black_gold
+		cost = 5
+		x = 13
+		y = 6
+		prerequisite = {
+			focus = GER1_act_tough_talk_soft
+			focus = GER1_threatening_the_weak
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_need_of_europa
+		icon = GER1_need_of_europa
+		cost = 5
+		x = 15
+		y = 6
+		prerequisite = {
+			focus = GER1_threatening_the_weak
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_budapest_comrades
+		icon = GER1_budapest_comrades
+		cost = 5
+		x = 13
+		y = 7
+		prerequisite = {
+			focus = GER1_ploiesti_black_gold
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_Neuropa
+		icon = GER1_Neuropa
+		cost = 5
+		x = 13
+		y = 8
+		prerequisite = {
+			focus = GER1_need_of_germania
+			focus = GER1_need_of_europa
+		}
+		prerequisite = {
+			focus = GER1_budapest_comrades
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = GER1_associating_the_reich
+		icon = GER1_associating_the_reich
+		cost = 5
+		x = 11
+		y = 9
+		prerequisite = {
+			focus = GER1_patching_Ermachtigungsgesetz_for_good_is_impossible
+		}
+		prerequisite = {
+			focus = GER1_Neuropa
+		}
+		completion_reward = { }
+	}
+}

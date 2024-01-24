@@ -1,0 +1,33 @@
+characters = {
+	CIN_hasan_israilov = {
+		name = CIN_hasan_israilov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CIN/hasan_israilov.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism
+			expire = "1991.12.25.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = revolutionary_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+		}
+	}
+	CIN_osman_gube = {
+		name = CIN_osman_gube
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CIN/osman_gube.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_socialism
+			expire = "1991.12.25.1"
+			id = -1
+		}
+	}
+}

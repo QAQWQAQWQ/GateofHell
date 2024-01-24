@@ -1,0 +1,34 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FACTION_BERLIN_1"
+		textureFile = "gfx/interface/faction_icons/FACTION_BERLIN_1.dds"
+	}
+	spriteType = {
+		name = "GFX_FACTION_BERLIN_2"
+		textureFile = "gfx/interface/faction_icons/FACTION_BERLIN_2.dds"
+	}
+	spriteType = {
+		name = "GFX_FACTION_BERLIN_3"
+		textureFile = "gfx/interface/faction_icons/FACTION_BERLIN_3.dds"
+	}
+	spriteType = {
+		name = "GFX_FACTION_BERLIN_4"
+		textureFile = "gfx/interface/faction_icons/FACTION_BERLIN_4.dds"
+	}
+	spriteType = {
+		name = "GFX_FACTION_BERLIN_5"
+		textureFile = "gfx/interface/faction_icons/FACTION_BERLIN_5.dds"
+	}
+	spriteType = {
+		name = "GFX_FACTION_BERLIN_6"
+		textureFile = "gfx/interface/faction_icons/FACTION_BERLIN_6.dds"
+	}
+	spriteType = {
+		name = "GFX_FACTION_BERLIN_7"
+		textureFile = "gfx/interface/faction_icons/FACTION_BERLIN_7.dds"
+	}
+	spriteType = {
+		name = "GFX_FACTION_BERLIN_8"
+		textureFile = "gfx/interface/faction_icons/FACTION_BERLIN_8.dds"
+	}
+}

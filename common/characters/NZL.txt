@@ -1,0 +1,30 @@
+characters = {
+	NZL_peter_fraser = {
+		name = NZL_peter_fraser
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/peter_fraser.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democratic_social_democracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	NZL_sidney_holland = {
+		name = NZL_sidney_holland
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/sidney_holland.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

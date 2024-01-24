@@ -1,0 +1,30 @@
+characters = {
+	BRA_eurico_gaspar_dutra = {
+		name = BRA_eurico_gaspar_dutra
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/eurico_gaspar_dutra.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservative_liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	BRA_getulio_vargas = {
+		name = BRA_getulio_vargas
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/getulio_vargas.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

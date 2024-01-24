@@ -1,0 +1,30 @@
+characters = {
+	FWA_west_africa_condominium = {
+		name = FWA_west_africa_condominium
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FWA/west_africa_condominium.dds"
+			}
+		}
+		country_leader = {
+			ideology = civilian_dictatorship
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	FWA_pierre_nouailhetas = {
+		name = FWA_pierre_nouailhetas
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FWA/pierre_nouailhetas.dds"
+			}
+		}
+		country_leader = {
+			ideology = civilian_dictatorship
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

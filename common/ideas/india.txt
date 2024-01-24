@@ -1,0 +1,10 @@
+ideas = {
+	country = {
+		RAJ_alone = {
+
+		}
+		AZH_confused = {
+			
+		}
+	}
+}

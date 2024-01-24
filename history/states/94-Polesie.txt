@@ -1,0 +1,26 @@
+state={
+	id=94
+	name="STATE_94"
+
+	history={
+		owner = RKU
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			3392 1
+		}
+		victory_points = {
+			560 1
+		}
+		add_core_of = RKU
+	}
+
+	provinces={
+		535 560 3392 3496 3556 6415 6546 6579 9520 11503 11528 14408 
+	}
+	manpower=1232200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

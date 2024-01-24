@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+        FRA_salut_au_marechal = {
+
+        }
+        FRA_travail_famille_patrie = {
+
+        }
+        FRA_petains_dictatorship = {
+            
+        }
+	}
+}

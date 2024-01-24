@@ -1,0 +1,43 @@
+ideas = {
+	country = {
+		RUS_in_disarray = {
+			picture = RUS_in_disarray
+
+		}
+		RUS_collasped = {
+			picture = RUS_collasped
+			
+		}
+		RUS_stabilized = {
+			picture = RUS_stabilized
+
+		}
+		RUS_militia_recruitment = {
+			picture = RUS_militia_recruitment
+
+		}
+		RUS_dismal_victor = {
+			picture = RUS_dismal_victor
+		}
+		RUS_organization_in_disarray = {
+			picture = RUS_organization_in_disarray
+			modifier = {
+				political_power_factor = -0.03
+				stability_factor = -0.03
+			}
+		}
+		RUS_nations_situation = {
+			picture = RUS_nations_situation
+			modifier = {
+				army_core_attack_factor = 0.05
+				supply_consumption_factor = -0.05
+			}
+		}
+		RUS_peoples_might = {
+			picture = RUS_peoples_might
+			modifier = {
+				recruitable_population_factor = 0.005
+			}
+		}
+	}
+}

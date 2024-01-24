@@ -1,0 +1,24 @@
+RAJ_operation_polo = {
+	allowed = {
+		original_tag = RAJ
+	}
+	enable = {
+		country_exists = HYD
+	}
+	abort = {
+		NOT = {
+			country_exists = HYD
+		}
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = HYD
+		value = 100
+	}
+	ai_strategy = {
+		type = front_control
+		tag = HYD
+		ordertype = front
+		execution_type = rush
+	}
+}

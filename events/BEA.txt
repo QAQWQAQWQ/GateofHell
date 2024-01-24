@@ -1,0 +1,50 @@
+add_namespace = BEA
+
+country_event = {
+	id = BEA.1
+	title = BEA.1.title
+	desc = BEA.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = BEA.1.a
+		BEA = {country_event = {
+			id = BEA.2
+			days = 3
+		}}
+	}
+}
+country_event = {
+	id = BEA.2
+	title = BEA.2.title
+	desc = BEA.2.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = BEA.2.a
+		hidden_effect = {
+			BritishEastAfrica_form_federation = yes
+			every_country = {
+				limit = { is_ai = no }
+				news_event = BEA.3
+			}
+		}
+	}
+}
+news_event = {
+	id = BEA.3
+	title = BEA.3.title
+	desc = BEA.3.desc
+	picture = BEA_east_africa_united
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = BEA.3.a
+	}
+}

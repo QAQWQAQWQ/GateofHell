@@ -1,0 +1,333 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			set_global_flag = pp
+			FROM = {
+				save_global_event_target_as = RECIPIENT_COUNTRY
+			}
+			ROOT = {
+				save_global_event_target_as = ACTOR_COUNTRY
+			}
+			
+			if = {
+				limit = {
+					event_target:ACTOR_COUNTRY = {
+						any_allied_country = {
+							has_war_together_with = event_target:ACTOR_COUNTRY
+						}
+					}
+				}
+				set_global_flag = ACTOR_COUNTRY_multiple
+			}
+
+			if = {
+				limit = {
+					event_target:RECIPIENT_COUNTRY = {
+						any_allied_country = {
+							has_war_together_with = event_target:RECIPIENT_COUNTRY
+						}
+					}
+				}
+				set_global_flag = RECIPIENT_COUNTRY_multiple
+			}
+			add_to_variable = { global.pp_dirty = 1 }
+
+			#burmese conflicts
+			if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = KRN
+					}
+					FROM = {
+						tag = BRM
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			#omani war
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = OMI
+					}
+					FROM = {
+						tag = OMA
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = OMA
+					}
+					FROM = {
+						tag = OMI
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			#operation polo
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = HYD
+					}
+					FROM = {
+						tag = RAJ
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			#korean war
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = ROK
+						OR = {
+							has_government = conservative
+							has_government = paternal
+						}
+					}
+					FROM = {
+						tag = KOR
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = ROK
+						has_government = socialist
+					}
+					FROM = {
+						tag = KOR
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = DPK
+					}
+					FROM = {
+						tag = KOR
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = KOR
+					}
+					FROM = {
+						tag = ROK
+						OR = {
+							has_government = conservative
+							has_government = paternal
+						}
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					set_capital = {state = 525}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = KOR
+					}
+					FROM = {
+						OR = {
+							AND = {
+								tag = ROK
+								has_government = socialist
+							}
+							tag = DPK
+						}
+					}
+				}
+				FROM = {
+					ROK = {
+						white_peace = {
+							tag = ROOT
+						}
+					}
+					DPK = {
+						white_peace = {
+							tag = ROOT
+						}
+					}
+					if = {
+						limit = {
+							OR = {
+								ROK = {exists = no}
+								DPK = {exists = no}
+							}
+						}
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						set_capital = {state = 525}
+					}
+					else = {
+						ROK = {
+							annex_country = {
+								target = ROOT
+								transfer_troops = no
+							}
+							annex_country = {
+								target = DPK
+								transfer_troops = no
+							}
+						}
+						set_capital = {state = 525}
+					}
+				}
+			}
+			#nagorno-karabakh war
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = ARM
+					}
+					FROM = {
+						tag = AZR
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					ROOT = {
+						every_owned_state = {
+							limit = {
+								state = 977
+							}
+							FROM = {
+								transfer_state = PREV
+							}
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = AZR
+					}
+					FROM = {
+						tag = ARM
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					every_owned_state = {
+						limit = {
+							state = 223
+						}
+						DAG = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			#
+			else_if = {
+				limit = {
+					ROOT = { #capitulated
+						tag = CIN
+					}
+					FROM = {
+						tag = RKK
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+					}
+					puppet = CIN
+				}
+			}
+			#annex
+			else = {
+				FROM = {
+					white_peace = ROOT
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+		}	
+	}
+}

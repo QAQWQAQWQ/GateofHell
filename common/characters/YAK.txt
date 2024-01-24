@@ -1,0 +1,16 @@
+characters = {
+	YAK_pavel_karamzin = {
+		name = YAK_pavel_karamzin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/pavel_karamzin.dds"
+			}
+		}
+		country_leader = {
+			ideology = partisan_movement
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

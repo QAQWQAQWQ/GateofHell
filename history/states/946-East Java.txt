@@ -1,0 +1,31 @@
+
+state={
+	id=946
+	name="STATE_946"
+	manpower = 2972801
+
+	state_category = rural
+
+	history={
+		owner = DEI
+		victory_points = {
+			4608 3 
+		}
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			4608 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = INS
+	}
+
+	provinces={
+		4306 4608 10479 12472 7654
+	}
+
+	local_supplies=0.0 
+}

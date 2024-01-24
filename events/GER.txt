@@ -1,0 +1,53 @@
+add_namespace = GER
+
+country_event = {
+	id = GER.1 #intro
+	title = GER.1.title
+	desc = GER.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = GER.1.a
+	}
+}
+news_event = {
+	id = GER.2 
+	title = GER.2.title
+	desc = GER.2.desc
+	picture = GER_hitler_sick
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = GER.2.a
+	}
+}
+country_event = {
+	id = GER.3 #hitler seriously injured
+	title = GER.3.title
+	desc = GER.3.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = GER.3.a
+		hidden_effect = {
+			GER = {
+				set_portraits = {
+					character = GER_adolf_hitler
+					civilian = {large = GFX_Portrait_GER_adolf_hitler1}
+				}
+			}
+			every_country = {
+				limit = { is_ai = no }
+				news_event = GER.2
+			}
+		}
+	}
+}

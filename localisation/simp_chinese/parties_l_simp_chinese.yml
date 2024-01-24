@@ -1,0 +1,539 @@
+﻿l_simp_chinese:
+##ideologies
+#other
+other_ideology: "其他"
+other_ideology_noun: "其他"
+other_ideology_desc: ""
+###
+other_ideology_subtype: "其他"
+
+anarchy_subtype: "无政府"
+
+power_vacuum_subtype: "权力真空"
+
+#ultranationalist
+ultranationalist: "极端民族主义"
+###
+ultranationalism: "极端民族主义"
+ultranationalism_desc: "极端民族主义"
+
+fundamentalism: "原教旨主义"
+
+#national_socialism
+national_socialist: "民族社会主义"
+national_socialist_noun: "民族社会主义"
+national_socialist_desc: ""
+###
+ustasism: "乌斯塔沙主义"
+ustasism_desc: ""
+
+clerical_fascism: "教权法西斯主义"
+clerical_fascism_desc: "教权法西斯主义"
+
+national_socialism: "民族社会主义"
+national_socialism_desc: ""
+
+#fascism
+fascist: "法西斯主义"
+fascist_noun: "法西斯主义"
+fascist_desc: ""
+###
+fascism: "法西斯主义"
+fascism_desc: ""
+
+fascist_populism: "法西斯民粹主义"
+
+falangism: "长枪主义"
+
+revolutionary_nationalism: "革命民族主义"
+
+fascist_corporatism: "法团主义"
+
+#(third positionist)
+paternal_peronism: "庇隆主义"
+paternal_peronism_desc: ""
+
+fascist_ilyin_thought: "伊雷因思想"
+fascist_ilyin_thought_desc: "伊雷因思想"
+
+#reactionary
+reactionary_nationalist: "反动民族主义"
+
+reactionary_nationalism: "反动民族主义"
+
+reactionary_conservatism: "反动保守主义"
+
+national_revolutionism: "民族革命主义"
+
+ultranationalist_turanism: "图兰主义"
+
+#despotism
+despotist: "专制主义"
+despotist_noun: "专制主义"
+despotist_desc: ""
+###
+despotism: "专制主义"
+
+dictatorship: "独裁"
+dictatorship_desc: "独裁"
+
+colonial_government: "殖民政府"
+colonial_government_desc: "殖民政府"
+
+military_occupation: "军事占领"
+military_occupation_desc: "军事占领"
+
+military_junta: "军政府"
+military_junta_desc: "军政府"
+
+warlord: "军阀"
+warlord_desc: ""
+
+absolute_monarchy: "绝对君主制"
+absolute_monarchy_desc: "绝对君主制"
+
+theocracy: "神权制"
+
+civilian_dictatorship: "文官独裁"
+
+aristocratic_conservatism: "贵族保守主义"
+
+partisan_movement: "游击运动"
+
+#paternal
+paternal: "家长制主义"
+paternal_noun: "家长制主义"
+paternal_desc: ""
+###
+paternalism: "家长制主义"
+
+provisional_government: "临时政府"
+provisional_government_desc: "临时政府"
+
+xun_zheng: "训政"
+xun_zheng_desc: "" 
+
+constitutional_monarchy: "君主立宪制"
+constitutional_monarchy_desc: ""
+
+kemalism: "凯末尔主义"
+kemalism_desc: "凯末尔主义"
+
+national_conservatism: "民族保守主义"
+
+right_wing_radicalism: "右翼激进主义"
+
+oligarchy: "寡头制"
+
+social_nationalism: "社会民族主义"
+
+right_wing_populism: "右翼民粹主义"
+
+guided_democracy: "指导式民主"
+
+democratic_transition: "民主转型"
+
+dominant_party_democracy: "一党独大民主"
+
+#conservative
+conservative_1: "$conservative$"
+
+conservative: "保守主义"
+conservative_noun: "保守主义"
+conservative_desc: ""
+###
+conservatism: "保守主义"
+
+paternalistic_conservatism: "家长制保守主义"
+
+christian_democracy: "基督教民主主义"
+christian_democracy_desc: "基督教民主主义"
+
+christian_conservatism: "基督教保守主义"
+
+islamic_conservatism: "伊斯兰保守主义"
+
+#liberal_conservative
+liberal_conservative: "自由保守主义"
+
+liberal_conservatism: "自由保守主义"
+
+big_tent: "大帐篷"
+
+#liberal
+liberal: "自由主义"
+liberal_noun: "自由主义"
+liberal_desc: ""
+###
+liberalism: "自由主义"
+
+conservative_liberalism: "保守自由主义"
+conservative_liberalism_desc: "保守自由主义"
+
+national_liberalism: "民族自由主义"
+
+classical_liberalism: "古典自由主义"
+
+#progressive
+progressive: "进步主义"
+progressive_noun: "进步主义"
+progressive_desc: ""
+
+social_democratic: "社会民主主义"
+###
+progressivism: "进步主义"
+
+social_democratic_social_democracy: "社会民主主义"
+social_democratic_social_democracy_desc: "社会民主主义"
+
+democratic_socialism: "民主社会主义"
+
+labor_zionism: "劳工锡安主义"
+
+social_liberalism: "社会自由主义"
+
+left_wing_populism: "左翼民粹主义"
+
+liberal_socialism: "自由社会主义"
+
+progressive_avant-garde: "先锋主义"
+
+#socialism
+socialist: "社会主义"
+socialist_noun: "社会主义"
+socialist_desc: ""
+###
+socialism: "社会主义"
+socialism_desc: ""
+
+islamic_socialism: "伊斯兰社会主义"
+islamic_socialism_desc: "伊斯兰社会主义"
+
+pan_africanism: "泛非主义"
+
+african_socialism: "非洲社会主义"
+
+left_wing_nationalism: "左翼民族主义"
+
+#communism
+communist: "共产主义"
+communist_noun: "共产主义"
+communist_desc: ""
+###
+communism: "共产主义"
+communism_desc: ""
+
+stalinism: "斯大林主义"
+stalinism_desc: ""
+
+stratocratic_communism: "军政共产主义"
+
+#stratocratic socialism
+stratocratic_socialist: "军政社会主义"
+stratocratic_socialist_desc: "军政社会主义"
+
+stratocratic_socialism: "军政社会主义"
+
+military_district: "军区"
+
+##parties
+#germany
+GER_national_socialist_party: "NSDAP"
+GER_national_socialist_party_long: "民族社会主义德国工人党（Nationalsozialistische Deutsche Arbeiterpartei）"
+#slovak
+SLO_national_socialist_party: "HSĽS"
+SLO_national_socialist_party_long: "赫林卡斯洛伐克人民党（Hlinkova Slovenská Ľudová Strana）"
+#norway
+NOR_national_socialist_party: "NS"
+NOR_national_socialist_party_long: "国民联盟（Nasjonal Samling）"
+#serbia
+SER_national_socialist_party: "VNS/ZBOR"
+SER_national_socialist_party_long: "救国政府/联合激进劳工组织（Vlada Narodnog Spasa/Združena Borbena Organizacija Rada）"
+#denmark
+DEN_liberal_party: "R."
+DEN_liberal_party_long: "丹麦社会自由党（Radikale Venstre）"
+DEN_paternal_party: "斯卡维纽斯内阁"
+DEN_paternal_party_long: "斯卡维纽斯内阁（Regeringen Scavenius）"
+#bohemia & moravia
+PBM_national_socialist_party: "NS"
+PBM_national_socialist_party_long: "民族共同体（Národní Souručenství）"
+#rk. niederlande
+RKN_national_socialist_party: "Rk.R/NSB"
+RKN_national_socialist_party_long: "专员辖区政府/尼德兰民族社会主义运动（Reichskommissariat Regierung/Nationaal-Socialistische Beweging in Nederland）"
+
+#italy
+ITA_fascist_party: "PNF"
+ITA_fascist_party_long: "国家法西斯党（Partito Nazionale Fascista）"
+#croatia
+CRO_national_socialist_party: "U–HRP"
+CRO_national_socialist_party_long: "乌斯塔沙－克罗地亚革命运动（Ustaša – Hrvatski Revolucionarni Pokret）"
+#albania
+ALB_fascist_party: "PFSh"
+ALB_fascist_party_long: "阿尔巴尼亚法西斯党（Partia Fashiste Shqiptare）"
+#san marino
+SNM_fascist_party: "PFS"
+SNM_fascist_party_long: "圣马力诺法西斯党（Partito Fascista Sammarinese）"
+#montenegro
+MNT_fascist_party: "CFS"
+MNT_fascist_party_long: "黑山联邦党（Crnogorska Federalistička Stranka）"
+#greece
+GRE_fascist_party: "EEE"
+GRE_fascist_party_long: "希腊国民联盟（Ethniki Enosis Ellados）"
+GRE_national_fascist_party: "EEE"
+GRE_national_fascist_party_long: "希腊国民联盟（Ethniki Enosis Ellados）"
+
+#france
+FRA_reactionary_nationalist_party: "贝当政府"
+FRA_reactionary_nationalist_party_long: "贝当政府（Gouvernement de Pétain）"
+#free france
+FFR_paternal_party: "CFLN"
+FFR_paternal_party_long: "法兰西民族解放委员会（Comité Français de Libération Nationale）"
+
+#turkey
+TUR_paternal_party: "CHP"
+TUR_paternal_party_long: "共和人民党（Cumhuriyet Halk Partisi）"
+TUR_ultranationalist_party: "突厥人党"
+TUR_ultranationalist_party_long: ""
+
+#japan
+JAP_fascist_party: "大政翼赞会"
+JAP_fascist_party_long: "大政翼赞会（大政翼贊會）（Taisei Yokusankai）"
+JAP_liberal_party: "民主自由党"
+JAP_liberal_party_long: "民主自由党（民主自由黨）（Minshu Jiyūtō）"
+
+#hungary
+HUN_reactionary_nationalist_party: "MÉP"
+HUN_reactionary_nationalist_party_long: "匈牙利生活党（Magyar Élet Pártja）"
+HUN_despotist_party: "MÉP - 西方派"
+HUN_despotist_party_long: "匈牙利生活党 - 西方派（Magyar Élet Pártja）"
+HUN_national_socialist_party: "NyKP–HM"
+HUN_national_socialist_party_long: "箭十字党－匈牙利主义运动（Nyilaskeresztes Párt – Hungarista Mozgalom）"
+
+#romania
+ROM_despotist_party: "安东内斯库政府"
+ROM_despotist_party_long: "安东内斯库政府（Guvernul Antonescu）"
+
+#bulgaria
+BUL_despotist_party: "保加利亚王室"
+BUL_despotist_party_long: "保加利亚王室（Balgarsko Tsarsko Semeystvo）"
+
+#belgium
+BEL_conservative_1_party: "PSC–CVP"
+BEL_conservative_1_party_long: "基督教社会党（Parti Social Chrétien）（Christelijke Volkspartij）"
+BEL_social_democratic_party: "POB–BWP"
+BEL_social_democratic_party_long: "比利时工党（Parti Ouvrier Belge）（Belgische Werkliedenpartij）"
+BEL_liberal_party: "PL–LP"
+BEL_liberal_party_long: "自由党（Parti Libéral）（Liberale Partij）"
+
+#spain
+SPR_despotist_party: "FET y de las JONS"
+SPR_despotist_party_long: "传统主义西班牙国家工团主义进攻委员会方阵（Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional Sindicalista）"
+
+#portugue
+POR_despotist_party: "UN"
+POR_despotist_party_long: "国民联盟（União Nacional）"
+
+#roc
+CHI_paternal_party: "国民党"
+CHI_paternal_party_long: "中国国民党（中國國民黨）"
+#xinjiang
+SIK_despotist_party: "国民党"
+SIK_despotist_party_long: "中国国民党（中國國民黨）"
+#xibei
+XSM_despotist_party: "国民党"
+XSM_despotist_party_long: "中国国民党（中國國民黨）"
+#dian xi
+YUN_despotist_party: "国民党"
+YUN_despotist_party_long: "中国国民党（中國國民黨）"
+#gui xi
+GXC_despotist_party: "国民党"
+GXC_despotist_party_long: "中国国民党（中國國民黨）"
+#communist china
+PRC_communist_party: "中共"
+PRC_communist_party_long: "中国共产党（中國共產黨）"
+#etr
+ETR_socialist_party: "ShTIP"
+ETR_socialist_party_long: "东突厥斯坦革命党（Shärqiy Turkistan Inqilawi Partiyisi）"
+
+#thailand
+SIA_despotist_party: "国家军事委员会"
+SIA_despotist_party_long: "国家军事委员会（Cna Tharhaengchat）"
+
+#burma
+BRM_socialist_party: "HpaHsaPaLa"
+BRM_socialist_party_long: "反法西斯人民自由同盟（Anti-Fascist People's Freedom League）"
+
+#vietnam
+VIN_socialist_party: "印支共"
+VIN_socialist_party_long: "印度支那共产党"
+
+#ceylon
+SRL_conservative_party: "EJP"
+SRL_conservative_party_long: "统一国民党（Eksath Jāthika Pakshaya）"
+
+#usa
+USA_liberal_party: "民主党"
+USA_liberal_party_long: "民主党（Democratic Party）"
+
+#mexico
+MEX_despotist_party: "PRI"
+MEX_despotist_party_long: "革命制度党（Partido Revolucionario Institucional）"
+
+#brazil
+BRA_liberal_party: "PSD"
+BRA_liberal_party_long: "社会民主党（Partido Social Democrático）" 
+BRA_paternal_party: "PTB"
+BRA_paternal_party_long: "巴西工党（Partido Trabalhista Brasileiro）" 
+
+#argentina
+ARG_paternal_party: "PJ"
+ARG_paternal_party_long: "正义党（Partido Justicialista）"
+
+#uk
+ENG_social_democratic_party: "工党"
+ENG_social_democratic_party_long: "工党（Labour Party）"
+
+#south africa
+SAF_reactionary_nationalist_party: "NP"
+SAF_reactionary_nationalist_party_long: "国民党（Nasionale Party）"
+
+#ireland
+IRE_conservative_party: "FF"
+IRE_conservative_party_long: "共和党（Fianna Fáil）"
+
+#sweden
+SWE_social_democratic_party: "S/SAP"
+SWE_social_democratic_party_long: "瑞典社会民主工人党（Sveriges Socialdemokratiska Arbetareparti）"
+
+#cccp
+SOV_communist_party: "VKP(b)"
+SOV_communist_party_long: "全联盟共产党（布尔什维克）（Vsesoyuznaya Kommunisticheskaya Partiya (bol'shevikov)）"
+
+#mongolia
+MON_communist_party: "MAKN"
+MON_communist_party_long: "蒙古人民革命党（Mongol Ardyn Khuvisgalt Nam）"
+
+#india
+RAJ_liberal_party: "INC"
+RAJ_liberal_party_long: "印度国民大会党（India National Congress）"
+RAJ_social_democratic_party: "INC - 尼赫鲁派"
+RAJ_social_democratic_party_long: "印度国民大会党 - 尼赫鲁派（India National Congress - Nehru）"
+
+#pakistan
+PAK_liberal_conservative_party: "ML"
+PAK_liberal_conservative_party_long: "穆斯林联盟（Muslim League）"
+
+#liberia
+LIB_conservative_1_party: "TWP"
+LIB_conservative_1_party_long: "真辉格党（True Whig Party）"
+
+#nederland
+HOL_social_democratic_party: "PvdA"
+HOL_social_democratic_party_long: "工党（Partij van de Arbeid）"
+
+#tatarstan
+TAT_conservative_1_party: "TMP"
+TAT_conservative_1_party_long: "鞑靼民族党（Tatar Milli Partiyäse）"
+
+#finland
+FIN_conservative_1_party: "Kok."
+FIN_conservative_1_party_long: "民族联合党（Kansallinen Kokoomus r.p.）"
+
+#cossackia
+CSK_despotist_party: "党卫军第15哥萨克骑兵军"
+CSK_despotist_party_long: "党卫军第15哥萨克骑兵军（XV. SS-Kosaken-Kavallerie-Korps）"
+
+#cuba
+CUB_social_democratic_party: "PRC–A"
+CUB_social_democratic_party_long: "古巴真正革命党（Partido Revolucionario Cubano – Auténtico）"
+
+#nicaragua
+NIC_despotist_party: "PLN"
+NIC_despotist_party_long: "民族主义自由党（Partido Liberal Nacionalista）"
+
+#venezuela
+VEN_despotist_party: "委内瑞拉合众国军政府"
+VEN_despotist_party_long: "委内瑞拉合众国军政府（Junta Militar de Gobierno de los Estados Unidos de Venezuela）"
+
+#el salvador
+ELS_despotist_party: "革命政府委员会"
+ELS_despotist_party_long: "革命政府委员会（Consejo de Gobierno Revolucionario）"
+
+#sudtirol
+STI_national_socialist_party: "VKS"
+STI_national_socialist_party_long: ""
+STI_fascist_party: "BAS"
+STI_fascist_party_long: ""
+STI_conservative_party: "SVP"
+STI_conservative_party_long: ""
+STI_progressive_party: "AHB"
+STI_progressive_party_long: "安德烈斯·霍费尔联盟（Andreas-Hofer-Bund）"
+
+#malagasy
+MAD_socialist_party: "PADESM"
+MAD_socialist_party_long: "马达加斯加穷人党（Parti des déshérités de Madagascar）"
+
+#iraq
+IRQ_reactionary_nationalist_party: "HIW"
+IRQ_reactionary_nationalist_party_long: "民族兄弟会党（Hizb al-Ikha al-Watani）"
+
+#azad kashmir
+AJK_conservative_1_party: "AJKMC"
+AJK_conservative_1_party_long: "全查谟和克什米尔穆斯林议会（All Jammu and Kashmir Muslim Conference）"
+
+#kazakhstan
+KAZ_communist_party: "QKP"
+KAZ_communist_party_long: "哈萨克斯坦共产党（Qazaqstan Kommunistık Partiasy）"
+
+#kyrgyzstan
+KYR_communist_party: "KKP"
+KYR_communist_party_long: "吉尔吉斯斯坦共产党（Kyrgyzstan Kommunisttik Partiyasy）"
+
+#tajikstan
+TAJ_communist_party: "HKT"
+TAJ_communist_party_long: "塔吉克斯坦共产党（Hizbi Kommunistiyi Tojikiston）"
+
+#turkmenstan
+TMS_communist_party: "TKP"
+TMS_communist_party_long: "土库曼斯坦共产党（Türkmenistanyň Kommunistik Partiýasy）"
+
+#uzbekistan
+UZB_communist_party: "O`zKP"
+UZB_communist_party_long: "乌兹别克斯坦共产党（O`zbekiston Kommunistik Partiyasi）"
+
+#guyana
+GYA_socialist_party: "PPP"
+GYA_socialist_party_long: "人民进步党（People's Progressive Party）"
+
+#jamaica
+JAM_conservative_1_party: "JLP"
+JAM_conservative_1_party_long: "牙买加工党（Jamaica Labour Party）"
+
+#bolivia
+BOL_paternal_party: "PURS - 寡头派"
+BOL_paternal_party_long: "共和社会主义统一党 - 寡头派（Partido de la Unión Republica Socialista - oligarcas）"
+BOL_conservative_party: "PURS - 保守派"
+BOL_conservative_party_long: "共和社会主义统一党 - 保守派（Partido de la Unión Republica Socialista - conservador）"
+BOL_despotist_party: "FSB - 军派"
+BOL_despotist_party_long: "玻利维亚社会主义长枪党 - 军派（Falange Socialista Boliviana - militar）"
+BOL_fascist_party: "FSB - 正统派"
+BOL_fascist_party_long: "玻利维亚社会主义长枪党 - 正统派（Falange Socialista Boliviana - ortodoxo）"
+BOL_social_democratic_party: "MNR"
+BOL_social_democratic_party_long: "民族主义革命运动（Movimiento Nacionalista Revolucionario）"
+
+#costa rica
+COS_paternal_party: "第二共和国建国委员会"
+COS_paternal_party_long: "第二共和国建国委员会（Junta Fundadora de la Segunda República）"
+
+#korea
+KOR_social_democratic_party: "勤劳人民党"
+KOR_social_democratic_party_long: "勤劳人民党"
+
+#macedonia
+MAC_fascist_party: "VMRO"
+MAC_fascist_party_long: "马其顿内部革命组织（Vnatrešna Makedonska Revolucionerna Organizacija）"
+MAC_despotist_party: "社会力量"
+MAC_despotist_party_long: "社会力量（Opštestvena Sila）"
+
+#yakutia
+YAK_despotist_party: "雅库特起义军"

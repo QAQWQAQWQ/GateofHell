@@ -1,0 +1,16 @@
+state={
+	id=834
+	name="STATE_834"
+	manpower=1
+
+	state_category = wasteland 
+	impassable = yes
+
+	history={
+		owner = ARG	
+	}
+	
+	provinces={
+		13937 13938 13939 13940 13941 13943 13946 13947 13948
+	}
+}

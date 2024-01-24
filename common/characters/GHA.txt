@@ -1,0 +1,16 @@
+characters = {
+	GHA_kwame_nkrumah = {
+		name = GHA_kwame_nkrumah
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GHA/kwame_nkrumah.dds"
+			}
+		}
+		country_leader = {
+			ideology = african_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

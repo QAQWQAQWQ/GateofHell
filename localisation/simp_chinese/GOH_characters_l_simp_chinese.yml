@@ -1,0 +1,662 @@
+﻿l_simp_chinese:
+#ALB
+ALB_maliq_bushati: "马利克·布沙蒂"
+
+#ARG
+ARG_juan_peron: "胡安·庇隆"
+
+#CRO
+CRO_ante_pavelic: "安特·帕韦利奇"
+
+#ETR
+ETR_ehmetjan_qasim: "阿合买提江·哈斯木"
+
+#FRA
+FRA_philippe_petain: "菲利浦·贝当"
+#FAL
+FAL_marcel_peyrouton: "马塞尔·佩鲁东"
+
+#MOR
+MOR_mohammed_v: "默罕穆德五世"
+
+#GER
+GER_adolf_hitler: "阿道夫·希特勒"
+GER_heinz_guderian: "海因茨·古德里安"
+GER_walther_wenck: "瓦尔特·温克"
+GER_erich_von_manstein: "埃里希·冯·曼施坦因"
+GER_erwin_rommel: "埃尔温·隆美尔"
+GER_ferdinand_schorner: "费迪南德·舍尔纳"
+GER_alfred_jodl: "阿尔弗雷德·约德尔"
+GER_hasso_von_boehmer: "哈索·冯·博默"
+GER_heinz_gunther_guderian: "海因茨·君特·古德里安"
+GER_otto_gunscher: "奥托·君舍"
+GER_paul_klatt: "保罗·克拉特"
+GER_hermann_hoth: "赫尔曼·霍特"
+GER_josef_gangl: "约瑟夫·甘格尔"
+GER_adolf_heusinger: "阿道夫·豪辛格"
+GER_fritz_bayerlein: "弗里茨·拜尔莱茵"
+GER_hans_speidel: "汉斯·斯派达尔"
+GER_wessel_freytag_von_loringhoven: "威瑟尔·弗雷塔格·冯·洛林霍芬"
+GER_hubert_lanz: "休伯特·兰兹"
+GER_walther_nehring: "瓦尔特·内林"
+
+#HUN
+HUN_horthy_miklos: "霍尔蒂·米克洛什"
+HUN_horthy_istvan: "霍尔蒂·伊什特万"
+HUN_ferenc_feketehalmyczeydner: "费伦茨·费凯泰哈尔米-采伊德纳"
+HUN_geza_lakatos: "盖佐·拉卡托什"
+HUN_ivan_hindy: "伊万·欣迪"
+HUN_jany_gusztav: "扬尼·古斯塔夫"
+HUN_karoly_beregfy: "卡罗伊·拜赖格菲"
+HUN_lajos_veress: "拉约什·韦赖什"
+
+#ITA 
+ITA_benito_mussolini: "贝尼托·墨索里尼"
+ITA_rodolfo_graziani: "鲁道夫·格拉齐亚尼"
+ITA_giovanni_messe: "乔瓦尼·梅塞"
+ITA_ugo_cavallero: "乌戈·卡瓦莱罗"
+ITA_pietro_badoglio: "佩特罗·巴多格里奥"
+ITA_ettore_bastico: "埃托雷·巴斯蒂科"
+#AOI
+AOI_prince_amedeo: "阿梅迪奥王子"
+#EGY
+EGY_farouk_i: "法鲁克一世"
+
+#ELLAS CONTENTS ARE IN AN INDEPENDENT FILE
+
+#IRQ
+IRQ_faisal_ii: "费萨尔二世"
+IRQ_rashid_ali_al_gaylani: "拉希德·阿里·盖拉尼"
+
+#PBM
+PBM_emil_hacha: "伊米尔·哈卡"
+
+#RKO
+RKO_hinrich_lohse: "欣里希·洛泽"
+RKO_nikolaus_heilmann: "尼古拉斯·海尔曼"
+
+#RKB
+RKB_josef_grohe: "约瑟夫·格罗耶"
+RKB_heinrich_kittel: "海因里希·基特尔"
+
+#RKN
+RKN_arthur_seyssinquart: "阿图尔·赛斯-英夸特"
+
+#RKU
+RKU_erich_koch: "埃里希·科赫"
+RKU_gerhard_von_schwerin: "格哈德·冯·施未林"
+
+#GGV
+GGV_hans_frank: "汉斯·弗朗克"
+
+#BUR
+BUR_josias: "约西亚斯亲王"
+
+#SER
+SER_milan_nedic: "米兰·内迪奇"
+
+#FIN
+FIN_juho_kusti_paasikivi: "尤霍·库斯蒂·巴锡基维"
+
+#SWE
+SWE_tage_erlander: "塔格·埃兰德"
+
+#SPR
+SPR_francisco_franco: "弗朗西斯科·佛朗哥"
+
+#DEN
+DEN_erik_scavenius: "埃里克·斯卡维纽斯"
+
+#POR
+POR_antonio_salazar: "安东尼奥·萨拉查"
+
+#SWI
+SWI_federal_council: "瑞士联邦委员会"
+
+#MFR
+MFR_carl_heinrich: "卡尔-海因里希·冯·施蒂尔普纳格尔"
+
+#NOR
+NOR_vidkun_quisling: "维德孔·吉斯林"
+
+#SLO
+SLO_jozef_tiso: "约瑟夫·蒂索"
+
+#LOK
+LOK_bronislav_kaminski: "布罗尼斯拉夫·卡明斯基"
+
+#ENG
+ENG_clement_attley: "克莱门特·艾德礼"
+ENG_archibald_wavell: "阿奇博尔德·韦维尔"
+ENG_bernard_montgomery: "伯纳德·蒙哥马利"
+ENG_claude_auchinleck: "克劳德·奥金莱克"
+ENG_alan_cunningham: "阿兰·坎宁安"
+ENG_gerald_lathbury: "杰拉尔德·拉斯伯里"
+ENG_john_harding: "约翰·哈丁"
+ENG_montagu_stopford: "蒙塔古·斯托普福德"
+ENG_robert_bray: "罗伯特·布雷"
+
+#BEA
+BEA_rowland_baring: "罗兰·巴林"
+BEA_philip_mitchell: "菲利普·米切尔"
+BEA_harry_edward_de_robillard_wetherall: "哈里·爱德华·德·罗比拉德·韦瑟罗尔"
+
+#RHO
+RHO_godfrey_huggins: "戈弗雷·哈金斯"
+
+#IRE
+IRE_sean_o'kelly: "肖恩·奥凯利"
+IRE_john_costello: "约翰·科斯特洛"
+
+#ROM
+ROM_ion_antonescu: "扬·安东内斯库"
+ROM_mihai_antonescu: "米哈伊·安东内斯库"
+
+#BUL
+BUL_boris_iii: "鲍里斯三世"
+BUL_simeon_ii: "西美昂二世"
+
+#ROA
+ROA_andrey_vlasov: "安德烈·弗拉索夫"
+ROA_vladimir_arcezo: "弗拉基米尔·阿尔切佐"
+ROA_georgy_zhilenkov: "格奥尔基·日连科夫"
+ROA_igor_sakharov: "伊戈尔·萨哈罗夫"
+ROA_mikhail_meandrov: "米哈伊尔·缅德洛夫"
+ROA_vasily_malyshkin: "瓦西里·马雷什金"
+
+#RKM
+RKM_siegfried_kasche: "齐格弗里德·卡舍"
+RKM_august_wittman: "奥古斯特·魏特曼"
+RKM_willi_riedel: "威利·里德尔"
+
+#RKK
+RKK_arno_schickedanz: "阿尔诺·希克但茨"
+
+#TUR
+TUR_huseyin_husnu_emir_erkilet: "侯赛因·胡斯努·埃米尔·埃尔基莱特"
+TUR_ismet_inonu: "伊斯麦特·伊诺努"
+TUR_celal_bayar: "杰拉勒·拜亚尔"
+TUR_Recep_Peker: "雷杰普·佩克尔"
+TUR_Nuri_Killigil: "努里·基里基尔"
+
+#FFR
+FFR_charles_de_gaulle: "夏尔·戴高乐"
+FFR_jean_de_lattre_de_tassigny: "让·德·拉特尔·德·塔西尼"
+FFR_jacques_massu: "雅克·马絮"
+FFR_andre_zeller: "安德烈·泽勒"
+FFR_henri_navarre: "亨利·纳瓦拉"
+FFR_philippe_leclerc: "菲利浦·勒克莱尔"
+FFR_raoul_salan: "拉乌尔·萨兰"
+
+#ROC
+CHI_jiang_jieshi: "蒋介石"
+CHI_li_zongren: "李宗仁"
+CHI_du_yuming: "杜聿明"
+CHI_bai_chongxi: "白崇禧"
+CHI_sun_liren: "孙立人"
+
+#CPC
+PRC_mao_ze_dong: "毛泽东"
+
+#SHX
+SHX_yan_xi_shan: "阎锡山"
+
+#XSM
+XSM_ma_bufang: "马步芳"
+
+#SIK
+SIK_zhang_zhizhong: "张治中"
+SIK_maisiwude: "麦斯武德"
+
+#VIN
+VIN_ho_chi_minh: "胡志明"
+
+#SIA
+SIA_phibul_songkhram: "銮披汶·颂堪"
+
+#USA
+USA_thomas_dewey: "托马斯·杜威"
+USA_douglas_macarthur: "道格拉斯·麦克阿瑟"
+USA_dwight_d_eisenhower: "德怀特·D·艾森豪威尔"
+USA_omar_bradley: "奥马尔·布拉德利"
+USA_george_s_patton: "乔治·S·巴顿"
+USA_mark_w_clark: "马克·W·克拉克"
+USA_matthew_ridgway: "马修·李奇微"
+USA_james_van_fleet: "詹姆斯·范弗里特"
+USA_j_lawton_collins: "J·劳顿·柯林斯"
+USA_maurice_rose: "莫里斯·罗斯"
+USA_joseph_t_mcnarney: "约瑟夫·T·麦克纳尼"
+USA_jacob_l_devers: "雅各布·L·戴佛斯"
+USA_edward_h_brooks: "爱德华·H·布鲁克斯"
+USA_clarence_r_huebner: "克拉伦斯·R·许布纳"
+USA_leonard_t_gerow: "伦纳德·T·杰罗"
+USA_isaac_d_white: "艾萨克·D·怀特"
+USA_lewis_burwell_puller: "刘易斯·伯韦尔·普勒"
+USA_evans_carlson: "埃文斯·卡尔逊"
+USA_george_c_marshall: "乔治·C·马歇尔"
+
+#TIB
+TIB_tenzin_gyatso: "丹增嘉措"
+TIB_ngawang_sungrab_thutob: "达扎·阿旺松绕图多旦巴杰增"
+
+#RAJ
+RAJ_chakravarti_rajagopalachari: "查克拉瓦尔蒂·拉贾戈巴拉查理"
+RAJ_jawaharlal_nehru: "贾瓦哈拉尔·尼赫鲁"
+RAJ_k_m_cariappa: "K. M. 卡里亚帕"
+RAJ_sam_manekshaw: "萨姆·马内克肖"
+RAJ_k_v_krishna_rao: "K. V. 克里什纳·拉奥"
+RAJ_tapishwar_narain_raina: "塔皮什瓦尔·纳拉因·莱纳"
+RAJ_rajendrasinhji_jadeja: "拉金德拉辛吉·贾德加"
+RAJ_gopal_gurunath_bewoor: "戈普尔·古鲁纳特·比乌尔"
+
+#AZH
+AZH_subhas_chandra_bose: "苏巴斯·钱德拉·鲍斯"
+
+#PAK
+PAK_khawaja_nazimuddin: "卡瓦贾·纳兹穆丁"
+PAK_liaquat_ali_khan: "利雅卡特·阿里·汗"
+PAK_frank_messervy: "弗兰克·梅塞维"
+PAK_akbar_khan: "阿克巴尔·汗"
+PAK_douglas_gracey: "道格拉斯·格雷西"
+PAK_mohammed_anwar_khan: "穆罕默德·安瓦尔·汗"
+PAK_mohammed_zaman_kiani: "穆罕默德·扎曼·基亚尼"
+PAK_nurul_amin: "努尔·阿敏"
+
+#KSH
+KSH_hari_singh: "哈里·辛格"
+
+#JAP
+JAP_shigeru_yoshida: "吉田茂"
+JAP_shigeo_odachi: "大達茂雄"
+#MAN
+MAN_pu_yi: "溥仪"
+
+#MON
+MON_khorloogiin_choibalsan: "霍尔洛·乔巴山"
+MON_yumjaagiin_tsedenbal: "尤睦佳·泽登巴尔"
+
+#SAU
+SAU_ibn_saud: "阿卜杜勒-阿齐兹·本·阿卜杜拉赫曼·本·费萨尔·阿勒沙特"
+
+#YEM
+YEM_ahmad_bin_yahya: "艾哈迈德·本·叶海亚"
+
+#SOV
+SOV_iosif_stalin: "约瑟夫·斯大林"
+SOV_vyacheslav_molotov: "维亚切斯拉夫·莫洛托夫"
+SOV_georgy_zhukov: "格奥尔基·朱可夫"
+SOV_ivan_konev: "伊万·科涅夫"
+SOV_kliment_voroshilov: "克利缅特·伏罗希洛夫"
+SOV_konstanty_rokossowski: "康斯坦丁·罗科索夫斯基"
+SOV_leonid_govorov_1: "列昂尼德·戈沃罗夫"
+SOV_semyon_timoshenko: "谢苗·铁木辛哥"
+SOV_semyon_budyonny: "谢苗·布琼尼"
+SOV_grigory_kulik: "格里戈里·库利克"
+SOV_aleksandr_vasilevsky: "亚历山大·华西列夫斯基"
+SOV_nikolai_vatutin: "尼古拉·瓦图京"
+SOV_pavel_batov: "帕维尔·巴托夫"
+SOV_stanislav_poplavsky: "斯坦尼斯拉夫·波普拉夫斯基"
+SOV_rodion_malinovsky: "罗季翁·马利诺夫斯基"
+SOV_vasily_chuikov: "瓦西里·崔可夫"
+SOV_vasily_kazakov: "瓦西里·卡扎科夫"
+SOV_ivan_serov: "伊万·谢罗夫"
+SOV_mikhail_shumilov: "米哈伊尔·舒米洛夫"
+SOV_pavel_belov: "帕维尔·别洛夫"
+SOV_vasily_sokolovsky: "瓦西里·索科洛夫斯基"
+SOV_alexander_gorbatov: "亚历山大·戈尔巴托夫"
+SOV_ivan_lyudnikov: "伊万·柳德尼科夫"
+SOV_ivan_petrov: "伊万·彼得罗夫"
+SOV_nikolay_berzarin: "尼古拉·别尔扎林"
+SOV_pavel_kurbatkin: "帕维尔·库尔巴特金"
+SOV_yakov_cherevichenko: "雅科夫·切列维琴科"
+SOV_arseny_golovko: "阿尔谢尼·戈洛夫科"
+SOV_nikolai_kuznetsov: "尼古拉·库兹涅佐夫"
+SOV_ivan_isakov: "伊万·伊萨科夫"
+
+#KZN
+KZN_pyotr_savitsky: "彼得·萨维茨基"
+
+#VGE
+VGE_alexsander_heckmann: "亚历山大·赫克曼"
+
+#NEP
+NEP_tribhuvan: "特里布万·比尔·比克拉姆·沙阿"
+
+#LIB
+LIB_william_tubman: "威廉·杜伯曼"
+
+#AFG
+AFG_mohammed_zahir_shah: "穆罕默德·查希尔·沙阿"
+
+#PER
+PER_mohammed_shah_pahlavi: "穆罕默德·沙阿·巴列维"
+
+#BRA
+BRA_eurico_gaspar_dutra: "欧里科·加斯帕尔·杜特拉"
+BRA_getulio_vargas: "热图里奥·瓦加斯"
+
+#TAT
+TAT_sadri_maksudi_arsal: "萨德里·马克苏迪·阿尔萨尔"
+TAT_subich_grigoriyevich: "苏比奇·格里戈里耶维奇"
+TAT_abdraim_reshidov: "阿布德拉姆·雷希多夫"
+TAT_bobrovskaja_nadezhda_ivanovna: "波布罗夫斯卡娅·娜杰日达·伊万诺夫娜"
+TAT_sergey_danovsky: "谢尔盖·达诺夫斯基"
+TAT_teyfuq_abdul: "泰伊佛克·阿卜杜勒"
+TAT_veniamin_valeevich_albetkov: "韦尼亚明·瓦列维奇·阿尔贝特科夫"
+
+#CSK
+CSK_helmuth_von_pannwitz: "赫尔穆特·冯·潘尼茨"
+
+#CHL
+CHL_gabriel_gonzalez_videla: "加夫列尔·冈萨雷斯·魏地拉"
+
+#COL
+COL_mariano_ospina_perez: "马里亚诺·奥斯皮纳·佩雷斯"
+COL_jorge_eliecer_gaitan: "豪尔赫·埃利塞尔·盖坦"
+COL_eduardo_santos_montejo: "爱德华多·桑托斯·蒙特霍"
+COL_eduardo_bonitto_vega: "爱德华多·伯尼托·维加"
+COL_gabriel_paris_gordillo: "加布里埃尔·帕里斯·戈迪略"
+COL_german_ocampo_herrera: "赫尔曼·奥坎波·埃雷拉"
+COL_gustavo_rojas_pinilla: "古斯塔沃·罗哈斯·皮尼利亚"
+
+#CUB
+CUB_Fulgencio_Batista: "富尔亨西奥·巴蒂斯塔"
+CUB_carlos_prio_socarras: "卡洛斯·普里奥·索卡拉斯"
+
+#CBA
+CBA_supreme_command: "驻古巴共和国最高指挥"
+
+#DOM
+DOM_rafael_trujillo: "拉斐尔·特鲁希略"
+
+#ELS
+ELS_oscar_osorio: "奥斯卡·奥索里奥"
+ELS_consejo_de_gobierno_revolucionario: "革命政府委员会"
+
+#MEX
+MEX_miguel_aleman: "米格尔·阿莱曼"
+
+#NIC
+NIC_anastasio_somoza_garcia: "安纳斯塔西奥·索摩查·加西亚"
+
+#PAN
+PAN_domingo_diaz_arosemena: "多明戈·迪亚兹·阿罗塞梅纳"
+PAN_arnulfo_arias: "阿努尔福·阿里亚斯"
+
+#PRU
+PRU_manuel_odria: "曼努埃尔·奥德里亚"
+
+#VEN
+VEN_carlos_delgado_chalbaud: "卡洛斯·德尔加多·查尔鲍德"
+VEN_german_suarez_flamerich: "赫尔曼·苏亚雷斯·弗拉梅里奇"
+VEN_marcos_perez_jimenez: "马科斯·佩雷斯·希门内斯"
+
+#HAI
+HAI_dumarsais_estime: "迪马瑟·埃斯蒂梅"
+
+#GXC
+GXC_li_zongren: "李宗仁"
+
+#YUN
+YUN_lu_han: "卢汉"
+YUN_long_yun: "龙云"
+
+#AST
+AST_ben_chifley: "班·奇夫利"
+AST_robert_menzeis: "罗伯特·孟席斯"
+
+#NZL
+NZL_peter_fraser: "彼得·弗雷泽"
+NZL_sidney_holland: "西德尼·霍兰德"
+
+#PAR
+PAR_felipe_molas_lopez: "费利佩·莫拉斯·洛佩斯"
+
+#INS
+INS_sukarno: "苏加诺"
+
+#EIN
+EIN_tjokorda_gde_raka_soekawati: "佐科尔达·格德·拉卡·苏卡瓦蒂"
+
+#URG
+URG_luis_batlle_berres: "路易斯·巴特列·贝雷斯"
+
+#VIE
+VIE_bao_dai: "保大帝"
+
+#CAM
+CAM_norodom_sihanouk: "诺罗敦·西哈努克"
+
+#LAO
+LAO_sisavang_vong: "西萨旺·冯"
+
+#KOR
+KOR_lyuh_woon-hyung: "吕运亨"
+KOR_kim_il_sung: "金日成"
+KOR_kim_won-bong: "金元凤"
+KOR_pak_hon-yong: "朴宪永"
+KOR_jo_so-ang: "赵素昂"
+KOR_cho_byung-ok: "赵炳玉"
+KOR_kim_ku: "金九"
+KOR_syngman_rhee: "李承晚"
+KOR_general_staff_office: "陆军参谋本部"
+KOR_power_vacuum: "权力真空"
+
+#STI
+STI_sepp_kerschbaumer: "塞普·克施鲍默"
+
+#HON
+HON_juan_manuel_galvez: "胡安·曼努埃尔·加尔维斯"
+
+#OMA
+OMA_said_bin_taimur: "赛义德·本·泰穆尔"
+
+#OMI
+OMI_muhammad_al_khalili: "穆罕穆德·哈里里"
+OMI_ghalib_al-hinai: "加里布·海奈伊"
+
+#SAF
+SAF_d_f_malan: "丹尼尔·马兰"
+
+#VAT
+VAT_pius_xii: "庇护十二世"
+
+#HOL
+HOL_willem_drees: "威廉·德雷斯"
+
+#ISR
+ISR_david_ben_gurion: "戴维·本·古里安"
+
+#COS
+COS_jose_figueres_ferrer: "何塞·菲格雷斯·费雷尔"
+
+#SYR
+SYR_zeid_bin_hussein: "扎伊德·本·侯赛因"
+SYR_Housni_al-Zaim: "胡赛尼·扎伊姆"
+
+#BHU
+BHU_jigme_wangchuck: "吉格梅·旺楚克"
+
+#BOL
+BOL_enrique_hertzog: "恩里克·赫佐格"
+BOL_mamerto_urriolagoitia: "马梅尔托·乌里奥拉戈伊蒂亚"
+BOL_oscar_unzaga: "奥斯卡·温扎加"
+BOL_bernardino_bilbao_rioja: "伯纳蒂诺·毕尔巴鄂·里奥哈"
+
+#ECU
+ECU_galo_plaza: "加洛·普拉萨"
+
+#CAN
+CAN_louis_st_laurent: "路易·圣洛朗"
+
+#NGA
+NGA_nnamdi_azikiwe: "纳姆迪·阿齐基韦"
+
+#GUA
+GUA_juan_jose_arevalo: "胡安·何塞·阿雷瓦洛"
+
+#SIE
+SIE_milton_margai: "米尔顿·马尔盖"
+
+#BSU
+BSU_robert_george_howe: "罗伯特·乔治·豪"
+
+#MAD
+MAD_joseph_raseta: "约瑟夫·拉塞塔"
+
+#GHA
+GHA_kwame_nkrumah: "夸梅·恩克鲁玛"
+
+#SOK
+SOK_siddiq_abubakar_iii: "西迪克·阿布巴卡尔三世"
+
+#SKM
+SKM_tashi_namgyal: "塔希·纳姆加尔"
+
+#AOF
+AOF_pierre_boisson: "皮埃尔·布瓦松"
+
+#FWA
+FWA_west_africa_condominium: "西非共管委员会"
+FWA_pierre_nouailhetas: "皮埃尔·努埃伊塔"
+
+#KAM
+KAM_emil_wiehl: "埃米尔·威尔"
+
+#BRM
+BRM_aung_san: "昂山"
+
+#SHN
+SHN_sao_hkun_hkio: "苏昆乔"
+
+#KRN
+KRN_saw_ba_u_gyi: "苏巴吴基"
+
+#MLD
+MLD_abdul_majeed_didi: "阿卜杜勒·马吉德·迪迪"
+MLD_mohamed_amin_didi: "穆罕默德·阿明·迪迪"
+
+#MNT
+MNT_michael_i: "米海洛一世"
+
+#BEL
+BEL_hubert_pierlot: "于贝尔·皮埃洛"
+
+#SRL
+SRL_d_s_senanayake: "斯蒂芬·森纳那亚克"
+
+#ADE
+ADE_reginald_champion: "雷吉纳德·尚皮永"
+
+#MAL
+MAL_henry_gurney: "亨利·葛尼"
+MAL_gerald_templer: "杰拉德·邓普勒"
+
+#BRU
+BRU_ahmad_tajuddin: "艾哈迈德·塔祖丁"
+
+#ICE
+ICE_sveinn_bjornsson: "斯温·布扬松"
+ICE_stefan_johann_stefansson: "斯特凡·约翰·斯特凡松"
+
+#PHI
+PHI_elpidio_quirino: "埃尔皮迪奥·基里诺"
+
+#PAL
+PAL_amin_al_husseini: "阿明·侯赛尼"
+
+#BSK
+BSK_zeki_velidi_togan: "泽基·瓦利迪·托甘"
+
+#RUS
+RUS_ivan_ilyin: "伊万·伊雷因"
+RUS_konstantin_rodzaevsky: "康斯坦丁·罗扎耶夫斯基"
+RUS_vladimir_marushevsky: "弗拉基米尔·马鲁舍夫斯基"
+RUS_apollinary_ryabinsky: "阿波利纳里·里亚宾斯基"
+RUS_mikhail_nikolaevich_levitov: "米哈伊尔·尼古拉耶维奇·列维托夫"
+RUS_marija_zacharczenko-szulc: "玛丽亚·扎哈尔琴科-舒尔茨"
+RUS_nikolai_fyodorov: "尼古拉·费奥多罗夫"
+RUS_karp_gordeenko: "卡普·戈尔登科"
+RUS_pavel_bermondt-avalov: "帕维尔·别尔蒙特-阿瓦罗夫"
+RUS_pavel_chatilov: "帕维尔·沙季洛夫"
+RUS_sergey_voytsekhovsky: "谢尔盖·沃伊采霍夫斯基"
+RUS_spiridon_dionisevich_merkulov: "斯皮里东·迪奥尼塞维奇·梅尔库洛夫"
+RUS_viktor_aleksandrovich_larionov: "维克托·亚历山德罗维奇·拉里奥诺夫"
+RUS_vladimir_butkov: "弗拉基米尔·布特科夫"
+RUS_vladimir_granitov: "弗拉基米尔·格拉尼托夫"
+RUS_vladimir_sergeevich_tolstov: "弗拉基米尔·谢尔盖耶维奇·托尔斯托夫"
+RUS_vladimir_vitkovsky: "弗拉基米尔·维特科夫斯基"
+RUS_vyacheslav_naumenko: "维亚切斯拉夫·瑙缅科"
+RUS_lev_mikhailovich_erogin: "列夫·米哈伊洛维奇·艾罗金"
+RUS_anton_denikin: "安东·邓尼金"
+
+#RRP
+RRP_alexander_kerensky: "亚历山大·克伦斯基"
+
+#GYA
+GYA_charles_woolley: "查尔斯·伍利"
+GYA_cheddi_jagan: "切迪·贾根"
+
+#RUU
+RUU_leo_petillon: "莱奥·佩蒂隆"
+
+#MNC
+MNC_rainier_iii: "兰尼埃三世"
+
+#HYD
+HYD_asaf_jah_vii: "阿萨夫·贾赫七世"
+
+#AJK
+AJK_sardar_ibrahim_khan: "萨达尔·易卜拉欣·汗"
+
+#KAZ
+KAZ_zhumabay_shayakhmetov: "朱玛巴伊·沙亚赫梅托夫"
+
+#KYR
+KYR_iskhak_razzakov: "伊斯哈克·拉扎科夫"
+
+#TAJ
+TAJ_bobojon_ghafurov: "博博占·加富罗夫"
+
+#TMS
+TMS_suhan_babayew: "苏罕·巴巴耶夫"
+
+#UZB
+UZB_amin_niyazov: "阿明·尼亚佐夫"
+
+#JAM
+JAM_alexander_bustamante: "亚历山大·布斯塔曼特"
+
+#ADR
+ADR_ramon_iglesias_i_navarri: "拉蒙·伊格莱西亚斯·纳瓦里"
+
+#LIE
+LIE_alexander_frick: "亚历山大·弗里克"
+
+#MAC
+MAC_ivan_mihailov: "伊万·米哈伊洛夫"
+MAC_dimitar_raev: "迪米塔尔·拉耶夫"
+
+#AZR
+AZR_abdurrahman_fatalibeyli: "阿卜杜拉赫曼·法塔利贝里"
+
+#GEO
+GEO_mikheil_tsereteli: "米哈伊尔·策烈铁里"
+
+#ARM
+ARM_drastamat_kanayan: "德拉斯塔马特·卡纳扬"
+
+#CIN
+CIN_hasan_israilov: "哈桑·伊斯拉伊洛夫"
+
+#YAK
+YAK_pavel_karamzin: "帕维尔·卡拉姆金"
+
+#KIR
+KIR_sergei_eisenstein: "谢尔盖·爱森斯坦"
+
+#ANA
+ANA_antonio_scaramuzza: "安东尼奥·斯卡拉穆扎"
+
+#LEB
+LEB_cheikh_antonios: "切赫·安东尼奥斯"

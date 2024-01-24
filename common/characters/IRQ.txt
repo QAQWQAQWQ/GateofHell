@@ -1,0 +1,56 @@
+characters = {
+	IRQ_faisal_ii = {
+		name = IRQ_faisal_ii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/faisal_ii.dds"
+			}
+		}
+		country_leader = {
+			ideology = constitutional_monarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	IRQ_rashid_ali_al_gaylani = {
+		name = IRQ_rashid_ali_al_gaylani
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/rashid_ali_al-gaylani.dds"
+			}
+		}
+		country_leader = {
+			ideology = reactionary_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	IRQ_Arshad_al-Umari = {
+		name = IRQ_Arshad_al-Umari
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ministers/IRQ/Minister_IRQ_Arshad_al-Umari.dds"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = IRQ_Arshad_al-Umari_eco
+			ledger = civilian
+		}
+	}
+	IRQ_Salah_al-Din_al-Sabbagh = {
+		name = IRQ_Salah_al-Din_al-Sabbagh
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ministers/IRQ/Minister_IRQ_Salah_al-Din_al-Sabbagh.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = IRQ_Salah_al-Din_al-Sabbagh_sec
+			ledger = civilian
+		}
+	}
+}

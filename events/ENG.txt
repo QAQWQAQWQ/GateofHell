@@ -1,0 +1,79 @@
+add_namespace = ENG
+
+news_event = {
+	id = ENG.1
+	title = ENG.1.title
+	desc = ENG.1.desc
+	picture = ENG_de_havilland_comet
+
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ENG.1.a
+		trigger = {
+			NOT = {
+				tag = GER
+			}
+		}
+	}
+	option = {
+		name = ENG.1.b
+		trigger = {
+			tag = GER
+		}
+	}
+}
+news_event = {
+	id = ENG.2
+	title = ENG.2.title
+	desc = ENG.2.desc
+	picture = ENG_1984
+
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ENG.2.a
+	}
+}
+news_event = {
+	id = ENG.3
+	title = ENG.3.title
+	desc = ENG.3.desc
+	picture = ENG_1950_general_election
+
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ENG.3.a
+	}
+}
+country_event = {
+	id = ENG.4
+	title = ENG.4.title
+	desc = ENG.4.desc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ENG.4.a
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = ENG.3
+					days = 1
+				}
+			}
+		}
+	}
+}

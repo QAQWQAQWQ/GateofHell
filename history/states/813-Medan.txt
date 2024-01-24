@@ -1,0 +1,30 @@
+
+state={
+	id=813
+	name="STATE_813"
+	manpower = 1035252
+
+	state_category = large_town
+
+	history={
+		owner = DEI
+		victory_points = {
+			4652 3
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			4652 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = INS
+	}
+
+	provinces={
+		4652
+	}
+
+	local_supplies=0.0 
+}

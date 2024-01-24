@@ -1,0 +1,16 @@
+characters = {
+	JAM_alexander_bustamante = {
+		name = JAM_alexander_bustamante
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAM/alexander_bustamante.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternalistic_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

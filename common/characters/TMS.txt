@@ -1,0 +1,16 @@
+characters = {
+	TMS_suhan_babayew = {
+		name = TMS_suhan_babayew
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TMS/suhan_babayew.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

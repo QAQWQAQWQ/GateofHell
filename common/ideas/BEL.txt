@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		BEL_gang_of_four = {
+			picture = BEL_gang_of_four
+			modifier = {
+
+			}
+		}
+		BEL_government_in_exile = {
+			picture = BEL_government_in_exile
+			modifier = {
+
+			}
+		}
+	}
+}

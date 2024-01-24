@@ -1,0 +1,24 @@
+
+state={
+	id=925
+	name="STATE_925"
+	manpower = 3005214
+	resources={
+
+	}
+	
+	state_category = large_city
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		538 6441 6582 14395
+	}
+}

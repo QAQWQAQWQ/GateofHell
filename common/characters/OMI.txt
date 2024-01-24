@@ -1,0 +1,30 @@
+characters = {
+	OMI_muhammad_al_khalili = { #no source, current portrait incorrect
+		name = OMI_muhammad_al_khalili #no longer as leader
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OMI/muhammad_al_khalili.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	OMI_ghalib_al-hinai = {
+		name = OMI_ghalib_al-hinai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OMI/ghalib_al-hinai.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

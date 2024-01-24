@@ -1,0 +1,21 @@
+state={
+	id=809
+	name="STATE_809"
+	manpower=50
+	
+	state_category = wasteland 
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 0
+			13340 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={
+		13340 
+	}
+}

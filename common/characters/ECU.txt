@@ -1,0 +1,16 @@
+characters = {
+	ECU_galo_plaza = {
+		name = ECU_galo_plaza
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ECU/galo_plaza.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

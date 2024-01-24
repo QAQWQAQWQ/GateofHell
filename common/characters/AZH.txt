@@ -1,0 +1,16 @@
+characters = {
+	AZH_subhas_chandra_bose = {
+		name = AZH_subhas_chandra_bose
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AZH/subhas_chandra_bose.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = "AZH_subhas_chandra_bose_desc"
+		}
+	}
+}

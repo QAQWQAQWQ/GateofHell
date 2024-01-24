@@ -1,0 +1,17 @@
+state={
+	id=847
+	name="STATE_847"
+	manpower=1
+
+	state_category = wasteland 
+	impassable = yes
+
+	history={
+		owner = GER
+	}
+	
+	provinces={
+		13288 14043 14044 14045 14046 14089 14093 14108 14114 14125 14150 14175 14198 14206 14207 14208 14209 14212 14214 14215 14220 14228 14230 14236 
+	}
+}
+

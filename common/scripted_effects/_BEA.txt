@@ -1,0 +1,9 @@
+BritishEastAfrica_form_federation = {
+	BEA = {
+		annex_country = {
+			target = BTA
+			transfer_troops = yes
+		}
+		set_cosmetic_tag = BEA_federation
+	}
+}

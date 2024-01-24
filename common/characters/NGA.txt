@@ -1,0 +1,16 @@
+characters = {
+	NGA_nnamdi_azikiwe = {
+		name = NGA_nnamdi_azikiwe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NGA/nnamdi_azikiwe.dds"
+			}
+		}
+		country_leader = {
+			ideology = big_tent
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

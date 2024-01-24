@@ -1,0 +1,16 @@
+characters = {
+	AJK_sardar_ibrahim_khan = {
+		name = AJK_sardar_ibrahim_khan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AJK/sardar_ibrahim_khan.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

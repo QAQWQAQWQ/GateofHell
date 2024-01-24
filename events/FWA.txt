@@ -1,0 +1,46 @@
+add_namespace = FWA
+
+news_event = {
+	id = FWA.1
+	title = FWA.1.title
+	desc = FWA.1.desc
+	picture = FWA_dissolution
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = FWA.1.a
+	}
+}
+news_event = {
+	id = FWA.2
+	title = FWA.2.title
+	desc = FWA.2.desc
+	picture = FWA_dissolution
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = FWA.2.a
+	}
+}
+country_event = {
+	id = FWA.3
+	title = FWA.3.title
+	desc = FWA.3.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = FWA.3.a
+
+		WestAfrica_dissolution2 = yes
+	}
+}

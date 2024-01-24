@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_RUS_ivan_ilyin1"
+		texturefile = "gfx/leaders/RUS/ivan_ilyin1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_RUS_ivan_ilyin2"
+		texturefile = "gfx/leaders/RUS/ivan_ilyin2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_adolf_hitler1"
+		texturefile = "gfx/leaders/GER/adolf_hitler1.dds"
+	}
+}

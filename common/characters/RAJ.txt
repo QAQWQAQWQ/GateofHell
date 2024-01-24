@@ -1,0 +1,120 @@
+characters = {
+	RAJ_chakravarti_rajagopalachari = {
+		name = RAJ_chakravarti_rajagopalachari
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RAJ/chakravarti_rajagopalachari.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	RAJ_jawaharlal_nehru = {
+		name = RAJ_jawaharlal_nehru
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RAJ/jawaharlal_nehru.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	RAJ_k_m_cariappa = {
+		name = RAJ_k_m_cariappa
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/k_m_cariappa.dds"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	RAJ_sam_manekshaw = {
+		name = RAJ_sam_manekshaw
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/sam_manekshaw.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	RAJ_k_v_krishna_rao = {
+		name = RAJ_k_v_krishna_rao
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/k_v_krishna_rao.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	RAJ_tapishwar_narain_raina = {
+		name = RAJ_tapishwar_narain_raina
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/tapishwar_narain_raina.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	RAJ_rajendrasinhji_jadeja = {
+		name = RAJ_rajendrasinhji_jadeja
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/rajendrasinhji_jadeja.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	RAJ_gopal_gurunath_bewoor = {
+		name = RAJ_gopal_gurunath_bewoor
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/gopal_gurunath_bewoor.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+}

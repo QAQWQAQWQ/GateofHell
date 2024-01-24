@@ -1,0 +1,4 @@
+BAN_pakistan = {
+	color = rgb { 21 38 66 }
+	color_ui = rgb { 21 38 66 }
+}

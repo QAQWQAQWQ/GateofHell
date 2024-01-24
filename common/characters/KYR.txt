@@ -1,0 +1,16 @@
+characters = {
+	KYR_iskhak_razzakov = {
+		name = KYR_iskhak_razzakov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KYR/iskhak_razzakov.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

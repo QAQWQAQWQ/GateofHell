@@ -1,0 +1,17 @@
+add_namespace = SWE
+
+news_event = {
+	id = SWE.1
+	title = SWE.1.title
+	desc = SWE.1.desc
+	picture = SWE_death_of_gustaf_v
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SWE.1.a
+	}
+}

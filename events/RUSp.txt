@@ -1,0 +1,19 @@
+add_namespace = RUSp
+
+country_event = {
+	id = RUSp.1
+	title = RUSp.1.title
+	desc = RUSp.1.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = RUSp.1.a
+		RUS = {
+			if = {limit = {
+				has_completed_focus = RUS1_the_koschei
+			}RUS_political_struggle_koschei = yes}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+add_namespace = MAL_emergency
+
+news_event = {
+	id = MAL_emergency.1
+	title = MAL_emergency.1.title
+	desc = MAL_emergency.1.desc
+	picture = MAL_emergency1
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = MAL_emergency.1.a
+	}
+}
+
+country_event = {
+	id = MAL_emergency.2
+	title = MAL_emergency.2.title
+	desc = MAL_emergency.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = MAL_emergency.2.a
+		MAL = {
+			retire_character = MAL_henry_gurney
+			add_country_leader_role = {
+				character = MAL_gerald_templer
+				promote_leader = yes
+				country_leader = {
+					ideology = paternalism
+					expire = "1991.12.25.1"
+				}
+			}
+		}
+		every_country = {
+			limit = { is_ai = no }
+			news_event = {
+				id = MAL_emergency.1
+				days = 1
+			}
+		}
+	}
+}

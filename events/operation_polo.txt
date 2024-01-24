@@ -1,0 +1,141 @@
+add_namespace = HYD
+
+news_event = {
+	id = HYD.1
+	title = HYD.1.title
+	desc = HYD.1.desc
+	picture = HYD_operation_polo
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = HYD.1.a
+	}
+}
+country_event = {
+	id = HYD.2 #india sends an ultimatum
+	title = HYD.2.title
+	desc = HYD.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = HYD.2.a
+		HYD = {
+			country_event = {
+				id = HYD.3
+				days = 3
+				random_hours = 12
+			}
+		}
+	}
+}
+country_event = {
+	id = HYD.3#hyderabad's turn, there's no difference between the two options, in fact
+	title = HYD.3.title
+	desc = HYD.3.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = HYD.3.a
+		RAJ = {
+			country_event = {
+				id = HYD.4
+				days = 3
+				random_hours = 12
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+		
+	}
+	option = {
+		name = HYD.3.b
+		RAJ = {
+			country_event = {
+				id = HYD.5
+				days = 3
+				random_hours = 12
+			}
+		}
+		ai_chance = {
+			base = 9
+		}
+	}
+}
+country_event = {
+	id = HYD.4#india will annex hyderabad
+	title = HYD.4.title
+	desc = HYD.4.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = HYD.4.a
+		RAJ = {
+			annex_country = {
+				target = HYD
+				transfer_troops = yes #this is natural.
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = HYD.6
+					days = 1
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = HYD.5#india will invade hyderabad
+	title = HYD.5.title
+	desc = HYD.5.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = HYD.5.a
+		RAJ = {
+			declare_war_on = {
+				target = HYD
+				type = annex_everything
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = HYD.1
+					days = 1
+				}
+			}
+		}
+	}
+}
+news_event = {
+	id = HYD.6
+	title = HYD.6.title
+	desc = HYD.6.desc
+	picture = HYD_the_annexation_of_hyderabad
+
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = HYD.6.a
+	}
+}

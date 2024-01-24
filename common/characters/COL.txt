@@ -1,0 +1,118 @@
+characters = {
+	COL_jorge_eliecer_gaitan = {
+		name = COL_jorge_eliecer_gaitan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/jorge_eliecer_gaitan.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_socialism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	COL_eduardo_santos_montejo = {
+		name = COL_eduardo_santos_montejo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/eduardo_santos_montejo.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	COL_mariano_ospina_perez = {
+		name = COL_mariano_ospina_perez
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/mariano_ospina_perez.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternalistic_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	COL_laureano_gomez = {
+		name = COL_laureano_gomez
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/laureano_gomez.dds"
+			}
+		}
+		country_leader = {
+			ideology = aristocratic_conservatism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	COL_eduardo_bonitto_vega = {
+		name = COL_eduardo_bonitto_vega
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/eduardo_bonitto_vega.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	COL_gabriel_paris_gordillo = {
+		name = COL_gabriel_paris_gordillo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/gabriel_paris_gordillo.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	COL_german_ocampo_herrera = {
+		name = COL_german_ocampo_herrera
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/german_ocampo_herrera.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	COL_gustavo_rojas_pinilla = {
+		name = COL_gustavo_rojas_pinilla
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/gustavo_rojas_pinilla.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+}

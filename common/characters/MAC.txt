@@ -1,0 +1,30 @@
+characters = {
+	MAC_ivan_mihailov = {
+		name = MAC_ivan_mihailov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAC/ivan_mihailov.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+	MAC_dimitar_raev = {
+		name = MAC_dimitar_raev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAC/dimitar_raev.dds"
+			}
+		}
+		country_leader = {
+			ideology = civilian_dictatorship
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

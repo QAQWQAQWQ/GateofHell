@@ -1,0 +1,247 @@
+release_UralSiberia = {
+	SOV = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 403
+					state = 571
+					state = 572
+					state = 573
+					state = 577
+					state = 579
+					state = 580
+					state = 582
+					state = 653
+				}
+			}
+			URS = {
+				transfer_state = PREV
+				add_state_core = PREV
+			}
+		}
+	}
+}
+release_Turkestan = {
+	SOV = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 402
+					state = 404
+					state = 405
+					state = 406
+					state = 407
+					state = 583
+					state = 584
+					state = 585
+					state = 586
+					state = 587
+					state = 588
+					state = 589
+					state = 590
+					state = 732
+					state = 742
+				}
+			}
+			TRK = {
+				transfer_state = PREV
+				add_state_core = PREV
+			}
+		}
+	}
+}
+release_Fareast = {
+	SOV = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 408
+					state = 409
+					state = 560
+					state = 561
+					state = 562
+					state = 637
+					state = 657
+				}
+			}
+			FER = {
+				transfer_state = PREV
+				add_state_core = PREV
+			}
+		}
+	}
+}
+SovietUnion_collapse_effect = {
+	every_possible_country = {
+		limit = { has_character = SOV_ivan_konev }
+		random_character = {
+			limit = { is_character = SOV_ivan_konev }
+			set_nationality = URS
+			add_country_leader_role = {
+				promote_leader = yes
+				country_leader = {ideology = military_district}
+			}
+		}
+	}
+	every_possible_country = {
+		limit = { has_character = SOV_georgy_zhukov }
+			random_character = {
+			limit = { is_character = SOV_georgy_zhukov }
+			set_nationality = FER
+			add_country_leader_role = {
+				promote_leader = yes
+				country_leader = {ideology = military_district}
+			}
+		}
+	}
+	every_possible_country = {
+		limit = { has_character = SOV_ivan_petrov }
+			random_character = {
+			limit = { is_character = SOV_ivan_petrov }
+			set_nationality = TRK
+			add_country_leader_role = {
+				promote_leader = yes
+				country_leader = {ideology = military_district}
+			}
+		}
+	}
+
+	release_UralSiberia = yes
+	release_Turkestan = yes
+	release_Fareast = yes
+
+	SOV = { #future fixes needed
+		country_event = {
+			id = SOV.13
+			days = 1
+		}	
+		country_event = {
+			id = SOV.16
+			days = 93
+		}	
+		country_event = {
+			id = SOV.17
+			days = 108
+		}	
+	}
+	MON = {
+		country_event = {
+			id = MON.2
+			days = 123
+		}
+	}
+}
+Turkestan_Collapse = {
+	TRK = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 402
+					state = 404
+					state = 406
+					state = 407
+					state = 583
+					state = 586
+					state = 587
+					state = 588
+					state = 589
+					state = 590
+				}
+			}
+			KAZ = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				state = 732
+			}
+			KYR = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 405
+					state = 585
+				}
+			}
+			UZB = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 584
+				}
+			}
+			TMS = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				state = 742
+			}
+			TAJ = {
+				transfer_state = PREV
+			}
+		}
+	}
+}
+Fareast_Kerensky = {
+	FER = {
+		every_owned_state = {
+			limit = {
+				state = 408
+			}
+			RRP = {
+				transfer_state = PREV
+				add_state_core = PREV
+			}
+		}
+	}
+}
+release_Yakut = {
+	SOV = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 574
+				}
+			}
+			YAK = {
+				transfer_state = PREV
+				add_state_core = PREV
+			}
+		}
+	}
+}
+release_Buryat = {
+	SOV = {
+		every_owned_state = {
+			limit = {
+				state = 564
+			}
+			BYA = {
+				transfer_state = PREV
+				add_state_core = PREV
+			}
+		}
+	}
+}
+release_Transbaikal = {
+	SOV = {
+		every_owned_state = {
+			limit = {
+				state = 563
+			}
+			TRB = {
+				transfer_state = PREV
+				add_state_core = PREV
+			}
+		}
+	}
+}

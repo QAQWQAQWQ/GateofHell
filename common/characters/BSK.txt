@@ -1,0 +1,16 @@
+characters = {
+	BSK_zeki_velidi_togan = {
+		name = BSK_zeki_velidi_togan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BSK/zeki_velidi_togan.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_nationalism
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

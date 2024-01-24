@@ -1,0 +1,33 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = ENG.2
+					days = 7
+				}
+				news_event = {
+					id = ENG.1
+					days = 56
+				}
+				news_event = {
+					id = HAI.1
+					days = 190
+				}
+				news_event = {
+					id = BRA.4
+					days = 410
+				}
+				news_event = {
+					id = RAJ.3
+					days = 441
+				}
+				news_event = {
+					id = SWE.1
+					days = 515
+				}
+			}
+		}
+	}
+}

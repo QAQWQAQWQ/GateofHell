@@ -1,0 +1,16 @@
+characters = {
+	BRU_ahmad_tajuddin = {
+		name = BRU_ahmad_tajuddin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRU/ahmad_tajuddin.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			expire = "1991.12.25.1"
+			id = -1
+			desc = ""
+		}
+	}
+}

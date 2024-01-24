@@ -1,0 +1,22 @@
+
+state={
+	id=962
+	name="STATE_962"
+	manpower = 2066313
+	
+	state_category = rural
+
+	history={
+		owner = USA
+		add_core_of = CUB
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		4600 14438
+	}
+
+	local_supplies=0.0
+}
