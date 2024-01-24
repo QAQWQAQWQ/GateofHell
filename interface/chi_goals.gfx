@@ -1,0 +1,174 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CHI_focus_0"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_0.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_1"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_1.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_2"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_2.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_3"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_3.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_4"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_4.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_5"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_5.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_6"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_6.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_7"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_7.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_8"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_8.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_9"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_9.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_10"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_10.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_11"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_11.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_12"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_12.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_13"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_13.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_14"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_14.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_15"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_15.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_16"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_16.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_17"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_17.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_18"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_18.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_19"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_19.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_20"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_20.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_21"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_21.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_22"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_22.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_23"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_23.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_24"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_24.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_25"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_25.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_26"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_26.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_27"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_27.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_28"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_28.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_29"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_29.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_30"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_30.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_31"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_31.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_32"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_32.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_33"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_33.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_34"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_34.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_35"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_35.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_36"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_36.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_37"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_37.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_38"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_38.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_39"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_39.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_40"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_40.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_41"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_41.png"
+	}
+	spriteType = {
+		name = "GFX_CHI_focus_42"
+		textureFile = "gfx//interface//goals//CHI_focus//CHI_focus_42.png"
+	}
+}
